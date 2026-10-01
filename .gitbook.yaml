@@ -1,0 +1,7 @@
+# GitBook Git Sync configuration. This repository is the published Zold
+# user documentation.
+root: ./
+
+structure:
+  readme: README.md
+  summary: SUMMARY.md

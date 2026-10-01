@@ -17,6 +17,14 @@ After your passkey and wallet are ready, the app shows **Connect Monerium**.
 
 Your account is **active** as soon as the IBAN appears. Money sent to it lands in your wallet as EURe.
 
+## If you already have a Monerium IBAN
+
+Monerium gives each profile one IBAN. If yours already exists and pays into another wallet, Zold uses that same IBAN rather than asking for a second one. After you press **Activate IBAN with passkey**, the app shows **Use your Monerium IBAN in Zold** with the last four digits of the IBAN and where it pays today.
+
+Type `MOVE` and confirm with your passkey. From then on, payments to that IBAN arrive in your Zold account and the old wallet stops receiving them. Anyone paying you keeps using the same IBAN, and you can move it back from Monerium.
+
+If you cancel, nothing changes. Press **Activate IBAN** again whenever you are ready.
+
 ## Adding Monerium API keys instead
 
 If you are a developer or a business with your own Monerium developer app, the same screen offers **Add Monerium API keys**. Paste the app's client id and secret. Zold checks the pair with Monerium before saving anything, stores the secret encrypted, and never shows it again. Deposits, activation and SEPA payments for your account then run on your own credentials.

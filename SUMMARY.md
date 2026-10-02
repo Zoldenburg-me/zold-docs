@@ -28,6 +28,10 @@
 * [Payment links](get-paid/payment-links.md)
 * [Invoice-Me links](get-paid/invoice-me-links.md)
 
+## Fees
+
+* [Fees and exchange rates](fees/fees-and-rates.md)
+
 ## Business
 
 * [Organisations and plans](business/organisations-and-plans.md)
@@ -61,6 +65,5 @@
 
 * [Supported countries](reference/supported-countries.md)
 * [Transfer states](reference/transfer-states.md)
-* [Fees and exchange rates](reference/fees-and-rates.md)
 * [FAQ](reference/faq.md)
 * [Glossary](reference/glossary.md)

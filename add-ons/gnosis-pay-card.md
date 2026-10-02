@@ -29,7 +29,3 @@ Your Gnosis Pay session is held only in your browser's memory. Reloading the pag
 ## What Zold does not do
 
 Zold is not the card issuer. Cards are issued by Gnosis Pay, which runs its own verification and holds the card account. Nothing about the card is presented as a Zold card, and each card screen says whose it is.
-
-## Coming
-
-Card top-up from your Zold euro balance, and opening a Gnosis Pay account from inside Zold, are the next steps. Residents of the EEA, the UK and Switzerland will be eligible; regions where Gnosis Pay does not issue see the card marked unavailable while the rest of the account works as normal.

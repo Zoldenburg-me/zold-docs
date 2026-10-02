@@ -4,8 +4,6 @@ description: What is behind the balance on your dashboard.
 
 # Your euro account
 
-The euro account is the first of your global accounts. A [US dollar account](../add-money/usd-account.md) is next, and the two sit in the same wallet.
-
 ## Three things, one account
 
 | What you see | What it is |

@@ -38,6 +38,12 @@ A payment a little under the figure (within 0.5%) counts in full. A payment well
 
 A link that offers bank transfer shows your IBAN and the **name on the account**. A SEPA transfer cannot be made without them, and since October 2025 banks compare the beneficiary name before sending. A link that offers crypto only shows neither.
 
+## Links for a company
+
+If you signed up as a company and your login connected the company's euro account, the links you make are the company's: they are booked to the company, and the payer sees the company's registered name as the account holder. A link for an issued invoice is made from the invoice; see [Issue an invoice](../invoicing/issue-an-invoice.md#get-paid-by-link).
+
+Only that person can make the company's links, because a link pays into the account their login connected. Other members of the organisation can still make links of their own. Those pay into their own account, show their own name, and are not part of the company's books.
+
 ## What a payment link is not
 
 It is not private in the way a receipt is: the person you send it to can forward it. The code is unguessable (a random 15-character code), so nobody finds it by trying, but treat the link like the invoice it stands for.

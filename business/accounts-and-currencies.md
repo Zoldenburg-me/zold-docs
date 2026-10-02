@@ -66,6 +66,10 @@ A naira account gives you a NUBAN and pays by NIP bank transfer. The settlement 
 
 The Currencies table in the business dashboard shows, for each currency, the settlement token where one exists, who issues it, and **what backs it**, in a sentence. E-money with a redemption right, a collateralised peg, and a reserve-backed token under another country's regulator are three different things. The column exists so that you can tell them apart before holding any of them.
 
-## Funding an organisation's account
+## Your company's euro account
 
-A new organisation's account needs a wallet to back it. Accounts → the account → **Fund** links a member's own verified account to it. From then on, that member signs the organisation's payments from that account.
+When you sign up as a company, your organisation starts with a euro account. It has no IBAN until Monerium has issued your company's IBAN. Then go to Accounts and press **Connect the company's IBAN** on that account. Zold checks with Monerium that the IBAN belongs to an approved company profile before connecting it; if Monerium is still reviewing the company, the app says so and nothing changes.
+
+From then on, payments from the account are signed with the passkey of the person whose login connected it.
+
+A company account is backed by a company profile at Monerium, never by a member's personal one. If you signed up personally and want an account for your company, write to support@zoldhq.com: the company gets its own account, with its own wallet.

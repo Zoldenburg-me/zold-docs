@@ -17,6 +17,14 @@ After your passkey and wallet are ready, the app shows **Connect Monerium**.
 
 Your account is **active** as soon as the IBAN appears. Money sent to it lands in your wallet as EURe.
 
+## Waiting for your IBAN
+
+Once you have approved with your passkey, the rest is Monerium's. The app shows what is done and what Monerium is doing: **Monerium is checking your ID** while they still verify you, or **Monerium is issuing your IBAN** once they have. If Monerium needs anything from you, they write to you by email.
+
+While this screen is open, Zold checks with Monerium in the background and shows when it last checked. When the IBAN arrives, the screen changes to **Your IBAN is ready** and shows it.
+
+You do not have to wait on this screen. Press **Go to dashboard** at any time; your IBAN appears there once Monerium has issued it. A company account opens the business dashboard.
+
 ## If you already have a Monerium IBAN
 
 Monerium gives each profile one IBAN. If yours already exists and pays into another wallet, Zold uses that same IBAN rather than asking for a second one. After you press **Activate IBAN with passkey**, the app shows **Use your Monerium IBAN in Zold** with the last four digits of the IBAN and where it pays today.

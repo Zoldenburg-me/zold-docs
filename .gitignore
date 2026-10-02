@@ -1,1 +1,5 @@
 .DS_Store
+
+# Static site build output
+_site/
+node_modules/

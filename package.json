@@ -1,0 +1,12 @@
+{
+  "name": "zold-docs",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node site/build.mjs",
+    "serve": "node site/build.mjs && npx --yes serve _site"
+  },
+  "dependencies": {
+    "marked": "^15.0.0"
+  }
+}

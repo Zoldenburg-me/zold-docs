@@ -64,11 +64,11 @@ A naira account gives you a NUBAN and pays by NIP bank transfer. The settlement 
 
 ## The token column
 
-The Currencies table in the business dashboard shows, for each currency, the settlement token where one exists, who issues it, and **what backs it**, in a sentence. E-money with a redemption right, a collateralised peg, and a reserve-backed token under another country's regulator are three different things. The column exists so that you can tell them apart before holding any of them.
+The Currencies table in the business dashboard shows, for each currency, whether it is **Available on Zold** or coming soon. That is what Zold supports, not which accounts your organisation has opened; those are under Accounts. It also shows the settlement token where one exists, who issues it, and **what backs it**, in a sentence. E-money with a redemption right, a collateralised peg, and a reserve-backed token under another country's regulator are three different things. The column exists so that you can tell them apart before holding any of them.
 
 ## Your company's euro account
 
-When you sign up as a company, your organisation starts with a euro account. It has no IBAN until Monerium has issued your company's IBAN. Then go to Accounts and press **Connect the company's IBAN** on that account. Zold checks with Monerium that the IBAN belongs to an approved company profile before connecting it; if Monerium is still reviewing the company, the app says so and nothing changes.
+When you sign up as a company, your organisation starts with a euro account. It has no IBAN until Monerium has issued your company's IBAN. Then go to Accounts and press **Connect the company's IBAN** on that account. Zold checks with Monerium that the IBAN belongs to an approved company profile before connecting it. While Monerium is still reviewing the company, the account shows **Waiting for Monerium** with the last state Monerium reported and when, and the button reads **Check with Monerium again**. Nothing changes on the account until Monerium approves.
 
 From then on, payments from the account are signed with the passkey of the person whose login connected it.
 

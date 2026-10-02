@@ -32,7 +32,7 @@ Everything about you as the issuer is entered once and prefilled onto every invo
 
 | Field | Notes |
 | --- | --- |
-| Account holder, IBAN, BIC | Printed in the bank block. Your Zold IBAN is the natural choice. |
+| Account holder, IBAN, BIC | Printed in the bank block. Leave the IBAN empty and invoices print your Zold account's IBAN; the field shows which one. Payments to that IBAN mark invoices paid. If you enter another IBAN, the field is tagged **Not matched**: Zold doesn't see payments to it, so you mark those invoices paid by hand. |
 | Register court and number | Where the law requires them on business letters (Amtsgericht, HRB number). |
 | Managing director | Printed with the register details. |
 | Footer note | Free text at the bottom of every invoice. |

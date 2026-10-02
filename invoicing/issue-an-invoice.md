@@ -40,6 +40,12 @@ The panel also lists what Zold **does not verify** for your country. For a Germa
 
 Press **Issue**. The invoice is numbered, timestamped and frozen: both parties, the treatment and the display choices are stored as they were at that moment. Changing your organisation profile later does not rewrite an issued invoice. Open it at any time for a printable A4 document and a link to send.
 
+## Get paid by link
+
+An issued invoice that is still open has a **Payment link** action, in the business dashboard's invoice list and on the invoice in the app. It makes a [payment link](../get-paid/payment-links.md) for the invoice's amount. Your customer pays it by bank transfer or in USDC, and the invoice is marked paid when the money arrives. Send the link with the invoice, or share it from the app.
+
+The link pays into your organisation's euro account, so only the member whose login connected that account can make it. Anyone else who tries is told that the link has to come from that member.
+
 ## Totals
 
 Amounts are kept in whole cents. VAT is rounded once per rate, the way a tax office recomputes it, and the per-line VAT column adds up exactly.

@@ -4,7 +4,7 @@ description: Receive USDC directly to your wallet on Base.
 
 # Crypto deposit
 
-Open **Add money → Crypto wallet**. The screen shows your wallet address as text and as a QR code.
+Open **Add money → Crypto wallet**. The screen shows your wallet address as text and a QR code of that same address.
 
 * **Network:** Base.
 * **Token:** USDC.
@@ -23,4 +23,4 @@ A deposit that is too small to convert economically, or that arrives while the r
 
 ## Paying you by link
 
-If you want someone else to send you crypto without handing them a raw address, use your [payment page](../get-paid/payment-page.md).
+If you want someone else to send you crypto without handing them a raw address, or to take USDC from networks other than Base, use your [payment page](../get-paid/payment-page.md). It has its own address and lists every token and network it takes.

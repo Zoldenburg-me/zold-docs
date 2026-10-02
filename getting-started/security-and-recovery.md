@@ -19,6 +19,8 @@ The dashboard's **Security** card tells you whether the device key on this devic
 * Zold **can** pay the network fees for your transactions.
 * If you choose Zoldenburg as your recovery guardian, Zoldenburg **can** start a recovery of your account after checking your identity. It cannot skip the waiting period, and your passkey can cancel it until then.
 
+If you skip recovery, Home shows one line, "Recovery isn't set up", with a link to set it up. You can close that line. **Security** keeps showing that recovery is off until you turn it on.
+
 ## Zoldenburg recovery
 
 When you open your account, Zold asks whether Zoldenburg may be your recovery guardian. You can change your answer at any time under Profile → **Recovery**.

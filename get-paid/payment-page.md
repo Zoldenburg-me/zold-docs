@@ -18,7 +18,13 @@ You can claim a page as soon as your smart wallet exists. You can set a display 
 
 ## What the payer sees
 
-The page shows the network (Base), the token to send (USDC), the deposit address as text and QR, and an "open in wallet" link. Payments to the page are routed into your wallet.
+The page shows the deposit address as text and QR, an "open in wallet" link, and the list of tokens it takes, each with its network. USDC on Base arrives directly. Your page also takes USDC from other networks, and the list shows each one with its minimum amount and the bridge fee. Everything on the list arrives in your wallet as USDC on Base.
+
+{% hint style="warning" %}
+Payers should send only a token on the list, on the network shown, and at least the minimum. Anything else does not reach your account automatically.
+{% endhint %}
+
+To see the list yourself, open **Get paid → Your page**.
 
 ## Privacy
 

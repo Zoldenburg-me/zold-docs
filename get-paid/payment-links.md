@@ -14,7 +14,7 @@ Profile → **Payment links** → **New link**.
 * **What it is for** — a line the payer sees, such as an invoice number.
 * **Ways to pay** — tick what you offer. USDC needs a payment page; bank transfer needs your IBAN.
 
-Copy the link and send it however you like. Links are open for seven days unless you set another date, and you can cancel a link that nobody has paid yet.
+Copy the link, or tap **Share**: the message names the amount and what it is for, with the link on its own last line. Send it however you like. Links are open for seven days unless you set another date, and you can cancel a link that nobody has paid yet.
 
 ## What the payer sees
 

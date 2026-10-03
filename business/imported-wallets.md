@@ -8,18 +8,25 @@ There are two different things here. A **watched wallet** is one you only book i
 
 ## Watched wallets
 
-Wallets → **Import wallet**. Enter an address on Base and a label; group wallets as you like.
+Wallets → **Import wallet**. Enter the address, its network and a label.
 
-An imported wallet is **read-only**. Zold reads its balances and transactions into your books, categorises them, includes them in reports and exports. It never holds a key for it and never signs for it.
+An imported wallet is **read-only**. Zold books its token transfers, categorises them, and includes them in reports and exports. It never holds a key for it and never signs for it.
 
 The one-line rule: **if Zold issued the account, Zold can sign for it; if you imported it, you sign for it.** A payment drafted from an imported wallet is built by Zold and handed to you as an unsigned transaction to sign in your own wallet.
 
-### Balances and history
+### What gets booked
 
-On Starter you see a balance per wallet. Premium and Business open the wallet to its full history and can **backfill** transactions from before you imported it.
+Every token transfer in and out of a watched wallet becomes one line in **Books → Every transaction**: the amount, the other side's address, and what it was worth in euros on the day it arrived.
+
+- **Who paid.** If the sending address is on a contact, the line names that contact. Put every address a payer uses on their contact, including a payout contract or a payment stream you claim from, and claims are matched like ordinary payments.
+- **Value in euros.** EURe is euro e-money: one token, one euro. Dollar stablecoins count as one US dollar, converted at the ECB reference rate for that day. Other tokens on the Uniswap or CoinGecko token lists are priced at the time of the transfer and converted the same way. A listed token Zold has no price for is still booked and marked **no price**, never at €0.
+- **Tokens on no list.** Anyone can send a made-up token to your wallet. Such a transfer is booked as a quantity only, marked **not on a token list**, with no euro value and outside your income accounts, so an airdrop never counts as revenue. If a payer really pays you in a token that is not listed yet, tell us.
+- **Not booked:** the network's own coin (ETH), NFTs, and tokens whose balance changes without a transfer.
+
+When you import a wallet on Business, you can pick a **Book from** day to fill in its history from before the import. Without one, the wallet is booked from the day you add it. The Wallets screen shows, for each wallet, whether it is up to date, still catching up, or not syncing and why.
 
 {% hint style="warning" %}
-**Not yet fully live.** Continuous sync of imported wallets is rolling out. A wallet you import today is recorded and its balance shown; its transaction history fills in as sync is enabled for your organisation, and the Transactions screen tells you when a wallet has not been synced yet rather than showing zeros as if final.
+**Not yet fully live.** Sync is switched on network by network. Until it is on for a wallet's network, the Wallets screen shows **Not syncing** for that wallet and nothing from it is booked.
 {% endhint %}
 
 ## Bringing in your company's existing Safe

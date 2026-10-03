@@ -38,13 +38,15 @@ The panel also lists what Zold **does not verify** for your country. For a Germa
 
 ## Issue
 
-Press **Issue**. The invoice is numbered, timestamped and frozen: both parties, the treatment and the display choices are stored as they were at that moment. Changing your organisation profile later does not rewrite an issued invoice. Open it at any time for a printable A4 document and a link to send.
+Press **Issue**. The invoice is numbered, timestamped and frozen: both parties, the treatment and the display choices are stored as they were at that moment. Changing your organisation profile later does not rewrite an issued invoice. Open it at any time from its number or its customer in the invoice list, for a printable A4 document and a link to send.
 
 ## Get paid by link
 
 An issued invoice that is still open has a **Payment link** action, in the business dashboard's invoice list and on the invoice in the app. It makes a [payment link](../get-paid/payment-links.md) for the invoice's amount. Your customer pays it by bank transfer or in USDC, and the invoice is marked paid when the money arrives. Send the link with the invoice, or share it from the app.
 
 The link pays into your organisation's euro account, so only the member whose login connected that account can make it. Anyone else who tries is told that the link has to come from that member.
+
+Until your organisation has its own [payment page](../get-paid/payment-page.md), the link opens under that member's page address (`/pay/<their page>/…`). The money goes to the organisation's account either way; set up the company's page under **Get paid** for links in the company's name.
 
 ## Totals
 

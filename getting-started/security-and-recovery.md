@@ -10,7 +10,7 @@ description: What protects your account, what you have to protect, and how to ge
 
 **Your device key** is a second key, generated in your browser the first time you use the account on a device. It signs the exact terms of every payment — the amount, the payee and the transfer — so that even someone who steals your signed-in session cannot change where money goes. Where your authenticator supports it, the device key is encrypted with a secret only your passkey can produce, so each payment needs a passkey ceremony to unlock it.
 
-The dashboard's **Security** card tells you whether the device key on this device is passkey-protected.
+Settings → **Security** shows whether the device key on this device is encrypted by your passkey. Where it says **Not encrypted**, the key sits in this browser's storage as it is, because the passkey here cannot encrypt it. A copy of it still moves nothing on its own: every payment also needs your passkey, and your smart wallet checks that signature on the chain. Someone with a copy could sign payment terms, so do not use Zold on a shared computer in that browser, and remove browser extensions you do not trust.
 
 ## What Zold can and cannot do
 

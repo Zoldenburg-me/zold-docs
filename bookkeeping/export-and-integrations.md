@@ -23,7 +23,7 @@ USDC received is valued at the **ECB reference rate** for the day it arrived. Th
 
 ## GetMyInvoices
 
-Books → **Connections** → GetMyInvoices → **Connect**. Paste the API key from your GetMyInvoices account (Settings → API). Zold checks it once, stores it encrypted, and never shows it again.
+Settings → **Connections** → GetMyInvoices → **Connect**. Paste the API key from your GetMyInvoices account (Settings → API). Zold checks it once, stores it encrypted, and never shows it again.
 
 With a key connected, Books → the month's statement lines gains **Send Belege to GetMyInvoices**: every Beleg of the month is uploaded as a paid payment document with the Beleg code as its document number. Documents already there are skipped, so pushing twice uploads nothing twice. Bank lines go in through the Lexware CSV above.
 

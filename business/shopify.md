@@ -17,7 +17,7 @@ This works on any Shopify plan and needs no approval from Shopify: the app is in
 ### Set it up
 
 1. In Shopify, **Settings → Payments → Manual payment methods → Create custom payment method**. Name it so that it contains "Zold". Set your checkout currency to EUR.
-2. In the Zold business dashboard, open **Shopify**, enter your store's `myshopify.com` domain and **Connect store**. You approve the app in Shopify and are sent back; Zold subscribes to your store's new-order notifications.
+2. In the Zold business dashboard, open **Settings → Connections → Shopify**, enter your store's `myshopify.com` domain and **Connect store**. You approve the app in Shopify and are sent back; Zold subscribes to your store's new-order notifications.
 3. Add the **Zold — pay with crypto** block to your Thank you page and Order status page in Shopify's checkout editor, and point its "Zold API origin" setting at Zold. Without the block, paste the pay link Zold's dashboard shows into your order-confirmation email template instead.
 
 The money goes to the payment page of the account that backs your organisation's EUR account (for a personal organisation, your own). That account needs a [payment page](../get-paid/payment-page.md) first.

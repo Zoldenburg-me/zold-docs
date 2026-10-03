@@ -30,6 +30,8 @@ The Currencies table in the business dashboard shows, for each currency, whether
 
 When you sign up as a company, your organisation starts with a euro account. It has no IBAN until Monerium has issued your company's IBAN. Then go to Accounts and press **Connect the company's IBAN** on that account. Zold checks with Monerium that the IBAN belongs to an approved company profile before connecting it. While Monerium is still reviewing the company, the account shows **Waiting for Monerium** with the last state Monerium reported and when, and the button reads **Check with Monerium again**. Nothing changes on the account until Monerium approves.
 
+Before connecting, Zold asks you to confirm what it means. The account then belongs to the organisation, with everything on it. Its transactions appear in the organisation's books and statements, where members who can see the books see them: for an account Zold set up, its whole history; for a wallet you brought into Zold, from when it got its IBAN here, or from when you imported it if it has none. An account connected to one company can't be connected to another organisation at the same time.
+
 From then on, payments from the account are signed with the passkey of the person whose login connected it.
 
 A company account is backed by a company profile at Monerium, never by a member's personal one. If you signed up personally and want an account for your company, write to support@zoldhq.com: the company gets its own account, with its own wallet.

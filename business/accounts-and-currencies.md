@@ -36,7 +36,7 @@ A company account is backed by a company profile at Monerium, never by a member'
 
 ## Statements and documents
 
-If the euro account spends from your own account, **Accounts → Statements and documents** issues a monthly statement, a balance confirmation, a proof of ownership and a receipt for each paid bank transfer. Each opens in a new tab, ready to print or save as PDF, and carries an address where anyone can check it.
+If the euro account spends from your own account, **Statements** in the sidebar (also linked from Accounts) issues a monthly statement, a balance confirmation, a proof of ownership and a receipt for each paid bank transfer. Each opens in a new tab, ready to print or save as PDF, and carries an address where anyone can check it.
 
 The documents name the holder your bank provider has on record for the IBAN. For a company that is its registered name, with you as the person who operates the account. A proof of ownership asks for your Face ID or fingerprint: the account itself signs it, which shows you control it.
 

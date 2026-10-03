@@ -25,10 +25,20 @@ USDC received is valued at the **ECB reference rate** for the day it arrived. Th
 
 Settings → **Connections** → GetMyInvoices → **Connect**. Paste the API key from your GetMyInvoices account (Settings → API). Zold checks it once, stores it encrypted, and never shows it again.
 
-With a key connected, Books → the month's statement lines gains **Send Belege to GetMyInvoices**: every Beleg of the month is uploaded as a paid payment document with the Beleg code as its document number. Documents already there are skipped, so pushing twice uploads nothing twice. Bank lines go in through the Lexware CSV above.
+With a key connected, Books → the month's statement lines gains **Send Belege to GetMyInvoices**: every Beleg of the month is uploaded as a paid payment document with the Beleg code as its document number, and the transaction hashes as tags. Documents already there are skipped, so pushing twice uploads nothing twice. Bank lines go in through the Lexware CSV above.
+
+GetMyInvoices can take 20 seconds or more to accept a Beleg, so a push of a busy month takes a while. When it is done, Zold tells you what happened to each Beleg:
+
+| Result | What it means | What to do |
+| --- | --- | --- |
+| Uploaded | The Beleg is in GetMyInvoices. | Nothing. |
+| Uploaded, may be missing its tags | GetMyInvoices answered too slowly, but Zold found the Beleg there by its number. Its tags (the transaction hashes) may not have been saved. | Check the Beleg in GetMyInvoices and add the tags if they are missing. |
+| Already there | A document with this number was in GetMyInvoices before the push. | Nothing. |
+| No answer | GetMyInvoices did not answer, and the Beleg could not be found there yet. | Send the month again in a few minutes. A Beleg that did arrive is skipped, so nothing is uploaded twice. |
+| Failed | GetMyInvoices refused the Beleg. | Read the error and contact support. |
 
 {% hint style="warning" %}
-**Not yet fully live.** The connector has been tested against a stand-in of the GetMyInvoices API, not by uploading to a live account. Ask before relying on a push for a closing period.
+**Beta.** Check the first push in GetMyInvoices before you close a month on it.
 {% endhint %}
 
 ## CSV export (ledger)

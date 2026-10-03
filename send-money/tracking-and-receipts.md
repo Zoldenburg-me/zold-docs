@@ -26,12 +26,14 @@ From a transfer's detail press **Share receipt**. You choose what the link revea
 
 | Field | Options |
 | --- | --- |
-| Your name | shown / hidden |
-| Recipient | shown / hidden |
-| Amounts | shown / hidden |
-| Rate and fee | shown / hidden |
-| Reference | shown / hidden |
-| Route | shown / hidden |
+| Your name | full / first / last / none |
+| Recipient name | full / first / last / none |
+| Payout account | full / short / hidden |
+| Amounts shown | both / what you sent / what they got |
+
+Three switches add more: **Rate, fee & margin**, **Your reference** and **Settlement route** (every hop the money took, with its references).
+
+In the business dashboard, the same composer opens from **Accounts → Statements and documents → Receipts for payments → Share**.
 
 Copy the link. Anyone with it can open the receipt in a browser with no account. A field you withheld is never sent to the page, so it cannot be uncovered by anyone who opens the link.
 

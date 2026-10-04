@@ -25,20 +25,23 @@ USDC received is valued at the **ECB reference rate** for the day it arrived. Th
 
 Settings → **Connections** → GetMyInvoices → **Connect**. Paste the API key from your GetMyInvoices account (Settings → API). Zold checks it once, stores it encrypted, and never shows it again.
 
-With a key connected, Books → the month's statement lines gains **Send Belege to GetMyInvoices**: every Beleg of the month is uploaded as a paid payment document with the Beleg code as its document number, and the transaction hashes as tags. Documents already there are skipped, so pushing twice uploads nothing twice. Bank lines go in through the Lexware CSV above.
+GetMyInvoices needs one manual bank account for Zold (in GetMyInvoices: Bank accounts → add a manual account, for example "Zold"). Then press **Send a month's Belege** on the GetMyInvoices card in Connections, or **Send to GetMyInvoices** on the month's statement lines in Books. Pick the month and the bank account, and send.
 
-GetMyInvoices can take 20 seconds or more to accept a Beleg, so a push of a busy month takes a while. When it is done, Zold tells you what happened to each Beleg:
+Each bank line of the month is added to that bank account with its Beleg attached, uploaded as a paid payment document numbered with the Beleg code, with the transaction hashes as tags. A line without a Beleg gets one first. Anything already there is skipped, so sending twice adds nothing twice. Without a manual bank account, only the Belege go up; add one and send again to add the lines.
+
+GetMyInvoices can take 20 seconds or more to accept a Beleg, so sending a busy month takes a while. When it is done, Zold lists what happened:
 
 | Result | What it means | What to do |
 | --- | --- | --- |
-| Uploaded | The Beleg is in GetMyInvoices. | Nothing. |
-| Uploaded, may be missing its tags | GetMyInvoices answered too slowly, but Zold found the Beleg there by its number. Its tags (the transaction hashes) may not have been saved. | Check the Beleg in GetMyInvoices and add the tags if they are missing. |
-| Already there | A document with this number was in GetMyInvoices before the push. | Nothing. |
-| No answer | GetMyInvoices did not answer, and the Beleg could not be found there yet. | Send the month again in a few minutes. A Beleg that did arrive is skipped, so nothing is uploaded twice. |
-| Failed | GetMyInvoices refused the Beleg. | Read the error and contact support. |
+| Bank lines added, Belege sent now | They are in GetMyInvoices. | Nothing. |
+| Already there, skipped | GetMyInvoices had them before this send. | Nothing. |
+| Arrived slowly and may be missing their tags | GetMyInvoices answered too slowly, but Zold found the Beleg there by its number. Its tags (the transaction hashes) may not have been saved. | Check the Beleg in GetMyInvoices and add the tags if they are missing. |
+| Got no answer and can't be found there yet | GetMyInvoices did not answer, and Zold could not find the item afterwards. | Send the month again in a few minutes. Whatever did arrive is skipped, so nothing is added twice. |
+| Failed | GetMyInvoices refused it. | Send again. If it fails again, read the error and contact support. |
+| Could not get a Beleg | Zold could not issue a Beleg for the line, so it was not sent. | Contact support. |
 
 {% hint style="warning" %}
-**Beta.** Check the first push in GetMyInvoices before you close a month on it.
+**Beta.** Check the first month in GetMyInvoices before relying on it for a closing period.
 {% endhint %}
 
 ## CSV export (ledger)

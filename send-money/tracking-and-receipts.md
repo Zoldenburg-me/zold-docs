@@ -33,7 +33,7 @@ From a transfer's detail press **Share receipt**. You choose what the link revea
 
 Three switches add more: **Rate, fee & margin**, **Your reference** and **Settlement route** (every hop the money took, with its references).
 
-In the business dashboard, the same composer opens from **Accounts → Statements and documents → Receipts for payments → Share**.
+In the business dashboard, the same composer opens from **Statements → Receipts for payments → Share**.
 
 Copy the link. Anyone with it can open the receipt in a browser with no account. A field you withheld is never sent to the page, so it cannot be uncovered by anyone who opens the link.
 

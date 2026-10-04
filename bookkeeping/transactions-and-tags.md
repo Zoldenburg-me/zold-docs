@@ -4,7 +4,7 @@ description: Every movement across your accounts and imported wallets, in one le
 
 # Transactions and tags
 
-Premium and Business. Business dashboard → **Transactions**.
+Premium and Business. Business dashboard → **Transactions**, or **See all** under Recent activity on Home.
 
 The ledger lists every transaction across your Zold accounts and your imported wallets: deposits, payments, conversions, fees, and transfers between your own wallets. Each row shows the date, the wallet, the asset and amount, the counterparty where known, and its value in your reporting currency at the time.
 

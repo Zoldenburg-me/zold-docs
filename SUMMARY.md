@@ -36,6 +36,7 @@
 
 * [Organisations and plans](business/organisations-and-plans.md)
 * [Members and roles](business/members-and-roles.md)
+* [Access and recovery](business/access-and-recovery.md)
 * [Accounts and currencies](business/accounts-and-currencies.md)
 * [Address book](business/address-book.md)
 * [Payments and approvals](business/payments-and-approvals.md)

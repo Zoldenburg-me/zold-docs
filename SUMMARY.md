@@ -46,6 +46,7 @@
 ## Invoicing
 
 * [Issue an invoice](invoicing/issue-an-invoice.md)
+* [Invoices from receipts](invoicing/invoices-from-receipts.md)
 * [VAT and your country's rules](invoicing/vat-and-jurisdictions.md)
 * [Invoice settings](invoicing/invoice-settings.md)
 

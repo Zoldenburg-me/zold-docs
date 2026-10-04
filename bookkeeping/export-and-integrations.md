@@ -27,10 +27,12 @@ Settings → **Connections** → GetMyInvoices → **Connect**. Paste the API ke
 
 GetMyInvoices needs one manual bank account for Zold (in GetMyInvoices: Bank accounts → add a manual account, for example "Zold"). Then press **Send a month's Belege** on the GetMyInvoices card in Connections, or **Send to GetMyInvoices** on the month's statement lines in Books. Pick the month and the bank account, and send.
 
-Each bank line of the month is added to that bank account with its Beleg attached, uploaded as a paid payment document numbered with the Beleg code. A line without a Beleg gets one first. Anything already there is skipped, so sending twice adds nothing twice. Without a manual bank account, only the Belege go up; add one and send again to add the lines.
+Each bank line of the month is added to that bank account with its Beleg attached, uploaded as a paid payment document numbered with the Beleg code, with the transaction hashes as tags. A line without a Beleg gets one first. Anything already there is skipped, so sending twice adds nothing twice. Without a manual bank account, only the Belege go up; add one and send again to add the lines.
+
+If GetMyInvoices answers too slowly, Zold looks for the Beleg there by its number before reporting anything. A Beleg found that way is listed as arriving slowly; its tags may not have been saved, so check it in GetMyInvoices. One that can't be found yet is listed as getting no answer: send the month again in a few minutes. Whatever did arrive is skipped, so nothing is added twice.
 
 {% hint style="warning" %}
-**Not yet fully live.** Sending bank lines has been tested against a stand-in of the GetMyInvoices API only. Check the first month in GetMyInvoices before relying on it for a closing period.
+**Beta.** Check the first month in GetMyInvoices before relying on it for a closing period.
 {% endhint %}
 
 ## CSV export (ledger)

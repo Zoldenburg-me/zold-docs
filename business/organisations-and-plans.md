@@ -6,7 +6,7 @@ description: An organisation is the thing that holds money, has members, and buy
 
 Every Zold account belongs to an **organisation**. A personal account is an organisation of one. A business is an organisation with several members, each with a role, and with the tools a finance team needs.
 
-Open the business dashboard at **zoldhq.com/business**.
+Open the business dashboard at **zoldhq.com/business**. It works on a phone as well as a computer: on a phone the main screens are in a tab bar at the bottom and everything else is under **Menu**. Invoices, books and approvals live here, for your personal space and for every company you belong to.
 
 ## Your personal space
 

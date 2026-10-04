@@ -42,7 +42,7 @@ Press **Issue**. The invoice is numbered, timestamped and frozen: both parties, 
 
 ## Get paid by link
 
-An issued invoice that is still open has a **Payment link** action, in the business dashboard's invoice list and on the invoice in the app. It makes a [payment link](../get-paid/payment-links.md) for the invoice's amount. Your customer pays it by bank transfer or in USDC, and the invoice is marked paid when the money arrives. Send the link with the invoice, or share it from the app.
+An issued invoice that is still open has a **Payment link** action in the business dashboard's invoice list. It makes a [payment link](../get-paid/payment-links.md) for the invoice's amount. Your customer pays it by bank transfer or in USDC, and the invoice is marked paid when the money arrives. Send the link with the invoice.
 
 The link pays into your organisation's euro account, so only the member whose login connected that account can make it. Anyone else who tries is told that the link has to come from that member.
 

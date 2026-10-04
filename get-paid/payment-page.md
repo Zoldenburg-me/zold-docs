@@ -11,8 +11,10 @@ A payment page is a public link, **zoldhq.com/pay/yourname**, that shows a QR co
 Profile → **Payment page** → choose a handle.
 
 * 3 to 30 characters, lowercase letters, digits and internal hyphens.
+* Latin letters a–z only. Letters from other alphabets can look identical to latin ones, so they are not allowed.
 * Unique. If it is taken you are told so.
 * Handles that look like an address (starting `0x`) or that match an app route are not allowed.
+* Handles that use Zold's name, a partner's name, a staff role such as support or admin, or a well-known person's name are not allowed, including inside a longer handle.
 
 You can claim a page as soon as your smart wallet exists. You can set a display name for the page that is different from your legal name; if you do not, the page shows the handle alone.
 

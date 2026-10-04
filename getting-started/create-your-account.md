@@ -39,3 +39,9 @@ As soon as the passkey is registered, Zold creates your smart wallet on the Base
 Your IBAN is issued by Monerium, the e-money institution behind EURe. You connect (or open) a Monerium account and activate your IBAN with one passkey confirmation. Until you do, you can look around but cannot receive or send money.
 
 Continue to [Connect Monerium and activate your IBAN](connect-monerium.md).
+
+## Your profile
+
+The **Profile** tab holds everything about you: your name, your Zold tag and payment link, your account details, security, settings and help. From there you also open Zold Business, or create your personal space for invoices and books.
+
+You can change your name under Profile until Monerium verifies you. After that it is the name your IBAN is held under, so it is locked. A company account always carries the company's name.

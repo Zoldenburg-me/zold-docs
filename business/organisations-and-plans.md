@@ -12,7 +12,7 @@ Open the business dashboard at **zoldhq.com/business**.
 
 If you signed up as a person, your own invoices and books live in a **personal space**. The first time you open the business dashboard without one, Zold offers to create it with your name and country. One tap, nothing to fill in. You can have one personal space, next to any companies you belong to, and switch between them from the account switcher.
 
-A company login has no personal space: its account is the company's. For your own money, sign up for Zold as a person with your own email.
+Your personal space carries your name; you change it in the Zold app, under Profile. A company login has no personal space: its account is the company's. For your own money, sign up for Zold as a person with your own email.
 
 **Your sign-in and recovery** in the dashboard's settings opens the Security screen of the Zold app. Its back arrow brings you back to the dashboard.
 

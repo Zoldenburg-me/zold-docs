@@ -29,16 +29,7 @@ GetMyInvoices needs one manual bank account for Zold (in GetMyInvoices: Bank acc
 
 Each bank line of the month is added to that bank account with its Beleg attached, uploaded as a paid payment document numbered with the Beleg code, with the transaction hashes as tags. A line without a Beleg gets one first. Anything already there is skipped, so sending twice adds nothing twice. Without a manual bank account, only the Belege go up; add one and send again to add the lines.
 
-GetMyInvoices can take 20 seconds or more to accept a Beleg, so sending a busy month takes a while. When it is done, Zold lists what happened:
-
-| Result | What it means | What to do |
-| --- | --- | --- |
-| Bank lines added, Belege sent now | They are in GetMyInvoices. | Nothing. |
-| Already there, skipped | GetMyInvoices had them before this send. | Nothing. |
-| Arrived slowly and may be missing their tags | GetMyInvoices answered too slowly, but Zold found the Beleg there by its number. Its tags (the transaction hashes) may not have been saved. | Check the Beleg in GetMyInvoices and add the tags if they are missing. |
-| Got no answer and can't be found there yet | GetMyInvoices did not answer, and Zold could not find the item afterwards. | Send the month again in a few minutes. Whatever did arrive is skipped, so nothing is added twice. |
-| Failed | GetMyInvoices refused it. | Send again. If it fails again, read the error and contact support. |
-| Could not get a Beleg | Zold could not issue a Beleg for the line, so it was not sent. | Contact support. |
+If GetMyInvoices answers too slowly, Zold looks for the Beleg there by its number before reporting anything. A Beleg found that way is listed as arriving slowly; its tags may not have been saved, so check it in GetMyInvoices. One that can't be found yet is listed as getting no answer: send the month again in a few minutes. Whatever did arrive is skipped, so nothing is added twice.
 
 {% hint style="warning" %}
 **Beta.** Check the first month in GetMyInvoices before relying on it for a closing period.

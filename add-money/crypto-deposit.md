@@ -21,6 +21,8 @@ You can choose to have incoming USDC converted to EURe automatically. When the o
 
 A deposit that is too small to convert economically, or that arrives while the rate feed cannot be checked, is held as USDC and the reason is shown on the row.
 
+EURe sent to your address from another wallet is credited as it is. On a business account, every crypto deposit is also a line in the organisation's books, dated by when it arrived on the chain.
+
 ## Paying you by link
 
 If you want someone else to send you crypto without handing them a raw address, or to take USDC from networks other than Base, use your [payment page](../get-paid/payment-page.md). It has its own address and lists every token and network it takes.

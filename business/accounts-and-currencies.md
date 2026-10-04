@@ -30,13 +30,15 @@ The Currencies table in the business dashboard shows, for each currency, whether
 
 When you sign up as a company, your organisation starts with a euro account. It has no IBAN until Monerium has issued your company's IBAN. Then go to Accounts and press **Connect the company's IBAN** on that account. Zold checks with Monerium that the IBAN belongs to an approved company profile before connecting it. While Monerium is still reviewing the company, the account shows **Waiting for Monerium** with the last state Monerium reported and when, and the button reads **Check with Monerium again**. Nothing changes on the account until Monerium approves.
 
+Before connecting, Zold asks you to confirm what it means. The account then belongs to the organisation, with everything on it. Its transactions appear in the organisation's books and statements, where members who can see the books see them: for an account Zold set up, its whole history; for a wallet you brought into Zold, from when it got its IBAN here, or from when you imported it if it has none. An account connected to one company can't be connected to another organisation at the same time.
+
 From then on, payments from the account are signed with the passkey of the person whose login connected it.
 
 A company account is backed by a company profile at Monerium, never by a member's personal one. If you signed up personally and want an account for your company, write to support@zoldhq.com: the company gets its own account, with its own wallet.
 
 ## Statements and documents
 
-If the euro account spends from your own account, **Accounts → Statements and documents** issues a monthly statement, a balance confirmation, a proof of ownership and a receipt for each paid bank transfer. Each opens in a new tab, ready to print or save as PDF, and carries an address where anyone can check it.
+If the euro account spends from your own account, **Statements** in the sidebar (also linked from Accounts) issues a monthly statement, a balance confirmation, a proof of ownership and a receipt for each paid bank transfer. Each opens in a new tab, ready to print or save as PDF, and carries an address where anyone can check it.
 
 The documents name the holder your bank provider has on record for the IBAN. For a company that is its registered name, with you as the person who operates the account. A proof of ownership asks for your Face ID or fingerprint: the account itself signs it, which shows you control it.
 

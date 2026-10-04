@@ -18,7 +18,6 @@ Accounts → **Open an account** → choose a currency.
 | Swiss franc | — | Not yet open |
 | Kenyan shilling | M-Pesa | Not yet open |
 | Nigerian naira | NUBAN, NIP transfer | Not yet open |
-| Indian rupee | Payouts only | Not yet open |
 
 Every currency shows its status in the app. Where an account is not open yet you can request it, and the app tells you when it opens.
 

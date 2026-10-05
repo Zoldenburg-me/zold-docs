@@ -18,14 +18,17 @@ This works on any Shopify plan and needs no approval from Shopify: the app is in
 
 1. In Shopify, **Settings → Payments → Manual payment methods → Create custom payment method**. Name it so that it contains "Zold". Set your checkout currency to EUR.
 2. In the Zold business dashboard, open **Settings → Connections → Shopify**, enter your store's `myshopify.com` domain and **Connect store**. You approve the app in Shopify and are sent back; Zold subscribes to your store's new-order notifications.
-3. Add the **Zold — pay with crypto** block to your Thank you page and Order status page in Shopify's checkout editor, and point its "Zold API origin" setting at Zold. Without the block, paste the pay link Zold's dashboard shows into your order-confirmation email template instead.
+3. Add the **Zold — pay with crypto** block to your Thank you page in Shopify's checkout editor, and point its "Zold API origin" setting at Zold.
+4. In Shopify, **Settings → Notifications → Order confirmation**, add the pay link that Zold's dashboard shows for your store. A customer who leaves the thank-you page uses this link to come back to the payment.
+
+The pay link is signed with a key for your store, so it opens an order's payment only for someone who got that order's email. Keep the template private, as you would an API key. After adding it, place a test order and open the link from the email to check that it works.
 
 The money goes to the payment page of the account that backs your organisation's EUR account (for a personal organisation, your own). That account needs a [payment page](../get-paid/payment-page.md) first.
 
 ### What happens on an order
 
 1. The customer picks Zold at checkout and places the order. The order is created as **payment pending**.
-2. On the thank-you page the customer sees the exact USDC figure, your payment-page address and a QR code, with an "open in wallet" link.
+2. On the thank-you page the customer sees the exact USDC figure, your payment-page address and a QR code, with an "open in wallet" link. The order confirmation email carries the pay link to the same payment.
 3. When the deposit is seen, the order is marked **paid** in Shopify and the block says so. The transaction is recorded on the order.
 4. The payment appears in your **Payment links** and on the dashboard's Shopify screen, with the asset it arrived in.
 

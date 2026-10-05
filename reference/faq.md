@@ -5,16 +5,25 @@ description: Short answers to the questions people ask first.
 # FAQ
 
 **Is Zold a bank?**
-No. Zold is an app built by Zoldenburg. Your IBAN and your euros are issued and held as e-money by Monerium, a licensed e-money institution. Your balance sits in a smart wallet that only you can operate.
+No. Zold is an app built by Zoldenburg. Your IBAN and your euros come from Monerium ehf., an electronic money institution licensed in Iceland and supervised by the Central Bank of Iceland. Under the EU E-Money Directive (2009/110/EC), that licence is passported across the European Economic Area, so Monerium can serve you anywhere in the EEA. Zold holds no licence of its own: Monerium looks after the regulated money, and Zold builds the software you use it with. Your balance sits in a smart wallet that only you can operate.
+
+**Do I have to leave my bank?**
+No. Many people start by having their salary or client payments land in Zold. Send money to your other bank any time.
+
+**My employer only takes German IBANs.**
+In the euro area, an employer can't refuse an IBAN because of the country it's from. Your Zold IBAN works for salary like any other.
+
+**Can people abroad pay me?**
+Yes. By euro bank transfer from anywhere in Europe, or in USDC (digital dollars) from outside Europe, through your [payment link](../get-paid/payment-links.md).
 
 **Is my money insured?**
 E-money is not covered by a deposit guarantee scheme. Instead, the issuer must safeguard the full value of every EURe in issue and you have a legal right to redeem at par. Read Monerium's terms for the detail.
 
 **Can Zold freeze or move my money?**
-Zold cannot move it: every payment is signed by you. Monerium, as the issuer, has the obligations of any regulated institution and may be required to act on your account by law.
+No. Every payment is signed with the passkey on your device, and Zold holds no key to your account. Recovery is your choice: if you pick Zoldenburg as your recovery guardian, it can hand your account to your new phone after verifying it's you, but never move money, and you can cancel the handover from your old phone during the waiting period. Add your own wallet as a second key instead, and Zold has no part in it at all. The one other party is Monerium: as the issuer of your euros, it can freeze them where the law requires it.
 
 **What happens if Zold shuts down?**
-Your wallet and your EURe are on a public network and your passkey owns the wallet. Your redemption right is against Monerium, not Zold.
+Your wallet and your EURe are on a public network and your passkey owns the wallet. Add a second key of your own, and you can always move your money directly through [Safe](https://app.safe.global). Your redemption right is against Monerium, not Zold.
 
 **Do I need to buy crypto or hold ETH?**
 No. You use euros. Network fees are paid by Zold.

@@ -39,6 +39,8 @@ If you are a developer or a business with your own Monerium developer app, the s
 
 Removing the keys later keeps your IBAN on record, since it exists at Monerium regardless. Deposits and payouts pause until you add keys again.
 
+Once your account has a Monerium connection or an IBAN, replacing or removing that connection needs your passkey, and it signs you out on every other device. Being signed in is not enough.
+
 ## What "pending" means
 
 While the connection is incomplete, your account is **pending**. You can see the app, but the IBAN, deposits, quotes and transfers open only once Monerium is connected and the IBAN is activated. The banner at the top of the dashboard tells you which step is left.

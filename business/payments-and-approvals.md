@@ -10,13 +10,30 @@ Payments → **New draft**.
 
 ## Draft
 
-A draft has one or more **lines**. Each line pays one payee one amount in one currency: a contact's bank account or wallet, or details typed in for a one-off. Save it, come back, add lines. A draft can be edited while it is a draft.
+A draft has one or more **lines**. Each line pays one payee one amount in one currency: a contact's bank account or wallet, or details typed in for a one-off. Save it, come back, add lines.
 
 ## Submit for review
 
-When it is ready, **Submit for review**. The draft is locked and appears in the reviewers' queue.
+When it is ready, **Submit for review**. The draft appears in the reviewers' queue.
 
-On a Business plan with approvals, a draft **must** be reviewed before it can be sent. On Starter there is no review step, and the person who drafts can send.
+When review is on, a draft **must** be reviewed before it can be sent. When it is off, the person who drafts can send.
+
+## Review stays on until an owner turns it off
+
+Review comes with the Business plan and its trial. Once your organisation works with it, it is your organisation's rule, not the plan's: if the trial ends or you move to Starter, review **stays on**. Nobody can start sending payments alone just because the plan changed.
+
+To turn it off: **Settings → Who approves payments → Turn review off**. Only an owner can, and you confirm with Face ID or fingerprint. The change is recorded with who made it and when. Turning review back on needs a plan that includes it.
+
+Drafts that were already waiting for review keep waiting after review is turned off, or after a downgrade. They are sent once someone approves them.
+
+## Edit or cancel a draft
+
+Until sending starts, a draft is only a proposal. Open it in Payments:
+
+- **Edit** changes the amounts and notes. Editing a draft that is waiting for review, or already approved, puts it back to **Draft**: what was approved is no longer what is in it, so it has to be reviewed again. You become its drafter, so someone else approves it.
+- **Cancel this payment run** withdraws it. Nothing was sent. The draft stays under **Cancelled** with who cancelled it and why, and an invoice it was paying waits for payment again. Anyone who may draft or review payments can cancel.
+
+To pay someone else, cancel the run and start a new payment. Once sending has started, a draft can no longer be edited or cancelled.
 
 ## Review
 
@@ -52,3 +69,4 @@ A draft's status is always read from its transfers. It cannot show "sent" while 
 | Executing | Nobody; transfers are moving |
 | Executed | Done |
 | Failed | The drafter, to re-draft |
+| Cancelled | Nobody; it was withdrawn before anything was sent |

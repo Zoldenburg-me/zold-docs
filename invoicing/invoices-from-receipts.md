@@ -45,7 +45,9 @@ A receipt is on a draft only when it has a euro value. These are listed on the d
 
 - a token Zold has **no price** for yet;
 - a token that is **on no token list**, which is booked as a quantity with no value;
-- a transfer **between your own addresses**.
+- a transfer **between your own addresses**;
+- a receipt you tagged **`refund`**: money returned to you is not income;
+- anything that is not a plain incoming payment, such as **one leg of a swap** or a **realised gain**.
 
 If the same address is on two contacts, a receipt from it is given to neither. Put it on one.
 

@@ -6,7 +6,7 @@ description: What protects your account, what you have to protect, and how to ge
 
 ## Two keys, both yours
 
-**Your passkey** owns the smart wallet and signs you in. It is verified with your fingerprint, face or device PIN and never leaves your device's secure hardware.
+**Your passkey** owns the smart wallet and signs you in. It is verified with your fingerprint, face or device PIN and never leaves your device's secure hardware. Zold asks for that check every time, at sign-in too, so a security key with no PIN or fingerprint set cannot be used.
 
 **Your device key** is a second key, generated in your browser the first time you use the account on a device. It signs the exact terms of every payment — the amount, the payee and the transfer — so that even someone who steals your signed-in session cannot change where money goes. Where your authenticator supports it, the device key is encrypted with a secret only your passkey can produce, so each payment needs a passkey ceremony to unlock it.
 
@@ -63,4 +63,4 @@ The waiting period protects you. Zoldenburg can start a recovery on its own — 
 
 ## Sessions
 
-A session ends when you sign out and expires on its own. Signing in on a new device does not sign out others. If you suspect a device is compromised, start a recovery: finalising it revokes every session that device held.
+A session ends when you sign out and expires on its own. Signing in on a new device does not sign out others. Two changes do sign out every other device, and both need your passkey: registering a new passkey, and replacing or removing your Monerium connection. If you suspect a device is compromised, start a recovery: finalising it revokes every session that device held.

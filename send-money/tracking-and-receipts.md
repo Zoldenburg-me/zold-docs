@@ -8,6 +8,8 @@ description: Every transfer has a timeline, a detail view and a receipt you can 
 
 **Activity** lists deposits and transfers, newest first, with a status chip on each row. Filter by direction or state. The same rows appear on the dashboard's recent list.
 
+A bank transfer into your IBAN shows as **Received**, with the sender's name and the reference they wrote. Money in from a crypto wallet is labelled as such.
+
 ## Transfer detail
 
 Open a row for:

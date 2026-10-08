@@ -39,9 +39,10 @@ If your company already holds its money in a Safe, for example one controlled by
    - **Keep your wallet as a second owner** (the default). Afterwards your phone or your wallet can each approve on their own.
    - **Replace your wallet with your phone.** Your wallet stops being an owner for good.
 4. Tap **Download for Safe{Wallet}**. In app.safe.global, connect the wallet that owns the Safe, open **Apps → Transaction Builder**, drag the file in, and sign and send it with your wallet. Zold never sees or sends that signature.
-5. Back in Zold, tap **I've sent it**. Zold checks the Safe on the network and makes it the company's account. If the change has not arrived yet, wait a minute and check again.
+5. Back in Zold, tap **I've sent it**. Zold checks the Safe on the network. If the change has not arrived yet, wait a minute and check again.
+6. Zold shows the Safe's owners as the network has them now, and names any owner other than your phone. That owner can move the money on its own, so approve only if it is your wallet or your company's. Tap **Approve with Face ID**: only with that approval does Zold make the Safe the company's account. The approval covers this Safe with exactly these owners; if they change before Zold finishes, it asks you to check and approve again.
 
-Until step 5 succeeds you can still choose **Use a new account instead**. Once the company has its own new account, it can't bring in a Safe later.
+Until step 6 succeeds you can still choose **Use a new account instead**. Once the company has its own new account, it can't bring in a Safe later.
 
 Zold works with Safes that need one approval per payment, have at most one other owner, and are set up like the Safes Zold opens itself (Safe version 1.4.1 with the ERC-4337 module, no other modules and no transaction guard). Zold tells you which of these a Safe misses.
 

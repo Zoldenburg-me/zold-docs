@@ -23,6 +23,8 @@ This works on any Shopify plan and needs no approval from Shopify: the app is in
 
 The pay link is signed with a key for your store, so it opens an order's payment only for someone who got that order's email. Keep the template private, as you would an API key. After adding it, place a test order and open the link from the email to check that it works.
 
+A store is connected to one organisation. If it is already connected to another organisation, Zold refuses the connection, both when you press **Connect store** and when Shopify sends you back, and the existing connection keeps its settings. To move a store, disconnect it in the organisation that holds it first. The connection is also refused if, by the time you come back from Shopify, you have left the organisation or can no longer change its settings.
+
 The money goes to the payment page of the account that backs your organisation's EUR account (for a personal organisation, your own). That account needs a [payment page](../get-paid/payment-page.md) first.
 
 ### What happens on an order

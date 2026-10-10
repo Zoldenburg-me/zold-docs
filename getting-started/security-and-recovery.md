@@ -27,9 +27,11 @@ When you open your account, Zold asks whether Zoldenburg may be your recovery gu
 
 **To turn it on:** choose **Add Zoldenburg as a guardian** and approve with your passkey. Zoldenburg's guardian is added to your wallet.
 
-**Then finish it with 1 € from your bank.** Until you do, Zoldenburg cannot sign a recovery for you, and Profile → **Recovery** and Home say so.
+Adding the guardian takes up to a minute after you approve; the button says so while it runs.
 
-1. Under Profile → **Recovery**, choose **Get my code** and approve with your passkey. Zold shows your IBAN, your name and a reference such as `ZOLD 7K3M-Q9PX`. The code is shown once; if you lose it, get a new one.
+**Then confirm your bank account.** You move 1 € from your own bank account to your Zold IBAN. It is your money and lands in your balance; nothing is charged. It tells Zoldenburg which bank account is yours. Until you do, Zoldenburg cannot sign a recovery for you: Profile → **Security** shows **1 step left**, and Home and **Recovery** say so. This step opens once your Zold IBAN is active.
+
+1. Under Profile → **Recovery**, choose **Show my transfer details** and approve with your passkey. Zold shows your IBAN, your name and a reference such as `ZOLD 7K3M-Q9PX`. The code is shown once; if you lose it, get a new one.
 2. From a bank account in your own name, send at least 1 € to your Zold IBAN with that reference. The money lands in your account like any other transfer.
 3. When it arrives, Zold checks that the name on the paying account matches the name Monerium verified for you. A transfer from your Zold IBAN itself does not count. Choose **I sent it — check now**, or wait: Zold also checks on its own. A bank transfer can take a working day.
 

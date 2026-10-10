@@ -43,7 +43,11 @@ Once your account has a Monerium connection or an IBAN, replacing or removing th
 
 ## What "pending" means
 
-While the connection is incomplete, your account is **pending**. You can see the app, but the IBAN, deposits, quotes and transfers open only once Monerium is connected and the IBAN is activated. The banner at the top of the dashboard tells you which step is left.
+While the connection is incomplete, your account is **pending**. It works as a wallet: you can receive and hold digital dollars and euros, convert dollars to euros, get paid through your payment page, and send invoices. The IBAN, bank deposits and bank transfers open once Monerium is connected and the IBAN is activated. The set-up list on Home tells you which step is left.
+
+## If Monerium can't verify you
+
+Monerium decides who it verifies, and Zold can't change its answer. If it declines, the app tells you that our banking partner can't onboard you at the moment. Your account stays open as a wallet, with everything above except the IBAN and bank transfers. You can try again with a different Monerium account, or write to support@zoldhq.com.
 
 ## If activation fails
 

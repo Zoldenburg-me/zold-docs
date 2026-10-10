@@ -34,11 +34,15 @@ Zoldenburg recovers only accounts whose ID Monerium has verified. As a guardian 
 1. On the sign-in screen choose **Recover your account** and enter the email on your account.
 2. Create a new passkey on the new device. Zold shows you a reference.
 3. Email support@zoldhq.com from the address on your account and quote the reference. We check you against the identity Monerium verified when you opened the account.
-4. Once we have signed, a waiting period (3 days) runs before the change takes effect. During it, the account still belongs to the old passkey. While Zold is open on a device signed in to the account, a warning sits at the top of every screen from the moment someone asks. If you did not ask for the recovery, choose **Review** on that warning and cancel with your passkey.
+4. Once we have signed, a waiting period (3 days) runs before the change takes effect. During it, the account still belongs to the old passkey. While Zold is open on a device signed in to the account, a warning sits at the top of every screen from the moment someone asks. Zold also emails the address on your account when someone asks, and again when the waiting period starts, with the date it ends. If you did not ask for the recovery, choose **Review** on that warning and cancel with your passkey.
 5. When the period ends, the new passkey becomes the only owner of your wallet. Sessions of the old device are ended and its device key is unbound. Any second signer you added is removed as well.
 
 {% hint style="warning" %}
 **If you do not choose a guardian:** if you lose access to your account or your passkey, Zoldenburg UG cannot recover your account. Only your e-money balance (EURe) can be recovered, from Monerium, its issuer, under Icelandic e-money law. Anything else held in the account cannot be recovered.
+{% endhint %}
+
+{% hint style="info" %}
+The recovery emails never contain a link and never ask for your passkey or a code. To cancel, open the Zold app yourself.
 {% endhint %}
 
 {% hint style="info" %}

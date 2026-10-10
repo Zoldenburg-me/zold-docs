@@ -26,7 +26,7 @@ A passkey is the key to your account. It lives in your phone's or computer's sec
 
 You don't need a face or a fingerprint. On a computer without Touch ID, approve the passkey with your computer's password, with your phone by scanning the QR code your browser shows, or with a security key. Where the passkey is saved depends on the option you choose: in iCloud Keychain, in your browser's password manager, on your phone or on the key.
 
-While the prompt is open, Zold shows how long it stays open and a **Cancel** button that closes it. The prompt stays open for two minutes. If Zold says a passkey prompt is still open, finish or close the one already showing (it may be in another window or tab), then try again.
+While the prompt is open, Zold shows how long it stays open and a **Cancel** button that closes it. The prompt stays open for two minutes. If Zold says a passkey prompt is still open, close the one already showing (it may be in another window, a tab or your password manager), reload the page, then try again.
 
 Your passkey is not only how you sign in. It is an **owner of your smart wallet**. Payments are signed by it, and Zold cannot replace it. Keep the device safe and set up recovery as soon as your account is open — see [Security and recovery](security-and-recovery.md).
 

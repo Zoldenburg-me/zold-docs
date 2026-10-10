@@ -34,11 +34,15 @@ Zoldenburg recovers only accounts whose ID Monerium has verified. As a guardian 
 1. On the sign-in screen choose **Recover your account** and enter the email on your account.
 2. Create a new passkey on the new device. Zold shows you a reference.
 3. Email support@zoldhq.com from the address on your account and quote the reference. We check you against the identity Monerium verified when you opened the account.
-4. Once we have signed, a waiting period (3 days) runs before the change takes effect. During it, the account still belongs to the old passkey. If you did not ask for the recovery, sign in on your old device and cancel it from Profile → **Recovery**.
+4. Once we have signed, a waiting period (3 days) runs before the change takes effect. During it, the account still belongs to the old passkey. Wherever the account is signed in, a warning sits at the top of every screen from the moment someone asks. If you did not ask for the recovery, choose **Review** on that warning and cancel with your passkey.
 5. When the period ends, the new passkey becomes the only owner of your wallet. Sessions of the old device are ended and its device key is unbound. Any second signer you added is removed as well.
 
 {% hint style="warning" %}
 **If you do not choose a guardian:** if you lose access to your account or your passkey, Zoldenburg UG cannot recover your account. Only your e-money balance (EURe) can be recovered, from Monerium, its issuer, under Icelandic e-money law. Anything else held in the account cannot be recovered.
+{% endhint %}
+
+{% hint style="info" %}
+**It was me** on the warning hides it on that device until you close the tab. If Zold can't check whether a recovery is under way, it says so in the same place rather than show nothing.
 {% endhint %}
 
 {% hint style="info" %}
@@ -58,7 +62,7 @@ The waiting period protects you. Zoldenburg can start a recovery on its own — 
 1. On the sign-in screen choose **Recover your account** and enter your recovery email.
 2. Create a new passkey on the new device.
 3. Confirm a one-time code on **every** channel you registered.
-4. A waiting period runs before the change takes effect. During it, the account still belongs to the old passkey. If you did not start the recovery, sign in on your old device and cancel it from the Profile screen.
+4. A waiting period runs before the change takes effect. During it, the account still belongs to the old passkey, and a warning sits at the top of every screen wherever it is signed in. If you did not start the recovery, choose **Review** on that warning and cancel with your passkey.
 5. When the period ends, the new passkey becomes the owner. Sessions of the old device are ended and its device key is unbound.
 
 ## Sessions

@@ -14,10 +14,17 @@ Decided at sign-up from your country of residence, your citizenships and the US-
 | --- | --- |
 | Resident in the EU, EEA, UK or Switzerland | Full account: IBAN, euro balance, payments; card eligibility where the card issuer serves the region |
 | Resident elsewhere, in a country our euro issuer serves | Account with IBAN, euro balance and payments; no card |
-| Resident in India | Not open yet. Indian residents will be served through a collections partner rather than an on-chain euro account, because holding foreign currency on-chain is restricted under FEMA |
+| Resident in India | Wallet account (below). Collections through an Indian partner are not yet fully live |
+| Resident elsewhere, in a country our euro issuer does not serve (for example Nigeria, Kenya, South Africa) | Wallet account (below) |
+| Resident of Myanmar, Afghanistan, Libya, Yemen, Venezuela, Iraq or Lebanon | Not available; the app says only that Zold cannot offer an account there |
 | US citizen, Green Card holder or US tax resident, wherever you live; resident of a US territory | Not available |
 | Resident or citizen of Iran, North Korea, Syria, Cuba, Russia or Belarus | Not available |
-| Resident of a country no partner serves | Not available; the app says only that Zold cannot offer an account there |
+
+### Wallet account
+
+A wallet account is your smart wallet without an IBAN. You can receive and hold digital dollars (USDC) and euros (EURe), convert dollars to euros, get paid through your payment page and payment links, send invoices, keep your books and set up recovery. It has no IBAN and no bank transfers in or out, and no identity check, because nothing in it needs one.
+
+You also keep a wallet account if our euro issuer cannot verify you. The app tells you that our banking partner can't onboard you at the moment, and the rest of the app works as above.
 
 Companies answer the same questions for the entity: where it is incorporated, and whether any owner of 25% or more is a US person.
 

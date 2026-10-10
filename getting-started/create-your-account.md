@@ -14,7 +14,7 @@ Zold asks three things before anything else:
 * **Citizenship** — add every one you hold. A dual national is checked on both.
 * **Are you a US citizen, a Green Card holder, or a US tax resident?** Companies are also asked whether the entity is incorporated in the US or has a US owner of 25% or more.
 
-These answers decide which account you can have. Most residents of the EEA, the United Kingdom and Switzerland get the full account. Residents of other countries get an account wherever our euro issuer will serve them. Zold is not available to US persons, to residents or citizens of sanctioned countries, or in countries no partner serves. If that applies to you, the app tells you at this step, before you create anything. See [Supported countries](../reference/supported-countries.md).
+These answers decide which account you can have. Most residents of the EEA, the United Kingdom and Switzerland get the full account. Residents of other countries get an account with an IBAN wherever our euro issuer will serve them, and a wallet account (no IBAN, no identity check) in most countries it does not serve. Zold is not available to US persons, to residents or citizens of sanctioned countries, or in a few countries where we offer no account at all. If that applies to you, the app tells you at this step, before you create anything. See [Supported countries](../reference/supported-countries.md).
 
 {% hint style="info" %}
 Answer the US question carefully. A "yes" closes the account path regardless of where you live, and the answer is recorded.
@@ -40,9 +40,11 @@ As soon as the passkey is registered, Zold creates your smart wallet on the Base
 
 ## Step 4 — Connect Monerium
 
-Your IBAN is issued by Monerium, the e-money institution behind EURe. You connect (or open) a Monerium account and activate your IBAN with one passkey confirmation. Until you do, you can look around but cannot receive or send money.
+Your IBAN is issued by Monerium, the e-money institution behind EURe. You connect (or open) a Monerium account and activate your IBAN with one passkey confirmation. You can skip this step and use Zold as a wallet in the meantime, or for good: receive and hold digital dollars and euros, get paid through your payment page, and send invoices. Bank transfers in and out need the IBAN.
 
 Continue to [Connect Monerium and activate your IBAN](connect-monerium.md).
+
+If you have a wallet account (see [Supported countries](../reference/supported-countries.md)), there is no Monerium step: the app opens as soon as your wallet is ready.
 
 ## Your profile
 

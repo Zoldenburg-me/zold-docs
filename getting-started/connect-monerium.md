@@ -1,25 +1,27 @@
 ---
-description: Your identity check and your IBAN both come from Monerium. This is how the two accounts are joined.
+description: One identity check, at the institution that issues your euros, and your IBAN is linked to your account.
 ---
 
-# Connect Monerium and activate your IBAN
+# Get your IBAN
 
-Zold does not run its own identity check. **Monerium** verifies who you are and issues your IBAN, and Zold links that IBAN to your smart wallet. That means one identity relationship, held by a licensed e-money institution, instead of a second copy of your documents somewhere else.
+Your IBAN comes from the institution that issues your euros, and so does the identity check. Zold does not run one of its own. That means one identity relationship, held by a licensed e-money institution, instead of a second copy of your documents somewhere else.
+
+That institution is **Monerium**. You open or sign in to your Monerium account on Monerium's own site, and you enter your details there. Zold does not send Monerium what you typed into Zold at signup.
 
 ## Sign up or sign in with Monerium
 
-After your passkey and wallet are ready, the app shows **Connect Monerium**.
+After your Face ID or fingerprint is set up and your account is ready, the app shows **Connect Monerium**.
 
 1. Choose **Sign up or sign in with Monerium**. You are taken to Monerium's own site.
 2. If you already have a Monerium account, sign in. If not, open one there in the same step. Monerium runs the identity verification: your details, a document, and a liveness check. This usually takes minutes but can take longer if a document needs a human look.
 3. Approve the connection. You are returned to Zold.
-4. Press **Activate IBAN with passkey**. Your passkey signs a short statement proving that the smart wallet is yours. Monerium attributes an IBAN to that wallet.
+4. Press **Activate IBAN with passkey** and approve with Face ID or your fingerprint. This confirms to Monerium that the account is yours, and Monerium attributes an IBAN to it.
 
-Your account is **active** as soon as the IBAN appears. Money sent to it lands in your wallet as EURe.
+Your account is **active** as soon as the IBAN appears. Money sent to it lands in your account as euros.
 
 ## Waiting for your IBAN
 
-Once you have approved with your passkey, the rest is Monerium's. The app shows what is done and what Monerium is doing: **Monerium is checking your ID** while they still verify you, or **Monerium is issuing your IBAN** once they have. If Monerium needs anything from you, they write to you by email.
+Once you have approved, the rest is Monerium's. The app shows what is done and what Monerium is doing: **Monerium is checking your ID** while they still verify you, or **Monerium is issuing your IBAN** once they have. If Monerium needs anything from you, they write to you by email.
 
 While this screen is open, Zold checks with Monerium in the background and shows when it last checked. When the IBAN arrives, the screen changes to **Your IBAN is ready** and shows it.
 
@@ -29,7 +31,7 @@ You do not have to wait on this screen. Press **Go to dashboard** at any time; y
 
 Monerium gives each profile one IBAN. If yours already exists and pays into another wallet, Zold uses that same IBAN rather than asking for a second one. After you press **Activate IBAN with passkey**, the app shows **Use your Monerium IBAN in Zold** with the last four digits of the IBAN and where it pays today.
 
-Type `MOVE` and confirm with your passkey. From then on, payments to that IBAN arrive in your Zold account and the old wallet stops receiving them. Anyone paying you keeps using the same IBAN, and you can move it back from Monerium.
+Type `MOVE` and approve with Face ID or your fingerprint. From then on, payments to that IBAN arrive in your Zold account and the old wallet stops receiving them. Anyone paying you keeps using the same IBAN, and you can move it back from Monerium.
 
 If you cancel, nothing changes. Press **Activate IBAN** again whenever you are ready.
 
@@ -39,7 +41,7 @@ If you are a developer or a business with your own Monerium developer app, the s
 
 Removing the keys later keeps your IBAN on record, since it exists at Monerium regardless. Deposits and payouts pause until you add keys again.
 
-Once your account has a Monerium connection or an IBAN, replacing or removing that connection needs your passkey, and it signs you out on every other device. Being signed in is not enough.
+Once your account has a Monerium connection or an IBAN, replacing or removing that connection needs your Face ID or fingerprint, and it signs you out on every other device. Being signed in is not enough.
 
 ## What "pending" means
 
@@ -51,4 +53,4 @@ Monerium decides who it verifies, and Zold can't change its answer. If it declin
 
 ## If activation fails
 
-Occasionally the passkey and wallet succeed but IBAN issuance does not. Nothing is lost. Open your account and press **Activate IBAN** to retry.
+Occasionally your account is ready but the IBAN is not issued. Nothing is lost. Open your account and press **Activate IBAN** to retry.

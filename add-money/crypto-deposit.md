@@ -1,18 +1,18 @@
 ---
-description: Receive USDC directly to your wallet on Base.
+description: Receive digital dollars (USDC on Base) straight into your account.
 ---
 
 # Crypto deposit
 
-Open **Add money → Crypto wallet**. The screen shows your wallet address as text and a QR code of that same address.
+Open **Add money → Crypto wallet**. The screen shows your account address as text and a QR code of that same address.
 
 * **Network:** Base.
 * **Token:** USDC.
 
-Send USDC on Base to that address from any wallet or exchange. It arrives in your smart wallet directly; no one is in between.
+Send USDC on Base to that address from any wallet or exchange. It arrives in your account directly; no one is in between.
 
 {% hint style="danger" %}
-Send only **USDC on the Base network**. Tokens sent on another network, or other tokens sent to this address, are not recognised by the app. They are not lost, since the wallet is yours, but Zold cannot see or spend them for you.
+Send only **USDC on the Base network**. Tokens sent on another network, or other tokens sent to this address, are not recognised by the app. They are not lost, since the account is yours, but Zold cannot see them or move them for you.
 {% endhint %}
 
 ## Converting to euros
@@ -29,7 +29,7 @@ Nothing converts without your approval. The price you see comes with a floor: if
 
 If a conversion was sent but its result is not confirmed yet, the payment shows **Checking** and is not offered for conversion again until it is clear.
 
-EURe sent to your address from another wallet is credited as it is. On a business account, every crypto deposit is also a line in the organisation's books, dated by when it arrived on the chain. Converting held USDC later adds a second line with the gain or loss against the value on arrival.
+Euros (EURe) sent to your address from another wallet are credited as they are. On a business account, every crypto deposit is also a line in the organisation's books, dated by when it arrived on the network. Converting held USDC later adds a second line with the gain or loss against the value on arrival.
 
 ## Paying you by link
 

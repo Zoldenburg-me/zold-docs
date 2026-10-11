@@ -18,7 +18,7 @@ Destination **Kenya**, method **Cash pickup (MoneyGram)**.
 ## What happens
 
 1. You enter the amount in euros. The quote shows the shillings the recipient will collect, the mid-market rate, the margin (0.5%) and the fee (€0.99). See [Fees and exchange rates](../fees/fees-and-rates.md).
-2. You confirm with your passkey. Your EURe is converted to USDC at the best available venue price and sent, in one signed transaction, into the payout route. Nothing leaves your wallet unless every step of that transaction succeeds.
+2. You approve with Face ID or your fingerprint. Your euros are converted to digital dollars (USDC) at the best available price and sent, in one approved transaction, into the payout route. Nothing leaves your account unless every step of that transaction succeeds.
 3. The payout is funded on MoneyGram's side and a **pickup reference** is issued. It appears in the app on the transfer's detail screen; share it with the recipient.
 4. The recipient goes to any MoneyGram agent with the reference number and their ID and collects the cash.
 

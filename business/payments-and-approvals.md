@@ -4,7 +4,7 @@ description: Draft, review, send. Two people, never one pressing the same button
 
 # Payments and approvals
 
-A business payment has more than one person in it. In Zold that is a **draft**: something one person prepares, another reviews, and the account's signer sends.
+A business payment has more than one person in it, so that no one person can approve alone. In Zold that is a **draft**: something one person prepares, another reviews, and the account's approver sends.
 
 Payments → **New draft**.
 
@@ -49,11 +49,11 @@ At save time each line records a fingerprint of the payee's details. It is check
 
 **Send** turns the approved draft into one transfer per line. Every line is planned before anything is created: a gated currency, an amount below the fee, an amount over a limit, or an insufficient total balance stops the whole batch with nothing sent. The balance is checked against the **total** of all lines, not line by line.
 
-The member whose wallet backs the account signs each transfer with their passkey. A payer can approve and press send, but only that member can sign; the screen tells you who that is.
+The member whose login approves for the account approves each transfer with their Face ID or fingerprint. A payer can press send, but only that member can give the final approval; the screen tells you who that is.
 
 ## What can go wrong
 
-If one line fails part-way, the lines before it exist as unsigned transfers that cannot move money and simply expire. The draft is marked **Failed**. To send again, create a new draft; this avoids stacking a second batch on the first.
+If one line fails part-way, the lines before it exist as unapproved transfers that cannot move money and simply expire. The draft is marked **Failed**. To send again, create a new draft; this avoids stacking a second batch on the first.
 
 A draft's status is always read from its transfers. It cannot show "sent" while one of its payments is still under review.
 
@@ -63,7 +63,7 @@ A draft's status is always read from its transfers. It cannot show "sent" while 
 | --- | --- |
 | Draft | The drafter |
 | Pending review | A reviewer who is not the drafter |
-| Reviewed | The account's signer |
+| Reviewed | The account's approver |
 | Rejected | The drafter, with the reviewer's note |
 | Invalid data | Anyone who can draft, to confirm the payee |
 | Executing | Nobody; transfers are moving |

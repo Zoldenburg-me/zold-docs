@@ -14,7 +14,7 @@ Destination **Europe**, method **Bank transfer**.
 
 ## What happens
 
-Your EURe is redeemed by Monerium and the euros are sent by SEPA to the payee's bank. The payment goes straight from your wallet to Monerium's redemption; Zold does not hold it on the way. Most payments arrive within seconds by SEPA Instant. Where the receiving bank does not support Instant, it arrives on the next business day.
+Your euros are redeemed by Monerium, which issues them, and sent by SEPA to the payee's bank. The payment goes straight from your account to Monerium; Zold does not hold it on the way. You approve it with Face ID or your fingerprint, for that amount and that payee. Most payments arrive within seconds by SEPA Instant. Where the receiving bank does not support Instant, it arrives on the next business day.
 
 ## The reference
 

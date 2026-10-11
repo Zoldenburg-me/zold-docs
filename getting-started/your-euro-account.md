@@ -9,24 +9,28 @@ description: What is behind the balance on your dashboard.
 | What you see | What it is |
 | --- | --- |
 | **Your IBAN** | A real euro IBAN issued by Monerium. Anyone can pay it by SEPA transfer, from any bank. |
-| **Your balance** | EURe held in your smart wallet. One euro of EURe is one euro. |
-| **Your wallet address** | The address of your smart wallet on Base. Where your EURe actually sits, and where crypto deposits arrive. |
+| **Your balance** | The euros in your account. One euro in Zold is one euro. |
+| **Your account address** | Where your euros actually sit, and where digital dollars (USDC) you are sent arrive. |
 
-When a bank transfer reaches your IBAN, Monerium issues the same amount of EURe to your wallet. When you pay out by SEPA, the EURe is redeemed and euros leave from Monerium to the payee's bank. The IBAN and the wallet are two faces of the same account.
+When a bank transfer reaches your IBAN, the same amount appears in your account. When you pay out by SEPA, the euros leave from Monerium to the payee's bank. The IBAN and the account are two faces of the same thing.
 
-## EURe
+## Your euros
 
-EURe is an electronic-money token. It is issued by Monerium EMI ehf., an e-money institution licensed by the Central Bank of Iceland and passported across the EEA, and it is regulated under MiCA as an e-money token. Every EURe is backed one-for-one by euros held by the issuer, and you have a legal right to redeem it at par. This is what makes it different from a crypto stablecoin: there is a named, licensed counterparty who owes you the euros.
+Your euros are electronic money, issued by Monerium EMI ehf., an e-money institution licensed by the Central Bank of Iceland and passported across the EEA. They are regulated as e-money under MiCA. Every euro is backed one-for-one by euros held by the issuer, and you have a legal right to redeem it at par. There is a named, licensed institution that owes you the euros.
 
-## Your smart wallet
+Zold does not lend your euros out, so there is no interest rate to promise. E-money is not covered by a deposit guarantee scheme.
 
-Your wallet is a Safe smart account on the Base network. Its only owner is your passkey: Zold holds no key that can move your funds or stop you from moving them. Every payment you make is a transaction your passkey signs at send time; there is no standing permission for Zold to move funds.
+## In your name, not ours
 
-Gas is paid by Zold. You never need to hold ETH or any other token to use your account.
+Only you can move what is in your account. Every transfer is approved with your Face ID or fingerprint, at the moment you send it, for that amount and that recipient. Zold holds no key that can move your money or stop you from moving it, and there is no standing permission for Zold to move funds.
+
+There are no network fees for you to pay, and you never need to hold any other currency or token to use your account.
+
+How this works in detail: [How Zold works under the hood](../reference/how-it-works.md).
 
 ## One balance
 
-Your dashboard shows one figure: what is in your wallet. A payment that is in flight has already left it, so the balance you see is both what you hold and what you can spend.
+Your dashboard shows one figure: what is in your account. A payment that is in flight has already left it, so the balance you see is both what you hold and what you can spend.
 
 ## Balance history and activity
 

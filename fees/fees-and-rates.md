@@ -13,17 +13,17 @@ Every cost is on the quote before you approve. A quote shows the fee, and for a 
 | | Zold fee | Exchange-rate margin |
 | --- | --- | --- |
 | SEPA bank transfer out | €0 | None; no conversion |
-| Euro ↔ dollar conversion (EURe ↔ USDC) | €0 | None added by Zold; you get the venue's rate |
+| Euro ↔ digital dollar (USDC) conversion | €0 | None added by Zold; you get the venue's rate |
 | Receiving a bank transfer | €0 | None |
 | Receiving a crypto deposit | €0; the sender pays their own network fee | Only if the deposit is converted, at the venue's rate |
 | Cash pickup (euros → Kenyan shillings) | €0.99 per transfer | 0.5% over the mid-market rate |
 | USD account (ACH / wire) | Published when the rail opens | — |
-| Network (gas) fees | Paid by Zold. You never need to hold ETH | — |
+| Network fees | None for you; Zold pays them | — |
 | Plans | Starter is free; Premium and Business are priced in Settings → Plan | — |
 
 ### SEPA bank transfers
 
-Free. Monerium does not charge for redeeming EURe into a SEPA payment, so Zold does not either. The amount you enter is the amount the payee's bank receives.
+Free. Monerium, which issues your euros, does not charge for paying them out by SEPA, so Zold does not either. The amount you enter is the amount the payee's bank receives.
 
 ### Conversions
 
@@ -36,6 +36,10 @@ Zold adds no fee and no margin of its own. The rate you get is the price the liq
 {% endhint %}
 
 A fixed **€0.99** per transfer, plus a **0.5%** margin between the mid-market rate and the rate the recipient is paid at. Both are on the quote. The recipient pays nothing at the agent.
+
+## No rate. No asterisk.
+
+Zold does not lend your euros out, so there is no interest rate to promise and none to take away. What you hold is e-money, backed one-for-one and held in your name. E-money is not covered by a deposit guarantee scheme.
 
 ## Exchange rates
 

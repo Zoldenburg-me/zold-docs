@@ -8,11 +8,13 @@ description: Connect your Gnosis Pay card and see its balance and spending insid
 **Not yet fully live.** Today you can connect an existing Gnosis Pay account and see its cards, balances and transactions in Zold. Applying for a card and topping it up from your Zold balance are coming next.
 {% endhint %}
 
-Gnosis Pay issues a Visa card that spends from a smart wallet on Gnosis Chain. The card, its identity check and the wallet behind it belong to Gnosis Pay; Zold shows them alongside your euro account so that you have one place to look.
+Gnosis Pay issues a Visa card that spends from its own card account, separate from your Zold account. The card, its identity check and the account behind it belong to Gnosis Pay; Zold shows them alongside your euro account so that you have one place to look.
+
+Card payments work like any card's: a payment at a till or online draws on the card account and does not ask for your Face ID or fingerprint each time. The rule that only you can approve covers transfers from your Zold account. What you load onto the card account is what the card can spend.
 
 ## Connect
 
-Profile → **Card** → **Sign in with your wallet**. You sign a message with the wallet that owns your Gnosis Pay account, in your own browser wallet. Zold never sees a password or a key.
+Profile → **Card** → **Sign in with your wallet**. You confirm a sign-in message with the wallet that owns your Gnosis Pay account, in your own browser wallet. Zold never sees a password or a key.
 
 Once connected you see:
 

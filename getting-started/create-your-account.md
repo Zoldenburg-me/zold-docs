@@ -1,5 +1,5 @@
 ---
-description: Opening a Zold account takes a few minutes and one passkey.
+description: Opening a Zold account takes a few minutes and your face or fingerprint.
 ---
 
 # Create your account
@@ -20,34 +20,36 @@ These answers decide which account you can have. Most residents of the EEA, the 
 Answer the US question carefully. A "yes" closes the account path regardless of where you live, and the answer is recorded.
 {% endhint %}
 
-## Step 2 — Set up your passkey
+## Step 2 — Set up Face ID or your fingerprint
 
-A passkey is the key to your account. It lives in your phone's or computer's secure hardware and is unlocked with Face ID, Touch ID, Windows Hello or your device PIN. There is no password.
+Your face or fingerprint is the key to your account. Your device creates a key in its secure hardware, and Face ID, Touch ID, Windows Hello or your device PIN unlocks it. There is no password. Your browser or phone may call this a **passkey**.
 
-You don't need a face or a fingerprint. On a computer without Touch ID, approve the passkey with your computer's password, with your phone by scanning the QR code your browser shows, or with a security key. Where the passkey is saved depends on the option you choose: in iCloud Keychain, in your browser's password manager, on your phone or on the key.
+You don't need a face or a fingerprint. On a computer without Touch ID, approve with your computer's password, with your phone by scanning the QR code your browser shows, or with a security key. Where the key is saved depends on the option you choose: in iCloud Keychain, in your browser's password manager, on your phone or on the security key.
 
-While the prompt is open, Zold shows how long it stays open and a **Cancel** button that closes it. The prompt stays open for two minutes. If Zold says a passkey prompt is still open, close the one already showing (it may be in another window, a tab or your password manager), reload the page, then try again.
+While the prompt is open, Zold shows how long it stays open and a **Cancel** button that closes it. The prompt stays open for two minutes. If Zold says a prompt is still open, close the one already showing (it may be in another window, a tab or your password manager), reload the page, then try again.
 
-Your passkey is not only how you sign in. It is an **owner of your smart wallet**. Payments are signed by it, and Zold cannot replace it. Keep the device safe and set up recovery as soon as your account is open — see [Security and recovery](security-and-recovery.md).
+This is not only how you sign in. It is the one approver on your account: every transfer needs it, and Zold cannot replace it. Keep the device safe and set up recovery as soon as your account is open — see [Security and recovery](security-and-recovery.md).
 
 {% hint style="warning" %}
-If your passkey syncs through iCloud Keychain, Google Password Manager or a password manager, it follows you to your other devices. If it does not sync, losing the device means going through recovery. Check which kind you have.
+If your key syncs through iCloud Keychain, Google Password Manager or a password manager, it follows you to your other devices. If it does not sync, losing the device means going through recovery. Check which kind you have.
 {% endhint %}
 
-## Step 3 — Your smart wallet is created
+## Step 3 — Your account is created
 
-As soon as the passkey is registered, Zold creates your smart wallet on the Base network. This is free and takes a few seconds. Your wallet address is fixed from this moment on.
+As soon as your key is set up, Zold creates your account. This is free and takes a few seconds. Your account's address is fixed from this moment on.
 
-## Step 4 — Connect Monerium
+## Step 4 — Get your IBAN
 
-Your IBAN is issued by Monerium, the e-money institution behind EURe. You connect (or open) a Monerium account and activate your IBAN with one passkey confirmation. You can skip this step and use Zold as a wallet in the meantime, or for good: receive and hold digital dollars and euros, get paid through your payment page, and send invoices. Bank transfers in and out need the IBAN.
+Your IBAN is issued by Monerium, the e-money institution that issues your euros. You connect (or open) a Monerium account and activate your IBAN with one approval. You can skip this step and use Zold as a wallet in the meantime, or for good: receive and hold digital dollars and euros, get paid through your payment page, and send invoices. Bank transfers in and out need the IBAN.
 
-Continue to [Connect Monerium and activate your IBAN](connect-monerium.md).
+Continue to [Get your IBAN](connect-monerium.md).
 
-If you have a wallet account (see [Supported countries](../reference/supported-countries.md)), there is no Monerium step: the app opens as soon as your wallet is ready.
+If you have a wallet account (see [Supported countries](../reference/supported-countries.md)), there is no IBAN step: the app opens as soon as your account is ready.
 
 ## Your profile
 
 The **Profile** tab holds everything about you: your name, your Zold tag and payment link, your account details, security, settings and help. From there you also open Zold Business, or create your personal space for invoices and books.
 
 You can change your name under Profile until Monerium verifies you. After that it is the name your IBAN is held under, so it is locked. A company account always carries the company's name.
+
+How the key and the account work in detail: [How Zold works under the hood](../reference/how-it-works.md).

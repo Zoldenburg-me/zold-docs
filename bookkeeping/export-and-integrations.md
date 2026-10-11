@@ -8,14 +8,14 @@ description: Get the books out of Zold and into your accountant's software.
 
 Business dashboard → **Books**.
 
-Every movement on your EUR account appears as **one line per economic event**, the way a PayPal or Stripe clearing account appears in the books: a SEPA credit, a SEPA payment, a payment received in USDC and converted, a USDC amount held, a reversal. Behind a crypto payment there are two or three on-chain steps; the line shows the euro figure once, and its **Beleg** holds the detail.
+Every movement on your EUR account appears as **one line per economic event**, the way a PayPal or Stripe clearing account appears in the books: a SEPA credit, a SEPA payment, a payment received in USDC and converted, a USDC amount held, a reversal. Behind a crypto payment there are two or three steps on the network; the line shows the euro figure once, and its **Beleg** holds the detail.
 
 Pick a month and press **Issue Belege**. Zold issues a Beleg for every line that does not have one yet. You can also give each line a category and a memo. Then download:
 
 * **Lexware Office CSV** — the bank-import template Lexware publishes (Buchungstag, Valuta, Auftraggeber, Empfänger, Verwendungszweck, Betrag, Zusatzinfo). Import it onto an offline account in Lexware Office. The Beleg code is in the last column.
 * **Belege as ZIP** — one PDF per line, named `<date>_<code>_<reference>.pdf` so it maps to its line.
 
-Each Beleg is a frozen, signed document at `zold.to/v/<CODE>`, re-verified whenever it is opened. A USDC-paid invoice has a Beleg for the payment: the invoice number and payer, what arrived and when the chain says so, and the ECB reference rate it was valued at. Converting the USDC adds a Beleg for the conversion: its transaction, venue, rate and amounts, the difference to the receivable, the gain or loss, and the gas. A payment converted in parts has one conversion Beleg per part.
+Each Beleg is a frozen, signed document at `zold.to/v/<CODE>`, re-verified whenever it is opened. A USDC-paid invoice has a Beleg for the payment: the invoice number and payer, what arrived and when the network recorded it, and the ECB reference rate it was valued at. Converting the USDC adds a Beleg for the conversion: its transaction, venue, rate and amounts, the difference to the receivable, the gain or loss, and the network fee. A payment converted in parts has one conversion Beleg per part.
 
 {% hint style="info" %}
 USDC received is valued at the **ECB reference rate** for the day it arrived. The ECB publishes once per business day, so the rate on the Beleg is that day's reference rate, not the rate at the minute of the transaction. On a weekend or before the day's publication, the previous business day's rate applies, and the Beleg says which day it used.

@@ -4,13 +4,13 @@ description: Take crypto for your Shopify orders and receive euros. Orders are m
 
 # Shopify
 
-Zold connects to a Shopify store so that a customer can pay an order in USDC and you receive the result in your Zold account, converted to euros with your passkey or kept as USDC.
+Zold connects to a Shopify store so that a customer can pay an order in USDC and you receive the result in your Zold account, converted to euros when you approve it, or kept as USDC.
 
 There are two ways to connect, and only one of them is open today.
 
 ## Manual payment method + Zold app (available now)
 
-Your store offers a **manual payment method** named Zold at checkout. When a customer places an order with it, Zold opens a crypto payment for the order total and, with the Zold block added to your thank-you page, the customer sees the USDC amount, the address and a QR code on the very next screen. The moment the payment is seen on chain, Zold marks the order **paid** in your Shopify admin and records the transaction on the order.
+Your store offers a **manual payment method** named Zold at checkout. When a customer places an order with it, Zold opens a crypto payment for the order total and, with the Zold block added to your thank-you page, the customer sees the USDC amount, the address and a QR code on the very next screen. The moment the payment is seen on the network, Zold marks the order **paid** in your Shopify admin and records the transaction on the order.
 
 This works on any Shopify plan and needs no approval from Shopify: the app is installed on your store directly.
 

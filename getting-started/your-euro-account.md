@@ -14,6 +14,14 @@ description: What is behind the balance on your dashboard.
 
 When a bank transfer reaches your IBAN, the same amount appears in your account. When you pay out by SEPA, the euros leave from Monerium to the payee's bank. The IBAN and the account are two faces of the same thing.
 
+## If your IBAN moves to another app
+
+Your IBAN lives at Monerium, and Monerium lets whoever holds your Monerium login point it at a different account, from another app or from Monerium's own site. When that happens, payments to your IBAN stop reaching Zold.
+
+Zold checks where your IBAN points. If it has moved, Home says **Your IBAN was moved to another app** and stops showing the IBAN as yours. Press **Move IBAN back to Zold** and approve with Face ID or your fingerprint to point it back here.
+
+If your IBAN is off this account and Zold can't yet see where it went, Home shows **Switch on your IBAN**. One approval switches it on again. If Monerium answers that the IBAN pays somewhere else, Zold offers to move it back. You don't verify your identity a second time.
+
 ## Your euros
 
 Your euros are electronic money, issued by Monerium EMI ehf., an e-money institution licensed by the Central Bank of Iceland and passported across the EEA. They are regulated as e-money under MiCA. Every euro is backed one-for-one by euros held by the issuer, and you have a legal right to redeem it at par. There is a named, licensed institution that owes you the euros.

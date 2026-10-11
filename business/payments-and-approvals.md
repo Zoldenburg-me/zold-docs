@@ -22,7 +22,7 @@ When review is on, a draft **must** be reviewed before it can be sent. When it i
 
 Review comes with the Business plan and its trial. Once your organisation works with it, it is your organisation's rule, not the plan's: if the trial ends or you move to Starter, review **stays on**. Nobody can start sending payments alone just because the plan changed.
 
-To turn it off: **Settings → Who approves payments → Turn review off**. Only an owner can, and you confirm with Face ID or fingerprint. The change is recorded with who made it and when. Turning review back on needs a plan that includes it.
+To turn it off: **Settings → Who approves payments → Turn review off**. Only an owner can, and you confirm with your passkey. The change is recorded with who made it and when. Turning review back on needs a plan that includes it.
 
 Drafts that were already waiting for review keep waiting after review is turned off, or after a downgrade. They are sent once someone approves them.
 
@@ -49,7 +49,7 @@ At save time each line records a fingerprint of the payee's details. It is check
 
 **Send** turns the approved draft into one transfer per line. Every line is planned before anything is created: a gated currency, an amount below the fee, an amount over a limit, or an insufficient total balance stops the whole batch with nothing sent. The balance is checked against the **total** of all lines, not line by line.
 
-The member whose login approves for the account approves each transfer with their Face ID or fingerprint. A payer can press send, but only that member can give the final approval; the screen tells you who that is.
+The member whose login approves for the account approves each transfer with their passkey. A payer can press send, but only that member can give the final approval; the screen tells you who that is.
 
 ## What can go wrong
 

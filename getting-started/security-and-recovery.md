@@ -15,7 +15,7 @@ Settings → **Security** shows whether the payment key on this device is encryp
 ## What Zold can and cannot do
 
 * Zold **cannot** move your money. Every transfer is approved by you.
-* Zold **cannot** replace the key behind your Face ID or fingerprint. Registering a new one needs an approval from the current one.
+* Zold **cannot** replace your passkey. Registering a new one needs an approval from the current one.
 * Zold **does** pay the network fees for your transactions, so you never pay them.
 * If you choose Zoldenburg for recovery, Zoldenburg **can** start moving your account to a new phone after checking your identity. It cannot send money, it cannot skip the waiting period, and you can cancel the move from your current device until then.
 

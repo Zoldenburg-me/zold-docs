@@ -10,6 +10,15 @@ No. Zold is an app built by Zoldenburg. Your IBAN and your euros come from Moner
 **Can anyone send money from my account except me?**
 No. Every transfer is approved with your Face ID or fingerprint on your own device, for that amount and that recipient. Someone who has your email or password, someone posing as a bank employee on the phone, and Zold itself cannot approve one. If anyone asks you to approve a transfer you did not start, don't.
 
+**Could a thief empty my account with my phone?**
+Not with the phone alone. Every transfer needs your face or fingerprint, or your phone's passcode where the phone falls back to it, so keep a passcode only you know. If your phone is lost or stolen, [recovery](../getting-started/security-and-recovery.md) moves your account to a new phone after a short wait.
+
+**What if Zold's servers were hacked?**
+Our servers hold no key to your account, so a break-in alone can't send your money. The app is loaded from our servers, though, so someone who took them over could try to show you one payment and ask you to approve another. Approve only payments you started yourself, and check the amount and recipient each time. What a break-in could expose is the data we keep, such as your email and your payment history.
+
+**How does Zold make money?**
+From paid plans: Premium for people and Business for companies, each with a 30-day free trial. Starter is free. Sending euros, receiving them and converting to and from digital dollars carry no Zold fee, and Zold earns nothing by lending your money out, because it doesn't lend it. See [Fees and exchange rates](../fees/fees-and-rates.md) and [Organisations and plans](../business/organisations-and-plans.md).
+
 **Do I have to leave my bank?**
 No. Many people start by having their salary or client payments land in Zold. Send money to your other bank any time.
 

@@ -25,6 +25,8 @@ The pay link is signed with a key for your store, so it opens an order's payment
 
 A store is connected to one organisation. If it is already connected to another organisation, Zold refuses the connection, both when you press **Connect store** and when Shopify sends you back, and the existing connection keeps its settings. To move a store, disconnect it in the organisation that holds it first. The connection is also refused if, by the time you come back from Shopify, you have left the organisation or can no longer change its settings.
 
+Finish connecting in the browser where you pressed **Connect store**. If the Shopify approval is opened in another browser or on another device, Zold connects nothing and asks you to start again from the dashboard. This is what stops someone from sending your store's admin an approval link that would connect your store to their organisation.
+
 The money goes to the payment page of the account that backs your organisation's EUR account (for a personal organisation, your own). That account needs a [payment page](../get-paid/payment-page.md) first.
 
 ### What happens on an order

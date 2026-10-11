@@ -22,7 +22,7 @@ Decided at sign-up from your country of residence, your citizenships and the US-
 
 ### Wallet account
 
-A wallet account is your smart wallet without an IBAN. You can receive and hold digital dollars (USDC) and euros (EURe), convert dollars to euros, get paid through your payment page and payment links, send invoices, keep your books and set up recovery. It has no IBAN and no bank transfers in or out, and no identity check, because nothing in it needs one.
+A wallet account is your Zold account without an IBAN. You can receive and hold digital dollars (USDC) and euros, convert dollars to euros, get paid through your payment page and payment links, send invoices, keep your books and set up recovery. It has no IBAN and no bank transfers in or out, and no identity check, because nothing in it needs one.
 
 You also keep a wallet account if our euro issuer cannot verify you. The app tells you that our banking partner can't onboard you at the moment, and the rest of the app works as above.
 
@@ -35,7 +35,7 @@ The list of countries our euro issuer serves is theirs and changes on their time
 | Destination | Method | Currency | Status |
 | --- | --- | --- | --- |
 | Any SEPA country | Bank transfer to an IBAN | EUR | Open |
-| Kenya | Cash pickup at a MoneyGram agent | KES | Open |
+| Kenya | Cash pickup at a MoneyGram agent | KES | Not yet fully live |
 | Kenya | M-Pesa account | KES | Not yet fully live |
 | United States | ACH / wire from your USD account | USD | Opening soon, through Bridge |
 | United Kingdom | Faster Payments | GBP | Not yet fully live |

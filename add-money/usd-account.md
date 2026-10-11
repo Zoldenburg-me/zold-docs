@@ -5,20 +5,20 @@ description: A US account number and routing number of your own. ACH and wire in
 # Your US dollar account
 
 {% hint style="warning" %}
-**Not yet fully live.** US dollar accounts are being added through Bridge and will open to eligible accounts soon. You can request one now from Accounts → Open an account → US dollar; it is recorded and opened the day the rail is ready, and you will be told in the app.
+**Not yet fully live.** US dollar accounts are being added and will open to eligible accounts soon. You can request one now from Accounts → Open an account → US dollar; it is recorded and opened the day the rail is ready, and you will be told in the app.
 {% endhint %}
 
-Your dollar account is the second of your global accounts. It works like the euro one: a local identifier that anyone in that country can pay, a balance held in your own wallet, and payouts on the local rail.
+Your dollar account is the second of your global accounts. It works like the euro one: a local identifier that anyone in that country can pay, a balance held in your own account, and payouts on the local rail.
 
 ## What you get
 
 * **A US account number and routing number** in your name. Any US bank, employer or client can pay it by ACH or by domestic wire.
-* **A dollar balance** in the same wallet as your euros, held as USDC, a fully reserved dollar stablecoin issued by Circle.
+* **A dollar balance** in the same account as your euros, held as digital dollars (USDC), issued by Circle and fully backed by reserves.
 * **Dollar payouts** by ACH or wire to any US bank account, from your balance, at a fixed fee shown on the quote.
 
 ## How it works
 
-The account is provided by **Bridge**, a licensed money transmitter that issues the virtual account and settles the dollar side. When a payment reaches your account number, Bridge converts it to USDC and delivers it to your wallet. When you pay out, your USDC goes to Bridge and dollars leave to the payee's bank. Your euro account and Monerium are untouched; each account has its own provider, and each provider's identity check stands on its own.
+The account is provided by **Bridge**, a licensed money transmitter that issues the virtual account and settles the dollar side. When a payment reaches your account number, Bridge converts it to digital dollars (USDC) and delivers it to your account. When you pay out, your dollars go to Bridge and leave from there to the payee's bank. Your euro account and Monerium are untouched; each account has its own provider, and each provider's identity check stands on its own.
 
 ## Verification
 
@@ -26,7 +26,7 @@ Bridge runs its own verification before it issues an account. When you open a US
 
 ## Moving between euros and dollars
 
-Once both accounts are open, **Convert** moves money between them inside your wallet. The quote shows the mid-market rate, your rate and the margin, and you approve it with your passkey like any payment. Conversions settle in seconds and appear in Activity with the rate applied.
+Once both accounts are open, **Convert** moves money between them inside your account. The quote shows the mid-market rate, your rate and the margin, and you approve it with Face ID or your fingerprint like any payment. Conversions settle in seconds and appear in Activity with the rate applied.
 
 ## Fees
 

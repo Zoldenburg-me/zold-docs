@@ -24,7 +24,7 @@ The page shows who is asking, the amount and the description, and a tab for each
 | --- | --- | --- |
 | **Crypto (USDC)** | Sends the exact USDC figure shown to your payment-page address on Base, by QR or "open in wallet". | By amount. Every link quotes a distinct USDC figure. |
 | **Bank transfer** | Sends euros to your IBAN with the link's code as the payment reference. | By the reference on the incoming transfer. |
-| **Zold account** | Opens the Zold app with your account, the amount and the reference filled in, and approves with their passkey. | The same reference, on a transfer Zold itself made. |
+| **Zold account** | Opens the Zold app with your account, the amount and the reference filled in, and approves with their Face ID or fingerprint. | The same reference, on a transfer Zold itself made. |
 
 The USDC figure comes from the live EUR/USD mid-market rate plus a stated **0.5% conversion allowance**, and the page says so. It holds for 15 minutes, then re-prices; any figure the page has shown still counts if it is paid. You are credited what the conversion actually delivers, and the link records both the euro amount asked for and what you hold.
 

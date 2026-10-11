@@ -4,7 +4,9 @@ description: Several people, each allowed to do exactly what their job needs.
 
 # Members and roles
 
-Members → **Invite**. Enter an email address and choose a role. Zold gives you an invitation link to send; it expires after **3 days**. The invitee signs in with their own passkey and lands in your organisation with the role you chose.
+In a company, no one person should be able to move money alone. Roles split the work: a payer prepares payments, an admin or owner approves them, an accountant sorts the books but cannot send, and someone who only needs to read gets the books, not the keys.
+
+Members → **Invite**. Enter an email address and choose a role. Zold gives you an invitation link to send; it expires after **3 days**. The invitee signs in with their own Face ID or fingerprint and lands in your organisation with the role you chose.
 
 {% hint style="info" %}
 Zold does not send the invitation email. Copy the link and send it yourself.
@@ -38,6 +40,6 @@ Whatever your role, you cannot approve a payment you drafted yourself. See [Paym
 
 Members are **deactivated**, not deleted, so their history stays attributed. An organisation can never lose its last owner: the change that would remove or demote the final active owner is refused.
 
-## Who can sign
+## Who gives the final approval
 
-A payment is signed by a passkey in one person's browser. Each account records which member's wallet backs it. A payer may approve and press send, but only the member whose wallet holds the money can produce the signature. If you try to send from an account you do not back, the app tells you who can.
+A transfer is approved with one person's Face ID or fingerprint. Each account records which member's login approves for it. A payer may press send, but only that member can give the final approval. If you try to send from an account you do not approve for, the app tells you who can.

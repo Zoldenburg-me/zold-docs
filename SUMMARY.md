@@ -5,7 +5,7 @@
 ## Getting started
 
 * [Create your account](getting-started/create-your-account.md)
-* [Connect Monerium and activate your IBAN](getting-started/connect-monerium.md)
+* [Get your IBAN](getting-started/connect-monerium.md)
 * [Your euro account](getting-started/your-euro-account.md)
 * [Security and recovery](getting-started/security-and-recovery.md)
 
@@ -69,3 +69,4 @@
 * [Transfer states](reference/transfer-states.md)
 * [FAQ](reference/faq.md)
 * [Glossary](reference/glossary.md)
+* [How Zold works under the hood](reference/how-it-works.md)

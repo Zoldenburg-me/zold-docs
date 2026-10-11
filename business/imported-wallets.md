@@ -4,15 +4,15 @@ description: Watch and book wallets you hold elsewhere, or bring your company's 
 
 # Imported wallets
 
-There are two different things here. A **watched wallet** is one you only book in Zold; Zold never signs for it. **Your company's existing Safe**, brought in when you open the account, becomes the account itself, and Zold signs for it with your Face ID like any account it opened.
+There are two different things here. A **watched wallet** is one you only book in Zold; nothing is approved for it in Zold. **Your company's existing Safe**, brought in when you open the account, becomes the account itself, and you approve its transfers in Zold with Face ID or fingerprint like any account Zold opened.
 
 ## Watched wallets
 
 Wallets → **Import wallet**. Enter the address, its network and a label.
 
-An imported wallet is **read-only**. Zold books its token transfers, categorises them, and includes them in reports and exports. It never holds a key for it and never signs for it.
+An imported wallet is **read-only**. Zold books its token transfers, categorises them, and includes them in reports and exports. It never holds a key for it and never approves anything for it.
 
-The one-line rule: **if Zold issued the account, Zold can sign for it; if you imported it, you sign for it.** A payment drafted from an imported wallet is built by Zold and handed to you as an unsigned transaction to sign in your own wallet.
+The one-line rule: **if it is your Zold account, you approve in Zold; if you imported it to watch, you approve in that wallet.** A payment drafted from an imported wallet is built by Zold and handed to you as an unsigned transaction to sign in your own wallet.
 
 ### What gets booked
 

@@ -14,7 +14,7 @@ A position per asset per wallet: quantity, current value in your reporting curre
 
 Every acquisition of an asset opens a **tax lot** with its date, quantity and cost. When you dispose of some of that asset, lots are consumed **first in, first out** and the realised gain or loss is recorded on the disposing transaction. The cost-basis method is set in Settings; FIFO is the default.
 
-EURe acquired with euros carries a cost of exactly its face value, so a euro account produces no gains or losses on its own. Conversions, USDC deposits and imported wallets do.
+Euros paid into your account carry a cost of exactly their face value, so a euro account produces no gains or losses on its own. Conversions, USDC deposits and imported wallets do.
 
 ## Monthly balance report
 

@@ -8,7 +8,7 @@ Press **Send** on the dashboard.
 
 ## 1. Where
 
-Choose the destination. Zold offers the corridors that are open: **Europe** (bank transfer in euros) and **Kenya** (cash pickup). More open as payout partners are added, and the list only ever shows what can actually be paid.
+Choose the destination. Zold offers the corridors that are open: **Europe** (bank transfer in euros). **Kenya** (cash pickup) appears once its payout partner is live, and more open as payout partners are added. The list only ever shows what can actually be paid.
 
 ## 2. How
 
@@ -26,12 +26,12 @@ Choose a saved contact or enter the recipient's details. For a bank transfer tha
 
 ## 5. Confirm
 
-The confirmation screen repeats every term: amount sent, amount received, rate, fee, recipient, reference. Approve with your passkey.
+The confirmation screen repeats every term: amount sent, amount received, rate, fee, recipient, reference. Approve with Face ID or your fingerprint.
 
-Your device signs the exact terms shown. The signature covers the amount, the transfer, and a fingerprint of the recipient's identity and account, so nothing can be changed after you approve. The transaction that moves the money out of your wallet is signed at the same moment, by you.
+Your approval covers the exact terms shown: the amount, the transfer, and a fingerprint of the recipient's identity and account, so nothing can be changed after you approve. The transaction that moves the money out of your account is approved at the same moment, by you, and by no one else. See [How Zold works under the hood](../reference/how-it-works.md).
 
 ## After you confirm
 
 The progress screen shows the transfer's real state as it moves. You can leave; the transfer continues without you. Open it later from **Activity**.
 
-If a step fails after money has left your wallet, Zold reverses what it can and returns the funds to your wallet at the current rate, with each deduction listed. A transfer that needs a person to look at it is marked for review, and you are contacted. See [Transfer states](../reference/transfer-states.md).
+If a step fails after money has left your account, Zold reverses what it can and returns the funds to your account at the current rate, with each deduction listed. A transfer that needs a person to look at it is marked for review, and you are contacted. See [Transfer states](../reference/transfer-states.md).

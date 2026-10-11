@@ -16,11 +16,11 @@ Profile → **Payment page** → choose a handle.
 * Handles that look like an address (starting `0x`) or that match an app route are not allowed.
 * Handles that use Zold's name, a partner's name, a staff role such as support or admin, or a well-known person's name are not allowed, including inside a longer handle.
 
-You can claim a page as soon as your smart wallet exists. You can set a display name for the page that is different from your legal name; if you do not, the page shows the handle alone.
+You can claim a page as soon as your account exists. You can set a display name for the page that is different from your legal name; if you do not, the page shows the handle alone.
 
 ## What the payer sees
 
-The page shows the deposit address as text and QR, an "open in wallet" link, and the list of tokens it takes, each with its network. USDC on Base arrives directly. Your page also takes USDC from other networks, and the list shows each one with its minimum amount and the bridge fee. Everything on the list arrives in your wallet as USDC on Base.
+The page shows the deposit address as text and QR, an "open in wallet" link, and the list of tokens it takes, each with its network. USDC on Base arrives directly. Your page also takes USDC from other networks, and the list shows each one with its minimum amount and the bridge fee. Everything on the list arrives in your account as digital dollars (USDC on Base).
 
 {% hint style="warning" %}
 Payers should send only a token on the list, on the network shown, and at least the minimum. Anything else does not reach your account automatically.
@@ -30,7 +30,7 @@ To see the list yourself, open **Get paid → Your page**.
 
 ## Privacy
 
-The page address is public. Every payment to your page lands at the same place, and anyone holding the link can look that address up on a block explorer and see its history. The page says this in its own words. Zold does not describe payment pages as private, and you should not assume they are.
+The page address is public. Every payment to your page lands at the same place, and anyone holding the link can look that address up on a public network explorer and see its history. The page says this in its own words. Zold does not describe payment pages as private, and you should not assume they are.
 
 Handles are also short and human. Anyone who knows or guesses yours can find the page. If you want a link only some people can use, send them a [receipt](../send-money/tracking-and-receipts.md) or an [Invoice-Me link](invoice-me-links.md) instead.
 

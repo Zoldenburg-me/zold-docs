@@ -12,7 +12,7 @@ Send a SEPA transfer to that IBAN from any bank in the SEPA area. Your salary, a
 * **Speed:** SEPA Instant transfers arrive within seconds. Standard SEPA transfers arrive the same or next business day, depending on the sending bank.
 * **Currency:** euros only. A transfer in another currency is converted by the sending bank before it arrives, at that bank's rate.
 
-When the money lands, Monerium issues the same amount of EURe to your wallet. Your balance updates and the deposit appears in **Activity** with the sender's name and reference.
+When the money lands, the same amount of euros appears in your account. Your balance updates and the deposit appears in **Activity** with the sender's name and reference.
 
 {% hint style="info" %}
 Being paid in dollars? That is what [your US dollar account](usd-account.md) is for: a US account and routing number that takes ACH and wire directly.

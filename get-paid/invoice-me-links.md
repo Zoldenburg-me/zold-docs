@@ -28,7 +28,7 @@ Once submitted, the invoice is **timestamped and locked**. Neither side can edit
 
 ## Pay it
 
-The submitted invoice appears under **Invoices** with its state. Press **Pay**. The supplier's bank details come from the invoice, so nothing is retyped; the supplier lands in your [address book](../business/address-book.md), and their invoice number becomes the payment reference so their bookkeeping matches it without asking. Paying an invoice creates a draft like any other payment: on a Business plan with approvals switched on it goes through [review](../business/payments-and-approvals.md), and the account holder signs it to send.
+The submitted invoice appears under **Invoices** with its state. Press **Pay**. The supplier's bank details come from the invoice, so nothing is retyped; the supplier lands in your [address book](../business/address-book.md), and their invoice number becomes the payment reference so their bookkeeping matches it without asking. Paying an invoice creates a draft like any other payment: on a Business plan with approvals switched on it goes through [review](../business/payments-and-approvals.md), and the account holder approves it to send.
 
 Pay needs an IBAN. An invoice where the supplier gave only a wallet address is kept on record, and you can mark it as paid elsewhere once you have settled it another way.
 

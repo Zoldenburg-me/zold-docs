@@ -56,9 +56,13 @@ Amounts are kept in whole cents. VAT is rounded once per rate, the way a tax off
 
 In Germany an invoice up to **€250 gross** may omit the recipient, the invoice number, the tax number and the date of supply. Zold applies that shortcut only under the German rule set; elsewhere full content is required, because the thresholds of other countries have not been checked.
 
-## Credit notes
+## Correcting an issued invoice
 
-A credit note is issued the same way with **Credit note** selected. It references the invoice it corrects.
+An issued invoice cannot be edited or deleted, whether it is still open or already paid. It stays in your records under its number, so your invoice series has no gaps.
+
+{% hint style="warning" %}
+**Not yet fully live.** Cancellation invoices and credit notes are coming. Until then, Zold cannot cancel or correct an issued invoice, so check it before you press **Issue**.
+{% endhint %}
 
 ## E-invoicing
 

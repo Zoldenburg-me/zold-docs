@@ -10,6 +10,16 @@ description: Every transfer has a timeline, a detail view and a receipt you can 
 
 A bank transfer into your IBAN shows as **Received**, with the sender's name and the reference they wrote. Money in from a crypto wallet is labelled as such.
 
+## Money in
+
+Open a payment you received for its details:
+
+* **Bank transfer:** the sender's name, the reference they wrote and the date.
+* **From a crypto wallet:** the sending wallet, the date it arrived on the network and what you hold it as now. Dollars (USDC) you converted show **Converted** with the euros that arrived. Dollars you still hold offer **Convert to euros**.
+* Under **Technical details**, the transaction that brought the money in and, for a conversion, the transaction that converted it. Both open on Basescan, so you can check them on the network yourself.
+
+Converting dollars to euros is your own money changing form. It does not add a second "received" payment to Activity.
+
 ## Transfer detail
 
 Open a row for:

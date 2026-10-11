@@ -13,9 +13,9 @@ Only the company's own sign-in sees **Access**, and only in that company's dashb
 **Access** lists:
 
 * **Account**: the account's address.
-* **Passkey**: the company sign-in's Face ID or fingerprint key, as long as it is still an approver.
-* **Second owner**, or **Other owners**: any backup key that can also approve, such as a hardware wallet you added yourself.
-* **Signatures needed**: how many approvals a transfer needs, for example "1 of 1" or "2 of 2".
+* **This sign-in**: whether the company sign-in's Face ID or fingerprint is still an approver.
+* **Backup key**, or **Other approvers**: any backup key that can also approve, such as a hardware wallet you added yourself.
+* **Approvals needed**: how many approvals a transfer needs, for example "1 of 1" or "2 of 2".
 
 Zold approves only with the company sign-in's key, and never collects another key's approval. If the account needs 2 approvals, or the sign-in's key is no longer an approver, **Access** says that Zold can't send from this account. Send from Safe's own app instead: **Open the account in Safe{Wallet}** takes you there. See [How Zold works under the hood](../reference/how-it-works.md).
 

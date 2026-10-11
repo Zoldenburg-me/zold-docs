@@ -25,7 +25,7 @@ If you skip recovery, Home shows one line, "Recovery isn't set up", with a link 
 
 When you open your account, Zold asks whether Zoldenburg may recover your account if you lose your phone. You can change your answer at any time under Profile → **Recovery**.
 
-**To turn it on:** choose **Add Zoldenburg as a guardian** and approve with Face ID or your fingerprint. Zoldenburg is added to your account's recovery.
+**To turn it on:** choose **Add Zoldenburg recovery** and approve with Face ID or your fingerprint. Zoldenburg is added to your account's recovery.
 
 Adding it takes up to a minute after you approve; the button says so while it runs.
 

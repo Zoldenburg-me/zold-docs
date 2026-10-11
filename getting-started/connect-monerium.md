@@ -15,7 +15,7 @@ After your Face ID or fingerprint is set up and your account is ready, the app s
 1. Choose **Sign up or sign in with Monerium**. You are taken to Monerium's own site.
 2. If you already have a Monerium account, sign in. If not, open one there in the same step. Monerium runs the identity verification: your details, a document, and a liveness check. This usually takes minutes but can take longer if a document needs a human look.
 3. Approve the connection. You are returned to Zold.
-4. Press **Activate IBAN with passkey** and approve with Face ID or your fingerprint. This confirms to Monerium that the account is yours, and Monerium attributes an IBAN to it.
+4. Press **Get your IBAN** and approve with Face ID or your fingerprint. This confirms to Monerium that the account is yours, and Monerium attributes an IBAN to it.
 
 Your account is **active** as soon as the IBAN appears. Money sent to it lands in your account as euros.
 
@@ -29,11 +29,11 @@ You do not have to wait on this screen. Press **Go to dashboard** at any time; y
 
 ## If you already have a Monerium IBAN
 
-Monerium gives each profile one IBAN. If yours already exists and pays into another wallet, Zold uses that same IBAN rather than asking for a second one. After you press **Activate IBAN with passkey**, the app shows **Use your Monerium IBAN in Zold** with the last four digits of the IBAN and where it pays today.
+Monerium gives each profile one IBAN. If yours already exists and pays into another wallet, Zold uses that same IBAN rather than asking for a second one. After you press **Get your IBAN**, the app shows **Use your Monerium IBAN in Zold** with the last four digits of the IBAN and where it pays today.
 
 Type `MOVE` and approve with Face ID or your fingerprint. From then on, payments to that IBAN arrive in your Zold account and the old wallet stops receiving them. Anyone paying you keeps using the same IBAN, and you can move it back from Monerium.
 
-If you cancel, nothing changes. Press **Activate IBAN** again whenever you are ready.
+If you cancel, nothing changes. Press **Get your IBAN** again whenever you are ready.
 
 ## Adding Monerium API keys instead
 
@@ -53,4 +53,4 @@ Monerium decides who it verifies, and Zold can't change its answer. If it declin
 
 ## If activation fails
 
-Occasionally your account is ready but the IBAN is not issued. Nothing is lost. Open your account and press **Activate IBAN** to retry.
+Occasionally your account is ready but the IBAN is not issued. Nothing is lost. Open your account and press **Get your IBAN** to retry.

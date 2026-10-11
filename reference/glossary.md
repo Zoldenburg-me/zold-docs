@@ -6,9 +6,9 @@ description: Words used in the app and in these pages, briefly, including the te
 
 The everyday pages avoid technical words. This list keeps all of them, in plain sentences. For how the parts fit together, see [How Zold works under the hood](how-it-works.md).
 
-**Approval** — Your yes to one transfer, given with Face ID, your fingerprint or your device PIN. It covers that amount and that recipient, and nothing else.
+**Approval** — Your yes to one transfer, given with your passkey: Face ID, your fingerprint or your device PIN on a phone; Touch ID, Windows Hello, your computer's password, your phone or a security key on a computer. It covers that amount and that recipient, and nothing else.
 
-**Approver** — A key that can approve transfers from an account. On a Zold account the only approver is your Face ID or fingerprint key, unless you add a backup key.
+**Approver** — A key that can approve transfers from an account. On a Zold account the only approver is your passkey, unless you add a backup key.
 
 **Backup key** — A second key you add and keep yourself, such as a hardware wallet. It can approve on its own, and with it you can reach your account without Zold. In Safe's terms it is a second owner.
 
@@ -48,11 +48,11 @@ The everyday pages avoid technical words. This list keeps all of them, in plain 
 
 **Organisation** — The tenant that holds accounts and members. A personal account is an organisation of one.
 
-**Owner** — Safe's word for an approver. Your Face ID or fingerprint key is your account's only owner unless you add a backup key. (In a business, the **Owner** role is something else: the member who manages the plan and can close the organisation.)
+**Owner** — Safe's word for an approver. Your passkey is your account's only owner unless you add a backup key. (In a business, the **Owner** role is something else: the member who manages the plan and can close the organisation.)
 
-**Passkey** — The key behind your Face ID or fingerprint. Your device creates it in its secure hardware, it is bound to zoldhq.com, and it both signs you in and approves your transfers. It is your account's only owner.
+**Passkey** — The key you approve with: Face ID or your fingerprint on a phone; Touch ID, Windows Hello, your computer's password, your phone or a security key on a computer. Your device creates it in its secure hardware, it is bound to zoldhq.com, and it both signs you in and approves your transfers. It is your account's only owner.
 
-**Payment key** — A second key created in your browser on each device. It signs the exact terms of each payment. Where your device supports it, it is encrypted so that only your Face ID or fingerprint can unlock it. On its own it moves nothing.
+**Payment key** — A second key created in your browser on each device. It signs the exact terms of each payment. Where your device supports it, it is encrypted so that only your passkey can unlock it. On its own it moves nothing.
 
 **Payment page** — Your public link at zoldhq.com/pay/handle, showing an address anyone can pay.
 

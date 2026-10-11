@@ -4,7 +4,7 @@ description: Who can approve payments from your company's account, who can recov
 
 # Access and recovery
 
-A company account has its own sign-in: the email and the Face ID or fingerprint you used to create the company account. That sign-in approves every transfer from the company's account. In Zold Business, **Settings → Access** shows who can approve. Zold reads it from the account itself each time you open the screen.
+A company account has its own sign-in: the email and the passkey you set up when you created the company account: Face ID or a fingerprint on a phone, or what your computer offers, such as Touch ID, Windows Hello or a security key. That sign-in approves every transfer from the company's account. In Zold Business, **Settings → Access** shows who can approve. Zold reads it from the account itself each time you open the screen.
 
 Only the company's own sign-in sees **Access**, and only in that company's dashboard. Other members, admins included, see a note that the company's sign-in manages it. So does the company's sign-in in any other organisation it belongs to: its account is not that organisation's account. Members' own sign-in and recovery are in the Zold app, under **Security**.
 
@@ -13,13 +13,13 @@ Only the company's own sign-in sees **Access**, and only in that company's dashb
 **Access** lists:
 
 * **Account**: the account's address.
-* **This sign-in**: whether the company sign-in's Face ID or fingerprint is still an approver.
+* **This sign-in**: whether the company sign-in's passkey is still an approver.
 * **Backup key**, or **Other approvers**: any backup key that can also approve, such as a hardware wallet you added yourself.
 * **Approvals needed**: how many approvals a transfer needs, for example "1 of 1" or "2 of 2".
 
 Zold approves only with the company sign-in's key, and never collects another key's approval. If the account needs 2 approvals, or the sign-in's key is no longer an approver, **Access** says that Zold can't send from this account. Send from Safe's own app instead: **Open the account in Safe{Wallet}** takes you there. See [How Zold works under the hood](../reference/how-it-works.md).
 
-To add or remove a backup key, choose **Change in the app**. The Zold app opens on the same sign-in, and you approve the change with Face ID or fingerprint.
+To add or remove a backup key, choose **Change in the app**. The Zold app opens on the same sign-in, and you approve the change with your passkey.
 
 ## Recovery
 

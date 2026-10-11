@@ -4,7 +4,7 @@ description: Watch and book wallets you hold elsewhere, or bring your company's 
 
 # Imported wallets
 
-There are two different things here. A **watched wallet** is one you only book in Zold; nothing is approved for it in Zold. **Your company's existing Safe**, brought in when you open the account, becomes the account itself, and you approve its transfers in Zold with Face ID or fingerprint like any account Zold opened.
+There are two different things here. A **watched wallet** is one you only book in Zold; nothing is approved for it in Zold. **Your company's existing Safe**, brought in when you open the account, becomes the account itself, and you approve its transfers in Zold with your passkey like any account Zold opened.
 
 ## Watched wallets
 
@@ -35,14 +35,14 @@ An organisation's books hold at most 100,000 lines. When they are full, syncing 
 
 If your company already holds its money in a Safe, for example one controlled by a Ledger, you can use that Safe as the company's Zold account instead of opening a new one. No money moves.
 
-1. Create the company account and set up Face ID. Zold then asks where the money should sit: choose **Use our company's existing Safe**.
+1. Create the company account and set up your passkey. Zold then asks where the money should sit: choose **Use our company's existing Safe**.
 2. Paste the Safe's address. Zold shows its owners, how many approvals it needs and its network, so you can check it is the right one.
 3. Choose how to add your phone:
    - **Keep your wallet as a second owner** (the default). Afterwards your phone or your wallet can each approve on their own.
    - **Replace your wallet with your phone.** Your wallet stops being an owner for good.
 4. Tap **Download for Safe{Wallet}**. In app.safe.global, connect the wallet that owns the Safe, open **Apps → Transaction Builder**, drag the file in, and sign and send it with your wallet. Zold never sees or sends that signature.
 5. Back in Zold, tap **I've sent it**. Zold checks the Safe on the network. If the change has not arrived yet, wait a minute and check again.
-6. Zold shows the Safe's owners as the network has them now, and names any owner other than your phone. That owner can move the money on its own, so approve only if it is your wallet or your company's. Tap **Approve with Face ID**: only with that approval does Zold make the Safe the company's account. The approval covers this Safe with exactly these owners; if they change before Zold finishes, it asks you to check and approve again.
+6. Zold shows the Safe's owners as the network has them now, and names any owner other than your phone. That owner can move the money on its own, so approve only if it is your wallet or your company's. Choose **Approve with Face ID** (on a computer, **Approve with your passkey**): only with that approval does Zold make the Safe the company's account. The approval covers this Safe with exactly these owners; if they change before Zold finishes, it asks you to check and approve again.
 
 Until step 6 succeeds you can still choose **Use a new account instead**. Once the company has its own new account, it can't bring in a Safe later.
 

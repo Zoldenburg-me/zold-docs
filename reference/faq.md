@@ -8,7 +8,7 @@ description: Short answers to the questions people ask first.
 No. Zold is an app built by Zoldenburg. Your IBAN and your euros come from Monerium EMI ehf., an electronic money institution licensed in Iceland and supervised by the Central Bank of Iceland. Under the EU E-Money Directive (2009/110/EC), that licence is passported across the European Economic Area, so Monerium can serve you anywhere in the EEA. Zold holds no licence of its own: Monerium looks after the regulated money, and Zold builds the software you use it with. Only you can approve what leaves your account.
 
 **Can anyone send money from my account except me?**
-No. Every transfer is approved with your Face ID or fingerprint on your own device, for that amount and that recipient. Someone who has your email or password, someone posing as a bank employee on the phone, and Zold itself cannot approve one. If anyone asks you to approve a transfer you did not start, don't.
+No. Every transfer is approved with your passkey on your own device (Face ID or your fingerprint on a phone), for that amount and that recipient. Someone who has your email or password, someone posing as a bank employee on the phone, and Zold itself cannot approve one. If anyone asks you to approve a transfer you did not start, don't.
 
 **Could a thief empty my account with my phone?**
 Not with the phone alone. Every transfer needs your face or fingerprint, or your phone's passcode where the phone falls back to it, so keep a passcode only you know. If your phone is lost or stolen, [recovery](../getting-started/security-and-recovery.md) moves your account to a new phone after a short wait.
@@ -38,7 +38,7 @@ No. E-money is not covered by a deposit guarantee scheme. Instead, the issuer mu
 No. Every transfer is approved on your device, and Zold holds no key to your account. Recovery is your choice: if you pick Zoldenburg for recovery, it can move your account to your new phone after verifying it's you, but never send money, and you can cancel the move from your old phone during the waiting period. Add a backup key of your own, such as a hardware wallet, and Zold has no part in it at all. The one other party is Monerium: as the issuer of your euros, it can freeze them where the law requires it.
 
 **What happens if Zold shuts down?**
-If you added a backup key of your own, your account is yours even without Zold: you can move your money with Safe's open tools at [app.safe.global](https://app.safe.global). Without a backup key, your Face ID or fingerprint key works only through zoldhq.com, so you depend on Zold's sign-in. Either way, your right to redeem your euros is against Monerium, not Zold. See [How Zold works under the hood](how-it-works.md).
+If you added a backup key of your own, your account is yours even without Zold: you can move your money with Safe's open tools at [app.safe.global](https://app.safe.global). Without a backup key, your passkey works only through zoldhq.com, so you depend on Zold's sign-in. Either way, your right to redeem your euros is against Monerium, not Zold. See [How Zold works under the hood](how-it-works.md).
 
 **Do I need to buy crypto?**
 No. You use euros. There are no network fees for you to pay.
@@ -47,7 +47,7 @@ No. You use euros. There are no network fees for you to pay.
 No. The card spends from its own card account, like any card. The approval rule covers transfers from your Zold account. See [Gnosis Pay card](../add-ons/gnosis-pay-card.md).
 
 **Can I have more than one device?**
-Yes, if your Face ID or fingerprint key syncs (iCloud Keychain, Google Password Manager, a password manager). Each device also has its own payment key, created the first time you use the account there.
+Yes, if your passkey syncs (iCloud Keychain, Google Password Manager, a password manager). Each device also has its own payment key, created the first time you use the account there.
 
 **I lost my phone.**
 See [Security and recovery](../getting-started/security-and-recovery.md). If you chose Zoldenburg for recovery, start a recovery from the sign-in screen and contact support with the reference it shows; we check your identity and sign it. If you did not choose recovery, Zoldenburg UG cannot recover your account — only your euro balance can be recovered, from Monerium.

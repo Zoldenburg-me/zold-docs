@@ -21,8 +21,8 @@ Everything about you as the issuer is entered once and prefilled onto every invo
 
 | Field | Notes |
 | --- | --- |
-| VAT ID (USt-IdNr.) | Required for reverse-charge and intra-community supplies. |
-| Tax number (Steuernummer) | Required under the German rule set unless you use the small-business scheme. |
+| VAT ID (USt-IdNr.) | Required for reverse-charge and intra-community supplies. In the EU it must be your country's VAT number, for example DE123456789 or FR12345678901. Outside the EU, enter your identifier as it is written. |
+| Tax number (Steuernummer) | Required under the German rule set unless you use the small-business scheme. A German Steuernummer has 10 to 13 digits. In any other country, enter your tax number as it is written. |
 | Small-business scheme | Tick it if § 19 UStG (or your country's equivalent) applies. Invoices are then issued exempt and the "Charge VAT" option is off until you untick it. |
 | Default VAT rate | The rate new lines start with. Germany is fixed at 19% or 7%; elsewhere you set it. |
 | Payment terms | Days, plus the note printed on the invoice, e.g. "Payable within 14 days without deduction". |

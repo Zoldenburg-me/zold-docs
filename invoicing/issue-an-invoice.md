@@ -12,7 +12,7 @@ Zold is not a tax adviser. What the software guarantees is narrower and exact: i
 
 ## Before your first invoice
 
-Fill in **Settings → Your details on an invoice** once: legal name and address, VAT ID and tax number, bank details, register court and number where applicable, default payment terms, the invoice number series and a footer. Every invoice you issue is prefilled from it. See [Invoice settings](invoice-settings.md).
+Fill in your **business profile** once: legal name and address, VAT ID and tax number, and company registration where applicable. Then set your **invoicing profile**: language, bank details, default payment terms, the invoice number series and a footer. Every invoice you issue is prefilled from them. See [Invoice settings](invoice-settings.md).
 
 ## The form
 
@@ -20,7 +20,7 @@ Fill in **Settings → Your details on an invoice** once: legal name and address
 
 **Dates.** Invoice date, and the **date of supply** or a supply period. The date of supply is required even when it equals the invoice date. The **due date** comes from your payment terms; you can set a different one on any invoice.
 
-**Language.** German or English, from your invoice settings; you can choose the other for one invoice.
+**Language.** English or German, from your invoicing profile, which starts from your company's country; you can choose the other for one invoice. Amounts and dates are written the way that language writes them.
 
 **Number.** Taken from your series; you can override it. Numbers must be unique.
 
@@ -38,13 +38,13 @@ The panel also lists what Zold **does not verify** for your country. For a Germa
 
 ## Issue
 
-Press **Issue**. The invoice is numbered, timestamped and frozen: both parties, the treatment and the display choices are stored as they were at that moment. Changing your organisation profile later does not rewrite an issued invoice. Open it at any time from its number or its customer in the invoice list, for a printable A4 document and a link to send.
+Press **Create and share**. The invoice is numbered, timestamped and frozen: both parties, the treatment and the display choices are stored as they were at that moment. Changing your business profile later does not rewrite an issued invoice.
 
-## Get paid by link
+You get **one link** to send your customer. It opens the invoice as a printable A4 document with a **Pay** button. The button opens a [payment link](../get-paid/payment-links.md) for the invoice's amount, made when the invoice is issued. Your customer pays by bank transfer or in USDC, whichever your account takes, and the invoice is marked paid when the money arrives. The link is shown once, so copy it then.
 
-An issued invoice that is still open has a **Payment link** action in the business dashboard's invoice list. It makes a [payment link](../get-paid/payment-links.md) for the invoice's amount. Your customer pays it by bank transfer or in USDC, and the invoice is marked paid when the money arrives. Send the link with the invoice.
+## When the invoice has no Pay button
 
-The link pays into your organisation's euro account, so only the member whose login connected that account can make it. Anyone else who tries is told that the link has to come from that member.
+The Pay button pays into your organisation's euro account, so only the member whose login connected that account can create it. If someone else issues the invoice, if the account isn't open yet, or if no way to get paid is set up, the invoice is still issued, with your bank details instead of a button. The dialog after issuing says which of these applies. The member whose account it is can add the button later with the **Payment link** action in the invoice list. An invoice has one payment link: asking again returns the one it already has.
 
 Until your organisation has its own [payment page](../get-paid/payment-page.md), the link opens under that member's page address (`/pay/<their page>/…`). The money goes to the organisation's account either way; set up the company's page under **Get paid** for links in the company's name.
 

@@ -41,4 +41,6 @@ If the euro account is the one your login approves for, **Statements** in the si
 
 The documents name the holder your bank provider has on record for the IBAN. For a company that is its registered name, with you as the person who operates the account. A proof of ownership asks for your passkey: the account itself confirms the document, which shows you control it.
 
+Zold does not keep a postal address, so a statement shows the account's country under the holder's name. To print a full address, type it into **Your address on this printout** above the statement. It is printed under the name, marked as entered by you and not verified. It stays on that page: Zold does not send or keep it, and it is not part of what the verification address checks. Type it again each time you open the statement. The official statement with your verified address comes from Monerium, from your Monerium account at monerium.app.
+
 If another member's login approves for the account, that member issues its documents.

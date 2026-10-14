@@ -20,7 +20,7 @@ Fill in **Settings → Your details on an invoice** once: legal name and address
 
 **Dates.** Invoice date, and the **date of supply** or a supply period. The date of supply is required even when it equals the invoice date. The **due date** comes from your payment terms; you can set a different one on any invoice.
 
-**Language.** German or English, from your invoice settings; you can choose the other for one invoice.
+**Language.** English, German, French or Spanish — your invoice settings pick the default; you can choose another for one invoice. The preview and the document your customer opens are typeset in the language you pick.
 
 **Number.** Taken from your series; you can override it. Numbers must be unique.
 
@@ -35,6 +35,10 @@ Fill in **Settings → Your details on an invoice** once: legal name and address
 The panel on the right says **Ready to issue** or lists what is still needed, with the rule behind each item. Under the German rule set, for example, a missing date of supply or a missing tax number is an error; under the Kleinunternehmer scheme the tax number becomes a warning. Errors block issuing; warnings do not.
 
 The panel also lists what Zold **does not verify** for your country. For a German entity that includes whether your chosen exemption actually applies and whether the customer's VAT ID is valid. For an Indian one it names GSTIN, HSN/SAC codes, place of supply and the CGST/SGST/IGST split, none of which Zold models.
+
+### Outside Germany
+
+Only Germany's rules are encoded. For every other country the banner reads **Not supported**: Zold checks only that the invoice names you, your address and a unique number, and that the tax reason you picked exists there. Before the invoice goes out, a dialog asks you to verify the number, both parties' details, the amounts and the tax line yourself — the invoice goes out exactly as you wrote it.
 
 ## Issue
 

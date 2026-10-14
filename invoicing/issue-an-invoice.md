@@ -7,7 +7,7 @@ description: Issue an invoice that carries every mandatory detail, with the VAT 
 Zold issues invoices as well as receiving them. Invoices → **Issue an invoice**. Available on Premium and Business.
 
 {% hint style="info" %}
-Zold is not a tax adviser. What the software guarantees is narrower and exact: it will not produce a document that is missing a mandatory field for your country's rule set, and it will not show VAT you have said you do not owe. Whether a supply is exempt, and which exemption applies, is your decision with your accountant.
+Zold is not a tax adviser. What the software guarantees is narrower and exact. For a German issuer it will not produce a document that is missing a mandatory § 14 field, and it will not show VAT you have said you do not owe. For every other country only Germany's rules are encoded: Zold checks that the invoice names you, your address and a unique number — nothing else — and asks you to verify the rest yourself. Whether a supply is exempt, and which exemption applies, is your decision with your accountant.
 {% endhint %}
 
 ## Before your first invoice
@@ -18,7 +18,7 @@ Fill in **Settings → Your details on an invoice** once: legal name and address
 
 **Customer.** Pick a contact or type the customer's name and address. For a reverse-charge or intra-community supply, their VAT ID is required and the form says so.
 
-**Dates.** Invoice date, and the **date of supply** or a supply period. The date of supply is required even when it equals the invoice date. The **due date** comes from your payment terms; you can set a different one on any invoice.
+**Dates.** Invoice date, and the **date of supply** or a supply period — a German invoice requires it even when it equals the invoice date. The **due date** comes from your payment terms; you can set a different one on any invoice.
 
 **Language.** English, German, French or Spanish — your invoice settings pick the default; you can choose another for one invoice. The preview and the document your customer opens are typeset in the language you pick.
 
@@ -58,7 +58,7 @@ Amounts are kept in whole cents. VAT is rounded once per rate, the way a tax off
 
 ## Simplified invoices
 
-In Germany an invoice up to **€250 gross** may omit the recipient, the invoice number, the tax number and the date of supply. Zold applies that shortcut only under the German rule set; elsewhere full content is required, because the thresholds of other countries have not been checked.
+In Germany an invoice up to **€250 gross** may omit the recipient, the invoice number, the tax number and the date of supply. Zold applies that shortcut only under the German rule set. For every other country no simplification is encoded — whether yours allows one is yours to find out.
 
 ## Correcting an issued invoice
 

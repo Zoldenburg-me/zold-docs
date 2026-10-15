@@ -8,6 +8,8 @@ description: What protects your account, what you have to protect, and how to ge
 
 **Your face or fingerprint** approves every transfer and signs you in. Behind it is a key kept in your device's secure hardware that never leaves it. Zold asks for that check every time, at sign-in too, so a security key with no PIN or fingerprint set cannot be used.
 
+![Setting up sign-in during account setup.](../.gitbook/assets/passkey-setup.png)
+
 **Your payment key** is a second key, created in your browser the first time you use the account on a device. It signs the exact terms of every payment — the amount, the payee and the transfer — so that even someone who steals your signed-in session cannot change where money goes. Where your device supports it, the payment key is encrypted with a secret only your Face ID or fingerprint can unlock, so each payment needs that check to use it.
 
 Settings → **Security** shows whether the payment key on this device is encrypted. Where it says **Not encrypted**, the key sits in this browser's storage as it is, because the authenticator here cannot encrypt it. A copy of it still moves nothing on its own: every payment also needs your Face ID or fingerprint, and your account checks that approval itself. Someone with a copy could sign payment terms, so do not use Zold on a shared computer in that browser, and remove browser extensions you do not trust.
@@ -55,11 +57,7 @@ Zoldenburg recovers only accounts whose ID Monerium has verified. It cannot send
 {% endhint %}
 
 {% hint style="info" %}
-The recovery emails never contain a link and never ask you to approve anything or to give a code. To cancel, open the Zold app yourself.
-{% endhint %}
-
-{% hint style="info" %}
-**It was me** on the warning hides it on that device until you close the tab. If Zold can't check whether a recovery is under way, it says so in the same place rather than show nothing.
+The recovery emails never contain a link and never ask you to approve anything or give a code. To cancel, open the Zold app yourself. **It was me** on the warning hides it on that device until you close the tab.
 {% endhint %}
 
 {% hint style="info" %}

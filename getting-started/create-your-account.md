@@ -23,10 +23,6 @@ For an account in your own name. For a company, see [Create a business account](
 A "yes" to the US question closes the account path wherever you live, and the answer is recorded.
 {% endhint %}
 
-{% hint style="warning" %}
-**Not yet fully live.** Step 3 (Google, Apple or email recovery) is not offered yet. See [Security and recovery](security-and-recovery.md#your-own-backup-login).
-{% endhint %}
-
 ## Good to know
 
 - **Who can join**: Zold is unavailable to US persons, residents of sanctioned countries, and residents of some countries. See [Eligibility](../reference/eligibility.md).

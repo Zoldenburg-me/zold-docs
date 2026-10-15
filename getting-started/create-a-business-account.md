@@ -19,10 +19,6 @@ For a company. For an account in your own name, see [Create a personal account](
 5. Set up your passkey, then **approve once more**.
 6. On Home, finish **Confirm your email** and [Get your IBAN](connect-monerium.md).
 
-{% hint style="warning" %}
-**Not yet fully live.** Step 4 (Google, Apple or email recovery) is not offered yet.
-{% endhint %}
-
 ## Good to know
 
 - **Who can join**: see [Eligibility](../reference/eligibility.md). A US incorporation or a US owner of 25% or more closes the account path.

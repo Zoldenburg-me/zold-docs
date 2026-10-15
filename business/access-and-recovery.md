@@ -1,39 +1,28 @@
 ---
-description: Who can approve payments from your company's account, who can recover it, and where to change either.
+description: Check who approves a company account and how it can be recovered.
 ---
 
 # Access and recovery
 
-A company account has its own sign-in: the email and the passkey you set up when you created the company account: Face ID or a fingerprint on a phone, or what your computer offers, such as Touch ID, Windows Hello or a security key. That sign-in approves every transfer from the company's account. In Zold Business, **Settings → Access** shows who can approve. Zold reads it from the account itself each time you open the screen.
-
-Only the company's own sign-in sees **Access**, and only in that company's dashboard. Other members, admins included, see a note that the company's sign-in manages it. So does the company's sign-in in any other organisation it belongs to: its account is not that organisation's account. Members' own sign-in and recovery are in the Zold app, under **Security**.
+The company's own sign-in—its email and passkey—approves transfers from its account. In Business, **Settings → Access** is visible only to that sign-in. Other members, including admins, see a note. The company sign-in sees the same note in other organisations; its account is separate. Members manage their personal sign-in in the Zold app's **Security** screen.
 
 ## Who can approve
 
-**Access** lists:
+**Access** shows the account address, whether this sign-in is an approver, backup keys or other approvers, and the required threshold (for example, **1 of 1**).
 
-* **Account**: the account's address.
-* **This sign-in**: whether the company sign-in's passkey is still an approver.
-* **Backup key**, or **Other approvers**: any backup key that can also approve, such as a hardware wallet you added yourself.
-* **Approvals needed**: how many approvals a transfer needs, for example "1 of 1" or "2 of 2".
+Zold uses only the company sign-in's key; it never collects another key's approval. If the account needs two approvals, or this sign-in is no longer an approver, Zold cannot send. Use **Open the account in Safe{Wallet}** instead. To add or remove a backup key, choose **Change in the app** and approve there with the passkey.
 
-Zold approves only with the company sign-in's key, and never collects another key's approval. If the account needs 2 approvals, or the sign-in's key is no longer an approver, **Access** says that Zold can't send from this account. Send from Safe's own app instead: **Open the account in Safe{Wallet}** takes you there. See [How Zold works under the hood](../reference/how-it-works.md).
+## Recovery status
 
-To add or remove a backup key, choose **Change in the app**. The Zold app opens on the same sign-in, and you approve the change with your passkey.
+**Access** shows one of these:
 
-## Recovery
+| Status | What it means |
+| --- | --- |
+| **Who can recover** | Zoldenburg UG, email codes, phone codes or both. Contacts are masked. Recovery added directly in Safe{Wallet} appears as **Not set up in Zold** with a warning; it can still start a recovery. If no one at the company added it, remove it in Safe{Wallet}. |
+| **No one can recover this account** | Losing the company sign-in's device and key means Zoldenburg cannot recover it. Only the euro balance can be reclaimed from Monerium. Choose **Set up recovery** to open the app. |
+| **A recovery is under way** | Access shows when the move can complete. A warning appears on every Business page within a minute, without reload. If nobody at the company started it, choose **Check it** and cancel in the app. |
+| **Couldn't check recovery** | Zold could not read every recovery setting. This does not mean none is active. Choose **Try again**. |
 
-**Access** shows one of four things:
+Recovery is optional; the account can still be funded and used without it. Until the company sign-in chooses, every company screen warns that nobody can recover the account. If it declines, the banner goes away and Access records when; recovery can be added later.
 
-* **Who can recover the account**: Zoldenburg UG, email or phone codes, or both. Masked contacts are shown for codes. A recovery that wasn't set up in Zold, for example one added in Safe{Wallet}, is listed as **Not set up in Zold**, with a warning: it can start a recovery like any other. If no one at the company added it, remove it in Safe{Wallet}.
-* **No one can recover this account.** If the company sign-in's device and key are lost, Zoldenburg UG cannot recover the company's account. Only the euro balance can be reclaimed, from Monerium. **Set up recovery** opens the Zold app's **Recovery** screen.
-* **A recovery is under way.** Someone has asked to move the account to a new device, and **Access** says when the move can complete. The same warning appears at the top of every Zold Business page within a minute, without reloading. If no one at the company started it, choose **Check it** and cancel it in the app before then.
-* **Couldn't check recovery.** Zold couldn't read every recovery set on the account, so it can't say whether a recovery is under way. This does not mean there is none. Choose **Try again**.
-
-Recovery is optional: a company account without it can still be funded and used. Until the company sign-in has answered whether it wants recovery, every screen of the company's dashboard shows a banner saying no one can recover the account. If the sign-in chose not to add it, the banner goes away, and **Access** says when that choice was made. You can add recovery at any time.
-
-How each kind of recovery works, and the waiting period that protects you, is in [Security and recovery](../getting-started/security-and-recovery.md).
-
-{% hint style="info" %}
-Changes to approvers and recovery are made in the Zold app, not in Zold Business. Open the app on the company's sign-in, or use the links on **Access**.
-{% endhint %}
+Recovery types and waiting periods are in [Security and recovery](../getting-started/security-and-recovery.md). Change approvers and recovery in the Zold app, not Business; use the links on **Access**.

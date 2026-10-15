@@ -1,81 +1,60 @@
 ---
-description: Issue an invoice that carries every mandatory detail, with the VAT treatment your country's rules require.
+description: Write an invoice, share one link, get paid.
 ---
 
 # Issue an invoice
 
-Zold issues invoices as well as receiving them. Invoices → **Issue an invoice**. Available on Premium and Business.
+Write an invoice in Zold and send your customer one link with a **Pay** button. Premium and Business plans.
 
-{% hint style="info" %}
-Zold is not a tax adviser. What the software guarantees is narrower and exact. For a German issuer it will not produce a document that is missing a mandatory § 14 field, and it will not show VAT you have said you do not owe. For every other country only Germany's rules are encoded: Zold checks that the invoice names you, your address and a unique number — nothing else — and asks you to verify the rest yourself. Whether a supply is exempt, and which exemption applies, is your decision with your accountant.
-{% endhint %}
+![The invoice form. The right side is the document your customer gets.](../.gitbook/assets/invoice-editor.png)
 
 ## Before your first invoice
 
-Fill in your **business profile** once: legal name and address, VAT ID and tax number, and company registration where applicable. Then set your **invoicing profile**: language, bank details, default payment terms, the invoice number series and a footer. Every invoice you issue is prefilled from them. See [Invoice settings](invoice-settings.md).
+Fill in your [business profile and invoicing profile](invoice-settings.md) once. Every invoice is prefilled from them.
 
-## The form
+## Steps
 
-![The invoice form. The panel on the right is the document your customer gets, kept up to date as you type.](../.gitbook/assets/invoice-editor.png)
+1. Go to **Invoices → Issue an invoice**.
+2. Pick a **customer** from your contacts, or type their name and address. Reverse-charge or intra-community? Their VAT ID is required.
+3. Set the **invoice date** and the **date of supply**. A German invoice needs the date of supply even when it's the same day.
+4. Add **lines**: description, quantity, unit price, VAT rate.
+5. Set **VAT**: taxable, or **exempt** with a reason from the list. Exempt means no line carries VAT.
+6. Wait for the right-hand panel to say **Ready to issue**.
+7. Press **Create and share** and copy the link. It is shown once.
 
-**Customer.** Pick a contact or type the customer's name and address. For a reverse-charge or intra-community supply, their VAT ID is required and the form says so.
-
-**Dates.** Invoice date, and the **date of supply** or a supply period — a German invoice requires it even when it equals the invoice date. The **due date** comes from your payment terms; you can set a different one on any invoice.
-
-**Language.** English, German, French or Spanish — your invoicing profile picks the default from your company's country; you can choose another for one invoice. The preview and the document your customer opens are typeset in that language, and amounts and dates are written the way it writes them.
-
-**Number.** Taken from your series; you can override it. Numbers must be unique.
-
-**Lines.** Description, quantity, unit price, and a VAT rate per line. Add as many as you need.
-
-**VAT.** Either the invoice is taxable at the rates on its lines, or it is **exempt** for a reason you choose from the list your jurisdiction offers. When it is exempt, no line carries VAT: the form removes the rate, and the totals show none. An exempt invoice with a VAT amount is not something the form can produce. Each reason shows its legal basis next to it, and the note the law requires is printed on the document verbatim.
-
-**What appears on the invoice.** Toggles for the optional blocks: tax number, VAT IDs, supply period, payment terms, bank details, purchase order number, notes, footer, and a bilingual German/English layout. Everything the law requires is printed regardless and is not in this list.
-
-## The readiness check
-
-The panel on the right says **Ready to issue** or lists what is still needed, with the rule behind each item. Under the German rule set, for example, a missing date of supply or a missing tax number is an error; under the Kleinunternehmer scheme the tax number becomes a warning. Errors block issuing; warnings do not.
-
-The panel also lists what Zold **does not verify** for your country. For a German entity that includes whether your chosen exemption actually applies and whether the customer's VAT ID is valid. For an Indian one it names GSTIN, HSN/SAC codes, place of supply and the CGST/SGST/IGST split, none of which Zold models.
-
-### Outside Germany
-
-Only Germany's rules are encoded. For every other country the banner reads **Not supported**: Zold checks only that the invoice names you, your address and a unique number, and that the tax reason you picked exists there. Before the invoice goes out, a dialog asks you to verify the number, both parties' details, the amounts and the tax line yourself — the invoice goes out exactly as you wrote it.
-
-## Issue
-
-Press **Create and share**. The invoice is numbered, timestamped and frozen: both parties, the treatment and the display choices are stored as they were at that moment. Changing your business profile later does not rewrite an issued invoice.
-
-You get **one link** to send your customer. It opens the invoice as a printable A4 document with a **Pay** button. The button opens a [payment link](../get-paid/payment-links.md) for the invoice's amount, made when the invoice is issued. Your customer pays by bank transfer or in USDC, whichever your account takes, and the invoice is marked paid when the money arrives. The link is shown once, so copy it then.
+Your customer opens the link, sees the A4 invoice, and pays by bank transfer or USDC. The invoice is marked paid when the money arrives.
 
 ![Issued invoices in the business dashboard.](../.gitbook/assets/invoices-list.png)
 
-## When the invoice has no Pay button
+## Good to know
 
-The Pay button pays into your organisation's euro account, so only the member whose login connected that account can create it. If someone else issues the invoice, if the account isn't open yet, or if no way to get paid is set up, the invoice is still issued, with your bank details instead of a button. The dialog after issuing says which of these applies. The member whose account it is can add the button later with the **Payment link** action in the invoice list. An invoice has one payment link: asking again returns the one it already has.
+- **Language**: English, German, French or Spanish. The default comes from your invoicing profile; change it per invoice.
+- **Number**: from your series. You can override it, but it must be unique.
+- **Due date**: from your payment terms; change it per invoice.
+- **Errors block, warnings don't.** The panel names the rule behind each item, and what Zold doesn't check for your country.
+- **What appears on the invoice**: toggles for optional blocks only. Anything the law requires always prints.
+- **Issued means frozen.** Changing your profile later doesn't touch it.
+
+## Outside Germany
+
+Only Germany's invoicing rules are built in. Everywhere else the panel says **Not supported**. Zold checks your name, your address, a unique number and that your tax reason exists there. Then a dialog asks you to check the rest yourself.
+
+{% hint style="info" %}
+Zold is not a tax adviser. For a German issuer it won't produce an invoice missing a mandatory § 14 field, or show VAT you said you don't owe. Whether a supply is exempt is your call, with your accountant.
+{% endhint %}
+
+## No Pay button?
+
+The Pay button pays into your organisation's euro account. Only the member who connected that account can create it.
+
+If someone else issues the invoice, the account isn't open yet, or no way to get paid is set up, the invoice still goes out, with your bank details instead. That member can add the button later with **Payment link** in the invoice list. One invoice has one payment link.
 
 ![An issued invoice, with its Payment link action.](../.gitbook/assets/invoice-detail.png)
 
-Until your organisation has its own [payment page](../get-paid/payment-page.md), the link opens under that member's page address; the money goes to the organisation either way.
+## Simplified invoices (Germany only)
 
-## Totals
-
-VAT is rounded once per rate, the way a tax office recomputes it, and the per-line VAT column adds up exactly.
-
-## Simplified invoices
-
-In Germany an invoice up to **€250 gross** may omit the recipient, the invoice number, the tax number and the date of supply. Zold applies that shortcut only under the German rule set. For every other country no simplification is encoded — whether yours allows one is yours to find out.
-
-## Correcting an issued invoice
-
-An issued invoice cannot be edited or deleted, whether it is still open or already paid. It stays in your records under its number, so your invoice series has no gaps.
+Up to **€250 gross**, a German invoice may leave out the recipient, number, tax number and date of supply.
 
 {% hint style="warning" %}
-**Not yet fully live.** Cancellation invoices and credit notes are coming. Until then, Zold cannot cancel or correct an issued invoice, so check it before you press **Issue**.
-{% endhint %}
-
-## E-invoicing
-
-{% hint style="warning" %}
-**Not yet fully live.** Structured e-invoices (XRechnung / ZUGFeRD, EN 16931) are coming. German businesses must already be able to receive them; the obligation to issue them phases in from 2027. Until then, the A4 document Zold produces is the invoice.
+**Not yet live.** An issued invoice can't be edited, deleted or cancelled. Cancellation invoices and credit notes are coming, so check before you press **Create and share**. E-invoices (XRechnung / ZUGFeRD) are coming too. German businesses must already be able to receive them, and issuing them phases in from 2027.
 {% endhint %}

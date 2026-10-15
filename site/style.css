@@ -55,6 +55,7 @@ a:hover { color: var(--link-hover); }
 
 main { padding: 40px 56px 40px; min-width: 0; }
 article { max-width: 740px; }
+article img { display: block; max-width: 100%; height: auto; border: 1px solid var(--line); border-radius: 12px; margin: 8px 0 24px; }
 .crumb { margin: 0 0 6px; font-size: 13px; font-weight: 600; color: var(--link); }
 h1, h2, h3, h4 { color: var(--heading); line-height: 1.25; letter-spacing: -.01em; }
 h1 { margin: 0 0 20px; font-size: 34px; letter-spacing: -.02em; }

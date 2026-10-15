@@ -1,76 +1,41 @@
 ---
-description: When a payer decides the amount themselves, collect what arrived in your wallet into a monthly draft invoice and issue it yourself.
+description: Turn receipts from imported wallets into a monthly paid invoice.
 ---
 
 # Invoices from receipts
 
-Some customers do not pay an invoice you send. A DAO paying a delegate decides the amount after its own checks and pays in tokens, sometimes from a multisig, sometimes from a payout contract or a stream you claim. You cannot invoice that up front, because you do not know the amount. So the invoice follows the money: Zold collects what arrived into a draft, and you issue it.
-
-Available on Premium and Business. It reads the transfers into your [imported wallets](../business/imported-wallets.md).
+Premium and Business. Create a monthly invoice from tokens paid into your [imported wallets](../business/imported-wallets.md), when the payer chooses the amount.
 
 {% hint style="warning" %}
-**Not yet fully live.** Drafts are made from what wallet sync has booked. Sync is switched on network by network; until it is on for a wallet's network, nothing from that wallet reaches a draft.
+**Not yet fully live.** Drafts use wallet sync. It is enabled network by network; until a wallet's network is enabled, its transfers are not included.
 {% endhint %}
 
 {% hint style="info" %}
-Zold is not a tax adviser. You choose the tax line for each payer, and Zold applies it as given. How a payment from a DAO or a foundation is taxed, and whether an invoice written after payment suits your case, is a question for your accountant.
+Zold is not a tax adviser. Choose each payer's tax line with your accountant, including whether an invoice after payment fits your situation.
 {% endhint %}
 
 ## Set a payer rule
 
-Contacts → open the contact → **Set payer rule**. The rule holds what the receipts cannot say:
-
-- **What you invoice.** The service description printed on every line.
-- **Addresses it pays from.** One per line: the network id, then the address. List every address the payer uses, including a payout contract or a stream.
-- **Who the invoice is addressed to.** Name and address of the legal entity, and its VAT ID if it has one.
-- **Tax line.** Either a VAT rate, or no VAT with the reason, from the list your country's rule set offers. There is no default.
-- **Language.** English, German, French or Spanish — the same set as on a typed invoice. The rule's choice applies to that payer's drafts and overrides the default from your invoice settings.
-
-The rule and the addresses are saved together. **Stop invoicing** removes the rule; drafts and invoices already made stay.
+Contacts → open a contact → **Set payer rule**. Enter the service description; every payer address (network ID and address, including payout contracts or streams); the legal entity's name, address and VAT ID; tax rate or a reason for no VAT; and invoice language. No tax line is preselected. Choose English, German, French or Spanish; the payer's choice overrides the invoice default. **Stop invoicing** removes the rule but keeps existing drafts and invoices.
 
 ## Collect a month
 
-Invoices → **Collect receipts**, pick the month. For each contact with a payer rule you get one draft with:
+Invoices → **Collect receipts**, then choose a month. Each payer with a rule gets a draft with one line per receipt: date, token, quantity, euro value on arrival and transaction. The total sums those values. A summary lists included, excluded and unmatched receipts, including receipts from contacts without a rule. You can collect a month still in progress; later receipts join the next collection.
 
-- one line per receipt: the date, the token and quantity, its euro value when it arrived, and the transaction;
-- a total that is the sum of those euro values.
+Receipts without an invoice value are listed under **Not included**:
 
-A summary tells you what happened to every receipt of the month: how many are on a draft, how many were left out and why, and how many came from a contact without a rule or from an address that is in no contact.
+- tokens with no price, or tokens on no token list (booked as quantity without value);
+- transfers between your addresses or entries tagged `refund`;
+- non-payment events, such as one leg of a swap or a realised gain.
 
-A month that is still running can be collected. What arrives later joins the draft the next time you collect.
-
-## What is left out
-
-A receipt is on a draft only when it has a euro value. These are listed on the draft under **Not included**, each with its reason, and never invoiced:
-
-- a token Zold has **no price** for yet;
-- a token that is **on no token list**, which is booked as a quantity with no value;
-- a transfer **between your own addresses**;
-- a receipt you tagged **`refund`**: money returned to you is not income;
-- anything that is not a plain incoming payment, such as **one leg of a swap** or a **realised gain**.
-
-If the same address is on two contacts, a receipt from it is given to neither. Put it on one.
-
-If a wallet was behind when you collected, the draft says the month may be incomplete. Collect again once the wallet has caught up. Issuing such a draft asks you to confirm first.
-
-## With a VAT rate
-
-When the rule charges VAT, what you received is the gross amount: the invoice shows the net and the VAT contained in it, and the total still equals what arrived. VAT is rounded once per rate, so for a few amounts no net and VAT add up to the cent. The draft says so, and cannot be issued from here; issue that invoice by hand instead.
+An address shared by two contacts matches neither. If wallet sync is behind, the draft warns that the month may be incomplete. Sync it and collect again; issuing an incomplete draft requires confirmation.
 
 ## Issue the draft
 
-Open the draft and press **Issue invoice**. Nothing is issued until you do.
+With VAT, the received amount is gross; Zold calculates net and included VAT. It rounds VAT once per rate. If rounding prevents net plus VAT matching to the cent, issue that invoice by hand instead.
 
-- The invoice gets the **next number** in your series and **today's date**. It is never dated back to the month of the receipts. The month is printed as the supply period.
-- It goes through the same [readiness check](issue-an-invoice.md#the-readiness-check) as any invoice. Errors block issuing; warnings you can accept.
-- It is marked **paid** straight away, by the receipts it bills. There is nothing to collect and no difference between what was billed and what arrived.
+Choose **Issue invoice**. The invoice uses the next number and today's date, with the receipt month as its supply period. It follows the usual [readiness check](issue-an-invoice.md#steps): errors block, warnings can be accepted. It is marked paid by the receipts immediately.
 
-If a receipt on the draft changed after you collected, or the payer rule was edited, Zold updates the draft and asks you to look at it again instead of issuing.
+If receipts or the payer rule changed after collection, Zold updates the draft and asks you to review it. An invoice has at most **200 lines**; issue the draft and collect again for the rest.
 
-An invoice holds 200 lines. With more receipts than that in a month, issue the draft and collect the month again for the rest.
-
-## After issuing
-
-An issued invoice is frozen. A receipt that arrives for a month you have already invoiced goes on a new draft for that month the next time you collect, so it gets an invoice of its own.
-
-**Discard draft** throws a draft away. Its receipts go back to being uninvoiced, and collecting the month again makes a new draft from them.
+An issued invoice is frozen. Later receipts for an invoiced month form a new draft at the next collection. **Discard draft** returns its receipts to the uninvoiced pool.

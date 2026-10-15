@@ -23,7 +23,7 @@ Being paid in dollars? That is what [your US dollar account](usd-account.md) is 
 Your IBAN is yours to give out. Put it on invoices, give it to your employer, or share it with a client. Money sent to it is yours the moment it arrives.
 
 {% hint style="info" %}
-The account holder name is the one registered with Monerium: your own legal name, or your company's registered name if you signed up as a company. Statements, balance confirmations and proofs of ownership print that same name, and add your name as the person who operates the account when the two differ. If a bank asks, the account is held at Monerium EMI ehf.
+The account holder name is the one registered with Monerium: your own legal name, or your company's registered name if you signed up as a company. Statements, balance confirmations and proofs of ownership print that same name, and add your name as the person who operates the account when the two differ. A statement can also print a postal address you type in when you open it, marked as entered by you. If a bank asks, the account is held at Monerium EMI ehf.
 {% endhint %}
 
 ## Reference

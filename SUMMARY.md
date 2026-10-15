@@ -64,6 +64,11 @@
 * [💳 Gnosis Pay card](add-ons/gnosis-pay-card.md)
 * [🛡️ Privacy Bundle](add-ons/privacy-bundle.md)
 
+## Testers
+
+* [🧪 Test Zold on mainnet](testers/test-on-mainnet.md)
+* [☑️ Tester checklist](testers/tester-checklist.md)
+
 ## Reference
 
 * [🌍 Supported countries](reference/supported-countries.md)

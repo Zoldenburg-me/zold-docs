@@ -1,42 +1,24 @@
 ---
-description: A US account number and routing number of your own. ACH and wire in, dollars held as USDC, dollars out to any US bank.
+description: Request a US dollar account for ACH and wire payments.
 ---
 
 # Your US dollar account
 
 {% hint style="warning" %}
-**Not yet fully live.** US dollar accounts are being added and will open to eligible accounts soon. You can request one now from Accounts → Open an account → US dollar; it is recorded and opened the day the rail is ready, and you will be told in the app.
+**Not yet fully live.** Request an account at **Accounts → Open an account → US dollar**. It will be recorded and opened when the rail is ready; the app will tell you.
 {% endhint %}
 
-Your dollar account is the second of your global accounts. It works like the euro one: a local identifier that anyone in that country can pay, a balance held in your own account, and payouts on the local rail.
+The USD account is provided by **Bridge**, a licensed money transmitter. Bridge issues an account number and routing number in your name, converts incoming dollars to USDC and sends payouts to US banks. Your euro account and Monerium are separate.
 
-## What you get
+## What it offers
 
-* **A US account number and routing number** in your name. Any US bank, employer or client can pay it by ACH or by domestic wire.
-* **A dollar balance** in the same account as your euros, held as digital dollars (USDC), issued by Circle and fully backed by reserves.
-* **Dollar payouts** by ACH or wire to any US bank account, from your balance, at a fixed fee shown on the quote.
-
-## How it works
-
-The account is provided by **Bridge**, a licensed money transmitter that issues the virtual account and settles the dollar side. When a payment reaches your account number, Bridge converts it to digital dollars (USDC) and delivers it to your account. When you pay out, your dollars go to Bridge and leave from there to the payee's bank. Your euro account and Monerium are untouched; each account has its own provider, and each provider's identity check stands on its own.
-
-## Verification
-
-Bridge runs its own verification before it issues an account. When you open a USD account you are taken through a short additional identity step, separate from the one you completed with Monerium. Each regulated partner must know its own customer, and neither accepts the other's check. Your organisation's Settings screen lists each verification and its status.
-
-## Moving between euros and dollars
-
-Once both accounts are open, **Convert** moves money between them inside your account. The quote shows the mid-market rate, your rate and the margin, and you approve it with Face ID or your fingerprint like any payment. Conversions settle in seconds and appear in Activity with the rate applied.
-
-## Fees
-
-| | Fee |
+| Action | Details |
 | --- | --- |
-| Receiving ACH or wire | Free |
-| ACH payout | Fixed fee, shown on the quote |
-| Wire payout | Fixed fee, shown on the quote |
-| Euro ↔ dollar conversion | Margin shown on the quote |
+| Receive | ACH and domestic wire; free. |
+| Hold | USDC in the same Zold account as your euros; issued by Circle and backed by reserves. |
+| Pay out | ACH or wire to a US bank; fixed fee shown on the quote. |
+| Convert | Euro ↔ dollar at the quote's rate and margin; approve with your passkey. Settles in seconds and appears in **Activity**. |
 
-## Who can open one
+Bridge runs its own identity check. Monerium's check does not replace it. **Settings** lists each partner's verification and status.
 
-Eligibility follows Bridge's rules for the country you live in; the app tells you at the moment you request the account. US persons cannot hold a Zold account at all, so a USD account is for people and businesses outside the United States who are paid in dollars or pay in dollars.
+Eligibility follows Bridge's rules for your country. The app tells you when you request the account. US persons cannot hold a Zold account; the USD account is for people and businesses outside the US who receive or pay dollars.

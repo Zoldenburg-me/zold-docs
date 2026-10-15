@@ -14,6 +14,9 @@ Also send [aurel@zoldhq.com](mailto:aurel@zoldhq.com) the email you'll sign in w
 
 ## Step 1: Make your Monerium keys (5 min)
 
+<details>
+<summary>Show how to make your keys</summary>
+
 ![Monerium home](../.gitbook/assets/monerium-home.png)
 
 1. Sign in at **monerium.app** and open **Developers** in the side menu.
@@ -29,6 +32,8 @@ Also send [aurel@zoldhq.com](mailto:aurel@zoldhq.com) the email you'll sign in w
 5. Check that the status reads **Live** and the permissions below are **Enabled**.
 
 ![Permissions](../.gitbook/assets/monerium-app-permissions.png)
+
+</details>
 
 ## Step 2: Connect them in Zold (2 min)
 

@@ -16,12 +16,12 @@ Go to Members → **Invite**, enter an email and choose a role. Send the link yo
 
 Both role and plan must allow an action. A Viewer cannot send on Business; an Owner cannot use Business-only tools on Starter.
 
-## Review and account approval
+## Review and approval
 
-The reviewer cannot be the drafter, whatever their role. An Accountant can draft but not execute; a Payer can send but cannot approve a draft. See [Payments and approvals](payments-and-approvals.md).
+The reviewer cannot be the drafter, whatever their role. See [Payments and approvals](payments-and-approvals.md).
 
 A transfer needs the passkey of the member whose login approves for that account. If you send from an account you do not approve for, the app names who can.
 
 ## Deactivate a member
 
-Members are deactivated, not deleted, so their history stays attributed. Zold refuses changes that would remove or demote an organisation's last active Owner.
+Members are deactivated, not deleted, so history stays attributed. Zold refuses changes that would remove or demote the last active Owner.

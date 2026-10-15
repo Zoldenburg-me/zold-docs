@@ -14,7 +14,7 @@ Your organisation's country selects invoice rules. Zold does not apply one count
 | Other EU countries | Not supported | Issuer, unique number, and whether the chosen tax reason belongs to the EU rule set. |
 | Elsewhere | Not supported | Issuer, unique number, and whether the chosen tax reason exists. |
 
-Every invoice must name its issuer and have a unique number. Its printed exemption reason must belong to the country's rule set. Outside Germany, Zold verifies nothing else and asks you to check the document yourself. The readiness panel says which checks ran.
+Outside Germany, Zold verifies nothing else; check the document yourself. The readiness panel says which checks ran. Elsewhere you set and verify the VAT rate.
 
 ## German exemption reasons
 
@@ -28,10 +28,10 @@ Every invoice must name its issuer and have a unique number. Its printed exempti
 | Place of supply abroad | §3a(2) UStG, Art. 44 | — |
 | Other | — | You enter the reason and legal basis |
 
-The EU rule set cites the same reasons to Directive articles and lets you write the national small-business note required by your rules. Under the structural rule set there is no built-in list. Define your own exemption ID, label, legal basis and printed note; required outside the EU and useful inside it. Zold prints a custom note but does not check it. A custom rule can require the customer's tax ID; Zold checks only that one is present, not its format.
+## Custom exemptions
 
-Germany's **19% and 7%** rates are enforced. Elsewhere you set and verify the rate.
+The EU rule set cites the same reasons to Directive articles and lets you write the national small-business note. Elsewhere there is no built-in list: define your own exemption ID, label, legal basis and printed note (required outside the EU, useful inside it). Zold prints a custom note without checking it. A custom rule can require the customer's tax ID; Zold checks only that one is present, not its format.
 
 ## Check before issuing
 
-Showing VAT you did not owe can make you liable for it and prevent your customer deducting it (§14c UStG in Germany). Missing a mandatory detail can cost your customer its input-tax deduction until corrected. Zold is not a tax adviser; confirm your treatment with your accountant.
+Showing VAT you did not owe can make you liable for it and stop your customer deducting it (§14c UStG in Germany). A missing mandatory detail can cost your customer its input-tax deduction until corrected. Zold is not a tax adviser; confirm your treatment with your accountant.

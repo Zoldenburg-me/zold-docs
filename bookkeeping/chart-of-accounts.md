@@ -4,10 +4,10 @@ description: Map business transactions to accounts using rules or manual categor
 
 # Chart of accounts and rules
 
-Business plan. Open Business → **Chart of accounts**.
+Business plan. Business → **Chart of accounts**.
 
-Zold starts with accounts for revenue, costs, fees and exchange differences. Each has a code, name and type. Rename, add or retire accounts. Retiring hides an account from new mappings but keeps transactions already booked to it.
-
-Rules run in this order: contact → wallet and asset → wallet → default. The first match applies. Change a rule to offer remapping past transactions; accountant-entered mappings stay unless you choose otherwise.
-
-Accountants, admins and owners can use **Categorise** on unmapped transactions. If you leave Business, your chart and rules remain but are not applied until you return.
+- Starter accounts cover revenue, costs, fees and exchange differences. Rename, add or retire accounts; retiring hides one from new mappings but keeps booked transactions.
+- Rules run in this order, first match wins: contact → wallet and asset → wallet → default.
+- Changing a rule offers to remap past transactions; accountant-entered mappings stay unless you choose otherwise.
+- Accountants, admins and owners can **Categorise** unmapped transactions.
+- If you leave Business, your chart and rules remain but are not applied until you return.

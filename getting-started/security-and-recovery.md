@@ -8,48 +8,47 @@ Your passkey approves transfers. Recovery can move your account to a new device,
 
 ## Your two keys
 
-**Passkey:** Face ID, fingerprint, device PIN or computer sign-in unlocks the key in your device's secure hardware. Zold asks for that check at sign-in and for each transfer; a security key without a PIN or fingerprint cannot be used.
+- **Passkey**: unlocked by Face ID, fingerprint, device PIN or computer sign-in; needed at sign-in and for each transfer. A security key without a PIN or fingerprint cannot be used.
+- **Payment key**: each browser creates one on first use. It signs the amount, payee and transfer, and is encrypted where supported.
 
 ![Setting up sign-in during account setup.](../.gitbook/assets/passkey-setup.png)
 
-**Payment key:** Each browser creates one the first time you use your account there. It signs the amount, payee and transfer. Where supported, it is encrypted with a secret only your Face ID or fingerprint can unlock.
+Settings → **Security** shows whether this device's payment key is encrypted. **Not encrypted** means a copy could sign payment terms, though not move money without your passkey. Do not use Zold in a shared browser.
 
-Settings → **Security** shows whether this device's payment key is encrypted. **Not encrypted** means it is stored in that browser as-is. A copy cannot move money without your passkey, but could sign payment terms. Do not use Zold in a shared browser; remove extensions you do not trust.
-
-Zold cannot move your money or replace your passkey. A new passkey needs approval by the current one. Zold pays network fees. If you choose Zoldenburg recovery, it can start a device move after checking your identity; it cannot send money or skip the wait, and your current device can cancel it.
-
-If you skip recovery, Home shows **Recovery isn't set up** with a setup link. You can close the message; Security continues to show recovery is off.
+Zold cannot move your money or replace your passkey. A new passkey needs approval by the current one.
 
 ## Choose Zoldenburg recovery
 
-When you open your account, Zold asks whether Zoldenburg may recover it. Change your answer any time: Profile → **Recovery** → **Add Zoldenburg recovery**, then approve. Adding it can take up to a minute. Recovery works only for accounts whose identity Monerium verified.
+Zold asks when you open your account. Change it any time: Profile → **Recovery** → **Add Zoldenburg recovery**, then approve. It works only for accounts whose identity Monerium verified. If you skip it, Home shows **Recovery isn't set up**.
+
+Zoldenburg can start a device move after checking your identity. It cannot send money or skip the wait, and your current device can cancel.
 
 ### Confirm your bank account
 
-Send at least **€1** from a bank account in your own name to your Zold IBAN. It reaches your balance; nothing is charged. This proves which bank account is yours.
+Send at least **€1** from a bank account in your own name to your Zold IBAN. It reaches your balance; nothing is charged.
 
-1. On **Recovery**, choose **Confirm my bank account** and approve. Zold shows your IBAN, name and a one-time reference. If you lose it, request another.
-2. Send at least €1 from your own bank account with that reference. A transfer from your Zold IBAN does not count.
-3. Choose **I sent it — check now**, or wait for Zold to check. A bank transfer can take a working day. Zold confirms that the sender name matches Monerium's verified name.
+1. On **Recovery**, choose **Confirm my bank account** and approve. Note the one-time reference; request another if you lose it.
+2. Send the €1 with that reference. A transfer from your Zold IBAN does not count.
+3. Choose **I sent it — check now**, or wait. A bank transfer can take a working day. The sender name must match Monerium's verified name.
 
-Until confirmed, **Security** shows **1 step left**. If your IBAN is not active, Recovery shows **2 steps left** and **Get my Zold IBAN**.
+**Security** shows **1 step left** until confirmed, or **2 steps left** with **Get my Zold IBAN** if your IBAN is not active.
 
-Recovery shows the confirmed bank account's last four characters. Keep it open: recovery needs another €1 from that same account. If your bank changes, choose **Changed banks? Use another account**; the old one stays until the new one is confirmed. Zold stores a fingerprint and the last four characters, not the full IBAN or payer name. Removing Zoldenburg recovery deletes them.
+Keep that account: recovery needs another €1 from it. If your bank changes, choose **Changed banks? Use another account**. Zold stores a fingerprint and the last four characters, not the full IBAN or payer name; removing Zoldenburg recovery deletes them.
 
 ### Recover a lost device
 
-1. On the sign-in screen choose **Recover your account**, enter your account email and set up a passkey on the new device.
-2. Choose **Show my transfer details**. Send at least €1 from the same confirmed bank account to your Zold IBAN with the displayed reference. Another account or a different name does not count. If you lose the reference, get a new one; a payment sent with an earlier reference still counts.
-3. Choose **I sent it — check now** or leave the page open; Zold checks every few minutes. Only send this if you started recovery. Zoldenburg will never ask you to send it.
-4. Email support@zoldhq.com from the address on your account with the reference. Zold checks you against Monerium's verified identity. Zoldenburg cannot sign until the €1 arrives.
-5. After Zoldenburg signs, a **3-day** waiting period begins. Your old device remains in control. While Zold is open on a signed-in device, it shows a warning on every screen from the request; Zold emails you when recovery is requested and when the wait starts, with its end date. If you did not request it, choose **Review** and cancel with your passkey.
+1. At sign-in choose **Recover your account**, enter your account email and set up a passkey on the new device.
+2. Choose **Show my transfer details**. Send at least €1 from the confirmed bank account to your Zold IBAN with the displayed reference. Another account or name does not count; a payment with an earlier reference still counts.
+3. Choose **I sent it — check now**, or wait; Zold checks every few minutes. Send this only if you started recovery; Zoldenburg never asks for it.
+4. Email support@zoldhq.com from your account address with the reference. Zoldenburg cannot sign until the €1 arrives.
+5. After Zoldenburg signs, a **3-day** wait begins. Your old device stays in control. Zold emails you when recovery is requested and when the wait starts, and warns on every screen of a signed-in device. If you did not request it, choose **Review** and cancel with your passkey.
 6. When the wait ends, the new device is the only approver. Old sessions end, its payment key is unbound, and any backup key is removed.
 
 {% hint style="warning" %}
 Without recovery, Zoldenburg UG cannot recover a lost account or device. Only your euro balance can be reclaimed from Monerium under Icelandic e-money law; other assets cannot be recovered.
 {% endhint %}
 
-Recovery emails contain no link and never ask for approval or a code. Open Zold yourself to cancel. **It was me** hides the warning on that device until you close the tab. The wait protects you because Zoldenburg can start a recovery without your old device.
+Recovery emails contain no link and never ask for approval or a code. Open Zold yourself to cancel.
 
 ## Email or SMS recovery
 
@@ -57,9 +56,11 @@ Recovery emails contain no link and never ask for approval or a code. Open Zold 
 **Not yet fully live.** Email and SMS recovery are not offered yet.
 {% endhint %}
 
-When available, register an email, phone or both at Profile → **Recovery**. Confirm every channel with a one-time code and approve with your passkey; contacts are masked.
+When available:
 
-To recover: enter your recovery email on the sign-in screen, set up a passkey, and confirm a code on **every** registered channel. A waiting period follows. Your old device remains in control and can cancel with your passkey from the warning shown while Zold is open. When it ends, the new device becomes the approver; old sessions end and its payment key is unbound.
+- Register an email, phone or both at Profile → **Recovery**. Confirm each with a one-time code and approve with your passkey.
+- To recover, enter your recovery email at sign-in, set up a passkey, and confirm a code on **every** channel.
+- A wait follows; your old device can cancel. After it, the new device becomes the approver, old sessions end and its payment key is unbound.
 
 ## Your own backup login
 
@@ -67,13 +68,13 @@ To recover: enter your recovery email on the sign-in screen, set up a passkey, a
 **Not yet fully live.** Recovery with your own backup login is not offered yet. The steps below describe how it will work.
 {% endhint %}
 
-Choose one recovery helper: your Google or Apple login, email confirmed with a 6-digit code, or a recovery passkey. Set up Google/Apple or email recovery during account creation or later from Profile → **Recovery**. A recovery passkey is only offered there; it must survive losing your phone, so use a security key or save it on another device. Only one helper can be active; remove Zoldenburg or email recovery first if enabled.
+Choose one recovery helper: your Google or Apple login, email confirmed with a 6-digit code, or a recovery passkey. Set it up during account creation or at Profile → **Recovery**; the recovery passkey is offered only there. Save it on a security key or another device so it survives losing your phone. Only one helper can be active; remove Zoldenburg or email recovery first.
 
-Google or Apple logins get their own key, held by Turnkey for you alone. Zold never holds it; it can sign only a move to a new phone, never a payment. A move waits first, and the phone you still have can cancel it.
+Google or Apple logins get their own key, held by Turnkey for you alone. It can sign only a move to a new phone, never a payment; the move waits, and the phone you still have can cancel.
 
-**If you lose your phone:** on the new one, choose **Recover your account**, create a new key, and approve with the same backup login: log in with Google or Apple, type the code sent to your backup email, or use your recovery passkey.
+**If you lose your phone:** on the new one choose **Recover your account**, create a new key, and approve with the same backup login.
 
-Pick a login with a different email from your Zold account, and turn on two-step sign-in.
+Use a login with a different email from your Zold account, with two-step sign-in on.
 
 ## Your own backup key
 
@@ -81,4 +82,4 @@ Add a key you keep, such as a hardware wallet, under Settings → **Who approves
 
 ## Sessions
 
-A session ends when you sign out or it expires. Signing in on a new device does not sign out other devices. Registering a new passkey, or replacing or removing Monerium, signs out every other device and requires your passkey. If a device may be compromised, start recovery; completion revokes its sessions.
+Signing in on a new device does not sign out others. Registering a new passkey, or replacing or removing Monerium, signs out every other device and requires your passkey. If a device may be compromised, start recovery; completion revokes its sessions.

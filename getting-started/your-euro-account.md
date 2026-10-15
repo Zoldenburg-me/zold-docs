@@ -1,45 +1,27 @@
 ---
-description: What is behind the balance on your dashboard.
+description: What your IBAN, euro balance and Zold account address represent.
 ---
 
 # Your euro account
 
-## Three things, one account
-
-| What you see | What it is |
+| You see | It means |
 | --- | --- |
-| **Your IBAN** | A real euro IBAN issued by Monerium. Anyone can pay it by SEPA transfer, from any bank. |
-| **Your balance** | The euros in your account. One euro in Zold is one euro. |
-| **Your account address** | Where your euros actually sit, and where digital dollars (USDC) you are sent arrive. |
+| **IBAN** | A euro IBAN issued by Monerium. Anyone can pay it by SEPA transfer. |
+| **Balance** | Euros held in your account: one euro in Zold is one euro. |
+| **Account address** | Where the euros sit and where USDC sent to you arrives. |
 
-When a bank transfer reaches your IBAN, the same amount appears in your account. When you pay out by SEPA, the euros leave from Monerium to the payee's bank. The IBAN and the account are two faces of the same thing.
+A bank transfer to your IBAN appears as euros. A SEPA payment redeems euros through Monerium and sends them to the payee's bank.
 
-## If your IBAN moves to another app
+## If your IBAN moves
 
-Your IBAN lives at Monerium, and Monerium lets whoever holds your Monerium login point it at a different account, from another app or from Monerium's own site. When that happens, payments to your IBAN stop reaching Zold.
+Your Monerium login can point the IBAN to another account. If that happens, payments stop reaching Zold and Home stops showing the IBAN as yours. Choose **Move IBAN back to Zold** and approve with your passkey. If Zold cannot yet see where it points, choose **Switch on your IBAN**; if Monerium says it pays elsewhere, Zold offers to move it back. You do not repeat identity verification.
 
-Zold checks where your IBAN points. If it has moved, Home says **Your IBAN was moved to another app** and stops showing the IBAN as yours. Press **Move IBAN back to Zold** and approve with Face ID or your fingerprint to point it back here.
+## Who issues your euros
 
-If your IBAN is off this account and Zold can't yet see where it went, Home shows **Switch on your IBAN**. One approval switches it on again. If Monerium answers that the IBAN pays somewhere else, Zold offers to move it back. You don't verify your identity a second time.
+Monerium EMI ehf. is licensed by Iceland's Central Bank and passported across the EEA. Its e-money is regulated under MiCA, backed one-for-one by euros, and redeemable at par. Zold does not lend your euros; there is no interest, and e-money has no deposit guarantee.
 
-## Your euros
+Only you can approve transfers, for each amount and recipient. Zold holds no key or standing permission to move your money. Zold pays network fees; you do not need another token.
 
-Your euros are electronic money, issued by Monerium EMI ehf., an e-money institution licensed by the Central Bank of Iceland and passported across the EEA. They are regulated as e-money under MiCA. Every euro is backed one-for-one by euros held by the issuer, and you have a legal right to redeem it at par. There is a named, licensed institution that owes you the euros.
+## Balance and activity
 
-Zold does not lend your euros out, so there is no interest rate to promise. E-money is not covered by a deposit guarantee scheme.
-
-## In your name, not ours
-
-Only you can move what is in your account. Every transfer is approved with your Face ID or fingerprint, at the moment you send it, for that amount and that recipient. Zold holds no key that can move your money or stop you from moving it, and there is no standing permission for Zold to move funds.
-
-There are no network fees for you to pay, and you never need to hold any other currency or token to use your account.
-
-How this works in detail: [How Zold works under the hood](../reference/how-it-works.md).
-
-## One balance
-
-Your dashboard shows one figure: what is in your account. A payment that is in flight has already left it, so the balance you see is both what you hold and what you can spend.
-
-## Balance history and activity
-
-**Activity** lists every deposit and transfer with its current state. Open any row for the full detail: amounts, rate, fee, references and a timeline that reads the transfer's real state rather than a timer. See [Tracking and receipts](../send-money/tracking-and-receipts.md).
+Your balance shows what you hold and can spend. In-flight payments have already left it. **Activity** lists deposits and transfers with their state, amount, rate, fee, references and timeline. See [Tracking and receipts](../send-money/tracking-and-receipts.md).

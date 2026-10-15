@@ -1,33 +1,15 @@
 ---
-description: Every movement across your accounts and imported wallets, in one ledger you can tag, filter and export.
+description: Filter, tag and review transactions across accounts and watched wallets.
 ---
 
 # Transactions and tags
 
-Premium and Business. Business dashboard → **Transactions**, or **See all** under Recent activity on Home.
+Premium and Business. Open Business → **Transactions**, or **See all** on Home.
 
-The ledger lists every transaction across your Zold accounts and your imported wallets: deposits, payments, conversions, fees, and transfers between your own wallets. Each row shows the date, the wallet, the asset and amount, the counterparty where known, and its value in your reporting currency at the time.
+The ledger lists deposits, payments, conversions, fees and transfers between your accounts and imported wallets. Rows show date, wallet, asset, amount, known counterparty and reporting-currency value.
 
-## Filters
+Filter by wallet, asset, direction, date, tag or chart category; filters combine. Add any number of your own tags and export by tag.
 
-Filter by wallet, asset, direction, date range, tag or chart-of-accounts category. Filters combine.
+On Business, each transaction maps to a chart account. Rules map most automatically; accountants categorise the rest. Change reporting currency in Settings to revalue the display; underlying amounts do not change.
 
-## Tags
-
-Add any number of tags to a transaction: a project, a client, a cost centre. Tags are yours; there is no fixed list. Filter and export by them.
-
-## Categorise
-
-On Business, each transaction maps to an account in your [chart of accounts](chart-of-accounts.md). Rules do most of it automatically; anything unmapped is flagged for an accountant to categorise by hand.
-
-## Historical sync
-
-Transactions from before you joined, or before you imported a wallet, can be backfilled. Wallets → the wallet → **Sync history**.
-
-## Reporting currency
-
-Values are shown in the organisation's reporting currency (Settings). Changing it re-values the ledger display; the underlying amounts do not change.
-
-## When a wallet has not synced
-
-A wallet whose history has not been pulled yet is shown as **not synced**, so you can tell it apart from a wallet with no activity.
+To backfill history, open Wallets → a wallet → **Sync history**. Wallets without completed sync show **not synced**, not as empty.

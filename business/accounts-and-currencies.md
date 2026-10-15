@@ -1,47 +1,34 @@
 ---
-description: One organisation, an account in the currency of each place you do business.
+description: See available local accounts, their status and company documents.
 ---
 
 # Accounts and currencies
 
-Your **global account** is a set of local accounts. Each local account is in the currency of a place, with the identifier locals use, paying out on that place's rail: an IBAN in the euro area, an account and routing number in the United States, a sort code in the UK, an M-Pesa number in Kenya. All of them sit in the same account. On Premium and Business, an organisation can hold several.
+A global account holds local accounts in different currencies, each with a local identifier and payout rail. On Premium and Business, open **Accounts → Open an account** to choose a currency.
 
-Accounts → **Open an account** → choose a currency.
+## Account status
 
-## Status
-
-| Currency | Account | Status |
+| Currency | Identifier and rail | Status |
 | --- | --- | --- |
-| Euro | IBAN, pays by SEPA | **Open.** See [Your euro account](../getting-started/your-euro-account.md). |
-| US dollar | Account and routing number, ACH and wire | Request now. See [Your US dollar account](../add-money/usd-account.md). |
-| Pound sterling | Account number and sort code, Faster Payments | Not yet open |
-| Swiss franc | — | Not yet open |
-| Kenyan shilling | M-Pesa | Not yet open |
-| Nigerian naira | NUBAN, NIP transfer | Not yet open |
+| EUR | IBAN, SEPA | Open |
+| USD | Account and routing number, ACH and wire | Request now |
+| GBP | Account number and sort code, Faster Payments | Not yet open |
+| CHF | — | Not yet open |
+| KES | M-Pesa | Not yet open |
+| NGN | NUBAN, NIP transfer | Not yet open |
 
-Every currency shows its status in the app. Where an account is not open yet you can request it, and the app tells you when it opens.
+Request an unavailable account in the app; it tells you when it opens. The separate **Currencies** table says whether a currency is supported or coming soon and, when relevant, names its settlement token, issuer and backing. It describes Zold support, not your organisation's open accounts.
 
-## The token column
+## Connect a company's euro account
 
-The Currencies table in the business dashboard shows, for each currency, whether it is **Available on Zold** or coming soon. That is what Zold supports, not which accounts your organisation has opened; those are under Accounts. It also shows the settlement token where one exists, who issues it, and **what backs it**, in a sentence. E-money with a redemption right, a collateralised peg, and a reserve-backed token under another country's regulator are three different things. The column exists so that you can tell them apart before holding any of them.
+Your company account starts without an IBAN. Home and Accounts show its full Base address and **Copy** button; it can receive **EURe only**. Send only EURe on Base, then choose **Connect the company's IBAN**. Zold checks that Monerium approved the IBAN for the company. While review is pending, the account shows **Waiting for Monerium**, Monerium's last reported state and when it reported it, plus **Check with Monerium again**.
 
-## Your company's euro account
+Before connecting, confirm that the account and its funds become the organisation's. Nothing changes until Monerium approves. Its transactions go into company books and statements, visible to members with book access. A Zold-created account includes its full history; an imported wallet includes history from its IBAN connection, or its import date if it has no IBAN. One account cannot belong to two organisations at once.
 
-When you sign up as a company, your organisation starts with a euro account. It has no IBAN until Monerium has issued your company's IBAN.
-
-The company's Zold account exists from the moment its passkey is set up, before any IBAN. Home and Accounts show it as **Company Zold account**, with its balance and its full address and a **Copy** button. That address receives EURe on Base. Send only EURe on Base to it. Then go to Accounts and press **Connect the company's IBAN** on that account. Zold checks with Monerium that the IBAN belongs to an approved company profile before connecting it. While Monerium is still reviewing the company, the account shows **Waiting for Monerium** with the last state Monerium reported and when, and the button reads **Check with Monerium again**. Nothing changes on the account until Monerium approves.
-
-Before connecting, Zold asks you to confirm what it means. The account then belongs to the organisation, with everything on it. Its transactions appear in the organisation's books and statements, where members who can see the books see them: for an account Zold set up, its whole history; for a wallet you brought into Zold, from when it got its IBAN here, or from when you imported it if it has none. An account connected to one company can't be connected to another organisation at the same time.
-
-From then on, payments from the account are approved with the passkey of the person whose login connected it.
-
-A company account is backed by a company profile at Monerium, never by a member's personal one. If you signed up personally and want an account for your company, write to support@zoldhq.com: the company gets its own Zold login and its own account.
+The login that connects the account's passkey approves its payments. Company accounts need a company Monerium profile, not a member's personal profile. To open a company account after signing up personally, contact support@zoldhq.com.
 
 ## Statements and documents
 
-If the euro account is the one your login approves for, **Statements** in the sidebar (also linked from Accounts) issues a monthly statement, a balance confirmation, a proof of ownership and a receipt for each paid bank transfer. Each opens in a new tab, ready to print or save as PDF, and carries an address where anyone can check it.
+The login that approves the euro account can open **Statements** for monthly statements, balance confirmations, proofs of ownership and paid bank-transfer receipts. Each opens in a new tab to print or save as PDF, with an address to verify it.
 
-The documents name the holder your bank provider has on record for the IBAN. For a company that is its registered name, with you as the person who operates the account. A proof of ownership asks for your passkey: the account itself confirms the document, which shows you control it.
-
-A statement does not use the registered address from your business profile: its address block holds the account's country. To print a full address, type it into **Your address on this printout** above the statement — it prints marked as entered by you and not verified, is not part of the signed document, and is asked again each time you open the page. The official statement with your verified address comes from Monerium, in your Monerium account at monerium.app.
-If another member's login approves for the account, that member issues its documents.
+Documents name the IBAN holder: the company's registered name and you as operator. A proof of ownership requires your passkey. The statement's address is the account country, not your business-profile address. To print another address, enter it under **Your address on this printout**; it is labelled as entered by you, unverified and unsigned, and must be entered each time. Monerium's official statement with your verified address is at monerium.app. The approving member issues the documents.

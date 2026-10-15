@@ -1,23 +1,14 @@
 ---
-description: Pay up to 500 recipients from one file.
+description: Import up to 500 payees into one business payment draft.
 ---
 
 # Bulk payments
 
-Business plan. Payments → New draft → **Import CSV**.
+Business plan. Choose Payments → New draft → **Import CSV**.
 
-Upload a CSV of up to **500 rows** and **2 MB**. Zold shows the first rows and asks you to map your columns to its fields:
+1. Upload a CSV up to **500 rows** and **2 MB**.
+2. Map columns to payee name, IBAN or wallet address, positive amount, `EUR` or token, and optional reference.
+3. Fix every row Zold flags. Missing names, malformed addresses or unusable amounts refuse the whole import; nothing imports partially.
+4. Review the resulting draft, one line per row.
 
-| Field | What goes in it |
-| --- | --- |
-| Payee name | The account holder's name, exactly |
-| Destination | An IBAN, or a wallet address |
-| Amount | A positive decimal, e.g. `125.00` |
-| Currency or asset | `EUR`, or the token for a wallet |
-| Reference | Optional; appears on the payee's statement |
-
-Rows that match a contact in your address book are linked to it, so the payee fingerprint is checked at review and at sending like any other line. Rows that do not are one-off lines.
-
-Every row is validated before anything is saved. A malformed address, an unusable amount or a missing name is reported by row number, and the import is refused until the file is fixed. There is no partial import.
-
-The result is an ordinary draft with one line per row. It goes through [review and sending](payments-and-approvals.md) exactly like a draft typed by hand.
+Rows matching address-book contacts are linked to them, so payee details are checked at review and sending. Others are one-off lines. Imported drafts use the same [review and sending](payments-and-approvals.md) as manually created drafts.

@@ -1,39 +1,27 @@
 ---
-description: Send euros, and the recipient collects local currency at a MoneyGram agent.
+description: Send euros for a recipient to collect as Kenyan shillings.
 ---
 
 # Cash pickup
 
 {% hint style="warning" %}
-**Not yet fully live.** Cash pickup opens when a payout partner is live, Kenya first. Until then the app does not offer it, and other countries are added as payout agreements are signed.
+**Not yet fully live.** Cash pickup opens when a payout partner is live, Kenya first. The app does not offer it before then; other countries depend on signed payout agreements.
 {% endhint %}
 
-Destination **Kenya**, method **Cash pickup (MoneyGram)**.
+Choose **Kenya → Cash pickup (MoneyGram)**.
 
 ## What you need
 
-* The recipient's **full name, exactly as on their photo ID**. MoneyGram will not pay out against a name that does not match.
-* Their **mobile number**, so they can be told the pickup reference.
+- Recipient's full name, exactly as on their photo ID. MoneyGram will not pay out if it differs.
+- Recipient's mobile number for the pickup reference.
 
-## What happens
+## How it works
 
-1. You enter the amount in euros. The quote shows the shillings the recipient will collect, the mid-market rate, the margin (0.5%) and the fee (€0.99). See [Fees and exchange rates](../fees/fees-and-rates.md).
-2. You approve with Face ID or your fingerprint. Your euros are converted to digital dollars (USDC) at the best available price and sent, in one approved transaction, into the payout route. Nothing leaves your account unless every step of that transaction succeeds.
-3. The payout is funded on MoneyGram's side and a **pickup reference** is issued. It appears in the app on the transfer's detail screen; share it with the recipient.
-4. The recipient goes to any MoneyGram agent with the reference number and their ID and collects the cash.
+1. Enter euros. The quote shows estimated shillings, a **0.5%** margin and a **€0.99** fee.
+2. Approve with your passkey. Euros convert to USDC at the best available price and enter the payout route in one approved transaction. Nothing leaves unless every step succeeds.
+3. Once MoneyGram is funded, it issues the pickup reference shown on the transfer detail. Share it with the recipient.
+4. The recipient collects cash at a MoneyGram agent with the reference and ID.
 
-## Your details as the sender
+When the rail opens, Zold asks for the sender details required by the partner for that transfer only; it stores no identity profile. Pickup is typically ready within minutes after funding. The timeline shows each stage.
 
-International cash transfers are money transmission, and the payout partner is required to know who sent the money. When cash pickup opens, Zold will ask for the sender details the partner requires at the moment you send, for that transfer only; nothing is kept as a stored profile.
-
-## Speed
-
-Once funded, a pickup is typically ready within minutes. The timeline on the transfer shows each stage: converted, funded, ready for pickup, collected.
-
-## What the recipient pays
-
-Nothing. The amount on the quote is the amount they collect.
-
-## Rates
-
-The local-currency figure is Zold's estimate of MoneyGram's rate at the moment of the quote. MoneyGram sets the final shilling amount when the payout is funded; the transfer detail shows the confirmed figure.
+The recipient pays nothing. The quote estimates MoneyGram's rate; MoneyGram sets the final shilling amount when funded, and the transfer detail shows it.

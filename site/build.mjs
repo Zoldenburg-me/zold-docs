@@ -1,7 +1,7 @@
 // Builds the docs into a static site in _site/, for hosting at docs.zoldhq.com.
 // The Markdown stays GitBook-compatible: SUMMARY.md is the navigation and
 // {% hint %} blocks become callouts. Run with `npm run build`.
-import { readFileSync, writeFileSync, mkdirSync, rmSync, copyFileSync, existsSync } from "node:fs";
+import { readFileSync, writeFileSync, mkdirSync, rmSync, copyFileSync, cpSync, existsSync } from "node:fs";
 import { dirname, join, posix } from "node:path";
 import { fileURLToPath } from "node:url";
 import { Marked } from "marked";
@@ -58,7 +58,10 @@ function render(src) {
     /\{%\s*hint\s+style="(\w+)"\s*%\}([\s\S]*?)\{%\s*endhint\s*%\}/g,
     (_, style, body) => { hints.push(`<div class="hint hint-${style}">${marked.parse(body.trim())}</div>`); return `\n\nZOLDHINT${hints.length - 1}\n\n`; },
   );
-  let html = marked.parse(md).replace(/<p>ZOLDHINT(\d+)<\/p>/g, (_, i) => hints[i]);
+  let html = marked.parse(md)
+    .replace(/<p>ZOLDHINT(\d+)<\/p>/g, (_, i) => hints[i])
+    .replace(/src="((?:\.\.\/)*|\.\/)?\.gitbook\/assets\//g, 'src="$1assets/')
+    .replace(/<img\b(?![^>]*\bloading=)/g, '<img loading="lazy"');
   if (description) html = html.replace(/<\/h1>\n/, `</h1>\n<p class="lead">${esc(description)}</p>\n`);
   // Links between pages point at the built .html files.
   html = html.replace(/href="(?![a-z]+:|#|\/)([^"#]*?)\.md(#[^"]*)?"/g, (_, p, hash = "") => `href="${outPath(p + ".md")}${hash}"`);
@@ -133,4 +136,6 @@ pages.forEach((p, i) => {
 writeFileSync(join(OUT, "search.json"), JSON.stringify(index));
 writeFileSync(join(OUT, "404.html"), page({ src: "404.md", title: "Page not found", html: `<h1>Page not found</h1><p>This page does not exist. Try the search, or start at <a href="/">the docs home</a>.</p>` }).replace(/href="(?![a-z]+:)(?:\.\/)?([^":#/][^"]*)"/g, 'href="/$1"').replace(/src="\.\//g, 'src="/').replace(/data-base="\."/, 'data-base=""'));
 for (const f of ["style.css", "site.js", "favicon.svg"]) copyFileSync(join(ROOT, "site", f), join(OUT, f));
+const assets = join(ROOT, ".gitbook", "assets");
+if (existsSync(assets)) cpSync(assets, join(OUT, "assets"), { recursive: true });
 console.log(`Built ${pages.length} pages into _site/`);

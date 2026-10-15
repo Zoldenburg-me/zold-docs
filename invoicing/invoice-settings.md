@@ -6,6 +6,8 @@ description: The issuer identity and defaults every invoice is built from. Fill 
 
 Everything about you as the issuer is entered once and prefilled onto every invoice. It lives in two cards under **Settings** in the business dashboard.
 
+![The invoicing profile: your details, tax and numbering defaults, bank details and the optional blocks.](../.gitbook/assets/invoicing-profile.png)
+
 ## Organisation
 
 | Field | Notes |
@@ -16,17 +18,19 @@ Everything about you as the issuer is entered once and prefilled onto every invo
 | Tax ID | Your general tax identifier. |
 | Notification email | Printed on invoices as the issuer contact. |
 | Reporting currency | For the books; not printed. |
+| Reporting time zone | The zone your monthly reports run in. It starts as your browser's zone; change it if your books follow another. |
 
 ## Your details on an invoice
 
 | Field | Notes |
 | --- | --- |
-| VAT ID (USt-IdNr.) | Required for reverse-charge and intra-community supplies. |
-| Tax number (Steuernummer) | Required under the German rule set unless you use the small-business scheme. |
+| VAT ID (USt-IdNr.) | Required for reverse-charge and intra-community supplies. In the EU it must be your country's VAT number, for example DE123456789 or FR12345678901. Outside the EU, enter your identifier as it is written. |
+| Tax number (Steuernummer) | Required under the German rule set unless you use the small-business scheme. A German Steuernummer has 10 to 13 digits. In any other country, enter your tax number as it is written. |
 | Small-business scheme | Tick it if § 19 UStG (or your country's equivalent) applies. Invoices are then issued exempt and the "Charge VAT" option is off until you untick it. |
 | Default VAT rate | The rate new lines start with. Germany is fixed at 19% or 7%; elsewhere you set it. |
 | Payment terms | Days, plus the note printed on the invoice, e.g. "Payable within 14 days without deduction". |
 | Invoice number series | A prefix (`RE-{YYYY}-` inserts the year) and the next number. The next number to be issued is shown. |
+| Invoice language | English, German, French or Spanish — the language new invoices are written in. Until you pick one it follows your country (German for Germany, Austria, Switzerland and Liechtenstein; French for France; Spanish for Spain; English elsewhere). |
 
 ## Bank details and footer
 

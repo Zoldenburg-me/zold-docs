@@ -27,7 +27,9 @@ The Currencies table in the business dashboard shows, for each currency, whether
 
 ## Your company's euro account
 
-When you sign up as a company, your organisation starts with a euro account. It has no IBAN until Monerium has issued your company's IBAN. Then go to Accounts and press **Connect the company's IBAN** on that account. Zold checks with Monerium that the IBAN belongs to an approved company profile before connecting it. While Monerium is still reviewing the company, the account shows **Waiting for Monerium** with the last state Monerium reported and when, and the button reads **Check with Monerium again**. Nothing changes on the account until Monerium approves.
+When you sign up as a company, your organisation starts with a euro account. It has no IBAN until Monerium has issued your company's IBAN.
+
+The company's Zold account exists from the moment its passkey is set up, before any IBAN. Home and Accounts show it as **Company Zold account**, with its balance and its full address and a **Copy** button. That address receives EURe on Base. Send only EURe on Base to it. Then go to Accounts and press **Connect the company's IBAN** on that account. Zold checks with Monerium that the IBAN belongs to an approved company profile before connecting it. While Monerium is still reviewing the company, the account shows **Waiting for Monerium** with the last state Monerium reported and when, and the button reads **Check with Monerium again**. Nothing changes on the account until Monerium approves.
 
 Before connecting, Zold asks you to confirm what it means. The account then belongs to the organisation, with everything on it. Its transactions appear in the organisation's books and statements, where members who can see the books see them: for an account Zold set up, its whole history; for a wallet you brought into Zold, from when it got its IBAN here, or from when you imported it if it has none. An account connected to one company can't be connected to another organisation at the same time.
 
@@ -41,6 +43,5 @@ If the euro account is the one your login approves for, **Statements** in the si
 
 The documents name the holder your bank provider has on record for the IBAN. For a company that is its registered name, with you as the person who operates the account. A proof of ownership asks for your passkey: the account itself confirms the document, which shows you control it.
 
-Zold does not keep a postal address, so a statement shows the account's country under the holder's name. To print a full address, type it into **Your address on this printout** above the statement. It is printed under the name, marked as entered by you and not verified. It stays on that page: Zold does not send or keep it, and it is not part of what the verification address checks. Type it again each time you open the statement. The official statement with your verified address comes from Monerium, from your Monerium account at monerium.app.
-
+A statement does not use the registered address from your business profile: its address block holds the account's country. To print a full address, type it into **Your address on this printout** above the statement — it prints marked as entered by you and not verified, is not part of the signed document, and is asked again each time you open the page. The official statement with your verified address comes from Monerium, in your Monerium account at monerium.app.
 If another member's login approves for the account, that member issues its documents.

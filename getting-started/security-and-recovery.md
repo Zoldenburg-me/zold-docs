@@ -61,6 +61,20 @@ When available, register an email, phone or both at Profile → **Recovery**. Co
 
 To recover: enter your recovery email on the sign-in screen, set up a passkey, and confirm a code on **every** registered channel. A waiting period follows. Your old device remains in control and can cancel with your passkey from the warning shown while Zold is open. When it ends, the new device becomes the approver; old sessions end and its payment key is unbound.
 
+## Your own backup login
+
+{% hint style="warning" %}
+**Not yet fully live.** Recovery with your own backup login is not offered yet. The steps below describe how it will work.
+{% endhint %}
+
+Choose one recovery helper: your Google or Apple login, email confirmed with a 6-digit code, or a recovery passkey. Set up Google/Apple or email recovery during account creation or later from Profile → **Recovery**. A recovery passkey is only offered there; it must survive losing your phone, so use a security key or save it on another device. Only one helper can be active; remove Zoldenburg or email recovery first if enabled.
+
+Google or Apple logins get their own key, held by Turnkey for you alone. Zold never holds it; it can sign only a move to a new phone, never a payment. A move waits first, and the phone you still have can cancel it.
+
+**If you lose your phone:** on the new one, choose **Recover your account**, create a new key, and approve with the same backup login: log in with Google or Apple, type the code sent to your backup email, or use your recovery passkey.
+
+Pick a login with a different email from your Zold account, and turn on two-step sign-in.
+
 ## Your own backup key
 
 Add a key you keep, such as a hardware wallet, under Settings → **Who approves payments**. Zold never asks for or uses it. It can approve on its own, so protect it like the money it can move; with it, you can reach the account without Zold. See [How Zold works under the hood](../reference/how-it-works.md#your-own-backup-key).

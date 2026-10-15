@@ -1,39 +1,29 @@
 ---
-description: A link anyone can pay. zoldhq.com/pay/yourname.
+description: Share a public address for people to pay any amount.
 ---
 
 # Your payment page
 
-A payment page is a public link, **zoldhq.com/pay/yourname**, that shows a QR code and an address someone can pay you at. No amount field, no wallet connection on the page: the payer scans with their own wallet, which does both better than a web page can.
+Your public link, **zoldhq.com/pay/yourname**, shows a QR code and address. The payer scans it with their own wallet; the page has no amount field or wallet connection.
 
 ## Claim a handle
 
-Profile → **Payment page** → choose a handle.
+Go to Profile → **Payment page**. Handles must be unique, 3–30 characters, lowercase Latin letters, digits and internal hyphens. They cannot start with `0x`, match an app route, or use Zold, partner, staff-role or well-known-person names, even inside a longer handle.
 
-* 3 to 30 characters, lowercase letters, digits and internal hyphens.
-* Latin letters a–z only. Letters from other alphabets can look identical to latin ones, so they are not allowed.
-* Unique. If it is taken you are told so.
-* Handles that look like an address (starting `0x`) or that match an app route are not allowed.
-* Handles that use Zold's name, a partner's name, a staff role such as support or admin, or a well-known person's name are not allowed, including inside a longer handle.
-
-You can claim a page as soon as your account exists. You can set a display name for the page that is different from your legal name; if you do not, the page shows the handle alone.
+You can claim one as soon as your account exists. Set a different display name or the page shows your handle.
 
 ## What the payer sees
 
-The page shows the deposit address as text and QR, an "open in wallet" link, and the list of tokens it takes, each with its network. USDC on Base arrives directly. Your page also takes USDC from other networks, and the list shows each one with its minimum amount and the bridge fee. Everything on the list arrives in your account as digital dollars (USDC on Base).
+The page lists your address, QR code, **open in wallet** link and accepted tokens, networks, minimums and bridge fees. USDC on Base arrives directly; USDC from other listed networks arrives in your account as USDC on Base.
 
 {% hint style="warning" %}
-Payers should send only a token on the list, on the network shown, and at least the minimum. Anything else does not reach your account automatically.
+Send only a listed token on its listed network, and at least its minimum. Other transfers do not reach your account automatically.
 {% endhint %}
 
-To see the list yourself, open **Get paid → Your page**.
+Open **Get paid → Your page** to see the list.
 
 ## Privacy
 
-The page address is public. Every payment to your page lands at the same place, and anyone holding the link can look that address up on a public network explorer and see its history. The page says this in its own words. Zold does not describe payment pages as private, and you should not assume they are.
+The page is public. Every payment lands at one address; anyone with the link can look up its history on a public explorer. Anyone who knows or guesses your handle can find the page. Do not assume it is private.
 
-Handles are also short and human. Anyone who knows or guesses yours can find the page. If you want a link only some people can use, send them a [receipt](../send-money/tracking-and-receipts.md) or an [Invoice-Me link](invoice-me-links.md) instead.
-
-## Asking for a specific amount
-
-A payment page takes any amount and shows only an address. To ask for a particular sum, with a description, and to offer a bank transfer or payment from another Zold account as well as USDC, create a [payment link](payment-links.md) from the same page.
+For a private request, send a [receipt](../send-money/tracking-and-receipts.md) or [Invoice-Me link](invoice-me-links.md). To request a specific amount and description, create a [payment link](payment-links.md).

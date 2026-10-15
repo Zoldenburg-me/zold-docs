@@ -1,42 +1,32 @@
 ---
-description: An organisation is the thing that holds money, has members, and buys a plan.
+description: Choose an organisation, see plan limits and manage trials.
 ---
 
 # Organisations and plans
 
-Every Zold account belongs to an **organisation**. A personal account is an organisation of one. A business is an organisation with several members, each with a role, and with the tools a finance team needs.
-
-Open the business dashboard at **zoldhq.com/business**. It works on a phone as well as a computer: on a phone the main screens are in a tab bar at the bottom and everything else is under **Menu**. Invoices, books and approvals live here, for your personal space and for every company you belong to.
+Every Zold account belongs to an **organisation**: a personal space of one or a company with members and finance tools. Open **zoldhq.com/business**. On a phone, main screens are in the bottom tabs; other screens are under **Menu**.
 
 ![The business dashboard for one organisation.](../.gitbook/assets/business-dashboard.png)
 
-## Your personal space
-
-If you signed up as a person, your own invoices and books live in a **personal space**. The first time you open the business dashboard without one, Zold offers to create it with your name and country. One tap, nothing to fill in. You can have one personal space, next to any companies you belong to, and switch between them from the account switcher.
-
-Your personal space carries your name; you change it in the Zold app, under Profile. A company login has no personal space: its account is the company's. For your own money, sign up for Zold as a person with your own email.
-
-**Your sign-in and recovery** in the dashboard's settings opens the Security screen of the Zold app. Its back arrow brings you back to the dashboard.
-
 ## Personal or business
+
+Personal users can create one personal space with their name and country the first time they open Business. Change its name in the Zold app under Profile. Switch between it and companies from the account switcher. A company login has no personal space; use a personal Zold account for personal money. **Your sign-in and recovery** opens the Zold app's Security screen.
 
 | | Personal | Business |
 | --- | --- | --- |
 | Members | You | Up to 50, with roles |
 | Plans | Starter, Premium | Starter, Business |
-| Verification | Yours, through Monerium | The company's, through Monerium |
+| Verification | Your Monerium profile | Company's Monerium profile |
 | Invoices | Premium | Business |
-| Approvals, chart of accounts, bulk payments | — | Business |
+| Review, chart of accounts, bulk payments | — | Business |
 
-The two share one machine with different defaults. Everything a premium personal user wants (several currencies, tags, export, invoices) is in both; what a business adds is people, review, and the accounting surface.
+## Plans and limits
 
-## Plans
+Starter is free. It includes one local account, sending and receiving, contacts, history and receipts; business Starter includes up to three members.
 
-**Starter** is free: one local account, send and receive, contacts, payment history and shareable receipts. On a business organisation it also includes members and roles, up to three.
+Premium adds up to five local accounts, ten imported wallets, full tagged ledger and historical sync, cost basis and gains, monthly reports, CSV export, reporting currency and invoices.
 
-**Premium** (personal) adds local accounts in several currencies, the full transaction ledger with tags and historical sync, cost basis and gains, monthly balance reports, CSV export, a reporting currency of your choice, and invoices.
-
-**Business** adds everything in Premium plus payment review and approval, bulk payments from CSV, the chart of accounts with automatic rules, and accounting integrations.
+Business adds up to 20 local accounts, 50 members, 100 imported wallets, 500-row CSV imports, payment review, bulk payments, chart of accounts, automatic rules and accounting integrations.
 
 ![The Plan screen, under Settings.](../.gitbook/assets/plan.png)
 
@@ -45,25 +35,15 @@ The two share one machine with different defaults. Everything a premium personal
 | Local accounts | 1 | 5 | 20 |
 | Members | 3 | 1 | 50 |
 | Imported wallets | 3 | 10 | 100 |
-| Rows per CSV import | — | — | 500 |
-| Report history | 3 months | unlimited | unlimited |
+| CSV import rows | — | — | 500 |
+| Report history | 3 months | Unlimited | Unlimited |
 
-A limit refuses a new item; it never removes one you already have.
+A limit blocks new items; it never removes existing ones.
 
-## Trial
+## Trial, plan changes and settings
 
-Every organisation can take one **30-day trial** of its paid plan. Settings → Plan → **Start trial**. Your plan does not change during the trial; the trial is a grant on top of it, and when it ends you are back where you were. You can convert at any time with **Keep it**.
+Each organisation gets one **30-day trial** of its paid plan. Choose Settings → Plan → **Start trial**. Your plan stays unchanged; the trial adds access, then returns you to your plan. **Keep it** converts at any time.
 
-## Upgrading and downgrading
+Downgrading deletes nothing: accounts, chart, tags, rules, contacts, drafts, invoices and ledger remain. Features pause until you upgrade again.
 
-Settings → **Plan**.
-
-When you downgrade, **nothing is deleted**. Your chart of accounts, tags, rules, contacts, drafts, invoices and ledger stay exactly as they are; the features are paused and the screens that need them show what an upgrade restores. Upgrade again and it is all there.
-
-## Verification per capability
-
-Some capabilities carry their own verification, because each regulated partner owns its own identity relationship. Your euro account is verified by Monerium. A card, when available, is verified by the card issuer. The **Settings → Business profile** screen lists each verification and its status; one does not stand in for another.
-
-## Settings
-
-Settings hold the legal name, registered address and country, tax identifiers, reporting currency, time zone and cost-basis method, plus the invoice profile described in [Invoice settings](../invoicing/invoice-settings.md). The country of the organisation decides which invoicing rules apply.
+Partner verification is separate: Monerium checks the euro account; a card issuer checks cards. Settings → **Business profile** shows each status. Settings also holds legal identity, reporting currency/time zone, cost basis and invoicing profile. Organisation country sets invoice rules.

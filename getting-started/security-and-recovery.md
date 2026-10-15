@@ -80,6 +80,20 @@ The waiting period protects you. Zoldenburg can start a recovery on its own — 
 4. A waiting period runs before the change takes effect. During it, the account still belongs to your old device, and a warning sits at the top of every screen while Zold is open on a device signed in to it. If you did not start the recovery, choose **Review** on that warning and cancel with Face ID or your fingerprint.
 5. When the period ends, the new device becomes the approver. Sessions of the old device are ended and its payment key is unbound.
 
+## Google or Apple login
+
+{% hint style="warning" %}
+**Not yet fully live.** Recovery with your Google or Apple login is not offered yet. The steps below describe how it will work.
+{% endhint %}
+
+You can make your own Google or Apple login your recovery helper: when you create your account, or later from Profile → **Recovery**. Your account has one recovery helper at a time: if Zoldenburg or email recovery is on, remove it first.
+
+The login gets its own key, held by Turnkey for you alone: Zold never holds it, and it can sign only a move of your account to a new phone, never a payment. A move waits first, and the phone you still have can cancel it.
+
+**If you lose your phone:** on the new one, choose **Recover your account**, create a new key, and approve with the same Google or Apple login.
+
+Pick a login with a different email from your Zold account, and turn on two-step sign-in for it.
+
 ## A backup key you keep
 
 You can add a backup key of your own, for example a hardware wallet, under Settings → **Who approves payments**. Zold never asks for it and never uses it. It can approve on its own, so keep it as carefully as the money it can move. With it, you can reach your account even without Zold. See [How Zold works under the hood](../reference/how-it-works.md#your-own-backup-key).

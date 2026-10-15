@@ -36,22 +36,22 @@ Answer the US question carefully. A "yes" closes the account path regardless of 
 ## Step 3 — Add a way back in
 
 {% hint style="warning" %}
-**Not yet fully live.** Google or Apple recovery is not offered yet, so this screen does not appear. The steps below describe how it will work.
+**Not yet fully live.** Google, Apple and email recovery aren't offered yet, so this screen doesn't appear. Steps below show how it will work.
 {% endhint %}
 
-Choose **Continue with Google** or **Continue with Apple**. That login becomes your recovery helper: it can move your account to a new phone, never send money. The move waits; this phone can cancel it. See [Security and recovery](security-and-recovery.md#google-or-apple-login).
+Choose **Continue with Google** or **Continue with Apple**, or **Use my email** and enter the 6-digit code sent to your Step 2 email. Your choice becomes your recovery helper: it can move your account to a new phone, never send money. The move waits so this phone can cancel it. See [Security and recovery](security-and-recovery.md#your-own-backup-login).
 
-It joins the approval that creates your account, so no extra Face ID is needed. **Skip for now** sets it up later.
+It joins account approval, with no extra Face ID. **Skip for now** sets it up later.
 
 ## Step 4 — Set up your passkey
 
 Set up a passkey with Face ID, fingerprint, device PIN, Windows Hello, your phone or a security key.
 
-On a computer, use its password, scan the browser QR code with your phone, or use a security key. No password; your key stays in secure hardware or your chosen key manager.
+On a computer, use its password, scan its browser QR code with your phone, or use a security key. No password; your key stays in secure hardware or your chosen key manager.
 
-Prompts stay open for two minutes. Choose **Cancel** or close an open prompt, then reload.
+The prompt stays open for two minutes. Choose **Cancel** or close it, then reload.
 
-Your passkey is the only approver; Zold cannot replace it. Set up recovery. Check if it syncs through iCloud Keychain, Google Password Manager or another manager. If not, losing the device means recovery.
+Your passkey is the only approver; Zold cannot replace it. Set up recovery. Check whether it syncs with iCloud Keychain, Google Password Manager or another password manager. Without sync, losing the device means recovery.
 
 Then **approve once more**. Account creation is free, takes seconds, and fixes your address.
 
@@ -62,7 +62,7 @@ Home shows **Finish setting up**:
 * **Confirm your email** — a 6-digit code.
 * **Verify your identity** and **IBAN active** — Monerium issues your IBAN with one approval. See [Get your IBAN](connect-monerium.md).
 
-Until then, Zold works as a wallet: receive and hold digital dollars and euros, get paid through your payment page, and send invoices. Bank transfers need the IBAN. Without recovery, Home's reminder never blocks anything.
+Until then, Zold works as a wallet: receive and hold digital dollars and euros, get paid through your payment page, and send invoices. Bank transfers need the IBAN. Home's recovery reminder never blocks anything.
 
 If you have a wallet account (see [Supported countries](../reference/supported-countries.md)), there is no IBAN step.
 

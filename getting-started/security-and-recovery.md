@@ -61,17 +61,17 @@ When available, register an email, phone or both at Profile → **Recovery**. Co
 
 To recover: enter your recovery email on the sign-in screen, set up a passkey, and confirm a code on **every** registered channel. A waiting period follows. Your old device remains in control and can cancel with your passkey from the warning shown while Zold is open. When it ends, the new device becomes the approver; old sessions end and its payment key is unbound.
 
-## Google or Apple login
+## Your own backup login
 
 {% hint style="warning" %}
-**Not yet fully live.** Google or Apple recovery isn't offered yet. The steps below describe how it will work.
+**Not yet fully live.** Recovery with your own backup login is not offered yet. The steps below describe how it will work.
 {% endhint %}
 
-Set it up when creating your account or later from Profile → **Recovery**. Use one recovery helper at a time; if Zoldenburg or email recovery is on, remove it first.
+Choose one recovery helper: your Google or Apple login, email confirmed with a 6-digit code, or a recovery passkey. Set up Google/Apple or email recovery during account creation or later from Profile → **Recovery**. A recovery passkey is only offered there; it must survive losing your phone, so use a security key or save it on another device. Only one helper can be active; remove Zoldenburg or email recovery first if enabled.
 
-The login's own key is held by Turnkey for you alone. Zold never holds it; it signs only a move to a new phone, never a payment. The move waits first, and the phone you still have can cancel it.
+Google or Apple logins get their own key, held by Turnkey for you alone. Zold never holds it; it can sign only a move to a new phone, never a payment. A move waits first, and the phone you still have can cancel it.
 
-**To recover:** On the new phone, choose **Recover your account**, create a new key, and approve with the same Google or Apple login.
+**If you lose your phone:** on the new one, choose **Recover your account**, create a new key, and approve with the same backup login: log in with Google or Apple, type the code sent to your backup email, or use your recovery passkey.
 
 Pick a login with a different email from your Zold account, and turn on two-step sign-in.
 

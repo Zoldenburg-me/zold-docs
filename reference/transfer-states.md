@@ -1,27 +1,25 @@
 ---
-description: What each status on a transfer means and who, if anyone, needs to do something.
+description: Read each transfer state and see what happens if a payment fails.
 ---
 
 # Transfer states
 
 | State | Meaning |
 | --- | --- |
-| **Created** | The terms are fixed and waiting for your approval. Nothing has moved. A transfer you do not approve expires on its own. |
-| **Debited** | The funds have left your account. |
-| **Swapped** | Cash rail: converted from euros to digital dollars (USDC) at the venue that priced it. |
-| **Bridged** | Cash rail: on the way to the payout network. |
-| **Payout details pending** | The recipient's details are being completed with the payout partner. |
-| **Payout funding pending** | Waiting for the payout partner to confirm receipt of funds. |
-| **Payout funded** | The partner has the funds. |
-| **Payout ready** | Cash rail: the pickup reference is issued and the cash can be collected. |
-| **Payout submitted** | Bank rail: the SEPA payment has been sent to the payee's bank. |
-| **Paid** | Done. Cash collected, or the SEPA payment delivered. |
-| **Manual review** | Something needs a person to look at it. Your funds are safe and accounted for; you will be contacted. |
-| **Failed** | A step failed and the transfer will not complete. Compensation follows. |
-| **Refunded** | Funds returned to your account at the current rate, with each deduction itemised on the transfer. |
+| **Created** | Terms are fixed and waiting for your approval; nothing moved. Unapproved transfers expire. |
+| **Debited** | Funds left your account. |
+| **Swapped** | Cash rail converted euros to USDC at its quoted venue. |
+| **Bridged** | Cash rail is moving to the payout network. |
+| **Payout details pending** | Partner is completing recipient details. |
+| **Payout funding pending** | Waiting for partner to confirm funds. |
+| **Payout funded** | Partner has funds. |
+| **Payout ready** | Cash pickup reference issued. |
+| **Payout submitted** | SEPA payment sent to the payee's bank. |
+| **Paid** | Cash collected or SEPA payment delivered. |
+| **Manual review** | A person must review; funds are safe and accounted for, and you will be contacted. |
+| **Failed** | A step failed; compensation follows. |
+| **Refunded** | Funds returned at the current rate, with deductions itemised. |
 
-A transfer's timeline shows only the states it actually passed through. On the bank rail there is no swap or bridge step, so those never appear.
+The timeline shows only states reached. Bank transfers have no swap or bridge steps.
 
-## When a transfer fails
-
-If money has left your account and a later step fails, Zold reverses what it can: a completed conversion is reversed at the rate then available, and the result is returned to your account. The transfer shows what was returned and what, if anything, was lost to the round trip. A failure that cannot be reversed automatically goes to **Manual review** and you are contacted.
+If a later step fails after funds leave, Zold reverses what it can. A completed conversion is reversed at the then-current rate; the transfer shows what returned and any round-trip loss. Failures that cannot be reversed automatically go to **Manual review**.

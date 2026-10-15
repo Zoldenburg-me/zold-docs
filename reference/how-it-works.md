@@ -6,7 +6,7 @@ description: How your account, passkey, euros and recovery fit together.
 
 ## Your account
 
-Your account is a **Safe** smart account on **Base**, a public network built on Ethereum. Safe is open-source account software. Zold pays network fees; you do not need ETH or another token.
+Your account is a **Safe** smart account on **Base**, a public network built on Ethereum. Safe is open-source account software. Zold pays network fees; you need no ETH.
 
 ## The key that approves
 
@@ -14,7 +14,7 @@ Your only account owner is a **passkey** stored in your device's secure hardware
 
 **Zold holds no key.** Its server prepares transfers but cannot approve, move or block your money. Each approval signs one transaction's token, amount and recipient; the network enforces those terms. There is no standing permission for Zold to spend.
 
-A **device key** is created in each browser the first time you use the account there. It signs the amount, recipient details and transfer Zold records. Where supported, it is encrypted with a secret your passkey can unlock. Alone, it cannot move money; every transfer still needs your passkey.
+A **device key** is created in each browser on first use. It signs the amount, recipient and transfer Zold records, and is encrypted where supported. Alone, it cannot move money; every transfer still needs your passkey.
 
 ## Your euros
 

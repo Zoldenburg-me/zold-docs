@@ -4,7 +4,8 @@
 
 ## Getting started
 
-* [🥳 Create your account](getting-started/create-your-account.md)
+* [🥳 Create a personal account](getting-started/create-your-account.md)
+* [🏢 Create a business account](getting-started/create-a-business-account.md)
 * [🏦 Get your IBAN](getting-started/connect-monerium.md)
 * [💶 Your euro account](getting-started/your-euro-account.md)
 * [🔐 Security and recovery](getting-started/security-and-recovery.md)
@@ -66,6 +67,7 @@
 ## Reference
 
 * [🌍 Supported countries](reference/supported-countries.md)
+* [✅ Eligibility](reference/eligibility.md)
 * [🚦 Transfer states](reference/transfer-states.md)
 * [❓ FAQ](reference/faq.md)
 * [📖 Glossary](reference/glossary.md)

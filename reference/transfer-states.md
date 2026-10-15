@@ -20,6 +20,6 @@ description: Read each transfer state and see what happens if a payment fails.
 | **Failed** | A step failed; compensation follows. |
 | **Refunded** | Funds returned at the current rate, with deductions itemised. |
 
-The timeline shows only states reached. Bank transfers have no swap or bridge steps.
+Bank transfers have no swap or bridge steps.
 
 If a later step fails after funds leave, Zold reverses what it can. A completed conversion is reversed at the then-current rate; the transfer shows what returned and any round-trip loss. Failures that cannot be reversed automatically go to **Manual review**.

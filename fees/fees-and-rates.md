@@ -23,8 +23,10 @@ Every fee appears on the quote before you approve.
 
 ## Rates and quotes
 
-Zold requests a live mid-market rate and firm quotes from several liquidity venues for your exact amount, then takes the best. The venue is recorded on the transfer. The quote shows the mid-market rate, your execution rate and the measured margin. If the rate feed is unavailable, or a venue price is too far from the market, Zold refuses the quote.
+- **Best price**: the best firm quote from several liquidity venues for your amount; the venue is recorded on the transfer. The quote shows mid-market rate, your rate and the measured margin.
+- **Refusals**: no quote if the rate feed is unavailable or a venue price is too far from the market.
+- **Validity**: quotes last **10 minutes**. If the rate moved more than **0.5%** since approval, the transfer is refused and refunded rather than executed at an unseen rate.
+- **Better than quoted**: the difference goes to you.
+- **Cash pickup**: rates are estimates; MoneyGram sets the final shilling amount when funded.
 
-Quotes last **10 minutes**. At execution, Zold checks the rate again; if it moved more than **0.5%** since approval, the transfer is refused and refunded rather than executed at an unseen rate. Better-than-quoted conversion goes to you. Cash pickup rates are estimates; MoneyGram sets the final shilling amount when funded.
-
-Zold does not lend your euros. There is no interest to promise; e-money is backed one-for-one, held in your name and not covered by a deposit guarantee scheme.
+Zold does not lend your euros, so there is no interest to promise. E-money is backed one-for-one, held in your name and not covered by a deposit guarantee scheme.

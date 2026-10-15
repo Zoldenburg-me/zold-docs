@@ -8,16 +8,16 @@ Set your identity in **Settings → Business profile** and invoice defaults in *
 
 ## Business profile
 
-| Field | Printed or used for |
+| Field | Used for |
 | --- | --- |
-| Name, legal name | Trading name in the app; legal name prints on invoices. |
-| Registered address | Invoice identity and country-specific rules. |
-| VAT ID, tax number | VAT/GST/sales-tax and national tax identifiers; EU VAT IDs are checked against the member state's format. Most countries require the tax number or VAT ID on invoices. |
-| Company register, number, managing director | Printed registration details; in Germany, Amtsgericht and HRB number. |
+| Name, legal name | Legal name prints on invoices. |
+| Registered address | Invoice identity and country rules. |
+| VAT ID, tax number | Most countries require one on invoices. EU VAT IDs are checked against the member state's format. |
+| Company register, number, managing director | Printed; in Germany, Amtsgericht and HRB number. |
 | Notification email | Zold messages. |
-| Reporting currency, time zone | Books and monthly report timing; not printed. The time zone starts as your browser's. |
+| Reporting currency, time zone | Books and monthly reports; not printed. Time zone starts as your browser's. |
 
-The Invoicing profile shows issuer details read-only; choose **Edit** to return to the business profile.
+The Invoicing profile shows these read-only; choose **Edit** to change them.
 
 ## Invoicing profile
 
@@ -29,10 +29,13 @@ The Invoicing profile shows issuer details read-only; choose **Edit** to return 
 | Small-business scheme | Select if §19 UStG or your country's equivalent applies. Invoices are exempt until you turn it off. |
 | VAT rate | Default for new lines. Germany uses 19% or 7%; elsewhere you set it. |
 | Payment terms | Due days and printed note, such as “Payable within 14 days without deduction”. |
-| Invoice number series | Prefix and next number, both shown. `{YYYY}` inserts the year; default is `INV-{YYYY}-`, or `RE-{YYYY}-` for German-speaking companies. |
+| Invoice number series | Prefix and next number. `{YYYY}` inserts the year; default `INV-{YYYY}-`, or `RE-{YYYY}-` for German-speaking companies. |
 
 ## Bank details and display
 
-Set account holder, IBAN and BIC for the bank block. Leave IBAN empty to print your Zold IBAN; payments there mark invoices paid. A different IBAN is marked **Not matched**; Zold cannot see its payments, so mark those invoices paid by hand. Add a free-text footer note; it prints with your registration details.
-
-**What appears on the invoice** controls optional blocks and can be changed per invoice. Legally required fields always print. The form previews issuer details and links to your profile if address or tax number is missing. Issued invoices keep a snapshot; later profile changes affect future invoices only.
+- Set account holder, IBAN and BIC for the bank block.
+- Leave IBAN empty to print your Zold IBAN; payments there mark invoices paid.
+- A different IBAN is marked **Not matched**. Zold cannot see its payments; mark those invoices paid by hand.
+- A free-text footer note prints with your registration details.
+- **What appears on the invoice** toggles optional blocks, per invoice if needed. Legally required fields always print.
+- Issued invoices keep a snapshot; later profile changes affect future invoices only.

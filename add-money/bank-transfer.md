@@ -1,19 +1,20 @@
 ---
-description: Receive euros by SEPA transfer to your Monerium IBAN.
+description: Receive euros by SEPA transfer to your IBAN.
 ---
 
 # Bank transfer
 
-Open **Add money → Bank account** and share the IBAN, BIC and account-holder name shown.
+Open **Add money → Bank account** and share the IBAN, BIC and account-holder name.
 
-Send euros by SEPA from any bank in the SEPA area. Incoming transfers are free. SEPA Instant usually arrives in seconds; standard SEPA takes the same or next business day, depending on the sending bank. Other currencies are converted by the sending bank at its rate.
+- **Fee**: incoming transfers are free.
+- **Speed**: SEPA Instant usually arrives in seconds; standard SEPA the same or next business day.
+- **Other currencies**: the sending bank converts at its rate.
+- **Arrival**: the euro amount appears in your balance and **Activity**, with the sender's name and reference.
 
-When it arrives, the same euro amount appears in your balance and **Activity**, with the sender's name and reference.
+## Account holder and statements
 
-## Share your IBAN
+- **Account holder**: your legal name or your company's registered name, as held by Monerium. Statements and ownership proofs use it; when it differs, they also name you as operator.
+- **Statement address**: a postal address you enter when opening a statement is marked as entered by you.
+- **Bank queries**: the account is held at Monerium EMI ehf.
 
-You can give the IBAN to an employer or customer, or put it on an invoice. The account holder is your legal name or your company's registered name, as held by Monerium. Statements and ownership proofs use that name; when it differs, they also name you as operator.
-
-A statement may include a postal address you enter when opening it. It is marked as entered by you. If a bank asks, the account is held at Monerium EMI ehf.
-
-The sender's reference is kept on the deposit in **Activity**. For dollar payments, use [your US dollar account](usd-account.md).
+For dollar payments, use [your US dollar account](usd-account.md).

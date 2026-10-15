@@ -115,3 +115,12 @@ th { background: var(--surface); color: var(--heading); font-weight: 600; }
   .brand span { display: none; }
 }
 .lead { margin: -8px 0 28px; font-size: 18px; color: var(--dim); }
+
+details { margin: 0 0 20px; border: 1px solid var(--line-strong); border-radius: 12px; background: var(--surface); }
+summary { cursor: pointer; padding: 14px 18px; font-weight: 600; color: var(--heading); list-style: none; display: flex; align-items: center; gap: 10px; }
+summary::-webkit-details-marker { display: none; }
+summary::before { content: "▸"; color: var(--pink); transition: transform .15s; }
+details[open] > summary::before { transform: rotate(90deg); }
+summary:hover { color: var(--link-hover); }
+details > :not(summary) { margin-left: 18px; margin-right: 18px; }
+details[open] { padding-bottom: 4px; }

@@ -4,10 +4,13 @@
 import { readFileSync, writeFileSync, mkdirSync, rmSync, copyFileSync, cpSync, existsSync } from "node:fs";
 import { dirname, join, posix } from "node:path";
 import { fileURLToPath } from "node:url";
+import { createHash } from "node:crypto";
 import { Marked } from "marked";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const OUT = join(ROOT, "_site");
+// style.css and site.js are browser-cached for hours; a content hash in the URL makes a deploy take effect on the next page load.
+const VERSION = Object.fromEntries(["style.css", "site.js"].map((f) => [f, createHash("sha256").update(readFileSync(join(ROOT, "site", f))).digest("hex").slice(0, 10)]));
 const SITE_URL = "https://docs.zoldhq.com";
 const APP_URL = "https://zoldhq.com";
 
@@ -92,7 +95,7 @@ function page({ src, title, html, description, prev, next }) {
 <title>${esc(pageTitle)}</title>
 <link rel="canonical" href="${canonical}">${description ? `\n<meta name="description" content="${esc(description)}">` : ""}
 <link rel="icon" href="${base}/favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="${base}/style.css">
+<link rel="stylesheet" href="${base}/style.css?v=${VERSION["style.css"]}">
 </head>
 <body>
 <header class="top">
@@ -116,7 +119,7 @@ function page({ src, title, html, description, prev, next }) {
     <p class="legal">© Zoldenburg · <a href="${APP_URL}">zoldhq.com</a></p>
   </main>
 </div>
-<script src="${base}/site.js" defer></script>
+<script src="${base}/site.js?v=${VERSION["site.js"]}" defer></script>
 </body>
 </html>
 `;

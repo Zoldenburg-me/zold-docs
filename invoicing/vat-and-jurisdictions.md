@@ -6,13 +6,17 @@ description: An invoice is governed by where the issuer is established. Here is 
 
 The country in your organisation settings decides the rule set. Zold never applies one country's law to another: a Polish company is not offered German paragraphs, and an Indian one is not offered EU exemptions.
 
-## Three rule sets
+## Supported and not supported
+
+Only Germany's rules are encoded. Everywhere else is **Not supported** — you can still issue the invoice, on your own verification.
 
 | Your country | Rule set | What Zold checks |
 | --- | --- | --- |
 | Germany | **Statutory** | The German VAT Act's mandatory details (§ 14 UStG), simplified invoices up to €250 (§ 33 UStDV), the small-business scheme (§ 19, § 34a UStDV), and the wording each exemption requires. Rates of 19% and 7% are enforced. |
-| Any other EU member state | **Directive** | The EU VAT Directive baseline all member states share: the mandatory particulars (Art. 226), reverse charge (Art. 196), intra-community supply (Art. 138), export (Art. 146). National additions are not encoded. |
-| Everywhere else | **Structural** | Both parties present, a number, dates, and arithmetic that adds up. No tax law. |
+| Any other EU member state | **Not supported** | Only your issuing profile and a unique invoice number, plus that the tax reason you picked belongs to the EU rule set. |
+| Everywhere else | **Not supported** | Only your issuing profile and a unique invoice number, plus that the tax reason you picked exists. |
+
+Two checks run in every case, unsupported country or not: the invoice must name its issuer and a unique number, and the exemption reason it prints must belong to that country's rule set — a Polish invoice cannot cite a German paragraph. Nothing else is verified outside Germany, so before a non-German invoice goes out Zold asks you to verify the document yourself.
 
 Every readiness check states which of these ran, so "ready" never claims more than it means.
 
@@ -36,7 +40,7 @@ Under the structural rule set there is no built-in list. You define your own rea
 
 ## Rates
 
-Zold does not apply VAT rates by country, because rates change by statute. Germany's 19% and 7% are enforced. Everywhere else you set the rate you charge, and Zold checks only that it is a percentage. An invoice with no rate cannot be issued.
+Zold does not apply VAT rates by country, because rates change by statute. Germany's 19% and 7% are enforced. Everywhere else you set the rate you charge; under a Not supported rule set the rate is yours to verify.
 
 ## Your own rules
 

@@ -16,6 +16,7 @@ Everything about you as the issuer is entered once and prefilled onto every invo
 | Tax ID | Your general tax identifier. |
 | Notification email | Printed on invoices as the issuer contact. |
 | Reporting currency | For the books; not printed. |
+| Reporting time zone | The zone your monthly reports run in. It starts as your browser's zone; change it if your books follow another. |
 
 ## Your details on an invoice
 
@@ -27,6 +28,7 @@ Everything about you as the issuer is entered once and prefilled onto every invo
 | Default VAT rate | The rate new lines start with. Germany is fixed at 19% or 7%; elsewhere you set it. |
 | Payment terms | Days, plus the note printed on the invoice, e.g. "Payable within 14 days without deduction". |
 | Invoice number series | A prefix (`RE-{YYYY}-` inserts the year) and the next number. The next number to be issued is shown. |
+| Invoice language | English, German, French or Spanish — the language new invoices are written in. Until you pick one it follows your country (German for Germany, Austria, Switzerland and Liechtenstein; French for France; Spanish for Spain; English elsewhere). |
 
 ## Bank details and footer
 

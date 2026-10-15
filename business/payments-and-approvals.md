@@ -1,72 +1,37 @@
 ---
-description: Draft, review, send. Two people, never one pressing the same button twice.
+description: Prepare, review and send business payments with four-eyes approval.
 ---
 
 # Payments and approvals
 
-A business payment has more than one person in it, so that no one person can approve alone. In Zold that is a **draft**: something one person prepares, another reviews, and the account's approver sends.
-
-Payments → **New draft**.
-
-## Draft
-
-A draft has one or more **lines**. Each line pays one payee one amount in one currency: a contact's bank account or wallet, or details typed in for a one-off. Save it, come back, add lines.
-
-## Submit for review
-
-When it is ready, **Submit for review**. The draft appears in the reviewers' queue.
-
-When review is on, a draft **must** be reviewed before it can be sent. When it is off, the person who drafts can send.
-
-## Review stays on until an owner turns it off
-
-Review comes with the Business plan and its trial. Once your organisation works with it, it is your organisation's rule, not the plan's: if the trial ends or you move to Starter, review **stays on**. Nobody can start sending payments alone just because the plan changed.
-
-To turn it off: **Settings → Who approves payments → Turn review off**. Only an owner can, and you confirm with your passkey. The change is recorded with who made it and when. Turning review back on needs a plan that includes it.
-
-Drafts that were already waiting for review keep waiting after review is turned off, or after a downgrade. They are sent once someone approves them.
-
-## Edit or cancel a draft
-
-Until sending starts, a draft is only a proposal. Open it in Payments:
-
-- **Edit** changes the amounts and notes. Editing a draft that is waiting for review, or already approved, puts it back to **Draft**: what was approved is no longer what is in it, so it has to be reviewed again. You become its drafter, so someone else approves it.
-- **Cancel this payment run** withdraws it. Nothing was sent. The draft stays under **Cancelled** with who cancelled it and why, and an invoice it was paying waits for payment again. Anyone who may draft or review payments can cancel.
-
-To pay someone else, cancel the run and start a new payment. Once sending has started, a draft can no longer be edited or cancelled.
+Payments → **New draft**. A draft has one or more lines; each pays one recipient one amount in one currency. Save it and add lines later.
 
 ## Review
 
-An admin or owner opens the draft, checks each line, and **approves** or **rejects** it with a note.
+Choose **Submit for review**. When review is on, a draft must be reviewed before it can be sent. An admin or owner approves or rejects each line with a note. The reviewer cannot be the drafter, whatever their role.
 
-**Four eyes.** The reviewer cannot be the person who drafted it, whatever their role. An admin who drafts a payment still needs a second admin to approve it.
+Review is included in Business and its trial. Once enabled, it stays on if the trial ends or the organisation downgrades. When review is off, the drafter can send. Only an owner can turn it off at **Settings → Who approves payments → Turn review off**, confirmed with a passkey. The change is recorded with who made it and when. Turning it back on requires a plan that includes review; drafts already awaiting review stay there and are sent only when approved.
 
-## Invalid data
+Editing a pending or approved draft returns it to **Draft** and makes the editor its drafter. **Cancel this payment run** withdraws it before sending; it stays under **Cancelled** with who cancelled and why. An invoice waits for payment again. Anyone allowed to draft or review can cancel. Once sending starts, drafts cannot be edited or cancelled.
 
-At save time each line records a fingerprint of the payee's details. It is checked again at review and again at the moment of sending. If a contact's account changed in between, the draft moves to **Invalid data** and stops. Someone reopens it, confirms the details, and submits it again. So an address-book change between approval and sending is always caught.
+## Check details and send
 
-## Send
+Zold fingerprints payee details when saved and checks them at review and at sending. If a contact changed, the draft stops at **Invalid data** until someone confirms the details and resubmits it.
 
-**Send** turns the approved draft into one transfer per line. Every line is planned before anything is created: a gated currency, an amount below the fee, an amount over a limit, or an insufficient total balance stops the whole batch with nothing sent. The balance is checked against the **total** of all lines, not line by line.
+**Send** creates one transfer per line. Zold validates the whole batch first: a gated currency, too-small amount, exceeded limit or insufficient total balance stops everything. Balance is checked against the total, not line by line. The member whose login approves for the account signs every transfer with their passkey.
 
-The member whose login approves for the account approves each transfer with their passkey. A payer can press send, but only that member can give the final approval; the screen tells you who that is.
+If a line fails part-way, earlier transfers are unapproved and expire without moving money. The draft becomes **Failed**; create a new draft to try again.
 
-## What can go wrong
+Draft status follows its transfers; it cannot show sent while a payment is still under review.
 
-If one line fails part-way, the lines before it exist as unapproved transfers that cannot move money and simply expire. The draft is marked **Failed**. To send again, create a new draft; this avoids stacking a second batch on the first.
-
-A draft's status is always read from its transfers. It cannot show "sent" while one of its payments is still under review.
-
-## States
-
-| State | Who acts next |
+| State | Next action |
 | --- | --- |
-| Draft | The drafter |
-| Pending review | A reviewer who is not the drafter |
-| Reviewed | The account's approver |
-| Rejected | The drafter, with the reviewer's note |
-| Invalid data | Anyone who can draft, to confirm the payee |
-| Executing | Nobody; transfers are moving |
+| Draft | Drafter |
+| Pending review | Reviewer other than drafter |
+| Reviewed | Account approver |
+| Rejected | Drafter; read review note |
+| Invalid data | Confirm payee details and resubmit |
+| Executing | None; transfers are moving |
 | Executed | Done |
-| Failed | The drafter, to re-draft |
-| Cancelled | Nobody; it was withdrawn before anything was sent |
+| Failed | Create a new draft |
+| Cancelled | None; withdrawn before sending |

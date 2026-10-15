@@ -1,55 +1,37 @@
 ---
-description: Watch and book wallets you hold elsewhere, or bring your company's existing Safe into Zold as its account.
+description: Watch wallets for bookkeeping or use your company's existing Safe.
 ---
 
 # Imported wallets
 
-There are two different things here. A **watched wallet** is one you only book in Zold; nothing is approved for it in Zold. **Your company's existing Safe**, brought in when you open the account, becomes the account itself, and you approve its transfers in Zold with your passkey like any account Zold opened.
+A **watched wallet** is read-only in Zold: Zold books it but never holds its key or approves for it. A company Safe you bring in becomes the account; you approve its transfers with your passkey.
 
-## Watched wallets
+## Watch a wallet
 
-Wallets → **Import wallet**. Enter the address, its network and a label.
+Wallets → **Import wallet**, then enter its address, network and label. Zold books listed-token transfers, categorises them and includes them in reports and exports. Drafted payments become unsigned transactions for you to sign in your own wallet.
 
-An imported wallet is **read-only**. Zold books its token transfers, categorises them, and includes them in reports and exports. It never holds a key for it and never approves anything for it.
+Each listed-token transfer is one ledger line with amount, counterparty and euro value at arrival:
 
-The one-line rule: **if it is your Zold account, you approve in Zold; if you imported it to watch, you approve in that wallet.** A payment drafted from an imported wallet is built by Zold and handed to you as an unsigned transaction to sign in your own wallet.
+- EURe is €1 per token; dollar stablecoins use the ECB reference rate for that day.
+- Other Uniswap- or CoinGecko-listed tokens use a transfer-time price. If there is no price, the line says **no price**, not €0.
+- Tokens on neither list, ETH, NFTs and balance changes without a transfer are not booked. Tell Zold if a payer uses an unlisted token.
+- Addresses on contacts identify senders, including payout contracts and claimed streams. Add each address to the payer's contact.
 
-### What gets booked
+On Business, choose **Book from** to import earlier history; otherwise booking starts on import day. Wallets shows whether syncing is current, catching up or paused. **Not yet fully live:** sync is enabled network by network; until enabled, that wallet shows **Not syncing** and nothing is booked.
 
-Every transfer of a listed token in and out of a watched wallet becomes one line in **Books → Every transaction**: the amount, the other side's address, and what it was worth in euros on the day it arrived.
+Books hold at most **100,000 lines**. When full, wallet syncing pauses without skipping entries; Wallets shows the pause. Contact support@zoldhq.com to raise the limit; syncing resumes where it stopped.
 
-- **Who paid.** If the sending address is on a contact, the line names that contact. Put every address a payer uses on their contact, including a payout contract or a payment stream you claim from, and claims are matched like ordinary payments.
-- **Value in euros.** EURe is euro e-money: one token, one euro. Dollar stablecoins count as one US dollar, converted at the ECB reference rate for that day. Other tokens on the Uniswap or CoinGecko token lists are priced at the time of the transfer and converted the same way. A listed token Zold has no price for is still booked and marked **no price**, never at €0.
-- **Tokens on no list.** Anyone can send a made-up token to your wallet. A transfer of a token that is on neither list is not booked at all, so an airdrop never shows up in your books or counts as revenue. If a payer really pays you in a token that is not listed yet, tell us.
-- **Not booked:** the network's own coin (ETH), NFTs, and tokens whose balance changes without a transfer.
+## Bring in your company's Safe
 
-When you import a wallet on Business, you can pick a **Book from** day to fill in its history from before the import. Without one, the wallet is booked from the day you add it. The Wallets screen shows, for each wallet, whether it is up to date, still catching up, or not syncing and why.
+No money moves during setup. Create the company account and passkey, then choose **Use our company's existing Safe**. Enter the Safe address and check its owners, threshold and network.
 
-An organisation's books hold at most 100,000 lines. When they are full, syncing pauses for its wallets: nothing is skipped, each wallet keeps its place, and the Wallets screen says it is paused. Ask support@zoldhq.com to raise the limit, and syncing picks up where it stopped.
+Choose whether to keep your wallet as a second owner (either it or your phone can approve alone) or replace it with your phone (the wallet permanently stops being an owner). Then:
 
-{% hint style="warning" %}
-**Not yet fully live.** Sync is switched on network by network. Until it is on for a wallet's network, the Wallets screen shows **Not syncing** for that wallet and nothing from it is booked.
-{% endhint %}
+1. Choose **Download for Safe{Wallet}**. In app.safe.global, connect the Safe owner wallet, open **Apps → Transaction Builder**, load the file, and sign and send. Zold never sees or sends that signature.
+2. Back in Zold, choose **I've sent it**. Wait and check again if the network has not updated.
+3. Review the owners shown on the network. An owner other than your phone can move funds alone; approve only if it is yours or your company's.
+4. Choose **Approve with Face ID** or, on a computer, **Approve with your passkey**. This binds the exact Safe and owner list. If owners change before completion, check and approve again.
 
-## Bringing in your company's existing Safe
+Until final approval, choose **Use a new account instead** if needed. A company with a new account cannot import a Safe later.
 
-If your company already holds its money in a Safe, for example one controlled by a Ledger, you can use that Safe as the company's Zold account instead of opening a new one. No money moves.
-
-1. Create the company account and set up your passkey. Zold then asks where the money should sit: choose **Use our company's existing Safe**.
-2. Paste the Safe's address. Zold shows its owners, how many approvals it needs and its network, so you can check it is the right one.
-3. Choose how to add your phone:
-   - **Keep your wallet as a second owner** (the default). Afterwards your phone or your wallet can each approve on their own.
-   - **Replace your wallet with your phone.** Your wallet stops being an owner for good.
-4. Tap **Download for Safe{Wallet}**. In app.safe.global, connect the wallet that owns the Safe, open **Apps → Transaction Builder**, drag the file in, and sign and send it with your wallet. Zold never sees or sends that signature.
-5. Back in Zold, tap **I've sent it**. Zold checks the Safe on the network. If the change has not arrived yet, wait a minute and check again.
-6. Zold shows the Safe's owners as the network has them now, and names any owner other than your phone. That owner can move the money on its own, so approve only if it is your wallet or your company's. Choose **Approve with Face ID** (on a computer, **Approve with your passkey**): only with that approval does Zold make the Safe the company's account. The approval covers this Safe with exactly these owners; if they change before Zold finishes, it asks you to check and approve again.
-
-Until step 6 succeeds you can still choose **Use a new account instead**. Once the company has its own new account, it can't bring in a Safe later.
-
-Zold works with Safes that need one approval per payment, have at most one other owner, and are set up like the Safes Zold opens itself (Safe version 1.4.1 with the ERC-4337 module, no other modules and no transaction guard). Zold tells you which of these a Safe misses.
-
-{% hint style="info" %}
-Recovery through Zoldenburg or an email code is not offered for a Safe you bring in yet. If you keep your wallet as a second owner, it can still add or replace owners in Safe{Wallet}.
-{% endhint %}
-
-Start a step on one phone and finish it there: the phone remembers that you are bringing in a Safe, so it does not open a new account in the meantime.
+Supported Safes need one approval per payment, at most one other owner, version **1.4.1**, the ERC-4337 module, no other modules and no transaction guard. Zold identifies unsupported settings. Zoldenburg or email-code recovery is not available for imported Safes. A second owner can still change owners in Safe{Wallet}. Start and finish setup on the same phone; it remembers the import.

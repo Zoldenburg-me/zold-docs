@@ -1,53 +1,35 @@
 ---
-description: Take crypto for your Shopify orders and receive euros. Orders are marked paid the moment the payment is seen.
+description: Let Shopify customers pay orders in USDC through your Zold payment page.
 ---
 
 # Shopify
 
-Zold connects to a Shopify store so that a customer can pay an order in USDC and you receive the result in your Zold account, converted to euros when you approve it, or kept as USDC.
+Connect Shopify to accept USDC for EUR orders. When the payment appears, Zold marks the order **paid** and records it in Shopify.
 
-There are two ways to connect, and only one of them is open today.
+## Manual payment method (available now)
 
-## Manual payment method + Zold app (available now)
+In Shopify, go to **Settings → Payments → Manual payment methods → Create custom payment method**. Name it with “Zold” and set checkout currency to EUR.
 
-Your store offers a **manual payment method** named Zold at checkout. When a customer places an order with it, Zold opens a crypto payment for the order total and, with the Zold block added to your thank-you page, the customer sees the USDC amount, the address and a QR code on the very next screen. The moment the payment is seen on the network, Zold marks the order **paid** in your Shopify admin and records the transaction on the order.
+In Zold Business, open **Settings → Connections → Shopify**, enter the `myshopify.com` domain and choose **Connect store**. Approve in Shopify and return in the same browser. Zold subscribes to new-order notices. This manual method works on any Shopify plan and needs no Shopify app approval. It refuses a store already connected to another organisation without changing that connection; disconnect it there first. It also refuses if you lose permission to change settings before returning. Approval in another browser or device connects nothing.
 
-This works on any Shopify plan and needs no approval from Shopify: the app is installed on your store directly.
+Add Zold's **Zold — pay with crypto** block to Shopify's Thank you page and set its **Zold API origin**. In **Settings → Notifications → Order confirmation**, add the store's signed pay link. It opens an order's payment only for someone with that order email. Keep the template private like an API key; test it from the email. Shopify's test flag is shown, but test orders use real money.
 
-### Set it up
+The payment goes to the payment page of the account backing the organisation's EUR account. Set up a [payment page](../get-paid/payment-page.md) first.
 
-1. In Shopify, **Settings → Payments → Manual payment methods → Create custom payment method**. Name it so that it contains "Zold". Set your checkout currency to EUR.
-2. In the Zold business dashboard, open **Settings → Connections → Shopify**, enter your store's `myshopify.com` domain and **Connect store**. You approve the app in Shopify and are sent back; Zold subscribes to your store's new-order notifications.
-3. Add the **Zold — pay with crypto** block to your Thank you page in Shopify's checkout editor, and point its "Zold API origin" setting at Zold.
-4. In Shopify, **Settings → Notifications → Order confirmation**, add the pay link that Zold's dashboard shows for your store. A customer who leaves the thank-you page uses this link to come back to the payment.
+## What customers and you see
 
-The pay link is signed with a key for your store, so it opens an order's payment only for someone who got that order's email. Keep the template private, as you would an API key. After adding it, place a test order and open the link from the email to check that it works.
+Placing an order leaves it **payment pending**. The customer sees the exact USDC amount, payment-page address, QR and **open in wallet** link on the thank-you page; the email link returns them to pay. When the deposit appears, Shopify marks the order paid and records the transaction. It also appears in **Payment links** and Shopify in the dashboard.
 
-A store is connected to one organisation. If it is already connected to another organisation, Zold refuses the connection, both when you press **Connect store** and when Shopify sends you back, and the existing connection keeps its settings. To move a store, disconnect it in the organisation that holds it first. The connection is also refused if, by the time you come back from Shopify, you have left the organisation or can no longer change its settings.
+Each request stays open **24 hours**. A later payment still reaches your payment page but is not matched to the order; mark it paid by hand.
 
-Finish connecting in the browser where you pressed **Connect store**. If the Shopify approval is opened in another browser or on another device, Zold connects nothing and asks you to start again from the dashboard. This is what stops someone from sending your store's admin an approval link that would connect your store to their organisation.
+## Limits
 
-The money goes to the payment page of the account that backs your organisation's EUR account (for a personal organisation, your own). That account needs a [payment page](../get-paid/payment-page.md) first.
+- **EUR orders only.** Other currencies are ignored; bank transfer is not offered.
+- **Unpaid orders hold inventory.** Cancel unwanted unpaid orders; Zold closes their payment request.
+- **Refunds are yours to send** from Zold and record on the order. Zold does not send money back to the paying address; it may belong to an exchange.
 
-### What happens on an order
-
-1. The customer picks Zold at checkout and places the order. The order is created as **payment pending**.
-2. On the thank-you page the customer sees the exact USDC figure, your payment-page address and a QR code, with an "open in wallet" link. The order confirmation email carries the pay link to the same payment.
-3. When the deposit is seen, the order is marked **paid** in Shopify and the block says so. The transaction is recorded on the order.
-4. The payment appears in your **Payment links** and on the dashboard's Shopify screen, with the asset it arrived in.
-
-Each order's payment request stays open for 24 hours. A payment that arrives later still lands on your payment page, but is not matched to the order: mark the order paid by hand in that case.
-
-### Limits, stated plainly
-
-* **The order exists before the money does.** Inventory is held while an order waits for payment. Cancel unpaid orders you do not want to keep waiting for; Zold closes the payment request when you do.
-* **EUR stores only.** An order in another currency is ignored.
-* **Crypto only.** A bank transfer is not offered on an order payment.
-* **Refunds are made by you** from your Zold account, recorded on the order. Zold does not send funds back to whatever address paid, because that is often an exchange's wallet and not the customer's.
-* **Test orders are real money.** Shopify's test flag is carried and shown on the page, but Zold has no test money.
-
-## Payment method inside checkout (not yet available)
+## Shopify checkout integration
 
 {% hint style="warning" %}
-**Not yet available.** Zold as a payment method inside Shopify's checkout, with no manual method and no pending order, requires Shopify to approve Zold into its Payments Apps program. That approval has not been granted. Until it is, use the manual-method connection above.
+**Not yet available.** A Zold payment method inside Shopify checkout requires approval for Shopify's Payments Apps program. Until approved, use the manual method.
 {% endhint %}

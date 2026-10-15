@@ -1,28 +1,15 @@
 ---
-description: Contacts hold the bank accounts and wallets you pay, so nobody retypes an IBAN.
+description: Save payee details once and reuse them when you pay.
 ---
 
 # Address book
 
-A contact is a payee, not an address. One contact can hold several **bank accounts** and several **wallet addresses**, and the payment form reads from it, so the details are typed once and checked once.
-
-Contacts → **New contact**.
-
-* **Name** — the payee's name. On bank rails the name is part of the payout identity, so it must match the account holder.
-* **Bank accounts** — IBAN or, for other currencies, the local identifier, each with a label.
-* **Wallets** — an address and the network it is on, each with a label.
-* **Tags and notes** for your own use.
+Create a contact at Contacts → **New contact**. Add the payee's name, one or more bank accounts (IBAN or local identifier) and wallet addresses, each labelled; add tags and notes. Bank payee names must match the account holder. A wallet's label includes its network.
 
 ![The address book in the business dashboard.](../.gitbook/assets/contacts.png)
 
-Viewers can see contacts. Accountants, payers, admins and owners can edit them.
+Viewers can read contacts. Accountants, payers, admins and owners can edit them. Personal accounts use **Saved contacts** in the app.
 
-## Editing a contact that has drafts
+## If payee details change
 
-When a bank account or wallet on a contact changes, any **unsent draft** that pays it is put into the **Invalid data** state and stops. It does not follow the new details. Someone opens the draft, confirms the new payee details are right, and resubmits it for review. See [Payments and approvals](payments-and-approvals.md).
-
-This protects you from paying an old draft to a changed account without noticing.
-
-## Contacts in your personal account
-
-Personal accounts have the same address book, under **Saved contacts** in the app. The send flow offers your saved contacts first.
+Changing a contact's bank account or wallet invalidates every unsent draft that pays it. The draft stops at **Invalid data**; it does not use the new details automatically. Reopen it, confirm the payee and resubmit for review. See [Payments and approvals](payments-and-approvals.md).

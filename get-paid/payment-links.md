@@ -1,53 +1,38 @@
 ---
-description: Ask for an amount with one link. The payer chooses crypto, a bank transfer or their Zold account, and you see when it lands.
+description: Request a specific amount and let the payer choose how to pay.
 ---
 
 # Payment links
 
-A payment link is a request for a specific amount: **zoldhq.com/pay/yourname/XXXXX-XXXXX-XXXXX**. Where your [payment page](payment-page.md) is a standing address anyone can pay any amount to, a payment link says *what* you are asking for and shows the payer *how* to pay it, then tells you when the money arrives.
+A payment link asks for an amount and explains how to pay. Unlike your [payment page](payment-page.md), it is not an open-ended request.
 
 ## Create a link
 
-Profile → **Payment links** → **New link**.
+Profile → **Payment links → New link**.
 
-* **Amount** in euros, or leave it empty and the payer types the amount.
-* **What it is for** — a line the payer sees, such as an invoice number.
-* **Ways to pay** — tick what you offer. USDC needs a payment page; bank transfer needs your IBAN.
-
-Copy the link, or tap **Share**: the message names the amount and what it is for, with the link on its own last line. Send it however you like. Links are open for seven days unless you set another date, and you can cancel a link that nobody has paid yet.
+1. Enter an amount in euros, or leave it blank for the payer to choose.
+2. Add **What it is for**.
+3. Select payment methods. USDC requires a payment page; bank transfer requires an IBAN.
+4. Copy the link or choose **Share**. It stays open for **7 days** unless you set another date; cancel it before anyone pays.
 
 ![Get paid in the business dashboard: bank details, payment links and your payment page.](../.gitbook/assets/get-paid.png)
 
-## What the payer sees
+## How the payer pays
 
-The page shows who is asking, the amount and the description, and a tab for each way to pay:
-
-| Method | What the payer does | How it is matched to your link |
+| Method | Payer does | Zold matches by |
 | --- | --- | --- |
-| **Crypto (USDC)** | Sends the exact USDC figure shown to your payment-page address on Base, by QR or "open in wallet". | By amount. Every link quotes a distinct USDC figure. |
-| **Bank transfer** | Sends euros to your IBAN with the link's code as the payment reference. | By the reference on the incoming transfer. |
-| **Zold account** | Opens the Zold app with your account, the amount and the reference filled in, and approves with their passkey. | The same reference, on a transfer Zold itself made. |
+| **Crypto (USDC)** | Sends the exact USDC figure shown to your Base payment-page address. | Amount; each link gets a distinct figure. |
+| **Bank transfer** | Sends euros to your IBAN with the link code as reference. | Incoming reference. |
+| **Zold account** | Opens Zold with your account, amount and reference filled in; approves with a passkey. | Reference on the Zold transfer. |
 
-The USDC figure comes from the live EUR/USD mid-market rate plus a stated **0.5% conversion allowance**, and the page says so. It holds for 15 minutes, then re-prices; any figure the page has shown still counts if it is paid. You are credited what the conversion actually delivers, and the link records both the euro amount asked for and what you hold.
+The USDC figure uses the live EUR/USD mid-market rate plus a stated **0.5% conversion allowance**. It holds for **15 minutes**, then re-prices; any figure already shown still counts if paid. You are credited what conversion delivers. The link records the euro request and received asset.
 
-The page refreshes itself. When a payment is seen it shows the payer "Paid", and your Payment links screen shows the payment with the asset it arrived in.
+Payments within **0.5% below** the figure count in full. A larger shortfall is marked **partial** and the link stays open. A payment of double the figure is an ordinary deposit, not matched to the link. The page refreshes to show **Paid** when seen.
 
-## Partial and over-payments
+## Company links and privacy
 
-A payment a little under the figure (within 0.5%) counts in full. A payment well short of it is recorded as **partial** and the link stays open for the rest. A payment of double the figure is not attributed to the link at all; it stays on your account as an ordinary deposit for you to look at.
+If your login connected the company's euro account, your links are booked to the company and show its registered name. Only that login can create company links; other members' links pay into their own accounts and are not in company books. An invoice link is created from the invoice; see [Issue an invoice](../invoicing/issue-an-invoice.md#no-pay-button).
 
-## Bank details on the page
+Bank links show your IBAN and account name; crypto-only links show neither. Since October 2025, banks compare beneficiary names before sending.
 
-A link that offers bank transfer shows your IBAN and the **name on the account**. A SEPA transfer cannot be made without them, and since October 2025 banks compare the beneficiary name before sending. A link that offers crypto only shows neither.
-
-## Links for a company
-
-If you signed up as a company and your login connected the company's euro account, the links you make are the company's: they are booked to the company, and the payer sees the company's registered name as the account holder. A link for an issued invoice is made from the invoice; see [Issue an invoice](../invoicing/issue-an-invoice.md#get-paid-by-link).
-
-Only that person can make the company's links, because a link pays into the account their login connected. Other members of the organisation can still make links of their own. Those pay into their own account, show their own name, and are not part of the company's books.
-
-## What a payment link is not
-
-It is not private in the way a receipt is: the person you send it to can forward it. The code is unguessable (a random 15-character code), so nobody finds it by trying, but treat the link like the invoice it stands for.
-
-Crypto payments are matched by amount, so if a payer types a rounded figure that sits between two of your open links, Zold books it to the closest one. The link screen shows which deposit went where, so a wrong guess is visible rather than silent.
+The link is forwardable, not private. Its random **15-character** code cannot be guessed, but treat it like the invoice. Crypto is matched by amount; a rounded figure between two open links goes to the closest. The link screen shows the match.

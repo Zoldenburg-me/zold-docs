@@ -62,7 +62,7 @@ When you downgrade, **nothing is deleted**. Your chart of accounts, tags, rules,
 
 ## Verification per capability
 
-Some capabilities carry their own verification, because each regulated partner owns its own identity relationship. Your euro account is verified by Monerium. A card, when available, is verified by the card issuer. The **Settings → Organisation** screen lists each verification and its status; one does not stand in for another.
+Some capabilities carry their own verification, because each regulated partner owns its own identity relationship. Your euro account is verified by Monerium. A card, when available, is verified by the card issuer. The **Settings → Business profile** screen lists each verification and its status; one does not stand in for another.
 
 ## Settings
 

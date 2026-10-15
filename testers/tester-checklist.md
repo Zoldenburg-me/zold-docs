@@ -44,6 +44,6 @@ Real money moves. Use 1 € for every payment test.
 
 ## Finish
 
-- [ ] Reported anything odd to aurel@zoldhq.com: time, what you pressed, a screenshot
+- [ ] Sent anything odd to Aurel: time, what you pressed, a screenshot
 - [ ] Removed the API keys in Zold, if you stop testing
 - [ ] Deleted the Private app under **Developers** at Monerium, if you stop testing

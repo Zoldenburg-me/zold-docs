@@ -1,57 +1,29 @@
 ---
-description: Every transfer has a timeline, a detail view and a receipt you can share without giving away more than you mean to.
+description: Check transfer states and share a receipt with only the details you choose.
 ---
 
 # Tracking and receipts
 
-## Activity
+## Activity and details
 
-**Activity** lists deposits and transfers, newest first, with a status chip on each row. Filter by direction or state. The same rows appear on the dashboard's recent list.
+**Activity** lists deposits and transfers, newest first, with a status on each row. Filter by direction or state; the dashboard shows the same recent rows.
 
-A bank transfer into your IBAN shows as **Received**, with the sender's name and the reference they wrote. Money in from a crypto wallet is labelled as such.
+- **Bank deposit:** sender, reference and date.
+- **Crypto deposit:** sending wallet, network date and current asset. Converted dollars show euros received; held dollars offer **Convert to euros**.
+- **Transfer:** amount sent and received, rate, fee, recipient, reference or pickup code, and a timeline of states actually reached. Cash pickups also show the MoneyGram reference and **Refresh status**.
 
-## Money in
+Technical details link to Basescan. A conversion is your own money changing form, not another received payment in Activity. A step appears only once reached; the timeline says what a transfer is waiting for.
 
-Open a payment you received for its details:
+## Share a receipt
 
-* **Bank transfer:** the sender's name, the reference they wrote and the date.
-* **From a crypto wallet:** the sending wallet, the date it arrived on the network and what you hold it as now. Dollars (USDC) you converted show **Converted** with the euros that arrived. Dollars you still hold offer **Convert to euros**.
-* Under **Technical details**, the transaction that brought the money in and, for a conversion, the transaction that converted it. Both open on Basescan, so you can check them on the network yourself.
+Open a transfer after it starts moving and choose **Share receipt**. Pick what the link reveals:
 
-Converting dollars to euros is your own money changing form. It does not add a second "received" payment to Activity.
-
-## Transfer detail
-
-Open a row for:
-
-* amount sent and amount received, with rate and fee,
-* the recipient and the reference or pickup code,
-* a **timeline** that reflects the transfer's actual state, step by step,
-* for a cash pickup, the MoneyGram reference and a **Refresh status** button,
-* the option to **share a receipt**.
-
-A step that has not happened is not shown as done. If a transfer is waiting on something — the recipient's details, a partner confirmation — the timeline says what.
-
-## Shareable receipts
-
-From a transfer's detail press **Share receipt**. You choose what the link reveals:
-
-| Field | Options |
+| Field | Choices |
 | --- | --- |
-| Your name | full / first / last / none |
-| Recipient name | full / first / last / none |
-| Payout account | full / short / hidden |
-| Amounts shown | both / what you sent / what they got |
+| Your or recipient name | Full, first, last or none |
+| Payout account | Full, short or hidden |
+| Amounts | Both, sent or received |
 
-Three switches add more: **Rate, fee & margin**, **Your reference** and **Settlement route** (every hop the money took, with its references).
+Optional switches add **Rate, fee & margin**, **Your reference** and **Settlement route** with each hop and reference. In Business, open **Statements → Receipts for payments → Share**.
 
-In the business dashboard, the same composer opens from **Statements → Receipts for payments → Share**.
-
-Copy the link. Anyone with it can open the receipt in a browser with no account. A field you withheld is never sent to the page, so it cannot be uncovered by anyone who opens the link.
-
-* One receipt link per transfer. Sharing again replaces the earlier selection, so narrowing it narrows the live link.
-* Links expire after 30 days.
-* You can **revoke** a link at any time. Someone opening a revoked link is told it was revoked.
-* A receipt can be shared only once the transfer has started moving.
-
-Receipt links are long random strings that cannot be guessed. Treat them like the document itself: share with the person who needs it.
+Copy the link. Anyone with it can open it without an account. Withheld fields are not sent to the page. Each transfer has one link; sharing again replaces its settings, so a narrower selection updates the live link. Links expire after **30 days** and can be revoked; a revoked link tells visitors it was revoked. They are long random strings, but share them only with the intended person.

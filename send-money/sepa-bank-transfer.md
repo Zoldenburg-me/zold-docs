@@ -1,33 +1,23 @@
 ---
-description: Pay any IBAN in the SEPA area, in euros, from your balance.
+description: Send euros to an IBAN in the SEPA area.
 ---
 
 # SEPA bank transfer
 
-Destination **Europe**, method **Bank transfer**.
+Choose destination **Europe** and method **Bank transfer**.
 
-## What you need
+## Steps
 
-* The payee's **name**.
-* Their **IBAN**.
-* Optionally, a **reference** of up to 140 characters. It travels with the payment and appears on their bank statement.
+1. Enter the payee's name and IBAN.
+2. Add an optional reference, up to **140 characters**.
+3. Check the quote and approve with your passkey.
 
-## What happens
+Monerium redeems your euros and sends them to the payee's bank; Zold does not hold the payment. SEPA Instant usually arrives within seconds. If the receiving bank does not support Instant, it arrives the next business day.
 
-Your euros are redeemed by Monerium, which issues them, and sent by SEPA to the payee's bank. The payment goes straight from your account to Monerium; Zold does not hold it on the way. You approve it with Face ID or your fingerprint, for that amount and that payee. Most payments arrive within seconds by SEPA Instant. Where the receiving bank does not support Instant, it arrives on the next business day.
+Banks restrict reference characters. Zold simplifies accents, removes reserved characters and truncates at 140 characters; the remaining text appears on the payee's statement.
 
-## The reference
+## Fees and limits
 
-Banks accept a restricted character set in the reference field. Zold folds what you type into it: accents are simplified (Müller becomes Muller), reserved characters are removed, and the text is cut at 140 characters. What survives is what the payee sees.
+SEPA transfers are free, with no conversion or exchange-rate margin; the payee's bank receives the amount you enter. Per-transfer and daily limits apply; the app shows them when reached. See [Fees and exchange rates](../fees/fees-and-rates.md).
 
-## Fees
-
-None. Zold charges nothing for a SEPA transfer, and there is no currency conversion, so no exchange-rate margin. See [Fees and exchange rates](../fees/fees-and-rates.md).
-
-## Limits
-
-Per-transfer and daily limits apply and are shown when you reach them.
-
-## Paying a business
-
-If a supplier sent you an invoice through Zold, pay it from the invoice itself rather than typing the details: **Payments → Invoices → Pay**. The bank details come from the invoice and the reference is set for you. See [Invoice-Me links](../get-paid/invoice-me-links.md).
+To pay a Zold supplier invoice, use **Payments → Invoices → Pay**. The invoice fills in the bank details and reference. See [Invoice-Me links](../get-paid/invoice-me-links.md).

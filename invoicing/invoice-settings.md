@@ -6,6 +6,8 @@ description: The issuer identity and defaults every invoice is built from. Fill 
 
 Everything about you as the issuer is entered once and prefilled onto every invoice. It lives in two cards under **Settings** in the business dashboard.
 
+![The invoicing profile: your details, tax and numbering defaults, bank details and the optional blocks.](../.gitbook/assets/invoicing-profile.png)
+
 ## Organisation
 
 | Field | Notes |

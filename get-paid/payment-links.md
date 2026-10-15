@@ -16,6 +16,8 @@ Profile → **Payment links** → **New link**.
 
 Copy the link, or tap **Share**: the message names the amount and what it is for, with the link on its own last line. Send it however you like. Links are open for seven days unless you set another date, and you can cancel a link that nobody has paid yet.
 
+![Get paid in the business dashboard: bank details, payment links and your payment page.](../.gitbook/assets/get-paid.png)
+
 ## What the payer sees
 
 The page shows who is asking, the amount and the description, and a tab for each way to pay:

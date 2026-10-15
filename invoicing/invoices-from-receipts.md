@@ -24,7 +24,7 @@ Contacts → open the contact → **Set payer rule**. The rule holds what the re
 - **Addresses it pays from.** One per line: the network id, then the address. List every address the payer uses, including a payout contract or a stream.
 - **Who the invoice is addressed to.** Name and address of the legal entity, and its VAT ID if it has one.
 - **Tax line.** Either a VAT rate, or no VAT with the reason, from the list your country's rule set offers. There is no default.
-- **Language.** German or English.
+- **Language.** English, German, French or Spanish — the same set as on a typed invoice. The rule's choice applies to that payer's drafts and overrides the default from your invoice settings.
 
 The rule and the addresses are saved together. **Stop invoicing** removes the rule; drafts and invoices already made stay.
 

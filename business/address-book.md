@@ -13,6 +13,8 @@ Contacts → **New contact**.
 * **Wallets** — an address and the network it is on, each with a label.
 * **Tags and notes** for your own use.
 
+![The address book in the business dashboard.](../.gitbook/assets/contacts.png)
+
 Viewers can see contacts. Accountants, payers, admins and owners can edit them.
 
 ## Editing a contact that has drafts

@@ -8,6 +8,8 @@ Every Zold account belongs to an **organisation**. A personal account is an orga
 
 Open the business dashboard at **zoldhq.com/business**. It works on a phone as well as a computer: on a phone the main screens are in a tab bar at the bottom and everything else is under **Menu**. Invoices, books and approvals live here, for your personal space and for every company you belong to.
 
+![The business dashboard for one organisation.](../.gitbook/assets/business-dashboard.png)
+
 ## Your personal space
 
 If you signed up as a person, your own invoices and books live in a **personal space**. The first time you open the business dashboard without one, Zold offers to create it with your name and country. One tap, nothing to fill in. You can have one personal space, next to any companies you belong to, and switch between them from the account switcher.
@@ -35,6 +37,8 @@ The two share one machine with different defaults. Everything a premium personal
 **Premium** (personal) adds local accounts in several currencies, the full transaction ledger with tags and historical sync, cost basis and gains, monthly balance reports, CSV export, a reporting currency of your choice, and invoices.
 
 **Business** adds everything in Premium plus payment review and approval, bulk payments from CSV, the chart of accounts with automatic rules, and accounting integrations.
+
+![The Plan screen, under Settings.](../.gitbook/assets/plan.png)
 
 | Limit | Starter | Premium | Business |
 | --- | ---: | ---: | ---: |

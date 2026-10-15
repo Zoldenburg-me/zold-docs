@@ -21,14 +21,17 @@ Who you are is entered once, in your **business profile**, and every invoice rea
 | Managing director | Printed with the registration details. |
 | Notification email | Where Zold writes to you. |
 | Reporting currency | For the books; not printed. |
+| Reporting time zone | The zone your monthly reports run in. It starts as your browser's zone; change it if your books follow another. |
 
 ## Invoicing profile
 
 **Settings → Invoicing profile.**
 
+![The invoicing profile: your details, tax and numbering defaults, bank details and the optional blocks.](../.gitbook/assets/invoicing-profile.png)
+
 | Field | Notes |
 | --- | --- |
-| Invoice language | English or German. It starts as German for a company in Germany, Austria, Switzerland or Liechtenstein, and English everywhere else. You can choose the other for one invoice. |
+| Invoice language | English, German, French or Spanish — the language new invoices are written in. Until you pick one it follows your country (German for Germany, Austria, Switzerland and Liechtenstein; French for France; Spanish for Spain; English elsewhere). |
 | Small-business scheme | Tick it if § 19 UStG (or your country's equivalent) applies. Invoices are then issued exempt and the "Charge VAT" option is off until you untick it. |
 | Default VAT rate | The rate new lines start with. Germany is fixed at 19% or 7%; elsewhere you set it. |
 | Payment terms | Days, plus the note printed on the invoice, e.g. "Payable within 14 days without deduction". |

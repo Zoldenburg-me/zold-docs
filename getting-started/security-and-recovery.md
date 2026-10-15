@@ -53,20 +53,14 @@ Recovery emails contain no link and never ask for approval or a code. Open Zold 
 ## Email or SMS recovery
 
 {% hint style="warning" %}
-**Not yet fully live.** Email and SMS recovery are not offered yet.
+**Not yet fully live.** SMS recovery is not offered yet.
 {% endhint %}
-
-When available:
 
 - Register an email, phone or both at Profile → **Recovery**. Confirm each with a one-time code and approve with your passkey.
 - To recover, enter your recovery email at sign-in, set up a passkey, and confirm a code on **every** channel.
 - A wait follows; your old device can cancel. After it, the new device becomes the approver, old sessions end and its payment key is unbound.
 
 ## Your own backup login
-
-{% hint style="warning" %}
-**Not yet fully live.** Recovery with your own backup login is not offered yet. The steps below describe how it will work.
-{% endhint %}
 
 Choose one recovery helper: your Google or Apple login, email confirmed with a 6-digit code, or a recovery passkey. Set it up during account creation or at Profile → **Recovery**; the recovery passkey is offered only there. Save it on a security key or another device so it survives losing your phone. Only one helper can be active; remove Zoldenburg or email recovery first.
 

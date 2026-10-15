@@ -31,10 +31,10 @@ Answer the US question carefully. A "yes" closes the account path regardless of 
 ## Step 3 — Add a way back in
 
 {% hint style="warning" %}
-**Not yet fully live.** Recovery with your Google or Apple login is not offered yet, so this screen does not appear. The steps below describe how it will work.
+**Not yet fully live.** Recovery with your Google or Apple login or your email is not offered yet, so this screen does not appear. The steps below describe how it will work.
 {% endhint %}
 
-Choose **Continue with Google** or **Continue with Apple** and log in. That login becomes your recovery helper: if you lose this phone, it can move your account to a new one. It cannot send your money, and a move waits first, so this phone can cancel it. See [Security and recovery](security-and-recovery.md#google-or-apple-login).
+Choose **Continue with Google** or **Continue with Apple** and log in, or **Use my email** and type the 6-digit code we send to the email from the step before. That login becomes your recovery helper: if you lose this phone, it can move your account to a new one. It cannot send your money, and a move waits first, so this phone can cancel it. See [Security and recovery](security-and-recovery.md#your-own-backup-login).
 
 It is added in the same approval that creates your account in the next step, so it costs no extra Face ID. You can also choose **Skip for now** and set up recovery later.
 

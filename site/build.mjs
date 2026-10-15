@@ -13,6 +13,7 @@ const OUT = join(ROOT, "_site");
 const VERSION = Object.fromEntries(["style.css", "site.js"].map((f) => [f, createHash("sha256").update(readFileSync(join(ROOT, "site", f))).digest("hex").slice(0, 10)]));
 const SITE_URL = "https://docs.zoldhq.com";
 const APP_URL = "https://zoldhq.com";
+const DEFAULT_DESCRIPTION = "How to use Zold: your euro account, IBAN, payments and invoices.";
 
 const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
 const slug = (s) => s.toLowerCase().replace(/<[^>]+>/g, "").replace(/&[a-z#0-9]+;/g, "").replace(/[^\p{L}\p{N}\s-]/gu, "").trim().replace(/\s+/g, "-");
@@ -94,6 +95,15 @@ function page({ src, title, html, description, prev, next }) {
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${esc(pageTitle)}</title>
 <link rel="canonical" href="${canonical}">${description ? `\n<meta name="description" content="${esc(description)}">` : ""}
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Zold Docs">
+<meta property="og:title" content="${esc(pageTitle)}">
+<meta property="og:description" content="${esc(description || DEFAULT_DESCRIPTION)}">
+<meta property="og:url" content="${canonical}">
+<meta property="og:image" content="${SITE_URL}/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="${base}/favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="${base}/style.css?v=${VERSION["style.css"]}">
 </head>
@@ -138,7 +148,7 @@ pages.forEach((p, i) => {
 });
 writeFileSync(join(OUT, "search.json"), JSON.stringify(index));
 writeFileSync(join(OUT, "404.html"), page({ src: "404.md", title: "Page not found", html: `<h1>Page not found</h1><p>This page does not exist. Try the search, or start at <a href="/">the docs home</a>.</p>` }).replace(/href="(?![a-z]+:)(?:\.\/)?([^":#/][^"]*)"/g, 'href="/$1"').replace(/src="\.\//g, 'src="/').replace(/data-base="\."/, 'data-base=""'));
-for (const f of ["style.css", "site.js", "favicon.svg"]) copyFileSync(join(ROOT, "site", f), join(OUT, f));
+for (const f of ["style.css", "site.js", "favicon.svg", "og-image.png"]) copyFileSync(join(ROOT, "site", f), join(OUT, f));
 const assets = join(ROOT, ".gitbook", "assets");
 if (existsSync(assets)) cpSync(assets, join(OUT, "assets"), { recursive: true });
 console.log(`Built ${pages.length} pages into _site/`);

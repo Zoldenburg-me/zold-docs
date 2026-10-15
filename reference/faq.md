@@ -55,6 +55,9 @@ See [Security and recovery](../getting-started/security-and-recovery.md). If you
 **Why was my quote refused?**
 Usually because a fresh market rate could not be fetched, or because the venue price was too far from the market. Try again in a minute. Zold never quotes from an old rate.
 
+**Why does my balance say "Balance unavailable"?**
+Zold reads your balance from the network each time it loads your account. When that read fails, the app says so instead of showing €0.00, and won't start a transfer until it can check the amount against your balance. Your money hasn't moved. Reload in a minute.
+
 **Why did my transfer go to Manual review?**
 Something happened that should not be resolved automatically, such as a partner failing after it already held the funds. Your money is accounted for and someone will look at it. You will be contacted.
 

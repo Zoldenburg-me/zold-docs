@@ -1,29 +1,13 @@
 ---
-description: What you hold, what it cost you, and what it was worth at each month end.
+description: Review asset quantities, cost basis, gains and monthly balances.
 ---
 
 # Assets, cost basis and reports
 
-Premium and Business. Business dashboard → **Assets**.
+Premium and Business. Open Business → **Assets** to see each asset per wallet, its quantity, current reporting-currency value and cost basis.
 
-## Assets
+Each acquisition creates a tax lot with date, quantity and cost. Disposals consume lots first-in, first-out by default; Settings sets the cost-basis method. Realised gain or loss appears on the disposing transaction. Euros deposited carry face-value cost, so the euro account alone creates no gain or loss; conversions, USDC deposits and imported wallets can.
 
-A position per asset per wallet: quantity, current value in your reporting currency, and the cost basis of what you hold.
+**Reports → Monthly balance** shows month-end balances by wallet, network and token at month-end rates. Download CSV. Starter has **3 months** of history; paid plans have unlimited history.
 
-## Tax lots and cost basis
-
-Every acquisition of an asset opens a **tax lot** with its date, quantity and cost. When you dispose of some of that asset, lots are consumed **first in, first out** and the realised gain or loss is recorded on the disposing transaction. The cost-basis method is set in Settings; FIFO is the default.
-
-Euros paid into your account carry a cost of exactly their face value, so a euro account produces no gains or losses on its own. Conversions, USDC deposits and imported wallets do.
-
-## Monthly balance report
-
-**Reports → Monthly balance** gives closing balances for each month by wallet, network and token, with values in your reporting currency at month-end rates. Download it as CSV. Starter organisations can look back three months; paid plans have the full history.
-
-## Profit and loss
-
-The dashboard's **Recent activity** panel on paid plans shows profit and loss for the period and your top assets, drawn from the same ledger.
-
-{% hint style="info" %}
-These figures are bookkeeping, not tax advice. Your accountant decides how gains, losses and holdings are treated for your tax return; Zold gives them the numbers and the lots behind them.
-{% endhint %}
+On paid plans, Home's **Recent activity** shows period profit and loss and top assets. These are bookkeeping figures, not tax advice; your accountant decides how to report holdings and gains.

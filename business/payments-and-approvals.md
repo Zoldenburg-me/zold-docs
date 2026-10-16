@@ -11,7 +11,7 @@ Payments → **New draft**. A draft has one or more lines; each pays one recipie
 Choose **Submit for review**. When review is on, a draft must be reviewed before it can be sent. An admin or owner approves or rejects each line with a note. The reviewer cannot be the drafter, whatever their role.
 
 - **Turning it on**: an owner chooses **Settings → Who approves payments → Turn second approval on**.
-- **A Zold rule**: Zold refuses to send without the second approval. On chain the account needs only its passkey.
+- **A Zold rule**: a payment drafted in Business is not sent without the second approval. On chain the account needs only its passkey.
 - **Review off**: the drafter can send. Only an owner can turn it off, at **Settings → Who approves payments → Turn second approval off**, confirmed with a passkey and recorded with who and when.
 - **Drafts already awaiting review** stay there and are sent only when approved, even after review is turned off.
 - **Editing** a pending or approved draft returns it to **Draft** and makes the editor its drafter.

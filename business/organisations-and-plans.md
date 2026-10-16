@@ -1,8 +1,8 @@
 ---
-description: Choose an organisation, see plan limits and manage trials.
+description: Choose an organisation and see its limits.
 ---
 
-# Organisations and plans
+# Organisations
 
 Every Zold account belongs to an **organisation**: a personal space of one, or a company with members and finance tools. Open **zoldhq.com/business**. On a phone, other screens are under **Menu**.
 
@@ -17,34 +17,23 @@ Every Zold account belongs to an **organisation**: a personal space of one, or a
 | | Personal | Business |
 | --- | --- | --- |
 | Members | You | Up to 50, with roles |
-| Plans | Starter, Premium | Starter, Business |
 | Verification | Your Monerium profile | Company's Monerium profile |
-| Invoices | Premium | Business |
-| Review, chart of accounts, bulk payments | — | Business |
+| Invoices | Yes | Yes |
+| Review, chart of accounts, bulk payments | — | Yes |
 
-## Plans and limits
+## Limits
 
-- **Starter** (free): one local account, sending and receiving, contacts, history, receipts; business Starter includes up to three members.
-- **Premium**: up to five local accounts, ten imported wallets, full tagged ledger and historical sync, cost basis and gains, monthly reports, CSV export, reporting currency, invoices.
-- **Business**: up to 20 local accounts, 50 members, 100 imported wallets, 500-row CSV imports, payment review, bulk payments, chart of accounts, automatic rules, accounting integrations.
+Every feature is free. Members, review, the chart of accounts and bulk payments are for business organisations.
 
-![The Plan screen, under Settings.](../.gitbook/assets/plan.png)
-
-| Limit | Starter | Premium | Business |
-| --- | ---: | ---: | ---: |
-| Local accounts | 1 | 5 | 20 |
-| Members | 3 | 1 | 50 |
-| Imported wallets | 3 | 10 | 100 |
-| CSV import rows | — | — | 500 |
-| Report history | 3 months | Unlimited | Unlimited |
+| Limit | Personal | Business |
+| --- | ---: | ---: |
+| Local accounts | 20 | 20 |
+| Members | 1 (you) | 50 |
+| Imported wallets | 100 | 100 |
+| CSV import rows | — | 500 |
+| Report history | Unlimited | Unlimited |
 
 A limit blocks new items; it never removes existing ones.
-
-## Trial and downgrades
-
-Each organisation gets one **30-day trial** of its paid plan: Settings → Plan → **Start trial**. Your plan stays unchanged; the trial adds access, then returns you to your plan. **Keep it** converts at any time.
-
-Downgrading deletes nothing (accounts, chart, tags, rules, contacts, drafts, invoices, ledger). Features pause until you upgrade again.
 
 ## Settings
 

@@ -4,7 +4,7 @@ description: Map business transactions to accounts using rules or manual categor
 
 # Chart of accounts and rules
 
-Business plan. Business → **Chart of accounts**.
+Business organisations. Business → **Chart of accounts**.
 
 - Starter accounts cover revenue, costs, fees and exchange differences. Rename, add or retire accounts; retiring hides one from new mappings but keeps booked transactions.
 - Rules run in this order, first match wins: contact → wallet and asset → wallet → default.

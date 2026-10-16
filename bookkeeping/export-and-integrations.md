@@ -36,4 +36,4 @@ If GetMyInvoices is slow, Zold checks by Beleg number. Belege found without tags
 
 ## CSV export
 
-Premium and Business. Transactions → **Export** downloads the ledger: date, asset, amount, reporting value, counterparty, chart mapping, tags. **Reports** exports monthly balances.
+Transactions → **Export** downloads the ledger: date, asset, amount, reporting value, counterparty, chart mapping, tags. **Reports** exports monthly balances.

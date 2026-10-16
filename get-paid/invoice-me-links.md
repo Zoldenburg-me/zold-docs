@@ -4,7 +4,7 @@ description: Request a supplier invoice through a link, then pay it from Zold.
 
 # Invoice-Me links
 
-**Premium** and **Business**. Invoices → **Request an invoice**.
+Invoices → **Request an invoice**.
 
 ## Steps
 

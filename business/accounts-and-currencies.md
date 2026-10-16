@@ -4,7 +4,7 @@ description: See available local accounts, their status and company documents.
 
 # Accounts and currencies
 
-A global account holds local accounts in different currencies. On Premium and Business, open **Accounts → Open an account** to choose one.
+A global account holds local accounts in different currencies. Open **Accounts → Open an account** to choose one.
 
 ## Account status
 

@@ -10,7 +10,7 @@ description: Short answers about Zold accounts, payments, security and costs.
 | **Can anyone else send money from my account?** | No. Your passkey approves each amount and recipient. Email, a password or a caller posing as a bank employee cannot approve. Never approve a transfer you did not start. |
 | **Can a thief use my phone?** | A transfer needs Face ID, fingerprint or the device passcode. Keep that passcode private. Use [recovery](../getting-started/security-and-recovery.md) if the phone is lost. |
 | **What if Zold's servers are hacked?** | Servers hold no account key, but a compromised app could show a different payment to approve: check each one. A breach could expose stored data such as email and history. |
-| **How does Zold earn money?** | Starter is free; Premium and Business are paid, with a 30-day trial. No fee for sending or receiving euros or converting to and from USDC. Zold does not lend your money. |
+| **What does Zold cost?** | Every feature is free. No fee for sending or receiving euros or converting to and from USDC. Zold does not lend your money. |
 | **Do I have to leave my bank?** | No. You can receive salary or client payments in Zold and send money to another bank. |
 | **Can my employer refuse my German IBAN?** | In the euro area, an employer cannot refuse an IBAN because of its country. Your Zold IBAN works for salary like any other. |
 | **Can people abroad pay me?** | Yes: euro bank transfer from Europe or USDC from outside Europe through a [payment link](../get-paid/payment-links.md). |

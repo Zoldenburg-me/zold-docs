@@ -10,9 +10,9 @@ Payments → **New draft**. A draft has one or more lines; each pays one recipie
 
 Choose **Submit for review**. When review is on, a draft must be reviewed before it can be sent. An admin or owner approves or rejects each line with a note. The reviewer cannot be the drafter, whatever their role.
 
-- **Plan**: review is included in Business and its trial. Once enabled, it stays on if the trial ends or the organisation downgrades.
+- **Turning it on**: an owner chooses **Settings → Who approves payments → Turn review on**.
 - **Review off**: the drafter can send. Only an owner can turn it off, at **Settings → Who approves payments → Turn review off**, confirmed with a passkey and recorded with who and when.
-- **Turning it back on** needs a plan that includes review. Drafts already awaiting review stay there and are sent only when approved.
+- **Drafts already awaiting review** stay there and are sent only when approved, even after review is turned off.
 - **Editing** a pending or approved draft returns it to **Draft** and makes the editor its drafter.
 - **Cancel this payment run** withdraws it before sending; it stays under **Cancelled** with who cancelled and why, and an invoice waits for payment again. Anyone allowed to draft or review can cancel. Once sending starts, a draft cannot be edited or cancelled.
 

@@ -4,7 +4,7 @@ description: Filter, tag and review transactions across accounts and watched wal
 
 # Transactions and tags
 
-Premium and Business. Business → **Transactions**, or **See all** on Home.
+Business → **Transactions**, or **See all** on Home.
 
 - The ledger lists deposits, payments, conversions, fees and transfers between your accounts and imported wallets.
 - Filter by wallet, asset, direction, date, tag or chart category; filters combine.

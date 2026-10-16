@@ -15,7 +15,7 @@ Every fee appears on the quote before you approve.
 | Kenya cash pickup | **€0.99** | **0.5%** over mid-market |
 | USD account ACH / wire | Published when rail opens | — |
 | Network fees | None for you; Zold pays | — |
-| Plans | Starter free; Premium and Business prices in Settings → Plan | — |
+| Features | Free | — |
 
 {% hint style="warning" %}
 **Not yet fully live.** Cash pickup opens when a payout partner is live. The fee and margin above are what it will cost.

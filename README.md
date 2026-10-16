@@ -18,7 +18,7 @@ Zold is a euro account where only you approve transfers, with finance tools for 
 | Put euros in | [Bank transfer](add-money/bank-transfer.md) |
 | Pay a bank account in Europe | [SEPA bank transfer](send-money/sepa-bank-transfer.md) |
 | Get paid | [Your payment page](get-paid/payment-page.md) |
-| Run a company on Zold | [Organisations and plans](business/organisations-and-plans.md) |
+| Run a company on Zold | [Organisations](business/organisations-and-plans.md) |
 | Issue an invoice | [Issue an invoice](invoicing/issue-an-invoice.md) |
 | Get back in if I lose my phone | [Security and recovery](getting-started/security-and-recovery.md) |
 | Know what it costs | [Fees and exchange rates](fees/fees-and-rates.md) |

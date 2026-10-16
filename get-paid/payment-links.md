@@ -22,11 +22,12 @@ Profile → **Payment links → New link**.
 | Method | Payer does | Zold matches by |
 | --- | --- | --- |
 | **Crypto (USDC)** | Sends the exact USDC figure shown to your Base payment-page address. | Amount; each link gets a distinct figure. |
-| **Bank transfer** | Sends euros to your IBAN with the link code as reference. | Incoming reference. |
+| **Bank transfer** | Scans the link's bank QR with their banking app, or types your IBAN and the link code as reference. | Incoming reference. |
 | **Zold account** | Opens Zold with account, amount and reference filled in; approves with a passkey. | Reference on the Zold transfer. |
 
 - The USDC figure uses the live EUR/USD mid-market rate plus a stated **0.5% conversion allowance**. It holds **15 minutes**, then re-prices; a figure already shown still counts if paid.
 - You are credited what conversion delivers.
+- The bank QR (GiroCode / EPC QR) fills in your name, IBAN, BIC, the amount still due and the link code. On an open-amount link the payer types the amount.
 - Payments within **0.5% below** the figure count in full. A larger shortfall is marked **partial** and the link stays open.
 - A payment of double the figure is an ordinary deposit, not matched to the link.
 

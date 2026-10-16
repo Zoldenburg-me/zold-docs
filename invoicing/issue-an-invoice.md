@@ -47,6 +47,8 @@ The Pay button pays into your organisation's euro account, and only the member w
 
 If someone else issues the invoice, the account isn't open yet, or no way to get paid is set up, the invoice goes out with your bank details instead. That member can add the button later with **Payment link** in the invoice list. One invoice has one payment link.
 
+The link stays open until 60 days after the due date: at least 30 days, at most a year. Once it expires, the invoice page tells your customer and points them to your bank details or to you for a new link.
+
 ![An issued invoice, with its Payment link action.](../.gitbook/assets/invoice-detail.png)
 
 ## Simplified invoices (Germany only)

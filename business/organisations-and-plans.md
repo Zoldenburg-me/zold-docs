@@ -23,15 +23,15 @@ Every Zold account belongs to an **organisation**: a personal space of one, or a
 
 ## Limits
 
-Every feature is free, for personal and business organisations alike.
+Every feature is free. Members, review, the chart of accounts and bulk payments are for business organisations.
 
-| Limit | Each organisation |
-| --- | ---: |
-| Local accounts | 20 |
-| Members | 50 |
-| Imported wallets | 100 |
-| CSV import rows | 500 |
-| Report history | Unlimited |
+| Limit | Personal | Business |
+| --- | ---: | ---: |
+| Local accounts | 20 | 20 |
+| Members | 1 (you) | 50 |
+| Imported wallets | 100 | 100 |
+| CSV import rows | — | 500 |
+| Report history | Unlimited | Unlimited |
 
 A limit blocks new items; it never removes existing ones.
 

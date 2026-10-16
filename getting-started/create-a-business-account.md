@@ -23,5 +23,5 @@ For a company. For an account in your own name, see [Create a personal account](
 
 - **Who can join**: see [Eligibility](../reference/eligibility.md). A US incorporation or a US owner of 25% or more closes the account path.
 - **Name**: the account uses the company name.
-- **Team and plans**: see [Organisations and plans](../business/organisations-and-plans.md).
+- **Team and limits**: see [Organisations](../business/organisations.md).
 - **Passkey and recovery**: same as a personal account; see [Security and recovery](security-and-recovery.md).

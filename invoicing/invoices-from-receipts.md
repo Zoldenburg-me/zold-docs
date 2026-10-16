@@ -4,7 +4,7 @@ description: Turn receipts from imported wallets into a monthly paid invoice.
 
 # Invoices from receipts
 
-Premium and Business. Create a monthly invoice from tokens paid into your [imported wallets](../business/imported-wallets.md), when the payer chooses the amount.
+Create a monthly invoice from tokens paid into your [imported wallets](../business/imported-wallets.md), when the payer chooses the amount.
 
 {% hint style="warning" %}
 **Not yet fully live.** Drafts use wallet sync. It is enabled network by network; until a wallet's network is enabled, its transfers are not included.

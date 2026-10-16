@@ -12,9 +12,9 @@ Go to Members → **Invite**, enter an email and choose a role. Send the link yo
 | **Accountant** | Read, draft payments, manage contacts, categorise transactions, edit the chart and run reports; cannot send |
 | **Payer** | Read and send; cannot approve drafts or edit the chart |
 | **Admin** | Draft, approve and send; invite or change members, open accounts and manage books |
-| **Owner** | Admin plus billing and closing the organisation |
+| **Owner** | Admin plus turning payment review off and closing the organisation |
 
-Both role and plan must allow an action. A Viewer cannot send on Business; an Owner cannot use Business-only tools on Starter.
+Your role must allow an action. A Viewer cannot send.
 
 ## Review and approval
 

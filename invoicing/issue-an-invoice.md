@@ -4,7 +4,7 @@ description: Write an invoice, share one link, get paid.
 
 # Issue an invoice
 
-Write an invoice in Zold and send your customer one link with a **Pay** button. Premium and Business plans.
+Write an invoice in Zold and send your customer one link with a **Pay** button.
 
 ![The invoice form. The right side is the document your customer gets.](../.gitbook/assets/invoice-editor.png)
 

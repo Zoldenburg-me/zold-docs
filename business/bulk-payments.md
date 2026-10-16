@@ -4,7 +4,7 @@ description: Import up to 500 payees into one business payment draft.
 
 # Bulk payments
 
-Business plan. Choose Payments → New draft → **Import CSV**.
+Business organisations. Choose Payments → New draft → **Import CSV**.
 
 1. Upload a CSV up to **500 rows** and **2 MB**.
 2. Map columns to payee name, IBAN or wallet address, positive amount, `EUR` or token, and optional reference.

@@ -29,7 +29,7 @@ See [How Zold works under the hood](how-it-works.md) for how the parts fit toget
 | **Mid-market rate** | Reference exchange rate used to measure a quote's margin. |
 | **Monerium** | Licensed e-money institution that verifies you and issues your IBAN and EURe. |
 | **Organisation** | The group holding accounts and members; a personal account is an organisation of one. |
-| **Owner (Safe)** | An account approver. Your passkey is the only owner unless you add a backup key. The Business **Owner** role instead manages plans and can close the organisation. |
+| **Owner (Safe)** | An account approver. Your passkey is the only owner unless you add a backup key. The Business **Owner** role instead turns payment review off and can close the organisation. |
 | **Passkey** | Key created in your device's secure hardware and bound to zoldhq.com; Face ID, fingerprint, PIN, Windows Hello, computer sign-in, phone or security key unlocks it. It signs you in and approves transfers. |
 | **Payment page** | Public zoldhq.com/pay/handle page showing an address anyone can pay. |
 | **Pickup reference** | MoneyGram number the recipient uses to collect cash. |

@@ -15,7 +15,7 @@ Set your identity in **Settings → Business profile** and invoice defaults in *
 | VAT ID, tax number | Most countries require one on invoices. EU VAT IDs are checked against the member state's format. |
 | Company register, number, managing director | Printed; in Germany, Amtsgericht and HRB number. |
 | Notification email | Zold messages. |
-| Reporting currency, time zone | Books and monthly reports; not printed. Time zone starts as your browser's. |
+| Reporting currency, time zone | Books and monthly reports; not printed. The time zone also sets the day: a new invoice is dated today there, and statement lines are booked on its days. It starts as your browser's. |
 
 The Invoicing profile shows these read-only; choose **Edit** to change them.
 
@@ -29,7 +29,7 @@ The Invoicing profile shows these read-only; choose **Edit** to change them.
 | Small-business scheme | Select if §19 UStG or your country's equivalent applies. Invoices are exempt until you turn it off. |
 | VAT rate | Default for new lines. Germany uses 19% or 7%; elsewhere you set it. |
 | Payment terms | Due days and printed note, such as “Payable within 14 days without deduction”. |
-| Invoice number series | Prefix and next number. `{YYYY}` inserts the year; default `INV-{YYYY}-`, or `RE-{YYYY}-` for German-speaking companies. |
+| Invoice number series | Prefix and next number. `{YYYY}` inserts the invoice date's year; default `INV-{YYYY}-`, or `RE-{YYYY}-` for German-speaking companies. A number already used, such as one you typed on an invoice yourself, is skipped. |
 
 ## Bank details and display
 

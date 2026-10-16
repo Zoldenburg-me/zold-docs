@@ -31,7 +31,7 @@ Choose whether to keep your wallet as a second owner (either it or your phone ca
 1. Choose **Download for Safe{Wallet}**. In app.safe.global, connect the Safe owner wallet, open **Apps → Transaction Builder**, load the file, and sign and send. Zold never sees or sends that signature.
 2. Back in Zold, choose **I've sent it**. If the network has not updated, wait and check again.
 3. Review the owners shown. An owner other than your phone can move funds alone; approve only if it is yours or your company's.
-4. Choose **Approve with Face ID** or, on a computer, **Approve with your passkey**. This binds the exact Safe and owner list; if owners change first, check and approve again.
+4. Choose **Approve with Face ID** or, on a computer, **Approve with biometrics**. This binds the exact Safe and owner list; if owners change first, check and approve again.
 
 Before final approval you can choose **Use a new account instead**. A company with a new account cannot import a Safe later.
 

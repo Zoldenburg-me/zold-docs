@@ -16,7 +16,7 @@ For an account in your own name. For a company, see [Create a business account](
    - **US question**: are you a US citizen, Green Card holder or US tax resident?
    - Accept Zold's Terms.
 3. Add a way back in: tap **Google**, **Apple** or **Email**, or **Skip for now**.
-4. Set up your passkey (Face ID, fingerprint, device PIN, Windows Hello, your phone or a security key), then **approve once more**.
+4. Press **Set up Face ID**, or **Set up biometrics** on a computer. Approve the prompt (Face ID, fingerprint, Touch ID, Windows Hello, device PIN, phone or security key), then **approve once more**.
 5. On Home, finish **Confirm your email** and [Get your IBAN](connect-monerium.md).
 
 {% hint style="info" %}

@@ -1,16 +1,20 @@
 ---
-description: Check who approves a company account and how it can be recovered.
+description: Check who approves payments, who signs and how to recover.
 ---
 
 # Access and recovery
 
-The company's own sign-in (its email and passkey) approves transfers from its account. **Settings → Access** is visible only to that sign-in; other members, including admins, see a note. Members manage their personal sign-in in the Zold app's **Security** screen.
+**Settings → Access** shows on one screen who approves payments, who signs for the company's account and who can recover it. Every member sees who approves payments. The signers and recovery are visible only to the company's own sign-in (its email and passkey); other members see a note. Members manage their personal sign-in in the Zold app's **Security** screen.
 
-## Who can approve
+## Who approves payments
 
-**Access** shows the account address, the approvers and backup keys, and the threshold (for example, **1 of 1**).
+Shows whether **Second approval** is on, the members who can approve (owners and admins), how many owners there are, and what each role may do. An owner turns it on or off here. See [Payments and approvals](payments-and-approvals.md).
 
-Zold uses only the company sign-in's key and never collects another key's approval. If the account needs two approvals, or this sign-in is no longer an approver, Zold cannot send. Use **Open the account in Safe{Wallet}** instead. To add or remove a backup key, choose **Change in the app** and approve with the passkey.
+## Who can sign for the account
+
+Shows the account address, other signers and backup keys, the threshold (for example, **1 of 1**), and the **Payment key**: whether this browser holds it and whether your passkey encrypts it.
+
+Zold uses only the company sign-in's key and never collects another key's signature. If the account needs two signatures, or this sign-in no longer signs for it, Zold cannot send. Use **Open the account in Safe{Wallet}** instead. To add or remove a backup key, choose **Change in the app** and approve with the passkey.
 
 ## Recovery status
 
@@ -23,4 +27,4 @@ Zold uses only the company sign-in's key and never collects another key's approv
 
 Recovery is optional; the account works without it. Until the company sign-in chooses, every company screen warns that nobody can recover the account. Declining removes the banner; you can add recovery later.
 
-Recovery types and waiting periods: [Security and recovery](../getting-started/security-and-recovery.md). Change approvers and recovery in the Zold app, not Business.
+Recovery types and waiting periods: [Security and recovery](../getting-started/security-and-recovery.md). Change signers and recovery in the Zold app, not Business.

@@ -4,17 +4,23 @@ description: Check who approves payments, who signs and how to recover.
 
 # Access and recovery
 
-**Settings → Access** shows on one screen who approves payments, who signs for the company's account and who can recover it. Every member sees who approves payments. The signers and recovery are visible only to the company's own sign-in (its email and passkey); other members see a note. Members manage their personal sign-in in the Zold app's **Security** screen.
+**Settings → Access** shows who approves payments, who signs for the company's account and who can recover it.
+
+- **Every member** sees who approves payments.
+- **Signers and recovery** show only to the company's own sign-in (its email and passkey). Other members see a note.
+- **Your personal sign-in** is in the Zold app's **Security** screen.
 
 ## Who approves payments
 
-Shows whether **Second approval** is on, the members who can approve (owners and admins), how many owners there are, and what each role may do. An owner turns it on or off here. See [Payments and approvals](payments-and-approvals.md).
+Shows whether **Second approval** is on, who can approve (owners and admins), how many owners there are, and what each role may do. Owners turn it on or off here. See [Payments and approvals](payments-and-approvals.md).
 
 ## Who can sign for the account
 
-Shows the account address, other signers and backup keys, the threshold (for example, **1 of 1**), and the **Payment key**: whether this browser holds it and whether your passkey encrypts it.
+Shows the account address, other signers and backup keys, and the threshold (for example, **1 of 1**). **Payment key** says whether this browser holds the key and whether your passkey encrypts it.
 
-Zold uses only the company sign-in's key and never collects another key's signature. If the account needs two signatures, or this sign-in no longer signs for it, Zold cannot send. Use **Open the account in Safe{Wallet}** instead. To add or remove a backup key, choose **Change in the app** and approve with the passkey.
+Zold signs only with the company sign-in's key. If the account needs two signatures, or this sign-in no longer signs for it, Zold cannot send. Use **Open the account in Safe{Wallet}** instead.
+
+To add or remove a backup key, choose **Change in the app** and approve with the passkey.
 
 ## Recovery status
 

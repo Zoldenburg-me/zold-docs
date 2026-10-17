@@ -31,13 +31,14 @@ Your customer opens the link and pays by bank transfer or USDC. The invoice is m
 - **Language**: English, German, French or Spanish; default from your invoicing profile, changeable per invoice.
 - **Number**: from your series; you can override it, but it must be unique.
 - **Due date**: from your payment terms; changeable per invoice.
+- **Currency**: starts in your country's currency where Zold knows it (India: INR), otherwise EUR. Any currency with a published rate works. Payment is always collected in euros, at the rate on the issue day, which the invoice prints.
 - **Errors block, warnings don't.** The panel names the rule behind each item and what Zold doesn't check for your country.
 - **What appears on the invoice**: optional blocks only. Anything the law requires always prints.
 - **Issued means frozen.** Later profile changes don't touch it.
 
 ## Outside Germany
 
-Only Germany's invoicing rules are built in. Elsewhere the panel says **Not supported**: Zold checks your name, your address, a unique number and that your tax reason exists there, then asks you to check the rest yourself.
+Only Germany's invoicing rules are built in. Elsewhere the panel says your country's tax rules aren't checked: Zold checks your name, your address, a unique number and that your tax reason exists there, then asks you to check the rest yourself.
 
 {% hint style="info" %}
 Zold is not a tax adviser. For a German issuer it won't produce an invoice missing a mandatory § 14 field, or show VAT you said you don't owe. Whether a supply is exempt is your call, with your accountant.

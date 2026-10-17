@@ -12,3 +12,4 @@ Business → **Transactions**, or **See all** on Home.
 - On Business, each transaction maps to a chart account: rules map most, accountants categorise the rest.
 - Changing reporting currency in Settings revalues the display, not the underlying amounts.
 - Backfill history with Wallets → a wallet → **Sync history**. Wallets without completed sync show **not synced**, not empty.
+- **Wallets**: Books → **Wallets** lists your own Zold account first, marked as the account's own; it cannot be removed. Imported wallets follow.

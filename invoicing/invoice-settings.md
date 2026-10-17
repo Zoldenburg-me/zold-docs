@@ -14,6 +14,7 @@ Set your identity in **Settings → Business profile** and invoice defaults in *
 | Registered address | Invoice identity and country rules. |
 | VAT ID, tax number | Most countries require one on invoices. EU VAT IDs are checked against the member state's format and must start with your own country's code (EL for Greece). Changing country re-checks them. |
 | Company register, number, managing director | Printed; in Germany, Amtsgericht and HRB number. |
+| Email on your invoices | Optional; saved with each new invoice as your contact address. |
 | Notification email | Zold messages. |
 | Reporting currency, time zone | Books and monthly reports; not printed. The time zone also sets the day: a new invoice is dated today there, and statement lines are booked on its days. It starts as your browser's. |
 

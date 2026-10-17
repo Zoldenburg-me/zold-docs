@@ -28,9 +28,13 @@ Outside Germany, Zold verifies nothing else; check the document yourself. The re
 | Place of supply abroad | §3a(2) UStG, Art. 44 | — |
 | Other | — | You enter the reason and legal basis |
 
+## Outside the EU
+
+Choosing **Don't charge VAT** offers two reasons: **Not registered for VAT or GST**, and **Other reason**. Both ask you to write the note that prints on the invoice. Zold has no wording or legal citation for your country, and prints no EU one.
+
 ## Custom exemptions
 
-The EU rule set cites the same reasons to Directive articles and lets you write the national small-business note. Elsewhere there is no built-in list: define your own exemption ID, label, legal basis and printed note (required outside the EU, useful inside it). Zold prints a custom note without checking it. A custom rule can require the customer's tax ID; Zold checks only that one is present, not its format.
+The EU rule set cites the same reasons to Directive articles and lets you write the national small-business note. Anywhere, you can define your own exemption ID, label, legal basis and printed note. Zold prints a custom note without checking it. A custom rule can require the customer's tax ID; Zold checks only that one is present, not its format.
 
 ## Check before issuing
 

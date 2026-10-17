@@ -10,7 +10,7 @@ Every Zold account belongs to an **organisation**: a personal space of one, or a
 
 ## Personal or business
 
-- **Personal space**: create one with a name and country when you first open Business, or from **Get paid → Invoice** in the app. Change its name under Profile in the Zold app. Switch spaces from the account switcher.
+- **Personal space**: create one when you first open Business, or with **Get paid → Invoice** in the app. Change its name under Profile in the Zold app. Switch spaces from the account switcher.
 - **Company login**: has no personal space; use a personal Zold account for personal money.
 - **Your sign-in and recovery**: opens the Zold app's Security screen.
 

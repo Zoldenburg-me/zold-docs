@@ -10,6 +10,8 @@ Write an invoice in Zold and send your customer one link with a **Pay** button.
 
 Fill in your [business profile and invoicing profile](invoice-settings.md) once; every invoice is prefilled from them.
 
+No personal space yet? In the app, press **Get paid → Invoice**, fill in the name and country for your invoices, and Zold Business opens on **Invoices**.
+
 ## Steps
 
 1. Go to **Invoices → Issue an invoice**.
@@ -40,6 +42,14 @@ Only Germany's invoicing rules are built in. Elsewhere the panel says **Not supp
 {% hint style="info" %}
 Zold is not a tax adviser. For a German issuer it won't produce an invoice missing a mandatory § 14 field, or show VAT you said you don't owe. Whether a supply is exempt is your call, with your accountant.
 {% endhint %}
+
+## See an issued invoice again
+
+1. Go to **Invoices** and click the invoice's row.
+2. Press **View, print or save as PDF**. The invoice opens as your customer sees it.
+3. Press **Print / PDF** and pick **Save as PDF** to keep a copy.
+
+The issued invoice stays read-only. It opens in a browser where you're signed in to Zold Business.
 
 ## No Pay button?
 

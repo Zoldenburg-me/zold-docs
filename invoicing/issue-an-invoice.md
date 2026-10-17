@@ -57,9 +57,11 @@ The issued invoice stays read-only. It opens in a browser where you're signed in
 
 ## No Pay button?
 
-The Pay button pays into your organisation's euro account, and only the member who connected that account can create it.
+The Pay button pays into your organisation's euro account, and only the member who connected that account can create it. In your personal space it pays into your own wallet, with or without an IBAN.
 
-If someone else issues the invoice, the account isn't open yet, or no way to get paid is set up, the invoice goes out with your bank details instead. That member can add the button later with **Payment link** in the invoice list. One invoice has one payment link.
+If someone else issues the invoice, the account isn't open yet, or no way to get paid is set up, the invoice goes out without the button, showing your bank details if you have an IBAN. Claim your payment page under **Profile → Payment page**, then add the button with **Payment link** in the invoice list. One invoice has one payment link.
+
+Without an IBAN, the payment page shows your wallet address, its QR code, the network and the tokens it accepts. No bank details appear.
 
 The link stays open until 60 days after the due date: at least 30 days, at most a year. Once it expires, the invoice page tells your customer and points them to your bank details or to you for a new link.
 

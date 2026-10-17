@@ -31,10 +31,13 @@ Your customer opens the link and pays by bank transfer or USDC. The invoice is m
 - **Language**: English, German, French or Spanish; default from your invoicing profile, changeable per invoice.
 - **Number**: from your series; you can override it, but it must be unique.
 - **Due date**: from your payment terms; changeable per invoice.
-- **Currency**: starts in your country's currency where Zold knows it (India: INR), otherwise EUR. Any currency with a published rate works. Payment is always collected in euros, at the rate on the issue day, which the invoice prints.
 - **Errors block, warnings don't.** The panel names the rule behind each item and what Zold doesn't check for your country.
 - **What appears on the invoice**: optional blocks only. Anything the law requires always prints.
 - **Issued means frozen.** Later profile changes don't touch it.
+
+## Another currency
+
+A new invoice starts in your country's currency where Zold knows it (India: INR), otherwise EUR. Any currency with a published rate works. The invoice prints the euro amount at the issue-day rate, and its Pay link is for that euro amount.
 
 ## Outside Germany
 

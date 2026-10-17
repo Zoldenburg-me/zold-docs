@@ -34,7 +34,7 @@ Choosing **Don't charge VAT** offers two reasons: **Not registered for VAT or GS
 
 ## Custom exemptions
 
-The EU rule set cites the same reasons to Directive articles and lets you write the national small-business note. Anywhere, you can define your own exemption ID, label, legal basis and printed note. Zold prints a custom note without checking it. A custom rule can require the customer's tax ID; Zold checks only that one is present, not its format.
+The EU rule set cites the same reasons to Directive articles and lets you write the national small-business note. Anywhere, you can define your own exemption ID, label, legal basis and printed note; the note is required. Zold prints a custom note without checking it. A custom rule can require the customer's tax ID; Zold checks only that one is present, not its format.
 
 ## Check before issuing
 

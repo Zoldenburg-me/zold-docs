@@ -37,7 +37,7 @@ Your customer opens the link and pays by bank transfer or USDC. The invoice is m
 
 ## Another currency
 
-A new invoice starts in your country's currency where Zold knows it (India: INR), otherwise EUR. Any currency with a published rate works. The invoice prints the euro amount at the issue-day rate, and the Pay link asks for that amount. A customer paying in USDC is valued at the [arrival-day rate](../add-money/crypto-deposit.md).
+A new invoice starts in your country's currency where Zold knows it (India: INR), otherwise EUR. Any currency with a published rate works. The invoice prints the euro amount at the issue-day rate, and its Pay link is for that euro amount.
 
 ## Outside Germany
 

@@ -57,7 +57,7 @@ The issued invoice stays read-only. It opens in a browser where you're signed in
 
 ## No Pay button?
 
-The Pay button pays into your organisation's euro account, and only the member who connected that account can create it. In your personal space it pays into your own wallet, with or without an IBAN.
+The Pay button pays into your organisation's euro account, and only the member who connected that account can create it. In your personal space it pays into your own wallet, with or without an IBAN. A business with a wallet account connects the owner's wallet on **Accounts** with **Connect your wallet**; its Pay button then pays into that wallet.
 
 If someone else issues the invoice, the account isn't open yet, or no way to get paid is set up, the invoice goes out without the button, showing your bank details if you have an IBAN. Claim your payment page under **Profile → Payment page**, then add the button with **Payment link** in the invoice list. One invoice has one payment link.
 

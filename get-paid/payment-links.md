@@ -33,7 +33,7 @@ Profile → **Payment links → New link**.
 
 ## Company links and privacy
 
-- If your login connected the company's euro account, your links are booked to the company and show its registered name. Only that login can create company links; other members' links pay into their own accounts and are not in company books. An invoice link is created from the invoice; see [Issue an invoice](../invoicing/issue-an-invoice.md#no-pay-button).
+- If your login connected the company's euro account, or your wallet to a wallet-account business, your links are booked to the company and show its registered name. Only that login can create company links; other members' links pay into their own accounts and are not in company books. An invoice link is created from the invoice; see [Issue an invoice](../invoicing/issue-an-invoice.md#no-pay-button).
 - Bank links show your IBAN and account name; crypto-only links show neither. Since October 2025, banks compare beneficiary names before sending.
 - The link is forwardable, not private. Its random **15-character** code cannot be guessed, but treat it like the invoice.
 - Crypto is matched by amount; a rounded figure between two open links goes to the closest.

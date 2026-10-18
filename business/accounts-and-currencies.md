@@ -28,6 +28,10 @@ A company account starts without an IBAN. It can receive **EURe only** on Base: 
 - **Approval**: the login that connects the account's passkey approves its payments.
 - **Profile**: company accounts need a company Monerium profile, not a member's personal one. To open a company account after signing up personally, contact support@zoldhq.com.
 
+### With a wallet account
+
+Where an IBAN isn't available to you (see [supported countries](../reference/supported-countries.md)), press **Connect your wallet** on **Accounts**. Only an owner can. The organisation's invoices and payment links then pay into your wallet. The account has no IBAN, so nothing is sent from it by bank. A wallet connected to one organisation can't be connected to another.
+
 ## Statements and documents
 
 The login that approves the euro account can open **Statements**: monthly statements, balance confirmations, proofs of ownership and paid bank-transfer receipts. Each opens in a new tab to print or save as PDF, with an address to verify it.

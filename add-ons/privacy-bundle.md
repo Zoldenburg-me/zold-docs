@@ -5,7 +5,7 @@ description: The monthly eSIM and VPN allowances the bundle will offer.
 # Privacy Bundle
 
 {% hint style="warning" %}
-**Not yet fully live.** The bundle is not on sale yet. It appears in the app once both partners are ready.
+**Not yet fully live.** The bundle is not on sale yet.
 {% endhint %}
 
 One monthly add-on pairing Kokio eSIM data with Mysterium VPN. Allowances will reset each billing month.

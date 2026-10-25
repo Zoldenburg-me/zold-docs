@@ -6,7 +6,7 @@ description: Read each transfer state and see what happens if a payment fails.
 
 | State | Meaning |
 | --- | --- |
-| **Created** | Terms are fixed and waiting for your approval; nothing moved. Unapproved transfers expire and stop counting toward your daily limit. |
+| **Created** | Terms are fixed and waiting for your approval; nothing moved. Unapproved transfers expire. |
 | **Debited** | Funds left your account. |
 | **Swapped** | Cash rail converted euros to USDC at its quoted venue. |
 | **Bridged** | Cash rail is moving to the payout network. |

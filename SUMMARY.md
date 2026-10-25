@@ -62,7 +62,6 @@
 ## Add-ons
 
 * [💳 Gnosis Pay card](add-ons/gnosis-pay-card.md)
-* [🛡️ Privacy Bundle](add-ons/privacy-bundle.md)
 
 ## Testers
 

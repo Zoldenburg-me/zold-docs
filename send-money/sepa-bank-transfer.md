@@ -18,5 +18,5 @@ Choose destination **Europe** and method **Bank transfer**.
 - **Custody**: your euros are redeemed through Monerium and sent to the payee's bank; Zold does not hold the payment.
 - **Reference**: Zold simplifies accents, removes reserved characters and truncates at 140; the rest appears on the payee's statement.
 - **Fees**: free, with no conversion or exchange-rate margin; the payee's bank receives the amount you enter. See [Fees and exchange rates](../fees/fees-and-rates.md).
-- **Limits**: per-transfer and daily limits apply; the app shows them when reached.
+- **Limits**: per-transfer and daily limits apply; the app shows them when reached. A transfer you never approved stops counting toward your daily limit once it expires.
 - **Zold supplier invoice**: use **Payments → Invoices → Pay**. See [Invoice-Me links](../get-paid/invoice-me-links.md).

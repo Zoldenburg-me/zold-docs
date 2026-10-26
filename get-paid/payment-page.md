@@ -12,7 +12,7 @@ Profile → **Payment page**. You can claim one as soon as your account exists.
 
 - 3–30 characters: lowercase Latin letters, digits and internal hyphens; unique.
 - Cannot start with `0x`, match an app route, or use Zold, partner, staff-role or well-known-person names, even inside a longer handle.
-- Set a display name, or the page shows your handle.
+- Set a display name, or the page shows your handle. Keep it to 40 characters without emoji. Names that could pass for someone else's are refused.
 
 ## What the payer sees
 

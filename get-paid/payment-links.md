@@ -17,7 +17,7 @@ Profile → **Payment links → New link**.
 
 A link opens under a payment page: the company's, or else your own. With neither, **New payment link** is off. Press **Set up the page** (company, owners and admins) or **Set up your page** beside it.
 
-In a company, owners, admins and payers can make links. Each one pays into the company's euro account, whoever made it. A link made by anyone but the account holder opens only under the company's page.
+In a company, owners, admins and payers can make links. Each pays into the company's account, whoever made it. A link made by anyone but the account holder opens only under the company's page.
 
 ![Get paid in the business dashboard: bank details, payment links and your payment page.](../.gitbook/assets/get-paid.png)
 
@@ -37,7 +37,7 @@ In a company, owners, admins and payers can make links. Each one pays into the c
 
 ## Company links and privacy
 
-- If your login connected the company's euro account, your links are booked to the company and show its registered name. The same holds for your wallet connected to a wallet-account business. Only that login can create company links; other members' links pay into their own accounts and are not in company books. An invoice link is created from the invoice; see [Issue an invoice](../invoicing/issue-an-invoice.md#no-pay-button).
+- Company links pay into the account that backs the company: its euro account, or the wallet connected to a wallet-account business. They are booked to the company and show its registered name. Links made in your personal space pay into your own account and are not in company books. An invoice link is created from the invoice; see [Issue an invoice](../invoicing/issue-an-invoice.md#no-pay-button).
 - Bank links show your IBAN and account name; crypto-only links show neither. Since October 2025, banks compare beneficiary names before sending.
 - The link is forwardable, not private. Its random **15-character** code cannot be guessed, but treat it like the invoice.
 - Crypto is matched by amount; a rounded figure between two open links goes to the closest.

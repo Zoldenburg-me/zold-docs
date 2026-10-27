@@ -26,7 +26,7 @@ Send EURe or USDC from your account straight to a wallet, by its ENS name (like 
 - **Fees**: no Zold fee. Network gas is paid as for any payment from your account; when gas is paid in USDC, a USDC send leaves room for it and the app says the most you can send.
 - **Limits**: counts toward your daily limit. EURe counts at face value, USDC at the live mid-market rate. With no fresh rate, Zold refuses the USDC send.
 - **Refused addresses**: your own account's address and the token contracts themselves.
-- **Zold payment pages**: a page's address takes USDC only. EURe to one is refused; send USDC, or ask for their wallet address.
+- **Zold payment pages**: a page's address takes only what the page lists (USDC), and only while the page is open. Anything else is refused; ask for their wallet address.
 - **Who can send**: personal accounts with verified identity and an active passkey account.
 
 {% hint style="warning" %}

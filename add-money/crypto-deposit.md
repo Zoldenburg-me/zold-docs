@@ -6,7 +6,7 @@ description: Receive USDC on Base at your Zold account address.
 
 Open **Add money → Crypto wallet** and copy your account address or scan its QR code.
 
-The same address, with its network, is under **Get paid → Account details** as **Wallet address (Base)**, next to your IBAN.
+Or open **Get paid → Account details** to find the same address as **Wallet address (Base)**, with its network.
 
 Send only **USDC on Base**. Other tokens or networks are not recognised by the app. They remain in your account, but Zold cannot see or move them for you.
 

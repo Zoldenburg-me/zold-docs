@@ -25,7 +25,7 @@ A company account starts without an IBAN. It can receive **EURe only** on Base: 
 
 - **Ownership**: the account and its funds become the organisation's. One account cannot belong to two organisations.
 - **Books**: its transactions go into company books and statements, visible to members with book access. A Zold-created account includes its full history; an imported wallet includes history from its IBAN connection, or its import date if it has no IBAN.
-- **Approval**: the login that connects the account's passkey approves its payments.
+- **Approval**: only an owner can connect the account. That owner's passkey approves its payments.
 - **Profile**: company accounts need a company Monerium profile, not a member's personal one. To open a company account after signing up personally, contact support@zoldhq.com.
 
 ### With a wallet account

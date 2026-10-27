@@ -8,25 +8,26 @@ description: Send EURe or USDC to an ENS name or wallet address.
 **Not yet fully live.** **Send → Crypto wallet** shows as coming soon until it opens; the app will offer it then.
 {% endhint %}
 
-Send EURe or USDC from your account straight to a wallet, by its ENS name (like `name.eth`) or its `0x` address.
+Send EURe or USDC from your account to a wallet, by ENS name (`name.eth`) or `0x` address. Start at **Send → Crypto wallet**.
 
 ## Steps
 
-1. Go to **Send → Crypto wallet**.
-2. In **To**, enter an ENS name or a `0x` address.
-3. Choose the **Token** and enter the **Amount**, then press **Check the address**.
-4. Compare the full address with the one the recipient gave you.
-5. Tick **I checked this address with them** and press **Send**.
-6. Approve with your passkey.
+1. In **To**, enter an ENS name or a `0x` address.
+2. Choose the **Token**.
+3. Enter the **Amount**.
+4. Press **Check the address**.
+5. Compare the full address with the recipient's, then tick **I checked this address with them**.
+6. Press **Send**.
+7. Approve with your passkey.
 
 ## Good to know
 
 - **Network**: the payment goes out on Base. An ENS name with no Base address is refused.
-- **Name changes**: Zold looks the name up again just before sending. If it points to a different address than the one you checked, nothing is sent.
-- **Fees**: no Zold fee. Network gas is paid as for any payment from your account; when gas is paid in USDC, a USDC send leaves room for it and the app says the most you can send.
-- **Limits**: counts toward your daily limit. EURe counts at face value, USDC at the live mid-market rate. With no fresh rate, Zold refuses the USDC send. The smallest payment is worth €0.01.
+- **Name changes**: Zold looks the name up again just before sending. If the address changed, nothing is sent.
+- **Fees**: no Zold fee. Gas is paid as for any payment from your account. If gas is paid in USDC, the app shows the most USDC you can send.
+- **Limits**: counts toward your daily limit, EURe at face value and USDC at the live mid-market rate. With no fresh rate, USDC is refused. The minimum is €0.01.
 - **Refused addresses**: your own account's address and the token contracts themselves.
-- **Zold payment pages**: a page's address takes only what the page lists (USDC), and only while the page is open. Anything else is refused; ask for their wallet address.
+- **Zold payment pages**: a page's address takes only what the page lists (USDC), and only while the page is open. Otherwise, ask for their wallet address.
 - **Who can send**: personal accounts with verified identity and an active passkey account.
 
 {% hint style="warning" %}

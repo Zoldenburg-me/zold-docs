@@ -4,6 +4,10 @@ description: Send EURe or USDC to an ENS name or wallet address.
 
 # Crypto wallet
 
+{% hint style="warning" %}
+**Not yet fully live.** **Send → Crypto wallet** shows as coming soon until it opens; the app will offer it then.
+{% endhint %}
+
 Send EURe or USDC from your account straight to a wallet, by its ENS name (like `name.eth`) or its `0x` address.
 
 ## Steps

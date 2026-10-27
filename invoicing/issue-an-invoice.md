@@ -59,7 +59,7 @@ The issued invoice stays read-only. It opens in a browser where you're signed in
 
 The Pay button pays into your organisation's euro account, and only the member who connected that account can create it. In your personal space it pays into your own wallet, with or without an IBAN. With a wallet account, press **Connect your wallet** on **Accounts** in your business first; its Pay button then pays into your wallet.
 
-If someone else issues the invoice, the account isn't open yet, or no way to get paid is set up, the invoice goes out without the button, showing your bank details if you have an IBAN. Claim your payment page under **Profile → Payment page**, then add the button with **Payment link** in the invoice list. One invoice has one payment link.
+If someone else issues the invoice, the account isn't open yet, or no way to get paid is set up, the invoice goes out without the button, showing your bank details if you have an IBAN. Claim your payment page under **Profile → Payment page**. A company login in Zold Business uses **Settings → Payment page**. Then add the button with **Payment link** in the invoice list. One invoice has one payment link.
 
 Without an IBAN, the payment page shows your wallet address, its QR code, the network and the tokens it accepts. No bank details appear.
 

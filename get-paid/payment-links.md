@@ -15,6 +15,8 @@ Profile → **Payment links → New link**.
 3. Select payment methods. USDC requires a payment page; bank transfer requires an IBAN.
 4. Copy the link or choose **Share**. It stays open **7 days** unless you set another date; cancel it before anyone pays.
 
+A link opens under a payment page: the company's, or else your own. With neither, **New payment link** is off. Press **Set up the page** (company, owners and admins) or **Set up your page** beside it.
+
 ![Get paid in the business dashboard: bank details, payment links and your payment page.](../.gitbook/assets/get-paid.png)
 
 ## How the payer pays

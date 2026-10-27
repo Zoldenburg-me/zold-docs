@@ -28,7 +28,7 @@ Profile → **Payment links → New link**.
 - The USDC figure uses the live EUR/USD mid-market rate plus a stated **0.5% conversion allowance**. It holds **15 minutes**, then re-prices; a figure already shown still counts if paid.
 - You are credited what conversion delivers.
 - The bank QR (GiroCode / EPC QR) fills in your name, IBAN, BIC, the amount still due and the link code. On an open-amount link the payer types the amount.
-- Payments within **0.5% below** the figure count in full. A larger shortfall is marked **partial** and the link stays open.
+- Payments within **0.5% below** the figure count in full. A larger shortfall is marked **partial** and the link stays open, showing the amount still due.
 - A payment of double the figure is an ordinary deposit, not matched to the link.
 
 ## Company links and privacy

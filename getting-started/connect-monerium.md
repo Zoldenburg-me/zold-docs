@@ -17,12 +17,9 @@ You can leave during the check; the IBAN appears on Home when ready.
 
 ## Skipped it at signup?
 
-1. Open **Profile → Monerium**. In Zold Business (company owner only): **Accounts** or **Settings → Monerium**, then **Connect Monerium**.
-2. Press **Continue with Monerium** and sign in or open an account there.
-3. If Monerium asks, complete its check: details, document and liveness.
-4. Approve the connection and return to Zold.
-5. Press **Get your IBAN** and approve with your passkey.
-6. A company account then lands on **Accounts**: press **Connect the company's IBAN**.
+Open **Profile → Monerium**; in Zold Business (company owner only), **Accounts** or **Settings → Monerium**, then **Connect Monerium**. Press **Continue with Monerium** and follow steps 2–4 above.
+
+A company account then lands on **Accounts**: press **Connect the company's IBAN**.
 
 ## Already have a Monerium IBAN?
 

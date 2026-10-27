@@ -15,13 +15,19 @@ Your IBAN comes with one identity check and one passkey approval. Zold runs no s
 
 You can leave during the check; the IBAN appears on Home when ready.
 
+## Skipped it at signup?
+
+1. Open **Profile → Monerium**. In Zold Business: **Accounts** or **Settings → Monerium**, then **Connect Monerium**.
+2. Press **Continue with Monerium** and follow the steps above.
+3. A company account returns to **Accounts**: press **Connect the company’s IBAN**.
+
 ## Already have a Monerium IBAN?
 
 Each Monerium profile has one IBAN. To have it pay into Zold, choose **Use your Monerium IBAN in Zold**, type `MOVE` and approve. Payers keep the same IBAN; your old wallet stops receiving. You can move it back through Monerium.
 
 ## Use your own Monerium API keys
 
-Choose **Add Monerium API keys** and enter your developer app's client ID and secret. Zold checks the pair and stores it encrypted; the secret is never shown again.
+On the Monerium screen, under **Developer option: your own API keys**, enter your developer app's client ID and secret. Zold checks the pair and stores it encrypted; the secret is never shown again.
 
 ## Good to know
 

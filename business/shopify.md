@@ -11,7 +11,7 @@ Accept USDC for EUR orders. When the payment appears, Zold marks the order **pai
 Works on any Shopify plan and needs no Shopify app approval. Set up a [payment page](../get-paid/payment-page.md) first; payments go to the payment page of the account backing the organisation's EUR account.
 
 1. In Shopify, go to **Settings → Payments → Manual payment methods → Create custom payment method**. Put “Zold” in the name and set checkout currency to EUR.
-2. In Zold Business, open **Settings → Connections → Shopify**, enter the `myshopify.com` domain and choose **Connect store**.
+2. In Zold Business, open **Apps**, enter the `myshopify.com` domain and choose **Connect store**. Owners and admins only. Without a payment page, the card says whose is missing and offers **Set up your page** when it is yours.
 3. Approve in Shopify and return in the same browser. Approval in another browser or device connects nothing.
 4. Add Zold's **Zold — pay with crypto** block to Shopify's Thank you page and set its **Zold API origin**.
 5. In **Settings → Notifications → Order confirmation**, add the store's signed pay link. It opens an order's payment only for someone with that order email. Keep the template private like an API key; test it from the email.

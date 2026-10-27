@@ -17,6 +17,8 @@ Profile → **Payment links → New link**.
 
 A link opens under a payment page: the company's, or else your own. With neither, **New payment link** is off. Press **Set up the page** (company, owners and admins) or **Set up your page** beside it.
 
+In a company, owners, admins and payers can make links. Each one pays into the company's euro account, whoever made it. A link made by anyone but the account holder opens only under the company's page.
+
 ![Get paid in the business dashboard: bank details, payment links and your payment page.](../.gitbook/assets/get-paid.png)
 
 ## How the payer pays

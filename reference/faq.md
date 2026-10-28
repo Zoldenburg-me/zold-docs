@@ -19,7 +19,7 @@ description: Short answers about Zold accounts, payments, security and costs.
 | **What if Zold shuts down?** | With your own backup key, use Safe tools at [app.safe.global](https://app.safe.global). Without one, your passkey works only through zoldhq.com. Your right to redeem euros is against Monerium, not Zold. |
 | **Do I need crypto?** | No. Use euros; Zold pays network fees. |
 | **Do card payments need Face ID?** | No. Gnosis Pay spends from its own card account; Zold's approval rule applies to Zold transfers. |
-| **Can I use multiple devices?** | Yes, if your passkey syncs through iCloud Keychain, Google Password Manager or another password manager. Each device creates its own payment key. |
+| **Can I use multiple devices?** | Yes, if your passkey syncs through iCloud Keychain, Google Password Manager or another password manager. Each device gets its payment key from your passkey at its first send. |
 | **I lost my phone. What now?** | Follow [Security and recovery](../getting-started/security-and-recovery.md). If you chose Zoldenburg, start recovery at sign-in and contact support with its reference; it requires your confirmed bank account and identity check. Without recovery, only euros can be reclaimed from Monerium. |
 | **Why was my quote refused?** | No fresh rate was available or the venue price was too far from market. Try again; Zold never uses an old rate. |
 | **Why does my balance say “Balance unavailable”?** | The network read failed. Transfers are blocked until Zold can check your balance. Your money has not moved; reload later. |

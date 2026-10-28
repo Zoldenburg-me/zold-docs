@@ -14,7 +14,7 @@ Your only account owner is a **passkey** stored in your device's secure hardware
 
 **Zold holds no key.** Its server prepares transfers but cannot approve, move or block your money. Each approval signs one transaction's token, amount and recipient; the network enforces those terms. There is no standing permission for Zold to spend.
 
-A **device key** is created in each browser on first use. It signs the amount, recipient and transfer Zold records, and is encrypted where supported. Alone, it cannot move money; every transfer still needs your passkey.
+A **device key** is made from your passkey the first time you send. It signs the amount, recipient and transfer Zold records. Clearing browser data does not lose it: your passkey makes it again. Alone, it cannot move money; every transfer still needs your passkey.
 
 ## Your euros
 

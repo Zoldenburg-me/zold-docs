@@ -74,7 +74,7 @@ Use a login with a different email from your Zold account, with two-step sign-in
 
 Add a key you keep, such as a hardware wallet, under Settings → **Who approves payments**. Zold never asks for or uses it. It can approve on its own, so protect it like the money it can move; with it, you can reach the account without Zold. See [How Zold works under the hood](../reference/how-it-works.md#your-own-backup-key).
 
-Until you add one, **Finish setting up** on Home lists **Add a backup key** once your account is live.
+Until you add one, **Finish setting up** on Home shows **Add a backup key**.
 
 ## Sessions
 

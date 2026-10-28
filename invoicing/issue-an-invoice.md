@@ -8,7 +8,7 @@ Write an invoice in Zold and send your customer one link with a **Pay** button.
 
 ![The invoice form. The right side is the document your customer gets.](../.gitbook/assets/invoice-editor.png)
 
-On the app's Home, check **Invoices** for the unpaid invoices you sent and the total still owed. If your role may issue invoices, press **Create invoice** to open this form in Zold Business.
+If you have an organisation, check **Invoices** on the app's Home for the unpaid invoices you sent and the total still owed. If your role may issue invoices, press **Create invoice** to open this form in Zold Business.
 
 Fill in your [business profile and invoicing profile](invoice-settings.md) once; every invoice is prefilled from them.
 

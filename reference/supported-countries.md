@@ -24,6 +24,7 @@ Zold checks at sign-up which one you get.
 | Destination | Method | Currency | Status |
 | --- | --- | --- | --- |
 | SEPA countries | Bank transfer to IBAN | EUR | Open |
+| Any wallet on Base | [ENS name or `0x` address](../send-money/crypto-wallet.md) | EURe, USDC | Not yet fully live |
 | Kenya | MoneyGram cash pickup | KES | Not yet fully live |
 | Kenya | M-Pesa | KES | Not yet fully live |
 | United States | ACH / wire from USD account | USD | Opening soon |

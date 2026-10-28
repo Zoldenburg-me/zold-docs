@@ -17,6 +17,10 @@ Choose **Submit for review**. When review is on, a draft must be reviewed before
 - **Editing** a pending or approved draft returns it to **Draft** and makes the editor its drafter.
 - **Cancel this payment run** withdraws it before sending; it stays under **Cancelled** with who cancelled and why, and an invoice waits for payment again. Anyone allowed to draft or review can cancel. Once sending starts, a draft cannot be edited or cancelled.
 
+## A payment's page
+
+Choose **Details** on a payment in **Approvals** (**Payments** with review off), or open it from [**Pending**](home.md) on Home. It shows the payee, the paying account, the bank reference for bank transfers, and what happens next. Approvals read "1 of 2", then "2 of 2"; with review off, "1 of 1". **Review**, **Send** and **Submit** appear when you may use them. **Copy link** copies the link to this page.
+
 ## Check details and send
 
 Zold fingerprints payee details when saved and checks them at review and at sending. If a contact changed, the draft stops at **Invalid data** until someone confirms the details and resubmits it.

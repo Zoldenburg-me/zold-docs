@@ -21,7 +21,7 @@ Choose **Submit for review**. When review is on, a draft must be reviewed before
 
 Choose **Details** on a payment in **Approvals**, or open it from **Pending** or a sent payment on Home. The page shows who it pays, the account it is paid from, what happens next, and who drafted and approved it ("1 of 2", then "2 of 2"). **Review**, **Send** and **Submit** appear there when you may use them. **Print** prints it; **Copy link** copies a link that only members can open.
 
-- **IBAN and BIC** are the contact's as saved now. If they changed after drafting, Zold stops the payment at **Invalid data**.
+- **IBAN and BIC** are the contact's as saved now. If they changed after drafting, Zold stops the payment and tags it **Needs fixing**.
 
 ## Check details and send
 

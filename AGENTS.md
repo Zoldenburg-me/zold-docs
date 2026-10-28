@@ -44,7 +44,9 @@ heading (e.g. "No Pay button?"); keep each to 2–4 lines.
   supported" / "not yet live" notes, and the honesty lines (Zold is not a
   bank; e-money has no deposit guarantee; Zold holds no key; Zold is not a
   tax adviser).
-- **Never add a fact** a page didn't already state, and never change one.
+- **Never add a fact** a page didn't already state, and never change one,
+  when rewriting or tightening. A page documenting a Zold-app change adds or
+  changes exactly the facts that app PR ships; link it in the PR description.
 - **No marketing**: no "seamless", no ✅ benefit lists, no cheerleading.
   Specifics over adjectives.
 - **Emoji** only in `SUMMARY.md` nav titles (one per page), never in body text.

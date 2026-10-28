@@ -10,7 +10,7 @@ description: What your IBAN, euro balance and Zold account address represent.
 | **Balance** | Euros you hold and can spend: one euro in Zold is one euro. In-flight payments have already left it. |
 | **Account address** | Where the euros sit and where USDC sent to you arrives. |
 
-Once Monerium has verified your IBAN, and until your first activity, Home shows **Your IBAN** with a copy button. A bank transfer to your IBAN appears as euros. A SEPA payment redeems euros through Monerium and sends them to the payee's bank. **Activity** lists deposits and transfers; see [Tracking and receipts](../send-money/tracking-and-receipts.md).
+Once your IBAN is active, and until your first activity, Home shows **Your IBAN** with a copy button. A bank transfer to your IBAN appears as euros. A SEPA payment redeems euros through Monerium and sends them to the payee's bank. **Activity** lists deposits and transfers; see [Tracking and receipts](../send-money/tracking-and-receipts.md).
 
 ## If your IBAN moves
 

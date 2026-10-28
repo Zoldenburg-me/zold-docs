@@ -36,6 +36,7 @@
 
 ## Business
 
+* [🏠 Home](business/home.md)
 * [🏢 Organisations](business/organisations-and-plans.md)
 * [🧑‍🤝‍🧑 Members and roles](business/members-and-roles.md)
 * [🗝️ Access and recovery](business/access-and-recovery.md)

@@ -8,6 +8,8 @@ Write an invoice in Zold and send your customer one link with a **Pay** button.
 
 ![The invoice form. The right side is the document your customer gets.](../.gitbook/assets/invoice-editor.png)
 
+If you have an organisation, check **Invoices** on the app's Home for the unpaid invoices you sent and the total still owed. If your role may issue invoices, press **Create invoice** to open this form in Zold Business.
+
 Fill in your [business profile and invoicing profile](invoice-settings.md) once; every invoice is prefilled from them.
 
 No organisation for invoices yet? Press **Get paid → Invoice** in the app, or **Set it up** in Zold Business. Zold Business asks for a name, a type (personal or business), a country and an optional email, then creates the organisation and opens on **Invoices**. In a personal space, the name you type is the name on your invoices.
@@ -57,9 +59,9 @@ The issued invoice stays read-only. It opens in a browser where you're signed in
 
 ## No Pay button?
 
-The Pay button pays into your organisation's euro account, and only the member who connected that account can create it. In your personal space it pays into your own wallet, with or without an IBAN. With a wallet account, press **Connect your wallet** on **Accounts** in your business first; its Pay button then pays into your wallet.
+The Pay button pays into your organisation's euro account, whoever creates it: an owner, admin or payer. If you are not the account holder, the company needs its payment page first, and a company on a wallet account can't have one yet. In your personal space it pays into your own wallet, with or without an IBAN. With a wallet account, press **Connect your wallet** on **Accounts** in your business first; its Pay button then pays into your wallet.
 
-If someone else issues the invoice, the account isn't open yet, or no way to get paid is set up, the invoice goes out without the button, showing your bank details if you have an IBAN. Set up a payment page: **Get paid → Your page** in the app, or **Get paid → Set up the page** in Zold Business. Then add the button with **Payment link** in the invoice list. One invoice has one payment link.
+If you are not the account holder and the company has no payment page, the account isn't open yet, or no way to get paid is set up, the invoice goes out without the button, showing your bank details if you have an IBAN. Set up a payment page: **Get paid → Your page** in the app, or **Get paid → Set up the page** in Zold Business. Then add the button with **Payment link** in the invoice list. One invoice has one payment link.
 
 Without an IBAN, the payment page shows your wallet address, its QR code, the network and the tokens it accepts. No bank details appear.
 

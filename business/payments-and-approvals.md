@@ -19,9 +19,7 @@ Choose **Submit for review**. When review is on, a draft must be reviewed before
 
 ## A payment's page
 
-Choose **Details** on a payment in **Approvals**, or open it from **Pending** or a sent payment on Home. The page shows who it pays, the account it is paid from, the bank reference the transfer carries and what happens next. It also shows who drafted and approved it: "1 of 2" while it waits for a second approval, "2 of 2" once approved. With review off, only the drafting counts and the page shows "1 of 1".
-
-**Review**, **Send** and **Submit** appear there when you may use them. **Print** prints the page. **Copy link** copies a link that only members can open.
+Choose **Details** on a payment in **Approvals** (**Payments** with review off), or open it from [**Pending**](home.md) on Home. It shows the payee, the paying account, the bank reference for bank transfers, and what happens next. Approvals read "1 of 2", then "2 of 2"; with review off, "1 of 1". **Review**, **Send** and **Submit** appear when you may use them. **Copy link** copies the link to this page.
 
 ## Check details and send
 

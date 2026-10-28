@@ -74,6 +74,8 @@ Use a login with a different email from your Zold account, with two-step sign-in
 
 Add a key you keep, such as a hardware wallet, under Settings → **Who approves payments**. Zold never asks for or uses it. It can approve on its own, so protect it like the money it can move; with it, you can reach the account without Zold. See [How Zold works under the hood](../reference/how-it-works.md#your-own-backup-key).
 
+Until you add one, **Finish setting up** on Home lists **Add a backup key** once your account is live.
+
 ## Sessions
 
 Signing in on a new device does not sign out others. Registering a new passkey, or replacing or removing Monerium, signs out every other device and requires your passkey. If a device may be compromised, start recovery; completion revokes its sessions.

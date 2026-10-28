@@ -9,11 +9,11 @@ Your passkey approves transfers. Recovery can move your account to a new device,
 ## Your two keys
 
 - **Passkey**: unlocked by Face ID, fingerprint, device PIN or computer sign-in; needed at sign-in and for each transfer. A security key without a PIN or fingerprint cannot be used.
-- **Payment key**: made from your passkey the first time you send. It signs the amount, payee and transfer. If you clear your browser data, your passkey makes the same key again at your next send. Where your passkey cannot, Zold sets up a new payment key with your passkey's approval.
+- **Payment key**: made from your passkey the first time you send. It signs the amount, payee and transfer. Cleared your browser data? Your passkey makes it again at your next send. If your passkey can't, you approve a new one with it.
 
 ![Setting up sign-in during account setup.](../.gitbook/assets/passkey-setup.png)
 
-Settings → **Security** shows whether this device's payment key is encrypted. **Not encrypted** means a copy could sign payment terms, though not move money without your passkey. Do not use Zold in a shared browser.
+Settings → **Security** shows whether your passkey protects this device's payment key. **Not encrypted** means a copy could sign payment terms, though not move money without your passkey. Do not use Zold in a shared browser.
 
 Zold cannot move your money or replace your passkey. A new passkey needs approval by the current one.
 

@@ -14,7 +14,7 @@ See [How Zold works under the hood](how-it-works.md) for how the parts fit toget
 | **Base** | The public layer-2 network built on Ethereum where your account lives. |
 | **Bridge** | Licensed money transmitter providing the USD account and settling ACH and wire payments. |
 | **Chart of accounts** | Your bookkeeping categories for transactions. |
-| **Device key / payment key** | Key made from your passkey that signs payment terms. Your passkey can make it again; alone, it moves no money. |
+| **Device key / payment key** | Key made from your passkey that signs payment terms. After clearing browser data, your passkey makes it again or approves a new one. Alone, it moves no money. |
 | **Draft** | A payment prepared for review before sending. |
 | **EURe** | Monerium's euro e-money token; one token is one euro, redeemable at par. |
 | **E-money** | Licensed electronic money backed one-for-one by safeguarded funds; not a bank deposit and not covered by a deposit guarantee. |

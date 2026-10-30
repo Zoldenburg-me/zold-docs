@@ -32,9 +32,9 @@ Each request stays open **24 hours**. A later payment still reaches your payment
 
 ## Bank transfer
 
-Off by default. It applies only to stores connected through Pay with Zold, Zold's separate checkout service; stores connected with **Connect store** stay USDC-only. Zold turns it on, and your account needs an IBAN.
+Off by default. Zold turns it on, and your account needs an IBAN. It applies only to stores connected through Pay with Zold, Zold's separate checkout service. Stores connected with **Connect store** stay USDC-only.
 
-The pay page then also shows your IBAN, account holder and the order's reference. A transfer with that reference marks the order paid if it arrives within the 24 hours. Only the order's customer gets the pay link, but anyone holding it sees your IBAN.
+The pay page then also shows your IBAN, account holder and the order's reference. A transfer with that reference marks the order paid if it arrives within the 24 hours. Only the order's customer gets the pay link. Anyone holding it sees your IBAN.
 
 ## Shopify checkout integration
 

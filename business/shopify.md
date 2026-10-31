@@ -26,9 +26,15 @@ Each request stays open **24 hours**. A later payment still reaches your payment
 
 ## Limits
 
-- **EUR orders only.** Other currencies are ignored; bank transfer is not offered.
+- **EUR orders only.** Other currencies are ignored.
 - **Unpaid orders hold inventory.** Cancel unwanted ones; Zold closes their payment request.
 - **Refunds are yours to send** from Zold and record on the order. Zold does not send money back to the paying address; it may belong to an exchange.
+
+## Bank transfer
+
+Off by default. Zold turns it on, and your account needs an IBAN. It applies only to stores connected through Pay with Zold, Zold's separate checkout service. Stores connected with **Connect store** stay USDC-only.
+
+The pay page then also shows your IBAN, account holder and the order's reference. A transfer with that reference marks the order paid if it arrives within the 24 hours. Only the order's customer gets the pay link. Anyone holding it sees your IBAN.
 
 ## Shopify checkout integration
 

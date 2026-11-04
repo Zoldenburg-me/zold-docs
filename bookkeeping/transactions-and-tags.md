@@ -27,3 +27,5 @@ Money you moved to or from another account of yours is not income or an expense.
 - **Receipts**: a receipt you already created doesn't change and still verifies, with the category it was created with. A receipt created after you mark the payment says it is between your own accounts.
 - **Who**: anyone on the account who may categorise. Not a viewer or a payer.
 - **Not available** for a fee, a reversal, a conversion's gain or loss, a sweep or a payment that settles an invoice.
+- **Invoices**: if a marked payment is later matched to an invoice, the mark comes off and the payment books by its invoice.
+- **Crypto sends**: mark these on the statement in Business.

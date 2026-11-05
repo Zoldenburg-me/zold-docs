@@ -26,7 +26,7 @@ Find the payment first: in the app under **Activity**, or in Business under **Bo
 
 - **Books**: the payment leaves Revenue, Expenses and its category. It still counts in cash, because the money did move.
 - **Exports**: the Lexware CSV keeps the line and says it is between your own accounts. The transactions CSV shows no category for it, and the tag `internal`.
-- **Receipts**: a receipt you already created doesn't change. It still verifies and keeps its category. A receipt created after you mark the payment says it is between your own accounts.
+- **Receipts**: a receipt you already created doesn't change. It still verifies and keeps its category. A receipt created after you mark the payment says it is between your own accounts. It stops verifying if the mark comes off.
 - **Who**: anyone on the account who may categorise. Not a viewer or a payer.
 - **Not available** for a fee, a reversal, a conversion's gain or loss, a sweep or a payment that settles an invoice.
 - **Invoices**: if a marked payment is later matched to an invoice, the mark comes off and the payment books by its invoice.

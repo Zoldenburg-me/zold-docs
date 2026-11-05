@@ -29,7 +29,7 @@ Zold fingerprints payee details when saved and checks them at review and at send
 
 If a line cannot be prepared, the transfers already created are unapproved and expire without moving money. The draft becomes **Failed**; create a new draft to try again.
 
-Approve each bank transfer within 4 minutes of pressing **Send**. A line approved later is not sent, and the draft becomes **Failed** even if other lines were paid. The draft lists each payee under **Sent**, **Not sent** or **Still waiting**. Make a new draft for the **Not sent** lines only.
+Approve each bank transfer within 4 minutes of pressing **Send**. A line approved later is not sent, and the draft becomes **Failed** even if other lines were paid. The draft lists each payee under **Sent**, **Not sent** or **Still waiting**. Create a new draft for the **Not sent** lines only.
 
 {% hint style="warning" %}
 A new draft that includes a **Sent** line pays that payee again, and a bank transfer cannot be recalled by Zold.
@@ -44,5 +44,5 @@ A new draft that includes a **Sent** line pays that payee again, and a bank tran
 | Invalid data | Confirm payee details and resubmit |
 | Executing | None; transfers are moving |
 | Executed | Done |
-| Failed | Create a new draft |
+| Failed | Create a new draft for the **Not sent** lines only |
 | Cancelled | None; withdrawn before sending |

@@ -16,3 +16,5 @@ description: Approve a payment after checking its amount, recipient and quote.
 The transfer continues if you leave. Track it in **Activity**.
 
 If a step fails after funds leave, Zold reverses what it can and returns the funds at the current rate, showing deductions. If a person must review it, the transfer says **Manual review** and you are contacted. See [Transfer states](../reference/transfer-states.md).
+
+If your connection drops while you approve, the app may say it can't confirm the payment. Choose **Check Activity** before you send it again: a payment that went out is listed there.

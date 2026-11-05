@@ -23,7 +23,7 @@ description: Short answers about Zold accounts, payments, security and costs.
 | **I lost my phone. What now?** | Follow [Security and recovery](../getting-started/security-and-recovery.md). If you chose Zoldenburg, start recovery at sign-in and contact support with its reference; it requires your confirmed bank account and identity check. Without recovery, only euros can be reclaimed from Monerium. |
 | **Why was my quote refused?** | No fresh rate was available or the venue price was too far from market. Try again; Zold never uses an old rate. |
 | **Why does my balance say “Balance unavailable”?** | The network read failed. Transfers are blocked until Zold can check your balance. Your money has not moved; reload later. |
-| **Why does Zold say it can’t be reached or isn’t answering?** | Zold did not get your request, or its answer did not reach you. Reload the page; your sign-in is kept. If you were sending money, check **Activity** before you try again. |
+| **Why does Zold say it can’t be reached or isn’t answering?** | Zold did not get your request, or its answer did not reach you. Reload the page; your sign-in is kept. If you were sending money, check **Activity** (**Approvals** or **Payments** on a business account) before you try again. |
 | **Why is my transfer in Manual review?** | A person must review an issue, such as a partner failing after receiving funds. Funds are accounted for; you will be contacted. |
 | **Can I hold dollars?** | A USD account with its own number and routing number is being added through Bridge. See [Your US dollar account](../add-money/usd-account.md). |
 | **Can I pay in other currencies?** | SEPA transfers out are euros. Kenya cash pickup is not yet fully live; other rails depend on their accounts opening. |

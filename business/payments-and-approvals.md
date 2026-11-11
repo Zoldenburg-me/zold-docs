@@ -27,7 +27,13 @@ Zold fingerprints payee details when saved and checks them at review and at send
 
 **Send** creates one transfer per line. Zold validates the whole batch first: a gated currency, too-small amount, exceeded limit or insufficient total balance stops everything. Balance is checked against the total, not per line. The member whose login approves for the account signs every transfer with their passkey.
 
-If a line fails part-way, earlier transfers are unapproved and expire without moving money. The draft becomes **Failed**; create a new draft to try again.
+If a line cannot be prepared, the transfers already created are unapproved and expire without moving money. The draft becomes **Failed**; create a new draft to try again.
+
+Approve each bank transfer within 4 minutes of pressing **Send**. A line approved later is not sent, and the draft becomes **Failed** even if other lines were paid. The draft lists each payee under **Sent**, **Not sent** or **Still waiting**. Create a new draft for the **Not sent** lines only.
+
+{% hint style="warning" %}
+A new draft that includes a **Sent** line pays that payee again, and a bank transfer cannot be recalled by Zold.
+{% endhint %}
 
 | State | Next action |
 | --- | --- |
@@ -38,5 +44,5 @@ If a line fails part-way, earlier transfers are unapproved and expire without mo
 | Invalid data | Confirm payee details and resubmit |
 | Executing | None; transfers are moving |
 | Executed | Done |
-| Failed | Create a new draft |
+| Failed | Create a new draft for the **Not sent** lines only |
 | Cancelled | None; withdrawn before sending |

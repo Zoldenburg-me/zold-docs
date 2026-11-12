@@ -21,7 +21,7 @@ Share a link, and the person you owe fills in the amount and where to send it. Y
 - **The limit is yours**: they never see it. A request over it is refused, and they are asked for a smaller amount.
 - **Copy it now**: Zold shows the link once and keeps no readable copy of it.
 - **Amount**: pay exactly what they asked, to the details they gave. Anything else is refused before it is sent.
-- **Too many tries**: after five amounts over your limit, the link stops taking answers for a day.
+- **Too many tries**: after five amounts over your limit, the link stops taking answers for a day. They are asked to get a new link from you.
 - **Where it goes**: an IBAN by SEPA bank transfer, or a wallet in EURe on Base. They choose.
 - **Who can send one**: personal accounts with a personal space for invoices. The app offers to set it up.
 

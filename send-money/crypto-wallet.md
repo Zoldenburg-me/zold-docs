@@ -24,7 +24,7 @@ Send EURe or USDC from your account to a wallet, by ENS name (`name.eth`) or `0x
 
 - **Network**: the payment goes out on Base. An ENS name with no Base address is refused.
 - **Name changes**: Zold looks the name up again just before sending. If the address changed, nothing is sent.
-- **Connection drops**: if your connection drops while you approve, the app may say it can't confirm the payment, and offers no **Send** for it. Choose **Check Activity** before you send it again: a payment that went out is listed there.
+- **Connection drops**: if your connection drops while you approve, the app may say it can't confirm the payment. Until you choose **Check Activity**, it offers no **Send** for a new payment: a payment that went out is listed there.
 - **Fees**: no Zold fee. Gas is paid as for any payment from your account. If gas is paid in USDC, the app shows the most USDC you can send.
 - **Limits**: counts toward your daily limit, EURe at face value and USDC at the live mid-market rate. With no fresh rate, USDC is refused. The minimum is €0.01.
 - **Refused addresses**: your own account's address and the token contracts. A Zold payment page's address takes only what the page lists (USDC), while it is open; otherwise ask for their wallet address.

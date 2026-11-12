@@ -21,6 +21,7 @@
 * [💡 How a payment works](send-money/how-a-payment-works.md)
 * [↗️ SEPA bank transfer](send-money/sepa-bank-transfer.md)
 * [👛 Crypto wallet](send-money/crypto-wallet.md)
+* [🔗 Send a link](send-money/send-a-link.md)
 * [💸 Cash pickup](send-money/cash-pickup.md)
 * [📍 Tracking and receipts](send-money/tracking-and-receipts.md)
 

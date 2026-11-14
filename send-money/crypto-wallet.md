@@ -38,7 +38,8 @@ Send EURe or USDC from your account to a wallet, by ENS name (`name.eth`) or `0x
 4. After approval, the member whose login approves for the account presses **Send** and approves with their passkey.
 
 - **Saved address**: an ENS name is looked up when you add the contact; the address is what Zold pays. If the contact's wallet changes before sending, nothing is sent.
-- **One payment per run**: a payment run to a wallet has one line.
+- **Checksum**: an address in mixed case with a wrong checksum is refused; copy it again.
+- **One payment per run**: a payment run to a wallet has one line, and **Submit for approval** refuses more.
 
 {% hint style="warning" %}
 A wallet payment can't be called back. Money sent to a wrong address is lost.

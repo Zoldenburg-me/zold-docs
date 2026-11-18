@@ -35,6 +35,21 @@ Approve each bank transfer within 4 minutes of pressing **Send**. A line approve
 A new draft that includes a **Sent** line pays that payee again, and a bank transfer cannot be recalled by Zold.
 {% endhint %}
 
+## In a company: paying a crypto wallet
+
+A company pays a wallet from its own Safe. It needs no IBAN or Monerium connection for this.
+
+- **Send** queues the payment on the company's Safe; your passkey signs nothing. Nothing moves yet.
+- **Owners sign** in the company's queue. It is sent when as many owners have signed as the Safe needs.
+- **Payee check**: Zold checks the payee and sanctions again before each signature. A change ends the payment unsent.
+- **72 hours**: a payment not fully signed by then is not sent, and the draft becomes **Failed**.
+- **Limit**: the daily limit belongs to the company's Safe, whoever sends.
+- **One line**: a wallet payment run has one line. A company's bank transfers are not built yet.
+
+{% hint style="warning" %}
+**Not yet live.** The owners' signing screen is not in the app yet, so a queued company payment cannot be signed from Business.
+{% endhint %}
+
 | State | Next action |
 | --- | --- |
 | Draft | Drafter |

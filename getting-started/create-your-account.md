@@ -9,10 +9,10 @@ For an account in your own name. For a company, see [Create a business account](
 ## Steps
 
 1. Open **zoldhq.com/app**, choose **Create an account**, then **Personal**.
-2. Enter:
+2. The Zold narwhal asks one question at a time. Type an answer in the chat bar and press the arrow, or tap a reply:
    - **Name**: as on your ID.
    - **Email**: used for recovery and sign-in help.
-   - **Residence country**.
+   - **Residence country**: search the list and tap yours.
    - **US question**: are you a US citizen, Green Card holder or US tax resident?
    - Accept Zold's Terms.
 3. Add a way back in: tap **Google**, **Apple** or **Email**, or **Skip for now**.
@@ -24,6 +24,8 @@ A "yes" to the US question closes the account path wherever you live, and the an
 {% endhint %}
 
 ## Good to know
+
+- **Change an answer**: tap it under the narwhal, and it asks that question again.
 
 - **Who can join**: Zold is unavailable to US persons, residents of sanctioned countries, and residents of some countries. See [Eligibility](../reference/eligibility.md).
 - **Passkey**: the only approver; Zold cannot replace it. Without sync (iCloud Keychain, Google Password Manager or another), losing the device means recovery.

@@ -4,7 +4,7 @@ description: Open a personal Zold account in three screens.
 
 # Create a personal account
 
-For an account in your own name. For a company, see [Create a business account](create-a-business-account.md).
+For an account as an individual. For a business, including a sole trader, see [Create a business account](create-a-business-account.md).
 
 ## Steps
 

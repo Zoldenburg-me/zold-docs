@@ -4,14 +4,15 @@ description: Open a Zold account in your company's name.
 
 # Create a business account
 
-For a company. For an account in your own name, see [Create a personal account](create-your-account.md).
+For a business: a company or a sole trader. For private money, see [Create a personal account](create-your-account.md).
 
 ## Steps
 
 1. Open **zoldhq.com/app**, choose **Create an account**, then **Business**.
 2. Enter your own details: **Name** (as on your ID), **Email**, **Residence country**, the **US question**, and accept Zold's Terms.
-3. Enter the company's:
+3. Enter the business's:
    - **Legal name**, and a trading name if customers know it by another.
+   - **A company** (GmbH, UG, AG, Ltd) or **I’m a sole trader** (you trade under your own name).
    - **Country of incorporation**.
    - **US question**: incorporated in the US, or a US owner of 25% or more?
    - Confirm you may open the account for it.
@@ -23,5 +24,6 @@ For a company. For an account in your own name, see [Create a personal account](
 
 - **Who can join**: see [Eligibility](../reference/eligibility.md). A US incorporation or a US owner of 25% or more closes the account path.
 - **Name**: the account uses the company name.
+- **Company or sole trader**: can’t change once the euro account is set up.
 - **Team and limits**: see [Organisations](../business/organisations-and-plans.md).
 - **Passkey and recovery**: same as a personal account; see [Security and recovery](security-and-recovery.md).

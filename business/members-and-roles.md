@@ -16,6 +16,16 @@ Go to Members → **Invite**, enter an email and choose a role. Send the link yo
 
 Your role must allow an action. A Viewer cannot send.
 
+## In a company
+
+A company's account is its own Safe, and only owners sign its payments.
+
+- **Payer and Admin**: draft payments; they don't see **Send**.
+- **Owner**: signs with their passkey, if that passkey is an owner on the company's Safe.
+- **Members**: the **Can** column shows **Sign** instead of **Send**.
+
+A sole trader's business keeps the table above.
+
 ## Review and approval
 
 The reviewer cannot be the drafter, whatever their role. See [Payments and approvals](payments-and-approvals.md).

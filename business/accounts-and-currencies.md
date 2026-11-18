@@ -19,32 +19,34 @@ A global account holds local accounts in different currencies. Open **Accounts �
 
 Request an unavailable account in the app; it tells you when it opens. The **Currencies** table shows what Zold supports, not your organisation's open accounts.
 
-## Connect a company's euro account
+## Connect a business's euro account
 
-A company account starts without an IBAN. It can receive **EURe only** on Base: copy its address from Home or Accounts, send EURe, then choose **Connect the company's IBAN**. Until Monerium approves the IBAN, the account shows **Waiting for Monerium**; choose **Check with Monerium again** to refresh.
+How the euro account is connected depends on how the business was created: as **A sole trader** or as **A company**.
 
-No **Connect the company's IBAN** button yet? The company login chooses **Connect Monerium** on the account, or in **Settings → Monerium**, to connect the company's Monerium profile and get its IBAN first.
+### A business set up as a sole trader
+
+The account starts without an IBAN and is backed by an owner's own account. It can receive **EURe only** on Base: copy its address from Home or Accounts, send EURe, then choose **Connect the company's IBAN**. Until Monerium approves the IBAN, the account shows **Waiting for Monerium**; choose **Check with Monerium again** to refresh.
+
+No **Connect the company's IBAN** button yet? The business login chooses **Connect Monerium** on the account, or in **Settings → Monerium**, to connect the business's Monerium profile and get its IBAN first.
 
 - **Ownership**: the account and its funds become the organisation's. One account cannot belong to two organisations.
 - **Books**: its transactions go into company books and statements, visible to members with book access. A Zold-created account includes its full history; an imported wallet includes history from its IBAN connection, or its import date if it has no IBAN.
 - **Approval**: only an owner can connect the account. That owner's passkey approves its payments.
 - **One per currency**: the euro account is listed under **Accounts** even while it is not open. Connect that one; Zold refuses to open a second.
-- **Profile**: company accounts need a company Monerium profile, not a member's personal one. To open a company account after signing up personally, contact support@zoldhq.com.
+- **Profile**: the account needs the business's Monerium profile, not a member's personal one. To open a business account after signing up personally, contact support@zoldhq.com.
+
+Where an IBAN isn't available to you (see [supported countries](../reference/supported-countries.md)), a sole trader's owner presses **Connect your wallet** on **Accounts** instead. The organisation's invoices and payment links then pay into your wallet. The account has no IBAN, so nothing is sent from it by bank. A wallet connected to one organisation can't be connected to another.
 
 ### A business set up as a company
 
-A business created as **A company** (not a sole trader) gets a Safe of its own, not a member's account.
+A business created as **A company** gets a Safe of its own, not a member's account.
 
 1. On **Accounts**, an owner presses **Set up the company’s Safe**.
 2. Approve with your passkey. Your passkey becomes the Safe's first signer. Your personal account stays separate.
 
-- **Until then**: nothing can be paid into or sent from the account. Admins and payers can't set it up.
-- **No member funding**: **Connect the company's IBAN** and **Connect your wallet** aren't offered. A company has one euro account.
+- **Until then**: nothing can be paid into or sent from the account. Only an owner can set it up.
+- **No member funding**: **Connect the company's IBAN**, **Connect Monerium** on the account and **Connect your wallet** aren't offered. A company has one euro account.
 - **Not yet live**: issuing the company's IBAN onto its Safe. The account stays not open until then.
-
-### With a wallet account
-
-Where an IBAN isn't available to you (see [supported countries](../reference/supported-countries.md)), press **Connect your wallet** on **Accounts**. Only an owner can. The organisation's invoices and payment links then pay into your wallet. The account has no IBAN, so nothing is sent from it by bank. A wallet connected to one organisation can't be connected to another.
 
 ## Statements and documents
 

@@ -22,6 +22,19 @@ Zold signs only with the company sign-in's key. If the account needs two signatu
 
 To add or remove a backup key, choose **Change in the app** and approve with the passkey.
 
+## A company with its own Safe
+
+If the legal form is a company, the card shows the company's own Safe to every member, read from the chain on each visit.
+
+- **Signatures needed**: the threshold the Safe holds, for example **2 of 3**.
+- **Each signer**: the member's name and address. **Added outside Zold** marks a signer no member matches, with a warning; if no one at the company added it, remove it in Safe{Wallet}.
+- **No passkey yet**: an owner who has not set up a passkey does not sign.
+- **This login's passkey changed**: the Safe still lists that owner's old signer.
+- **Couldn't check who can sign**: Zold could not read the Safe; this does not mean no one. Choose **Try again**.
+- **Not set up yet**: the company's Safe does not exist yet, so no one signs for it.
+- **Not a signer yet**: an owner whose passkey the Safe does not list.
+- **Recovery** for the company's Safe is not shown here yet.
+
 ## Recovery status
 
 | Status | What it means |

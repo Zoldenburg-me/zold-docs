@@ -31,6 +31,17 @@ No **Connect the company's IBAN** button yet? The company login chooses **Connec
 - **One per currency**: the euro account is listed under **Accounts** even while it is not open. Connect that one; Zold refuses to open a second.
 - **Profile**: company accounts need a company Monerium profile, not a member's personal one. To open a company account after signing up personally, contact support@zoldhq.com.
 
+### A business set up as a company
+
+A business created as **A company** (not a sole trader) gets a Safe of its own, not a member's account.
+
+1. On **Accounts**, an owner presses **Set up the company’s Safe**.
+2. Approve with your passkey. Your passkey becomes the Safe's first signer. Your personal account stays separate.
+
+- **Until then**: nothing can be paid into or sent from the account. Admins and payers can't set it up.
+- **No member funding**: **Connect the company's IBAN** and **Connect your wallet** aren't offered. A company has one euro account.
+- **Not yet live**: issuing the company's IBAN onto its Safe. The account stays not open until then.
+
 ### With a wallet account
 
 Where an IBAN isn't available to you (see [supported countries](../reference/supported-countries.md)), press **Connect your wallet** on **Accounts**. Only an owner can. The organisation's invoices and payment links then pay into your wallet. The account has no IBAN, so nothing is sent from it by bank. A wallet connected to one organisation can't be connected to another.

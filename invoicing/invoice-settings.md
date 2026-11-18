@@ -11,6 +11,7 @@ Set your identity in **Settings → Business profile** and invoice defaults in *
 | Field | Used for |
 | --- | --- |
 | Name, legal name | Legal name prints on invoices. |
+| Legal form | Company or sole trader, chosen when you create the business. Until the euro account is set up, an owner can choose **Change legal form**; then it is fixed. |
 | Registered address | Invoice identity and country rules. |
 | VAT ID, tax number | Most countries require one on invoices. EU VAT IDs are checked against the member state's format and must start with your own country's code (EL for Greece). Changing country re-checks them. |
 | Company register, number, managing director | Printed; in Germany, Amtsgericht and HRB number. |

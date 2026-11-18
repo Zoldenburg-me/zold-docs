@@ -12,6 +12,7 @@ Every Zold account belongs to an **organisation**: a personal space of one, or a
 
 - **Personal space**: create one when you first open Business, or with **Get paid → Invoice** in the app. Change its name under Profile in the Zold app. Switch spaces from the account switcher.
 - **Company login**: has no personal space; use a personal Zold account for personal money.
+- **Legal form**: a business is a **Company** or a **Sole trader**, chosen when you create it. It can’t change once the euro account is set up. Settings → **Business profile** shows it.
 - **Your sign-in and recovery**: opens the Zold app's Security screen.
 
 | | Personal | Business |

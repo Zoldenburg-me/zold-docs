@@ -33,7 +33,17 @@ If the legal form is a company, the card shows the company's own Safe to every m
 - **Couldn't check who can sign**: Zold could not read the Safe; this does not mean no one. Choose **Try again** to read it again.
 - **Not set up yet**: the company's Safe does not exist yet, so no one signs for it.
 - **Not a signer yet**: an owner whose passkey the Safe does not list.
-- **Recovery**: Zold hasn't set up recovery for the company's Safe. If an owner loses their passkey, the other owners replace that signer in Safe{Wallet}. If fewer owners are left than the signatures needed, no one can recover it.
+
+### Recovery of the company's Safe
+
+Zoldenburg UG is the only recovery guardian Zold adds to a company's Safe. The card reads it from the chain on each visit.
+
+- **No guardian**: Zold hasn't set up recovery for the company's Safe. If an owner loses their passkey, the other owners replace that signer in Safe{Wallet}. If fewer owners are left than the signatures needed, no one can recover it.
+- **Waiting for the owners' signatures**: adding Zoldenburg UG is queued. It takes effect once as many owners sign as the Safe needs.
+- **Guardian, not armed**: Zoldenburg UG is on the Safe, but isn't armed until the company's IBAN is set up. Until then Zoldenburg won't sign a recovery.
+- **Not set up in Zold**: a guardian someone else added, with a warning. It can start a recovery alone; if no one at the company added it, remove it in Safe{Wallet}.
+- **A recovery is under way**: it would replace every signer. If no one at the company started it, contact support@zoldhq.com; Zold can't cancel it from this screen yet.
+- **Couldn't check recovery**: Zold could not read the Safe; this does not mean none. Choose **Try again**.
 
 ## Recovery status
 

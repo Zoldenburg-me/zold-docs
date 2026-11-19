@@ -38,7 +38,7 @@ If the legal form is a company, the card shows the company's own Safe to every m
 
 Zoldenburg UG is the only recovery guardian Zold adds to a company's Safe. The card reads it from the chain on each visit.
 
-- **No guardian**: Zold hasn't set up recovery for the company's Safe. If an owner loses their passkey, the other owners replace that signer in Safe{Wallet}. If fewer owners are left than the signatures needed, no one can recover it. An owner can choose **Set up recovery** to queue adding Zoldenburg UG.
+- **No guardian**: Zold hasn't set up recovery for the company's Safe. If an owner loses their passkey, the other owners replace that signer in Safe{Wallet}. If fewer owners are left than the signatures needed, no one can recover it. Where the company's Safe queue is on, an owner can choose **Set up recovery** to queue adding Zoldenburg UG.
 - **Not offered**: this deployment has no Zoldenburg guardian, so the card offers none.
 - **Waiting for the owners' signatures**: adding Zoldenburg UG is queued. It takes effect once as many owners sign as the Safe needs. Zold Business has no screen to sign it yet.
 - **Guardian, not armed**: Zoldenburg UG is on the Safe, but isn't armed yet. Arming takes a 1 € enrolment payment from the company's IBAN, which Zold hasn't built. Until then Zoldenburg won't sign a recovery.

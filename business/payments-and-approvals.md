@@ -39,8 +39,8 @@ A new draft that includes a **Sent** line pays that payee again, and a bank tran
 
 A company pays a wallet from its own Safe. It needs no IBAN or Monerium connection for this.
 
-- **Send** queues the payment on the company's Safe; your passkey signs nothing. Nothing moves yet.
-- **Owners sign** in the company's queue. It is sent when as many owners have signed as the Safe needs.
+- **Send**: an owner presses **Send** (payers and admins don't see it). It queues the payment on the company's Safe; your passkey signs nothing. Nothing moves yet.
+- **Owners sign**: owners will sign it in the company's queue (not in the app yet — see below). It is sent when as many owners have signed as the Safe needs.
 - **Payee check**: Zold checks the payee and sanctions again before each signature. A change ends the payment unsent.
 - **72 hours**: a payment not fully signed by then is not sent, and the draft becomes **Failed**.
 - **Limit**: the daily limit belongs to the company's Safe, whoever sends.

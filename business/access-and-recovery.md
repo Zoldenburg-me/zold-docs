@@ -38,14 +38,17 @@ If the legal form is a company, the card shows the company's own Safe to every m
 
 Zoldenburg UG is the only recovery guardian Zold adds to a company's Safe. The card reads it from the chain on each visit.
 
-- **No guardian**: Zold hasn't set up recovery for the company's Safe. If an owner loses their passkey, the other owners replace that signer in Safe{Wallet}. If fewer owners are left than the signatures needed, no one can recover it.
-- **Waiting for the owners' signatures**: adding Zoldenburg UG is queued. It takes effect once as many owners sign as the Safe needs.
-- **Guardian, not armed**: Zoldenburg UG is on the Safe, but isn't armed until the company's IBAN is set up. Until then Zoldenburg won't sign a recovery.
+- **No guardian**: Zold hasn't set up recovery for the company's Safe. If an owner loses their passkey, the other owners replace that signer in Safe{Wallet}. If fewer owners are left than the signatures needed, no one can recover it. An owner can choose **Set up recovery** to queue adding Zoldenburg UG.
+- **Not offered**: this deployment has no Zoldenburg guardian, so the card offers none.
+- **Waiting for the owners' signatures**: adding Zoldenburg UG is queued. It takes effect once as many owners sign as the Safe needs. Zold Business has no screen to sign it yet.
+- **Guardian, not armed**: Zoldenburg UG is on the Safe, but isn't armed yet. Arming takes a 1 € enrolment payment from the company's IBAN, which Zold hasn't built. Until then Zoldenburg won't sign a recovery.
 - **Not set up in Zold**: a guardian someone else added, with a warning. It can start a recovery alone; if no one at the company added it, remove it in Safe{Wallet}.
 - **A recovery is under way**: it would replace every signer. If no one at the company started it, contact support@zoldhq.com; Zold can't cancel it from this screen yet.
 - **Couldn't check recovery**: Zold could not read the Safe; this does not mean none. Choose **Try again**.
 
 ## Recovery status
+
+The rest of this page is the company sign-in's own recovery, not the company Safe's.
 
 | Status | What it means |
 | --- | --- |

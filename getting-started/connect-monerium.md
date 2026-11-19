@@ -34,8 +34,8 @@ On the Monerium screen, under **Developer option: your own API keys**, enter you
 ## Good to know
 
 - **Before the IBAN**: your account works as a wallet: hold dollars and euros, convert dollars to euros, get paid through your payment page, send invoices. Bank transfers need the IBAN.
-- **Declined**: your wallet stays open without an IBAN. Connecting Monerium still works, but no IBAN is offered. Try another Monerium account or write to support@zoldhq.com.
-- **Under review**: Monerium is still checking your account. You can connect it; **Get your IBAN** appears once the review ends.
+- **Declined**: your wallet stays open without an IBAN. Connecting Monerium still works, but no IBAN is offered. Questions: support@zoldhq.com.
+- **Under review**: Monerium is still checking your account. You can connect it; Zold then takes you to Home, which shows **Additional review needed** and "No IBAN yet", with nothing to press. **Get your IBAN** appears once the review ends.
 - **Activation failed**: press **Get your IBAN** again.
 - **Removing API keys**: your IBAN stays on record but deposits and payouts pause.
 - **Changing the connection**: needs your passkey and signs you out on other devices.

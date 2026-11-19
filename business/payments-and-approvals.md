@@ -25,7 +25,7 @@ Choose **Details** on a payment in **Approvals** (**Payments** with review off),
 
 Zold fingerprints payee details when saved and checks them at review and at sending. If a contact changed, the draft stops at **Invalid data** until someone confirms the details and resubmits it.
 
-**Send** creates one transfer per line. Zold validates the whole batch first: a gated currency, too-small amount, exceeded limit or insufficient total balance stops everything. Balance is checked against the total, not per line. The member whose login approves for the account signs every transfer with their passkey.
+**Send** creates one transfer per line. Zold validates the whole batch first: a gated currency, too-small amount, exceeded limit or insufficient total balance stops everything. Balance is checked against the total, not per line. The member whose login approves for the account signs every transfer with their passkey. A payment to a contact's wallet is one crypto payment of EURe or USDC instead; see [Crypto wallet](../send-money/crypto-wallet.md#from-a-business).
 
 If a line cannot be prepared, the transfers already created are unapproved and expire without moving money. The draft becomes **Failed**; create a new draft to try again.
 

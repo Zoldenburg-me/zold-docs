@@ -18,3 +18,5 @@ The transfer continues if you leave. Track it in **Activity**.
 If a step fails after funds leave, Zold reverses what it can and returns the funds at the current rate, showing deductions. If a person must review it, the transfer says **Manual review** and you are contacted. See [Transfer states](../reference/transfer-states.md).
 
 If your connection drops while you approve, the app may say it can't confirm the payment. Until you choose **Check Activity**, it offers no approval for a new payment: a payment that went out is listed there. While a payment is still waiting for Zold's answer, the app also offers no approval for a new one.
+
+If you cancel the passkey prompt, or the approval expires, nothing is sent and that quote is used up. The next approval needs a new price: on a computer, Zold shows one for the same amount and recipient; check it before you approve again. A payment in **Manual review** offers no new send from its result; on a computer, choose **Check Transactions**.

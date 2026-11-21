@@ -19,6 +19,6 @@ If a step fails after funds leave, Zold reverses what it can and returns the fun
 
 If your connection drops while you approve, the app may say it can't confirm the payment. Until you choose **Check Activity**, it offers no approval for a new payment: a payment that went out is listed there. While a payment is still waiting for Zold's answer, the app also offers no approval for a new one. If Zold refuses the payment while you wait, the app shows why. If nothing changes after a few minutes, reload the app and check Activity before you pay again.
 
-If you cancel the passkey prompt that approves the payment, Zold refuses the approval, or the approval expires, nothing is sent and that quote is used up. A prompt cancelled earlier, while Zold sets up your payment key, uses up nothing.
+If you cancel the passkey prompt that approves the payment, the approval expires, or Zold refuses it and says nothing was sent, nothing is sent and that quote is used up. A prompt cancelled earlier, while Zold sets up your payment key, uses up nothing.
 
-After a used-up quote, the next approval needs a new price. On a computer, Zold shows one for the same amount and recipient; check it before you approve again. If it can't get one, it goes back to the recipient step and says why. A payment in **Manual review** offers no new send from its result; on a computer, choose **Check Transactions**.
+After a used-up quote, the next approval needs a new price. On a computer, Zold shows one for the same amount and recipient; check it before you approve again. If it can't get one, it goes back to the first step, where you choose the amount and country, and says why. A payment in **Manual review** offers no new send from its result; on a computer, choose **Check Transactions**.

@@ -19,4 +19,5 @@ Choose destination **Europe** and method **Bank transfer**.
 - **Reference**: Zold simplifies accents, removes reserved characters and truncates at 140; the rest appears on the payee's statement.
 - **Fees**: free, with no conversion or exchange-rate margin; the payee's bank receives the amount you enter. See [Fees and exchange rates](../fees/fees-and-rates.md).
 - **Limits**: per-transfer and daily limits apply; the app shows them when reached. A transfer you do not approve within 4 minutes expires, is not sent, and stops counting toward your daily limit.
+- **Stopped before sending**: if your approval runs out while Zold is still preparing the payment, or Monerium refuses Zold's access to your Monerium account, no payment is sent and any fee taken is returned. The transfer shows **Refunded**. After an access refusal, use **Connect Monerium** again, then send it again.
 - **Zold supplier invoice**: use **Payments → Invoices → Pay**. See [Invoice-Me links](../get-paid/invoice-me-links.md).

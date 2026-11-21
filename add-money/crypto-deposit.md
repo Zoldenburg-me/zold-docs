@@ -24,7 +24,7 @@ USDC counts as received on arrival, valued at that day's ECB reference rate; an 
 - **Floor**: if the amount would fall below the quote's floor, nothing converts. Any unconverted remainder stays as USDC.
 - **Fee**: Zold charges none; you are credited the measured amount.
 - A conversion that is **Checking** cannot be requested again.
-- **No Convert button?** A conversion was started but its result was not recorded. It may have gone through, so the payment is not offered again until it is checked on chain. If it was included on chain but reverted, nothing converted; it is still checked first. [Contact support](mailto:support@zoldhq.com).
+- **No Convert button?** A conversion was started but its result was not recorded. It may have gone through, so the payment is not offered again until it is checked on chain. If it was included on chain but reverted, the payment says the conversion didn't go through and nothing was converted; it is still checked first. [Contact support](mailto:support@zoldhq.com).
 - **EURe** sent from another wallet is credited as received.
 - **Business accounts**: deposits are book entries dated on arrival; a later USDC conversion adds a second entry with its gain or loss.
 

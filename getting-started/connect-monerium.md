@@ -25,7 +25,7 @@ A company account then lands on **Accounts**: press **Connect the company's IBAN
 
 ## Already have a Monerium IBAN?
 
-Each Monerium profile has one IBAN. When you connect, Zold offers to move it here: type `MOVE`, press **Move IBAN to Zold** and approve with your passkey. Payers keep the same IBAN; your old wallet stops receiving. You can move it back through Monerium.
+Each Monerium profile has one IBAN. Connecting does not move it. When you press **Get your IBAN** and approve with your passkey, Monerium reports that the IBAN already pays into another wallet, and Zold offers to move it here: type `MOVE`, press **Move IBAN to Zold** and approve with your passkey a second time. Cancel leaves the IBAN where it is. Payers keep the same IBAN; your old wallet stops receiving. You can move it back through Monerium.
 
 ## Use your own Monerium API keys
 

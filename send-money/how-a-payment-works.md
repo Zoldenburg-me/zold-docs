@@ -22,3 +22,5 @@ If your connection drops while you approve, the app may say it can't confirm the
 If you cancel the passkey prompt that approves the payment, the approval expires, or Zold refuses it and says nothing was sent, nothing is sent and that quote is used up. A prompt cancelled earlier, while Zold sets up your payment key, uses up nothing.
 
 After a used-up quote, the next approval needs a new price. On a computer, Zold shows one for the same amount and recipient; check it before you approve again. If it can't get one, it goes back to the first step, where you choose the amount and country, and says why. A payment in **Manual review** offers no new send from its result; on a computer, choose **Check Transactions**.
+
+An error that Zold did not send, for example from a network filter between you and Zold, is treated like a lost answer: the app says it can't confirm the payment and offers no new price. A payment that failed shows the reason Zold gives.

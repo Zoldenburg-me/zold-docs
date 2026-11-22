@@ -16,7 +16,7 @@ description: Read each transfer state and see what happens if a payment fails.
 | **Payout ready** | Cash pickup reference issued. |
 | **Payout submitted** | SEPA payment sent to the payee's bank. |
 | **Paid** | Cash collected or SEPA payment delivered. |
-| **Manual review** | A person must review; funds are safe and accounted for, and you will be contacted. |
+| **Manual review** | A person must review; nothing is refunded automatically. Write to support@zoldhq.com and we'll look into it. |
 | **Failed** | A step failed; compensation follows. |
 | **Refunded** | Funds returned at the current rate, with deductions itemised. |
 

@@ -29,7 +29,7 @@ Zold fingerprints payee details when saved and checks them at review and at send
 
 If a line cannot be prepared, the transfers already created are unapproved and expire without moving money. The draft becomes **Failed**; create a new draft to try again.
 
-Approve each bank transfer within 4 minutes of pressing **Send**. With more than one line, Zold first says how many passkey prompts follow and when the first approval runs out; press **Start approving**. A line approved later is not sent, and the draft becomes **Failed** even if other lines were paid. The draft lists each payee under **Sent**, **Not sent** or **Still waiting**. Create a new draft for the **Not sent** lines only.
+Approve each bank transfer within 4 minutes of pressing **Send**. With more than one line, Zold first says up to how many passkey prompts follow and when the first approval runs out; press **Start approving**. The dialog then counts the payments approved so far. A line approved later is not sent, and the draft becomes **Failed** even if other lines were paid. The draft lists each payee under **Sent**, **Not sent** or **Still waiting**. Create a new draft for the **Not sent** lines only.
 
 After signing, a message lists each payee by outcome. **Not sent, the money that left is being returned** means the transfer failed after money left your account; Zold returns it, and the payment shows as refunded once it is back.
 

@@ -8,7 +8,7 @@ Your passkey approves transfers. Recovery can move your account to a new device,
 
 ## Your two keys
 
-- **Passkey**: unlocked by Face ID, fingerprint, device PIN or computer sign-in; needed at sign-in and for each transfer. A security key without a PIN or fingerprint cannot be used.
+- **Passkey**: unlocked by Face ID, fingerprint, device PIN or computer sign-in; needed at sign-in and for each transfer. A security key without a PIN or fingerprint cannot be used. Neither can a key that cannot store a passkey, such as an older or full one: account creation and recovery stop with an error.
 - **Payment key**: made from your passkey the first time you send. It signs the amount, payee and transfer. Cleared your browser data? Your passkey makes it again at your next send. If your passkey can't, you approve a new one with it.
 
 ![Setting up sign-in during account setup.](../.gitbook/assets/passkey-setup.png)

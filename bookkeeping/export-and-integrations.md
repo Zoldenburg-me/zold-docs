@@ -29,7 +29,9 @@ A receipt fails **Records still match** when the books no longer say what it say
 3. Download the CSV and the ZIP again and send them to your accountant.
 
 - **Until you replace it**: the CSV names no receipt code for the line, the ZIP leaves its PDF out and `MISSING-<month>.txt` says why, and its PDF link refuses.
-- **The old receipt**: revoked, not deleted. Its page fails **Not revoked**.
+- **The old receipt**: revoked, not deleted. Its page fails **Not revoked**. The new receipt does not show the old one's code.
+- **When Replace refuses**: if a new receipt would fail too, for example for a payment the bank rejected, Replace says why and leaves the old receipt as it is.
+- **GetMyInvoices**: a receipt that no longer verifies is not sent, and the result says to replace it. After you replace it, send the month again: the new receipt is attached to the bank line already there, not added as a second line. The old receipt stays in GetMyInvoices beside it: delete it there.
 - **Mark it again instead**: if the mark came off by mistake, mark the payment again. The old receipt verifies again.
 - **In the app**: the payment's screen offers **Replace booking receipt**.
 

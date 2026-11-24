@@ -18,6 +18,7 @@ Each receipt is at `zold.to/v/<CODE>` and checked whenever opened:
 - **Signed by Zold**: Zold's document key signed this exact receipt, so nothing on it has changed.
 - **Records still match**: Zold re-reads the line and the deposit, transfer or order it was built from; the figures on the receipt still match. For money received on chain it also re-reads the transaction.
 - **Holder name**: **Verified by Monerium** when Monerium reported it; **Not verified** when it is the name you typed.
+- **Not revoked**: a revoked receipt fails this check and has no PDF. **Create receipts** issues a new one; until then the ZIP lists its line as missing.
 
 - A USDC invoice payment receipt records invoice, payer, arrival and ECB valuation.
 - A conversion gets its own receipt: transaction, venue, rate, amounts, difference to receivable, gain or loss, network fee. Partial conversions get one per part.

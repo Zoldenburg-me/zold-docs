@@ -26,9 +26,9 @@ Open a transfer after it starts moving and choose **Share receipt**. Pick what t
 
 Optional switches add **Rate, fee & margin**, **Your reference** and **Settlement route**. In Business, open **Statements → Receipts for payments → Share**.
 
-Press **Create and copy link**, or **Share link** where your browser offers it. Send the link shown under **Send this link**. The address of the Share receipt screen itself opens only for you.
+Press **Create link**. The link appears under **Send this link**, with **Copy link**, and **Share link** where your browser offers it. If the share sheet does not open, use **Copy link**. The address of the Share receipt screen itself opens only for you.
 
 - **Access**: anyone with the link can open it without an account. Withheld fields are not sent.
 - **One link per transfer**: sharing again replaces its settings.
-- **Expiry**: links expire after **30 days** and can be revoked; visitors see that it was revoked.
+- **Expiry**: links expire after **30 days** and can be revoked; visitors see that it expired or was revoked. After a link expires, **Create link** makes a new one with the same settings; the old link stays off.
 - **Care**: share links only with the intended person.

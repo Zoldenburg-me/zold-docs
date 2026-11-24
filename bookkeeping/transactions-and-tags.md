@@ -30,4 +30,4 @@ Find the payment first: in the app under **Activity**, or in Business under **Bo
 - **Who**: anyone on the account who may categorise. Not a viewer or a payer.
 - **Not available** for a fee, a reversal, a conversion's gain or loss, a sweep or a payment that settles an invoice.
 - **Invoices**: if a marked payment is later matched to an invoice, the mark comes off and the payment books by its invoice.
-- **Crypto sends**: mark these on the statement in Business.
+- **Crypto sends**: open the wallet payment in **Activity**. The button shows once the network has confirmed the send.

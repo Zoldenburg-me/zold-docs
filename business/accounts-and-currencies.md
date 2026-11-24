@@ -46,7 +46,8 @@ A business created as **A company** gets a Safe of its own, not a member's accou
 
 - **Until then**: nothing can be paid into or sent from the account. Only an owner can set it up.
 - **No member funding**: **Connect the company's IBAN**, **Connect Monerium** on the account and **Connect your wallet** aren't offered. A company has one euro account.
-- **Not yet live**: issuing the company's IBAN onto its Safe. The account stays not open until then: no bank transfer goes in or out. A payment to a crypto wallet is queued on the Safe for the owners to sign (see [paying a crypto wallet](payments-and-approvals.md#in-a-company-paying-a-crypto-wallet)).
+- **Monerium keys**: an owner or admin connects the company's own Monerium account in **Settings → Monerium → Add Monerium keys**. Paste the client id and client secret of an app from the company's Monerium developer section. Zold checks them with Monerium, needs a company profile there, and never shows the secret again. **Check again** refreshes the profile state; **Remove keys** forgets them.
+- **Not yet live**: issuing the company's IBAN onto its Safe. The keys issue no IBAN and move no money yet. The account stays not open until then: no bank transfer goes in or out. A payment to a crypto wallet is queued on the Safe for the owners to sign (see [paying a crypto wallet](payments-and-approvals.md#in-a-company-paying-a-crypto-wallet)).
 
 ## Statements and documents
 

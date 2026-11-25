@@ -20,6 +20,23 @@ Each receipt is at `zold.to/v/<CODE>` and checked whenever opened:
 - **Holder name**: **Verified by Monerium** when Monerium reported it; **Not verified** when it is the name you typed.
 - **Not revoked**: a revoked receipt fails this check and has no PDF. Its printout shows the failed check. **Create receipts** issues a new one; until then Books, the CSV and the ZIP all show its line as missing a receipt.
 
+## Receipt no longer verifies?
+
+A receipt fails **Records still match** when the books no longer say what it says, for example after you undo **Between my own accounts**. Books then shows **Does not verify** with the reason.
+
+1. Open Books, or the month on **Export**.
+2. Press **Replace** on the line. Only the owner, an admin or the accountant see it.
+3. Download the CSV and the ZIP again and send them to your accountant.
+
+- **Until you replace it**: the CSV names no receipt code for the line, the ZIP leaves its PDF out and `MISSING-<month>.txt` says why, and its PDF link refuses.
+- **The old receipt**: revoked, not deleted. Its page fails **Not revoked**. The new receipt does not show the old one's code.
+- **When Replace refuses**: if a new receipt would fail too, for example for a payout Monerium rejected, Replace says why and leaves the old receipt as it is.
+- **GetMyInvoices**: a receipt that no longer verifies is not sent, and the result says to replace it. After you replace it, send the month again: the new receipt is attached to the bank line already there. A bank line sent before Zold had **Replace** is not found: it is added a second time, so delete one of the two in GetMyInvoices. The old receipt stays in GetMyInvoices, still attached to that bank line, and the result says so. Zold does not remove it: detach it from the line and delete it in GetMyInvoices.
+- **Mark it again instead**: if the mark came off by mistake, mark the payment again. The old receipt verifies again.
+- **In the app**: the payment's screen offers **Replace booking receipt**.
+
+## What a receipt records
+
 - A USDC invoice payment receipt records invoice, payer, arrival and ECB valuation.
 - A conversion gets its own receipt: transaction, venue, rate, amounts, difference to receivable, gain or loss, network fee. Partial conversions get one per part.
 - USDC arrival uses that day's ECB reference rate, published once per business day. On weekends or before publication the prior business-day rate applies; the receipt names the date.

@@ -29,6 +29,6 @@ Optional switches add **Rate, fee & margin**, **Your reference** and **Settlemen
 Press **Create link**. The link appears under **Send this link**, with **Copy link**, and **Share link** where your browser offers it. If the share sheet does not open, use **Copy link**. The address of the Share receipt screen itself opens only for you.
 
 - **Access**: anyone with the link can open it without an account. Withheld fields are not sent.
-- **One link per transfer**: changing a setting while the link is live changes what it shows. It never makes a new link; only **Create link** does. If a change cannot be saved, the screen goes back to what the live link still shows and says so; try the change again.
+- **One link per transfer**: changing a setting while the link is live changes what it shows. It never makes a new link; only **Create link** does. If Zold refuses a change, the screen goes back to what the live link still shows and says so; try the change again. If Zold's answer doesn't arrive, the change may have been saved: the screen reads the link again and shows what it carries now. If it can't read the link either, the settings stay locked and the screen says it could not confirm what the link shows; open the receipt again before you change or send it.
 - **Expiry**: links expire after **30 days** and can be revoked; visitors see that it expired or was revoked. After a link expires, **Create link** makes a new one with the same settings; the old link stays off.
 - **Care**: share links only with the intended person.

@@ -46,7 +46,7 @@ A company pays a wallet from its own Safe. It needs no IBAN or Monerium connecti
 - **Payee check**: Zold checks the payee and sanctions again before each signature. A change ends the payment unsent.
 - **72 hours**: a payment not fully signed by then is not sent, and the draft becomes **Failed**.
 - **Limit**: the daily limit belongs to the company's Safe, whoever sends.
-- **One line**: a wallet payment run has one line. A company's bank run over several payees is not built; pay one at a time in [company bank payouts](company-bank-payouts.md).
+- **One line**: a wallet payment run has one line. A company's payment run cannot pay a bank account, even for one payee. Pay each one in [company bank payouts](company-bank-payouts.md).
 
 {% hint style="warning" %}
 **Not yet live.** The owners' signing screen is not in the app yet, so a queued company payment cannot be signed from Business.

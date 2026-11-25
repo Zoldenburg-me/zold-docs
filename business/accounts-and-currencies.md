@@ -49,7 +49,7 @@ A business created as **A company** gets a Safe of its own, not a member's accou
 - **Monerium keys**: an owner or admin connects the company's own Monerium account in **Settings → Monerium → Add Monerium keys**. Paste the client id and client secret of an app from the company's Monerium developer section. Zold checks them with Monerium, needs a company profile there, and never shows the secret again. **Check keys again** refreshes the profile state. **Replace keys** and **Remove keys** ask for your passkey.
 - **The company's IBAN**: once Monerium has approved the company profile, an owner presses **Settings → Monerium → Issue the company's IBAN** and approves with their passkey. That signs Monerium's declaration that the company owns its Safe. Monerium then issues the IBAN onto the Safe; press **Check again** until it shows. The account opens then.
 - **Deposits**: bank transfers to the IBAN arrive on the company's Safe as euros (EURe). **Settings → Monerium** lists the latest ones.
-- **Not yet live**: paying a bank account from the company's IBAN. A payment to a crypto wallet is queued on the Safe for the owners to sign (see [paying a crypto wallet](payments-and-approvals.md#in-a-company-paying-a-crypto-wallet)).
+- **Bank payouts**: an owner pays a bank account from the company's IBAN in **Settings → Monerium**, one payout at a time, signed with their passkey. See [company bank payouts](company-bank-payouts.md). A payment to a crypto wallet is queued on the Safe for the owners to sign (see [paying a crypto wallet](payments-and-approvals.md#in-a-company-paying-a-crypto-wallet)).
 - **One signer only for now**: a company Safe that needs two or more signatures can't issue its IBAN yet.
 
 ## Statements and documents

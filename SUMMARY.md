@@ -41,6 +41,7 @@
 * [🧑‍🤝‍🧑 Members and roles](business/members-and-roles.md)
 * [🗝️ Access and recovery](business/access-and-recovery.md)
 * [💰 Accounts and currencies](business/accounts-and-currencies.md)
+* [🏦 Company bank payouts](business/company-bank-payouts.md)
 * [📇 Address book](business/address-book.md)
 * [✍️ Payments and approvals](business/payments-and-approvals.md)
 * [📦 Bulk payments](business/bulk-payments.md)

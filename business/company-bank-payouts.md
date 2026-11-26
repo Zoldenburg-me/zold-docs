@@ -42,7 +42,7 @@ The payout shows **Pending at Monerium** first. It shows **Sent** once Monerium 
 
 A company's payment run can pay up to 10 bank accounts from its IBAN.
 
-1. A payer or admin prepares the draft in **Payments**; it is reviewed as usual.
+1. A payer, admin or owner prepares the draft in **Payments**. No second approval is needed: the owner's signature approves it.
 2. An owner presses **Send**, then **Sign and send**.
 3. Approve each line with your passkey. Nothing is sent until every line is approved.
 

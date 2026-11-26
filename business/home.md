@@ -4,14 +4,19 @@ description: What business Home shows and what each card lets you do.
 
 # Business Home
 
-Home is the first screen of Zold Business. It opens on the ask box; below it are your balance, what needs you, and recent money in and out.
+Home is the first screen of Zold Business: the ask box, then your balance, what needs you, and recent money in and out.
+
+## Ask box
+
+Type a name to search, or a command that starts with `/`. Two commands are answered from your own records:
+
+- `/what is due`: what customers owe you (overdue first), supplier invoices to pay, and payments waiting for your approval.
+- `/where did October go`: money in and out that month, and who you paid and were paid by most. Any month works, such as `/where did march go`, `/where did this month go` or `/where did last month go`.
+
+The other commands open their screen. Questions in your own words are not answered.
 
 ## How it works
 
-- **Ask box**: type a name to search, or a command that starts with `/`. Zold answers two questions itself, from your own records:
-  - `/what is due`: what customers owe you (overdue first), supplier invoices to pay, and payments waiting for your approval.
-  - `/where did October go`: money in and out for that month, and who you sent most to and received most from. Any month works, such as `/where did march go`, `/where did this month go` or `/where did last month go`.
-  The other commands open their screen. An AI model that answers in your own words comes later; see **Settings**, **AI assistant**.
 - **Quick send**: pick a contact with a saved IBAN and enter an amount. Press **Review transfer** to open **New payment** filled in. Nothing is sent until you submit it there. If Quick send is greyed out, the line under it says why.
 - **Security**: shows whether your passkey signs, recovery is on, and a backup key is added. **Add** and **Set up** open the app.
 - **Set up**: the five steps to a working account, with "N of 5 done". It disappears once all five are done. Only the company's own login sees **Security** and **Set up**.

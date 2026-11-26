@@ -42,7 +42,7 @@ Keep that account: recovery needs another €1 from it. If your bank changes, ch
 3. Choose **I sent it — check now**, or wait; Zold checks every few minutes. Send this only if you started recovery; Zoldenburg never asks for it.
 4. Email support@zoldhq.com from your account address with the reference. Zoldenburg cannot sign until the €1 arrives.
 5. After Zoldenburg signs, a **3-day** wait begins. Your old device stays in control. Zold emails you when recovery is requested and when the wait starts, and warns on every screen of a signed-in device. If you did not request it, choose **Review** and cancel with your passkey.
-6. When the wait ends, the new device is the only approver. Old sessions end, its payment key is unbound, and any backup key is removed.
+6. When the wait ends, the new device is the only approver. Old sessions end, its payment key is unbound, and any backup key is removed. Its first approval can take a few minutes to be accepted while Zold sets up the new passkey on chain; until then Zold says so and nothing is signed.
 
 {% hint style="warning" %}
 Without recovery, Zoldenburg UG cannot recover a lost account or device. Only your euro balance can be reclaimed from Monerium under Icelandic e-money law; other assets cannot be recovered.

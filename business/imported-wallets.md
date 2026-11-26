@@ -22,6 +22,8 @@ Each listed-token transfer is one ledger line (amount, counterparty, euro value 
 
 Books hold at most **100,000 lines**. When full, syncing pauses without skipping entries. Contact support@zoldhq.com to raise the limit; syncing resumes where it stopped.
 
+If the network replaces a block Zold already booked, syncing stops and the wallet shows an error. Booked lines stay as they are until reviewed; contact support@zoldhq.com.
+
 ## Bring in your company's Safe
 
 No money moves during setup. Create the company account and passkey, choose **Use our company's existing Safe**, then enter the Safe address and check its owners, threshold and network.

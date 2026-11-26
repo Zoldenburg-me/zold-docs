@@ -40,6 +40,15 @@ The payout shows **Pending at Monerium** first. It shows **Sent** once Monerium 
 
 ## In a payment run
 
-A company's payment run cannot pay a bank account, even for one payee. Pay each recipient here instead.
+A company's payment run can pay up to 10 bank accounts from its IBAN.
+
+1. A payer or admin prepares the draft in **Payments**; it is reviewed as usual.
+2. An owner presses **Send**, then **Sign and send**.
+3. Approve each line with your passkey. Nothing is sent until every line is approved.
+
+- **One at a time**: Zold sends the lines in order and stops at the first one Monerium does not accept. Lines before it stay sent; later lines are not sent.
+- **Not all or nothing**: each line is its own Monerium order. A stopped run shows **Failed** with each payee's state. Create a new draft for the **Not sent** lines only.
+- **Checked first**: payees, the IBAN, your role and the total against what is available are checked before the first line is sent. A payee changed after approval stops the run unsent.
+- **Unclear line**: the run stops there and Zold never retries it. Check Monerium before paying that payee again.
 
 A payment to a crypto wallet works differently: see [paying a crypto wallet](payments-and-approvals.md#in-a-company-paying-a-crypto-wallet).

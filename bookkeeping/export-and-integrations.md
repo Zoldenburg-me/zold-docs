@@ -58,4 +58,4 @@ If GetMyInvoices is slow, Zold checks by receipt number. Receipts found without 
 
 ## CSV export
 
-Transactions → **Export** downloads the ledger: date, asset, amount, reporting value, counterparty, chart mapping, tags. **Reports** exports monthly balances.
+Transactions → **Export** downloads the ledger: date, asset, amount, reporting value, counterparty, chart mapping, tags. A payment against an invoice you issued also carries its **net** and **VAT** in euro, so revenue can be booked without the VAT; a part payment carries its share. **Reports** exports monthly balances.

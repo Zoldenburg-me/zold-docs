@@ -17,6 +17,8 @@ Profile → **Payment links → New link**.
 
 A link opens under a payment page: the company's, or else your own. With neither, **New payment link** is off. Press **Set up the page** (company, owners and admins) or **Set up your page** beside it.
 
+Before the company's euro account is connected, the company sign-in can still make a crypto-only link. It pays into the company's Zold account address. Invoice Pay links wait until the account is connected.
+
 In a company, owners, admins and payers can make links. Each pays into the company's account, whoever made it. A link made by anyone but the account holder opens only under the company's page and is paid by bank transfer only, so a company on a wallet account can't take those links yet. Each of them can also **Cancel** an open link before anyone pays it.
 
 ![Get paid in the business dashboard: bank details, payment links and your payment page.](../.gitbook/assets/get-paid.png)

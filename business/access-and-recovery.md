@@ -12,11 +12,22 @@ description: Check who approves payments, who signs and how to recover.
 
 ## Who approves payments
 
-Shows whether **Second approval** is on, who can approve (owners and admins), how many owners there are, and what each role may do. Owners turn it on or off here. See [Payments and approvals](payments-and-approvals.md).
+- **Second approval**: one row says **On** or **Off** and what that means. Owners press **Turn on** or **Turn off**.
+- **Can approve**: each person who can approve, with their role.
+- **What each role can do**: a table of who can draft, approve and send.
 
-## Who can sign for the account
+See [Payments and approvals](payments-and-approvals.md).
 
-Shows the account address, other signers and backup keys, and the threshold (for example, **1 of 1**). **Payment key** says whether this browser holds the key and whether your passkey encrypts it.
+## Who signs for the account
+
+Each line names one thing, with its short address and a copy button:
+
+- **Company Zold account**: the account itself, where the money sits. **Open in Safe{Wallet}** opens it there.
+- **Your passkey**: this sign-in's key on your device. It approves every payment.
+- **Backup key**: a second key you keep. Without one, the card says **No backup key**; choose **Add**.
+- **Payment key in this browser**: whether this browser holds the key and whether your passkey encrypts it.
+
+The tag in the corner shows the signatures needed, for example **1 of 1 to sign**.
 
 On the company sign-in's own account, Zold signs only with that sign-in's key. If the account needs two signatures, or this sign-in no longer signs for it, Zold cannot send. Use **Open the account in Safe{Wallet}** instead. A company's own Safe signs differently: see [below](#a-company-with-its-own-safe).
 
@@ -52,7 +63,8 @@ The rest of this page is the company sign-in's own recovery, not the company Saf
 
 | Status | What it means |
 | --- | --- |
-| **Who can recover** | Zoldenburg UG, email codes, phone codes or both. Recovery added directly in Safe{Wallet} shows **Not set up in Zold** with a warning and can still start a recovery. If no one at the company added it, remove it in Safe{Wallet}. |
+| **Who can recover** | Zoldenburg UG, your Google or Apple login, email codes or phone codes. |
+| **Unknown recovery address** | A recovery address no one added in Zold. It could start a recovery that replaces your passkey, which you can only stop during the waiting period. If no one at the company added it, choose **Remove in Safe{Wallet}**. |
 | **No one can recover this account** | If the company sign-in's device and key are lost, Zoldenburg cannot recover the account. Only the euro balance can be reclaimed from Monerium. Choose **Set up recovery**. |
 | **A recovery is under way** | Shows when the move can complete. If nobody at the company started it, choose **Check it** and cancel in the app. |
 | **Couldn't check recovery** | Zold could not read every recovery setting; this does not mean none is active. Choose **Try again**. |

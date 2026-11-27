@@ -57,6 +57,21 @@ Zold is not a tax adviser. For a German issuer it won't produce an invoice missi
 
 The issued invoice stays read-only. It opens in a browser where you're signed in to Zold Business.
 
+## Correct an issued invoice
+
+Use this when your details on an invoice were wrong or missing, for example a USt-IdNr. you had only applied for.
+
+1. Update your details in the [business profile](invoice-settings.md).
+2. Go to **Invoices** and click the invoice's row.
+3. Press **Issue corrected invoice**, then confirm.
+4. Copy the new link and send it to your customer.
+
+- **Same amount**: the customer, lines and amount stay as they were. A different amount needs a cancellation invoice, which Zold doesn't issue yet.
+- **New number**: the next one in your series, with today's date. It prints which invoice it replaces and that invoice's date.
+- **The old invoice** stays in your records under **Replaced**. Its link says which invoice replaced it, and its Pay link stops taking money.
+- **Payments carry over**: a payment on the old invoice counts for the new one, and so does a bank transfer that quotes the old number.
+- **Still "applied for"?** The correction is refused until your profile has the number itself.
+
 ## No Pay button?
 
 The Pay button pays into your organisation's euro account, whoever creates it: an owner, admin or payer. If you are not the account holder, the company needs its payment page first, and a company on a wallet account can't have one yet. In your personal space it pays into your own wallet, with or without an IBAN. With a wallet account, press **Connect your wallet** on **Accounts** in your business first; its Pay button then pays into your wallet.
@@ -74,5 +89,5 @@ The link stays open until 60 days after the due date: at least 30 days, at most 
 Up to **€250 gross**, a German invoice may leave out the recipient, number, tax number and date of supply.
 
 {% hint style="warning" %}
-**Not yet live.** An issued invoice can't be edited, deleted or cancelled. Cancellation invoices and credit notes are coming, so check before you press **Create and share**. E-invoices (XRechnung / ZUGFeRD) are coming too. German businesses must already be able to receive them, and issuing them phases in from 2027.
+**Not yet live.** An issued invoice can't be edited, deleted or cancelled, only replaced by a corrected invoice for the same amount. Cancellation invoices and credit notes are coming, so check before you press **Create and share**. E-invoices (XRechnung / ZUGFeRD) are coming too. German businesses must already be able to receive them, and issuing them phases in from 2027.
 {% endhint %}

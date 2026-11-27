@@ -46,7 +46,7 @@ A company's bank payments can also go through **Payments**, from its IBAN.
 2. An owner presses **Send** on it in **Payments**, then **Sign and send**.
 3. Approve each line with your passkey. Nothing is sent until every line is approved.
 
-- **Payees**: **New payment** saves one payee per payment. A run can hold up to 10.
+- **Payees**: pick up to 10 in **New payment**, each with their own amount. See [bulk payments](bulk-payments.md).
 - **One at a time**: Zold sends the lines in order and stops at the first one Monerium does not accept. Lines before it stay sent; later lines are not sent.
 - **Not all or nothing**: each line is its own Monerium order. A stopped run shows **Failed** with each payee's state. Create a new draft for the **Not sent** lines only.
 - **Checked first**: payees, the IBAN, your role and the total against what is available are checked before the first line is sent. A payee changed after approval stops the run unsent.

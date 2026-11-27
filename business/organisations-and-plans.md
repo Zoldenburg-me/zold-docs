@@ -20,18 +20,18 @@ Every Zold account belongs to an **organisation**: a personal space of one, or a
 | Members | You | Up to 50, with roles |
 | Verification | Your Monerium profile | Company's Monerium profile |
 | Invoices | Yes | Yes |
-| Review, chart of accounts, bulk payments | — | Yes |
+| Review, chart of accounts | — | Yes |
 
 ## Limits
 
-Every feature is free. Members, review, the chart of accounts and bulk payments are for business organisations.
+Every feature is free. Members, review and the chart of accounts are for business organisations.
 
 | Limit | Personal | Business |
 | --- | ---: | ---: |
 | Local accounts | 20 | 20 |
 | Members | 1 (you) | 50 |
 | Imported wallets | 100 | 100 |
-| CSV import rows | — | 500 |
+| Payees per payment | 200 | 200 |
 | Report history | Unlimited | Unlimited |
 
 A limit blocks new items; it never removes existing ones.

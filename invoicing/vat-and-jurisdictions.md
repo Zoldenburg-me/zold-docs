@@ -11,7 +11,7 @@ Your organisation's country selects invoice rules. Zold does not apply one count
 | Country | Rule set | Checks |
 | --- | --- | --- |
 | Germany | Statutory | Mandatory §14 UStG fields, simplified invoices up to **€250** gross in euro (§33 UStDV), small-business scheme (§19, §34a UStDV), exemption wording, and **19% or 7%** on every line. |
-| Other EU countries | VAT Directive | The content Art. 226 of the VAT Directive requires: issue date, line descriptions, customer name and address, date of supply, both VAT IDs for reverse charge and intra-community supply, business customers only for those, and a VIES answer that is not "invalid". Your country's own additions and rates are not checked. |
+| Other EU countries | VAT Directive | The content Art. 226 of the VAT Directive requires: issue date, line descriptions, customer name and address, date of supply, your VAT ID when you charge VAT, both VAT IDs for reverse charge and intra-community supply, business customers only for those, and a VIES answer that is not "invalid". Your country's own additions and rates are not checked. |
 | Elsewhere | Not supported | Issuer, unique number, and whether the chosen tax reason exists. |
 
 Outside the EU, Zold verifies nothing else; check the document yourself. The readiness panel says which checks ran. Elsewhere you set and verify the VAT rate.

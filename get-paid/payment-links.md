@@ -19,6 +19,8 @@ A link opens under a payment page: the company's, or else your own. With neither
 
 In a company, owners, admins and payers can make links. Each pays into the company's account, whoever made it. A link made by anyone but the account holder opens only under the company's page and is paid by bank transfer only, so a company on a wallet account can't take those links yet. Each of them can also **Cancel** an open link before anyone pays it.
 
+A limited company (GmbH, UG) with its own account takes payment links once two things are in place: its IBAN is confirmed on the company's Monerium profile, and it has a company payment page. Its links are paid by bank transfer to the company's IBAN, whoever makes them.
+
 ![Get paid in the business dashboard: bank details, payment links and your payment page.](../.gitbook/assets/get-paid.png)
 
 ## How the payer pays
@@ -37,7 +39,7 @@ In a company, owners, admins and payers can make links. Each pays into the compa
 
 ## Company links and privacy
 
-- Company links pay into the account that backs the company: its euro account, or the wallet connected to a wallet-account business. They are booked to the company and show its registered name. Links made in your personal space pay into your own account and are not in company books. An invoice link is created from the invoice; see [Issue an invoice](../invoicing/issue-an-invoice.md#no-pay-button).
+- Company links pay into the company's account: its own IBAN for a limited company, else its euro account or the wallet connected to a wallet-account business. A link never shows a member's personal IBAN. They are booked to the company and show its registered name. Links made in your personal space pay into your own account and are not in company books. An invoice link is created from the invoice; see [Issue an invoice](../invoicing/issue-an-invoice.md#no-pay-button).
 - Bank links show your IBAN and account name; crypto-only links show neither. Since October 2025, banks compare beneficiary names before sending.
 - The link is forwardable, not private. Its random **15-character** code cannot be guessed, but treat it like the invoice.
 - Crypto is matched by amount; a rounded figure between two open links goes to the closest.

@@ -17,4 +17,5 @@ Home is the first screen of Zold Business. It shows your balance, what needs you
 ## Good to know
 
 - **Couldn’t check**: if Zold cannot read who signs or the recovery state, the card says so. It never shows that as on or off.
+- **Hide balance**: press the eye beside the balance to show dots instead of figures, here and on every screen. Zold remembers it on this device, in the app too.
 - **Balance**: only the account backed by your own login shows a figure. Zold shows no combined company balance. A business set up as a company shows no figure: while its Safe or IBAN is not live, the card says which; once the IBAN is live it shows the IBAN. If Zold cannot read the company's account, the card says that, not that no account is connected; reload to try again.

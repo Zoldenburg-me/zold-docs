@@ -63,7 +63,7 @@ Use this when something on an issued invoice was wrong or missing: the customer'
 
 1. If your own details were wrong, update them in the [business profile](invoice-settings.md) first.
 2. Go to **Invoices** and click the invoice's row.
-3. Press **Issue corrected invoice**. The invoice opens in the editor, filled in as it was.
+3. Press **⋯**, then **Issue corrected invoice**. The invoice opens in the editor, filled in as it was.
 4. Change what was wrong, then press **Issue corrected invoice**.
 5. Copy the new link and send it to your customer.
 

@@ -37,7 +37,7 @@ Until you save a VAT ID or tax number, the tax ID from signup prints, if it pass
 
 ## Bank details and display
 
-- Set account holder, IBAN and BIC for the bank block.
+- Set account holder, IBAN and BIC for the bank block. Left blank, the holder is the name Monerium has for your account, which is the name your customer's bank checks the IBAN against.
 - Leave IBAN empty to print your Zold IBAN; payments there mark invoices paid.
 - A different IBAN is marked **Not matched**. Zold cannot see its payments; mark those invoices paid by hand.
 - A free-text footer note prints with your registration details.

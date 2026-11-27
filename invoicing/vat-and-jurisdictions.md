@@ -10,11 +10,11 @@ Your organisation's country selects invoice rules. Zold does not apply one count
 
 | Country | Rule set | Checks |
 | --- | --- | --- |
-| Germany | Statutory | Mandatory §14 UStG fields, simplified invoices up to **€250** (§33 UStDV), small-business scheme (§19, §34a UStDV), exemption wording, and **19% or 7%** rates. |
-| Other EU countries | Not supported | Issuer, unique number, and whether the chosen tax reason belongs to the EU rule set. |
+| Germany | Statutory | Mandatory §14 UStG fields, simplified invoices up to **€250** gross in euro (§33 UStDV), small-business scheme (§19, §34a UStDV), exemption wording, and **19% or 7%** on every line. |
+| Other EU countries | VAT Directive | The content Art. 226 of the VAT Directive requires: issue date, line descriptions, customer name and address, date of supply, both VAT IDs for reverse charge and intra-community supply, business customers only for those, and a VIES answer that is not "invalid". Your country's own additions and rates are not checked. |
 | Elsewhere | Not supported | Issuer, unique number, and whether the chosen tax reason exists. |
 
-Outside Germany, Zold verifies nothing else; check the document yourself. The readiness panel says which checks ran. Elsewhere you set and verify the VAT rate.
+Outside the EU, Zold verifies nothing else; check the document yourself. The readiness panel says which checks ran. Elsewhere you set and verify the VAT rate.
 
 ## German exemption reasons
 
@@ -27,6 +27,10 @@ Outside Germany, Zold verifies nothing else; check the document yourself. The re
 | Export outside EU | §4 Nr. 1a, §6 UStG, Art. 146 | — |
 | Place of supply abroad | §3a(2) UStG, Art. 44 | — |
 | Other | — | You enter the reason and legal basis |
+
+## Sole traders
+
+A sole trader invoices under their own full name. Until you set a legal name in your business profile, Zold will not issue an invoice in Germany or another EU country. Your trading name can follow your own name.
 
 ## Outside the EU
 

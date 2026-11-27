@@ -59,18 +59,18 @@ The issued invoice stays read-only. It opens in a browser where you're signed in
 
 ## Correct an issued invoice
 
-Use this when your details on an invoice were wrong or missing, for example a USt-IdNr. you had only applied for.
+Use this when something on an issued invoice was wrong or missing: the customer's name, address or VAT ID, a description, the service date, the order number, or your own details, for example a USt-IdNr. you had only applied for.
 
-1. Update your details in the [business profile](invoice-settings.md).
+1. If your own details were wrong, update them in the [business profile](invoice-settings.md) first.
 2. Go to **Invoices** and click the invoice's row.
-3. Press **Issue corrected invoice**, then confirm.
-4. Copy the new link and send it to your customer.
+3. Press **Issue corrected invoice**. The invoice opens in the editor, filled in as it was.
+4. Change what was wrong, then press **Issue corrected invoice**.
+5. Copy the new link and send it to your customer.
 
-- **Same amount**: the customer, lines and amount stay as they were. A different amount needs a cancellation invoice, which Zold doesn't issue yet.
-- **New number**: the next one in your series, with today's date. It prints which invoice it replaces and that invoice's date.
-- **The old invoice** stays in your records under **Replaced**. Its link says which invoice replaced it, and its Pay link stops taking money.
-- **Payments carry over**: a payment on the old invoice counts for the new one, and so does a bank transfer that quotes the old number.
-- **Still "applied for"?** The correction is refused until your profile has the number itself.
+- **Same amount and VAT**: you can reword or split the lines, but the total and the VAT treatment stay as they were. A different amount needs a cancellation invoice, which Zold doesn't issue yet.
+- **New number**: the next one in your series, with today's date. It prints which invoice it replaces and that invoice's date, and carries your business details as they are now.
+- **The old invoice** stays in your records under **Replaced**. Its link says which invoice replaced it.
+- **Payments carry over**: a payment on the old invoice counts for the new one, and so does money sent with the old invoice's number or its Pay link details.
 
 ## No Pay button?
 

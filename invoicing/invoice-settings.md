@@ -41,7 +41,7 @@ Your logo prints top right on new invoices. In **Settings → Invoicing profile 
 
 **Replace logo** and **Remove** change only invoices you issue from then on. Each issued invoice keeps the logo it was issued with.
 
-Zold keeps every logo you upload, so no issued invoice loses its logo. An organisation can have up to 20; after that, upload one you used before. Only owners and admins can change the logo.
+Zold keeps every logo you upload, so no issued invoice loses its logo. Under **Logos used before** you can choose one of them again with **Use this one**. An organisation can keep up to 20. Only owners and admins can change the logo.
 
 ## Bank details and display
 

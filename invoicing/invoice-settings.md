@@ -35,6 +35,14 @@ Until you save a VAT ID or tax number, the tax ID from signup prints, if it pass
 | Payment terms | Due days and printed note, such as “Payable within 14 days without deduction”. |
 | Invoice number series | Prefix and next number. `{YYYY}` inserts the invoice date's year; default `INV-{YYYY}-`, or `RE-{YYYY}-` for German-speaking companies. A number already used, such as one you typed on an invoice yourself, is skipped. |
 
+## Logo
+
+Your logo prints top right on new invoices. In **Settings → Invoicing profile → Logo**, choose **Upload logo** and pick a PNG, JPEG or WebP file. Zold scales it to at most 800 × 230 pixels and 40 kB; a very detailed image that stays over 40 kB is refused, so use a simpler version of the logo. SVG files are not accepted.
+
+**Replace logo** and **Remove** change only invoices you issue from then on. Each issued invoice keeps the logo it was issued with.
+
+Zold keeps every logo you upload, so no issued invoice loses its logo. Under **Logos used before** you can choose one of them again with **Use this one**. An organisation can keep up to 20. Only owners and admins can change the logo.
+
 ## Bank details and display
 
 - Set account holder, IBAN and BIC for the bank block.
